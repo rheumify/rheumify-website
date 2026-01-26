@@ -14,8 +14,24 @@ export default function PatientsPage() {
         </p>
       </div>
 
-      <div className="content-card gca-card">
-        <h2>GCA Fast Track Clinic</h2>
+      <div className="content-card">
+        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <span style={{
+            width: '40px',
+            height: '40px',
+            background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+            borderRadius: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </span>
+          GCA Fast Track Clinic
+        </h2>
         <p>
           The University of Washington Giant Cell Arteritis (GCA) Fast Track Clinic uses vascular ultrasound
           to diagnose GCA and prevent blindness. Our specialized clinic provides rapid evaluation for patients
@@ -28,40 +44,50 @@ export default function PatientsPage() {
           borderRadius: '8px',
           border: '2px solid var(--purple-light)'
         }}>
-          <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem', fontSize: '1.1rem' }}>
+          <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem' }}>
             How to Access the Fast Track Clinic
           </h3>
-          <p style={{ marginBottom: '1rem' }}>
-            <strong style={{ color: 'var(--white)' }}>Your physician must call to activate a Fast Track appointment.</strong>
-          </p>
-          <p style={{ marginBottom: '0.5rem' }}>
-            To schedule an urgent GCA evaluation, your doctor should:
+          <p>
+            <strong>Your physician must call to activate a Fast Track appointment.</strong>
           </p>
           <p style={{
             fontSize: '1.1rem',
             color: 'var(--purple-light)',
             fontWeight: '600',
-            marginTop: '1rem',
             padding: '1rem',
             background: 'var(--navy-dark)',
             borderRadius: '6px',
-            textAlign: 'center'
+            textAlign: 'center',
+            marginTop: '1rem'
           }}>
             Page the on-call rheumatologist at UW
           </p>
-          <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: 'var(--gray-medium)' }}>
-            The on-call rheumatologist will coordinate rapid scheduling and ensure you are seen promptly.
-          </p>
         </div>
         <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
-          <a href="/gca-fast-track" className="btn btn-primary">
-            Learn More About GCA Fast Track
+          <a href="https://gcafast.com" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            Visit GCA Fast Track Website
           </a>
         </div>
       </div>
 
       <div className="content-card">
-        <h2>Understanding Rheumatic Diseases</h2>
+        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <span style={{
+            width: '40px',
+            height: '40px',
+            background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+            borderRadius: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </span>
+          Understanding Rheumatic Diseases
+        </h2>
         <p>
           Rheumatic diseases are conditions that affect your joints, muscles, bones, and sometimes other organs.
           They often involve inflammation and can be autoimmune in nature.
@@ -76,13 +102,59 @@ export default function PatientsPage() {
           <li>Gout</li>
           <li>Psoriatic Arthritis</li>
           <li>Ankylosing Spondylitis</li>
-          <li>Sjogren's Syndrome</li>
+          <li>Sjögren's Syndrome</li>
           <li>Vasculitis</li>
         </ul>
       </div>
 
       <div className="content-card">
-        <h2>Trusted Resources</h2>
+        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <span style={{
+            width: '40px',
+            height: '40px',
+            background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+            borderRadius: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+            </svg>
+          </span>
+          RheumCast - Learn Through Listening
+        </h2>
+        <p>
+          Our podcast, RheumCast, discusses current clinical practice guidelines for various rheumatic conditions.
+          While designed for healthcare professionals, patients may find these discussions helpful for understanding
+          how doctors approach diagnosis and treatment.
+        </p>
+        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
+          <a href="https://soundcloud.com/rheumify" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+            Listen on SoundCloud
+          </a>
+        </div>
+      </div>
+
+      <div className="content-card">
+        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <span style={{
+            width: '40px',
+            height: '40px',
+            background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+            borderRadius: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+            </svg>
+          </span>
+          Trusted Resources
+        </h2>
         <p>
           For reliable patient education about rheumatic diseases, we recommend:
         </p>
