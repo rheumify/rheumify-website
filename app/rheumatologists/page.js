@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'For Rheumatologists',
-  description: 'Resources for practicing rheumatologists - manuscript planning, ACR guidelines podcast, and citation tools.',
-  keywords: ['rheumatology planner', 'manuscript tracker', 'ACR guidelines', 'citation formatter', 'rheumatologist resources'],
+  title: 'For Rheumatologists | Rheumify',
+  description: 'Resources for practicing rheumatologists - manuscript planning, ACR guidelines podcast, citation tools, and the UW GCA Fast Track Clinic for rapid giant cell arteritis evaluation.',
+  keywords: ['rheumatology planner', 'manuscript tracker', 'ACR guidelines', 'citation formatter', 'rheumatologist resources', 'GCA fast track', 'giant cell arteritis', 'temporal arteritis', 'vasculitis clinic'],
 };
 
 export default function RheumatologistsPage() {
@@ -64,6 +64,41 @@ export default function RheumatologistsPage() {
         <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
           <a href="/tools/scriptswap" className="btn btn-primary">
             Use ScriptSwap
+          </a>
+        </div>
+      </div>
+
+      {/* GCA Fast Track Clinic Section */}
+      <div className="content-card gca-card">
+        <h2>🌸 UW GCA Fast Track Clinic</h2>
+        <p>
+          The University of Washington GCA Fast Track Clinic provides rapid evaluation and treatment for patients
+          with suspected Giant Cell Arteritis (GCA), also known as temporal arteritis. Early diagnosis and treatment
+          are critical to prevent vision loss and other serious complications.
+        </p>
+
+        <div className="gca-info-grid">
+          <div className="gca-info-item">
+            <h4>🏥 What We Offer</h4>
+            <p>Same-day or next-day appointments for urgent GCA evaluation, including temporal artery ultrasound and expert rheumatology consultation.</p>
+          </div>
+          <div className="gca-info-item">
+            <h4>⏰ Rapid Response</h4>
+            <p>We understand that GCA is a medical emergency. Our fast track system ensures patients are seen quickly to minimize the risk of permanent vision loss.</p>
+          </div>
+          <div className="gca-info-item">
+            <h4>📋 When to Refer</h4>
+            <p>New severe headache in patients over 50, jaw claudication, scalp tenderness, visual symptoms, unexplained elevated ESR/CRP, or PMR with concerning symptoms.</p>
+          </div>
+          <div className="gca-info-item">
+            <h4>📞 How to Refer</h4>
+            <p>Call the UW Rheumatology clinic and mention "GCA Fast Track" for priority scheduling. Fax referrals are also accepted for urgent evaluation.</p>
+          </div>
+        </div>
+
+        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
+          <a href="/gca-fast-track" className="btn btn-primary">
+            Learn More About GCA Fast Track
           </a>
         </div>
       </div>

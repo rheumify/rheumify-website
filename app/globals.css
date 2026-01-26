@@ -492,6 +492,122 @@ a:hover {
   background: var(--navy-dark);
 }
 
+/* About Section */
+.about-section {
+  padding: 4rem 2rem;
+  background: var(--navy-medium);
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+  border: 3px solid var(--blue-accent);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content h2 span {
+  color: var(--blue-accent);
+}
+
+.about-credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.credential-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.credential-icon {
+  font-size: 1.5rem;
+  background: var(--navy-light);
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(107, 139, 184, 0.2);
+}
+
+.credential-item h4 {
+  color: var(--blue-accent);
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.credential-item p {
+  color: var(--gray-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* GCA Card Styles */
+.gca-card {
+  border-left: 4px solid var(--pink-accent);
+}
+
+.gca-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.gca-info-item {
+  background: var(--navy-dark);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(107, 139, 184, 0.1);
+}
+
+.gca-info-item h4 {
+  color: var(--pink-accent);
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.gca-info-item p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-image {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .credential-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 /* Footer */
 .footer {
   background: var(--navy-dark);

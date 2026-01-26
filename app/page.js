@@ -12,6 +12,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="about-section" id="about">
+        <div className="about-container">
+          <div className="about-image">
+            <img src="/dr-alison-bays.jpg" alt="Dr. Alison Bays, MD - Board-certified rheumatologist and creator of Rheumify" />
+          </div>
+          <div className="about-content">
+            <h2>About <span>Dr. Alison Bays</span></h2>
+            <div className="about-credentials">
+              <div className="credential-item">
+                <span className="credential-icon">🎓</span>
+                <div>
+                  <h4>Academic Excellence</h4>
+                  <p>Dedicated academic rheumatologist with 10+ years of experience in clinical practice, medical education, and research.</p>
+                </div>
+              </div>
+              <div className="credential-item">
+                <span className="credential-icon">📚</span>
+                <div>
+                  <h4>Medical Education</h4>
+                  <p>Fellowship curriculum development, board exam preparation strategies, and educational technology integration.</p>
+                </div>
+              </div>
+              <div className="credential-item">
+                <span className="credential-icon">🩺</span>
+                <div>
+                  <h4>Clinical Expertise</h4>
+                  <p>Specializes in vasculitis, autoimmune diseases, and medical technology in rheumatology.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Audience Selection */}
       <section className="audience-section">
         <h2 className="section-title">Resources for <span>Every Stage</span> of Your Journey</h2>
