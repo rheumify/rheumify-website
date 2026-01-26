@@ -14,13 +14,45 @@ export default function PatientsPage() {
         </p>
       </div>
 
-      <div className="content-card">
-        <h2>🏥 GCA Fast Track Clinic</h2>
+      <div className="content-card gca-card">
+        <h2>GCA Fast Track Clinic</h2>
         <p>
           The University of Washington Giant Cell Arteritis (GCA) Fast Track Clinic uses vascular ultrasound
           to diagnose GCA and prevent blindness. Our specialized clinic provides rapid evaluation for patients
           with suspected giant cell arteritis.
         </p>
+        <div className="fast-track-alert" style={{
+          marginTop: '1.5rem',
+          padding: '1.5rem',
+          background: 'rgba(196, 181, 224, 0.15)',
+          borderRadius: '8px',
+          border: '2px solid var(--purple-light)'
+        }}>
+          <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem', fontSize: '1.1rem' }}>
+            How to Access the Fast Track Clinic
+          </h3>
+          <p style={{ marginBottom: '1rem' }}>
+            <strong style={{ color: 'var(--white)' }}>Your physician must call to activate a Fast Track appointment.</strong>
+          </p>
+          <p style={{ marginBottom: '0.5rem' }}>
+            To schedule an urgent GCA evaluation, your doctor should:
+          </p>
+          <p style={{
+            fontSize: '1.1rem',
+            color: 'var(--purple-light)',
+            fontWeight: '600',
+            marginTop: '1rem',
+            padding: '1rem',
+            background: 'var(--navy-dark)',
+            borderRadius: '6px',
+            textAlign: 'center'
+          }}>
+            Page the on-call rheumatologist at UW
+          </p>
+          <p style={{ marginTop: '1rem', fontSize: '0.9rem', color: 'var(--gray-medium)' }}>
+            The on-call rheumatologist will coordinate rapid scheduling and ensure you are seen promptly.
+          </p>
+        </div>
         <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
           <a href="/gca-fast-track" className="btn btn-primary">
             Learn More About GCA Fast Track
@@ -29,7 +61,7 @@ export default function PatientsPage() {
       </div>
 
       <div className="content-card">
-        <h2>📖 Understanding Rheumatic Diseases</h2>
+        <h2>Understanding Rheumatic Diseases</h2>
         <p>
           Rheumatic diseases are conditions that affect your joints, muscles, bones, and sometimes other organs.
           They often involve inflammation and can be autoimmune in nature.
@@ -44,27 +76,13 @@ export default function PatientsPage() {
           <li>Gout</li>
           <li>Psoriatic Arthritis</li>
           <li>Ankylosing Spondylitis</li>
-          <li>Sjögren's Syndrome</li>
+          <li>Sjogren's Syndrome</li>
           <li>Vasculitis</li>
         </ul>
       </div>
 
       <div className="content-card">
-        <h2>🎧 RheumCast - Learn Through Listening</h2>
-        <p>
-          Our podcast, RheumCast, discusses current clinical practice guidelines for various rheumatic conditions.
-          While designed for healthcare professionals, patients may find these discussions helpful for understanding
-          how doctors approach diagnosis and treatment.
-        </p>
-        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
-          <a href="https://soundcloud.com/rheumify" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-            Listen on SoundCloud
-          </a>
-        </div>
-      </div>
-
-      <div className="content-card">
-        <h2>🔗 Trusted Resources</h2>
+        <h2>Trusted Resources</h2>
         <p>
           For reliable patient education about rheumatic diseases, we recommend:
         </p>

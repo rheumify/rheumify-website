@@ -8,6 +8,9 @@
   --gray-light: #E5E7EB;
   --gray-medium: #9CA3AF;
   --pink-accent: #F9A8D4;
+  --purple-light: #C4B5E0;
+  --purple-medium: #9B8AC4;
+  --purple-dark: #7C6AAF;
 }
 
 * {
@@ -98,8 +101,18 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/cherry-blossoms.jpg') center/cover no-repeat;
-  opacity: 0.15;
+  background:
+    radial-gradient(ellipse 80px 60px at 15% 20%, rgba(249, 168, 212, 0.25) 0%, transparent 70%),
+    radial-gradient(ellipse 60px 50px at 85% 15%, rgba(196, 181, 224, 0.3) 0%, transparent 70%),
+    radial-gradient(ellipse 70px 55px at 75% 80%, rgba(249, 168, 212, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 50px 40px at 25% 75%, rgba(196, 181, 224, 0.25) 0%, transparent 70%),
+    radial-gradient(ellipse 90px 70px at 50% 50%, rgba(249, 168, 212, 0.15) 0%, transparent 70%),
+    radial-gradient(ellipse 40px 35px at 10% 60%, rgba(196, 181, 224, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 55px 45px at 90% 45%, rgba(249, 168, 212, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 45px 38px at 35% 30%, rgba(196, 181, 224, 0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 65px 52px at 65% 25%, rgba(249, 168, 212, 0.22) 0%, transparent 70%),
+    url('/cherry-blossoms.jpg') center/cover no-repeat;
+  opacity: 0.4;
   z-index: 0;
 }
 
@@ -117,7 +130,7 @@ a:hover {
 }
 
 .hero h1 span {
-  color: var(--blue-accent);
+  color: var(--purple-light);
 }
 
 .hero p {
@@ -143,7 +156,7 @@ a:hover {
 }
 
 .section-title span {
-  color: var(--blue-accent);
+  color: var(--purple-light);
 }
 
 .audience-grid {
@@ -172,6 +185,36 @@ a:hover {
 .audience-card .icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+}
+
+.audience-card .icon-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--purple-light) 0%, var(--purple-medium) 100%);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.audience-card .icon-svg svg {
+  color: var(--navy-dark);
+}
+
+.credential-icon-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  background: linear-gradient(135deg, var(--purple-light) 0%, var(--purple-medium) 100%);
+  border-radius: 8px;
+}
+
+.credential-icon-svg svg {
+  color: var(--navy-dark);
 }
 
 .audience-card h3 {
@@ -383,7 +426,7 @@ a:hover {
 }
 
 .info-card h3 {
-  color: var(--pink-accent);
+  color: var(--purple-light);
   margin-bottom: 0.75rem;
   font-size: 1.1rem;
 }
@@ -514,7 +557,7 @@ a:hover {
 .about-image img {
   width: 100%;
   border-radius: 12px;
-  border: 3px solid var(--blue-accent);
+  border: 3px solid var(--purple-light);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
@@ -524,7 +567,7 @@ a:hover {
 }
 
 .about-content h2 span {
-  color: var(--blue-accent);
+  color: var(--purple-light);
 }
 
 .about-credentials {
@@ -548,7 +591,7 @@ a:hover {
 }
 
 .credential-item h4 {
-  color: var(--blue-accent);
+  color: var(--purple-light);
   margin-bottom: 0.25rem;
   font-size: 1.1rem;
 }
