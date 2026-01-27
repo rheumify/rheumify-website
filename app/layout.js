@@ -228,8 +228,7 @@ export default function RootLayout({ children }) {
             Rheum<span>ify</span>
           </a>
           <ul className="nav-links">
-            <li><a href="/rheumatologists">Rheumatologists</a></li>
-            <li><a href="/fellows">Fellows</a></li>
+            <li><a href="/fellows">Rheumatologists & Fellows</a></li>
             <li><a href="/residents">Residents</a></li>
             <li><a href="/students">Students</a></li>
             <li><a href="/patients">Patient Resources</a></li>
@@ -243,8 +242,7 @@ export default function RootLayout({ children }) {
           <div className="footer-content">
             <div className="footer-brand">Rheum<span>ify</span></div>
             <div className="footer-links">
-              <a href="/rheumatologists">For Rheumatologists</a>
-              <a href="/fellows">For Fellows</a>
+              <a href="/fellows">For Rheumatologists & Fellows</a>
               <a href="/patients">Patient Resources</a>
               <a href="/tools/scriptswap">ScriptSwap</a>
               <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>

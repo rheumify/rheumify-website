@@ -1,26 +1,29 @@
 export const metadata = {
-  title: 'Rheumify App for Fellows | ABIM Board Prep',
-  description: 'The most comprehensive web-based platform for rheumatology fellows preparing for ABIM board certification. AI-created content reviewed by board-certified rheumatologists.',
-  keywords: ['rheumatology board prep', 'ABIM rheumatology', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'spaced repetition'],
+  title: 'For Rheumatologists & Fellows | Rheumify',
+  description: 'Comprehensive resources for rheumatologists and fellows - ABIM board prep, manuscript planning, ACR guidelines podcast, citation tools, and ACR Convergence highlights.',
+  keywords: ['rheumatology board prep', 'ABIM rheumatology', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'spaced repetition', 'manuscript tracker', 'ACR guidelines', 'ACR Convergence'],
 };
 
 export default function FellowsPage() {
   return (
     <div className="page-container">
       <div className="page-header">
-        <h1>Rheumify App for <span style={{ color: 'var(--purple-light)' }}>Fellows</span></h1>
+        <h1>For <span style={{ color: 'var(--purple-light)' }}>Rheumatologists & Fellows</span></h1>
         <p>
-          The most comprehensive web-based platform for rheumatology fellows preparing for ABIM board certification.
+          Comprehensive resources for board preparation, continuing education, research productivity, and staying current with the latest in rheumatology.
         </p>
       </div>
 
-      {/* Main Product Overview */}
+      {/* Board Prep Section */}
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
-        <h2 style={{ color: 'var(--purple-light)' }}>About the Rheumify App</h2>
+        <h2 style={{ color: 'var(--purple-light)' }}>Rheumify App - Board Prep & Knowledge Assessment</h2>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
           AI-created content curated and reviewed by a board-certified rheumatologist. Contains both a
           <strong> question bank</strong> with over 500 questions as well as <strong>spaced repetition flashcards</strong> with
           over 300 cards covering all rheumatology subspecialties.
+        </p>
+        <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
+          Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams.
         </p>
         <div className="product-buttons" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
@@ -210,6 +213,25 @@ export default function FellowsPage() {
         </div>
       </div>
 
+      {/* ACR Convergence 2025 */}
+      <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
+        <h2 style={{ color: 'var(--purple-light)' }}>ACR Convergence 2025 Vasculitis Resources</h2>
+        <p>
+          A curated collection of vasculitis highlights from ACR Convergence 2025 in Chicago.
+          Includes key trial updates, abstract links, and news coverage organized by disease.
+        </p>
+        <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
+          Quick access to SELECT-GCA, METOGiA, MANDARA, and other important vasculitis abstracts with direct links to sources.
+          Organized by condition: GCA, EGPA, IgG4-RD, and more.
+        </p>
+        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
+          <a href="https://acr2025-vasculitis-ozg9.vercel.app/" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
+             style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
+            View ACR 2025 Resources
+          </a>
+        </div>
+      </div>
+
       {/* Why Choose Rheumify */}
       <div className="content-card">
         <h2 style={{ color: 'var(--purple-light)' }}>Why Choose the Rheumify App?</h2>
@@ -352,48 +374,42 @@ export default function FellowsPage() {
         </div>
       </div>
 
-      {/* Platform Features */}
+      {/* Additional Tools */}
       <div className="content-card">
-        <h2 style={{ color: 'var(--purple-light)' }}>Platform Features</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', marginTop: '1rem' }}>
-          <div style={{ textAlign: 'center', padding: '1.5rem', background: 'rgba(196, 181, 224, 0.1)', borderRadius: '12px' }}>
-            <div style={{
-              width: '60px',
-              height: '60px',
-              margin: '0 auto 1rem',
-              background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
-              borderRadius: '50%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
-                <line x1="12" y1="18" x2="12.01" y2="18"/>
-              </svg>
-            </div>
-            <h3 style={{ color: 'var(--purple-light)' }}>Mobile Optimized</h3>
-            <p style={{ opacity: 0.9 }}>Study anywhere with our responsive platform optimized for all devices with offline capability.</p>
+        <h2 style={{ color: 'var(--purple-light)' }}>Additional Tools & Resources</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', marginTop: '1.5rem' }}>
+
+          <div style={{ padding: '1.5rem', background: 'rgba(196, 181, 224, 0.1)', borderRadius: '12px' }}>
+            <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem' }}>ScriptCycle - Manuscript Planner</h3>
+            <p style={{ opacity: 0.9, fontSize: '0.95rem', lineHeight: '1.6' }}>
+              A free 2026 Notion planner with auto-lookup for journal impact factors. Track manuscripts from idea to publication.
+            </p>
+            <a href="https://www.notion.com/templates/scriptcycle" className="btn btn-secondary" target="_blank" rel="noopener noreferrer"
+               style={{ marginTop: '1rem', display: 'inline-block', borderColor: 'var(--purple-light)', color: 'var(--purple-light)' }}>
+              Get Free Template
+            </a>
           </div>
-          <div style={{ textAlign: 'center', padding: '1.5rem', background: 'rgba(196, 181, 224, 0.1)', borderRadius: '12px' }}>
-            <div style={{
-              width: '60px',
-              height: '60px',
-              margin: '0 auto 1rem',
-              background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
-              borderRadius: '50%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                <path d="M2 17l10 5 10-5"/>
-                <path d="M2 12l10 5 10-5"/>
-              </svg>
-            </div>
-            <h3 style={{ color: 'var(--purple-light)' }}>Expert-Reviewed Content</h3>
-            <p style={{ opacity: 0.9 }}>Every question and flashcard meticulously reviewed by board-certified rheumatologists.</p>
+
+          <div style={{ padding: '1.5rem', background: 'rgba(196, 181, 224, 0.1)', borderRadius: '12px' }}>
+            <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem' }}>RheumCast - ACR Guidelines Podcast</h3>
+            <p style={{ opacity: 0.9, fontSize: '0.95rem', lineHeight: '1.6' }}>
+              AI-generated podcast breaking down ACR Clinical Practice Guidelines. Perfect for commutes and workouts.
+            </p>
+            <a href="https://soundcloud.com/rheumify" className="btn btn-secondary" target="_blank" rel="noopener noreferrer"
+               style={{ marginTop: '1rem', display: 'inline-block', borderColor: 'var(--purple-light)', color: 'var(--purple-light)' }}>
+              Listen on SoundCloud
+            </a>
+          </div>
+
+          <div style={{ padding: '1.5rem', background: 'rgba(196, 181, 224, 0.1)', borderRadius: '12px' }}>
+            <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem' }}>ScriptSwap - Citation Formatter</h3>
+            <p style={{ opacity: 0.9, fontSize: '0.95rem', lineHeight: '1.6' }}>
+              Paste PMIDs, DOIs, or URLs and instantly generate formatted citations in Vancouver, APA, AMA, and more.
+            </p>
+            <a href="/tools/scriptswap" className="btn btn-secondary"
+               style={{ marginTop: '1rem', display: 'inline-block', borderColor: 'var(--purple-light)', color: 'var(--purple-light)' }}>
+              Use ScriptSwap
+            </a>
           </div>
         </div>
       </div>
@@ -441,71 +457,6 @@ export default function FellowsPage() {
         </div>
       </div>
 
-      {/* Comparison Table */}
-      <div className="content-card">
-        <h2 style={{ color: 'var(--purple-light)' }}>How Rheumify Compares</h2>
-        <div style={{ overflowX: 'auto', marginTop: '1rem' }}>
-          <table style={{
-            width: '100%',
-            borderCollapse: 'collapse',
-            fontSize: '0.95rem'
-          }}>
-            <thead>
-              <tr style={{ background: 'var(--purple-dark)' }}>
-                <th style={{ padding: '1rem', textAlign: 'left', borderBottom: '2px solid var(--purple-light)' }}>Resource</th>
-                <th style={{ padding: '1rem', textAlign: 'left', borderBottom: '2px solid var(--purple-light)' }}>Type</th>
-                <th style={{ padding: '1rem', textAlign: 'left', borderBottom: '2px solid var(--purple-light)' }}>Questions</th>
-                <th style={{ padding: '1rem', textAlign: 'left', borderBottom: '2px solid var(--purple-light)' }}>Flashcards</th>
-                <th style={{ padding: '1rem', textAlign: 'left', borderBottom: '2px solid var(--purple-light)' }}>Mobile</th>
-                <th style={{ padding: '1rem', textAlign: 'left', borderBottom: '2px solid var(--purple-light)' }}>Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style={{ background: 'rgba(196, 181, 224, 0.15)' }}>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)', fontWeight: 'bold', color: 'var(--purple-light)' }}>Rheumify</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Web Platform</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>AI + Expert &gt;500</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Spaced Repetition &gt;300 cards</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Optimized</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>$119/year OR $15/month</td>
-              </tr>
-              <tr>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>ACR CARE</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Online Module</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>60/year (now inactive)</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>-</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>-</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>$300+</td>
-              </tr>
-              <tr>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>BoardVitals</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Question Bank</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>400+</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>-</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Yes</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>$199-399</td>
-              </tr>
-              <tr>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>StatPearls</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Review Course</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>734</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>-</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Yes</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>$299+</td>
-              </tr>
-              <tr>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Healio Rheumatology</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Question Bank</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>268</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>-</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>-</td>
-                <td style={{ padding: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>Free</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
       {/* CTA */}
       <div className="content-card" style={{
         textAlign: 'center',
@@ -514,7 +465,7 @@ export default function FellowsPage() {
       }}>
         <h2 style={{ color: 'var(--purple-light)', marginBottom: '1rem' }}>Ready to Start Studying?</h2>
         <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', opacity: 0.9 }}>
-          Join rheumatology fellows who are using Rheumify to prepare for their ABIM board certification.
+          Join rheumatologists and fellows who are using Rheumify to master rheumatology and ace their boards.
         </p>
         <div className="product-buttons" style={{ justifyContent: 'center', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a href="https://buy.stripe.com/14A14mdKf2kB5hFbIFc3m04" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
