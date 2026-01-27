@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Patient Resources',
-  description: 'Rheumatology patient education - learn about rheumatic conditions, GCA Fast Track Clinic, and find support.',
-  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'giant cell arteritis', 'GCA'],
+  description: 'Rheumatology patient education - learn about rheumatic conditions and find trusted resources from the American College of Rheumatology.',
+  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'ACR patient information'],
 };
 
 export default function PatientsPage() {
@@ -12,62 +12,6 @@ export default function PatientsPage() {
         <p>
           Learn about rheumatic conditions and find resources to help you understand your diagnosis and treatment options.
         </p>
-      </div>
-
-      <div className="content-card">
-        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <span style={{
-            width: '40px',
-            height: '40px',
-            background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
-            borderRadius: '10px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-              <polyline points="9 22 9 12 15 12 15 22"></polyline>
-            </svg>
-          </span>
-          GCA Fast Track Clinic
-        </h2>
-        <p>
-          The University of Washington Giant Cell Arteritis (GCA) Fast Track Clinic uses vascular ultrasound
-          to diagnose GCA and prevent blindness. Our specialized clinic provides rapid evaluation for patients
-          with suspected giant cell arteritis.
-        </p>
-        <div className="fast-track-alert" style={{
-          marginTop: '1.5rem',
-          padding: '1.5rem',
-          background: 'rgba(196, 181, 224, 0.15)',
-          borderRadius: '8px',
-          border: '2px solid var(--purple-light)'
-        }}>
-          <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem' }}>
-            How to Access the Fast Track Clinic
-          </h3>
-          <p>
-            <strong>Your physician must call to activate a Fast Track appointment.</strong>
-          </p>
-          <p style={{
-            fontSize: '1.1rem',
-            color: 'var(--purple-light)',
-            fontWeight: '600',
-            padding: '1rem',
-            background: 'var(--navy-dark)',
-            borderRadius: '6px',
-            textAlign: 'center',
-            marginTop: '1rem'
-          }}>
-            Page the on-call rheumatologist at UW
-          </p>
-        </div>
-        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
-          <a href="https://gcafast.com" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-            Visit GCA Fast Track Website
-          </a>
-        </div>
       </div>
 
       <div className="content-card">
@@ -95,46 +39,48 @@ export default function PatientsPage() {
         <p style={{ marginTop: '1rem' }}>
           <strong>Common conditions include:</strong>
         </p>
-        <ul>
-          <li>Rheumatoid Arthritis</li>
-          <li>Lupus (Systemic Lupus Erythematosus)</li>
-          <li>Giant Cell Arteritis & Polymyalgia Rheumatica</li>
-          <li>Gout</li>
-          <li>Psoriatic Arthritis</li>
-          <li>Ankylosing Spondylitis</li>
-          <li>Sjögren's Syndrome</li>
-          <li>Vasculitis</li>
+        <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/rheumatoid-arthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Rheumatoid Arthritis
+            </a>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/lupus" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Lupus (Systemic Lupus Erythematosus)
+            </a>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/gout" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Gout
+            </a>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/psoriatic-arthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Psoriatic Arthritis
+            </a>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/spondyloarthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Ankylosing Spondylitis
+            </a>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/sjogrens-syndrome" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Sjogren's Syndrome
+            </a>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/vasculitis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Vasculitis
+            </a>
+          </li>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="https://rheumatology.org/patients/polymyalgia-rheumatica" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Giant Cell Arteritis & Polymyalgia Rheumatica
+            </a>
+          </li>
         </ul>
-      </div>
-
-      <div className="content-card">
-        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <span style={{
-            width: '40px',
-            height: '40px',
-            background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
-            borderRadius: '10px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
-            </svg>
-          </span>
-          RheumCast - Learn Through Listening
-        </h2>
-        <p>
-          Our podcast, RheumCast, discusses current clinical practice guidelines for various rheumatic conditions.
-          While designed for healthcare professionals, patients may find these discussions helpful for understanding
-          how doctors approach diagnosis and treatment.
-        </p>
-        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
-          <a href="https://soundcloud.com/rheumify" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-            Listen on SoundCloud
-          </a>
-        </div>
       </div>
 
       <div className="content-card">
@@ -160,7 +106,7 @@ export default function PatientsPage() {
         </p>
         <ul>
           <li>
-            <a href="https://www.rheumatology.org/I-Am-A/Patient-Caregiver" target="_blank" rel="noopener noreferrer">
+            <a href="https://rheumatology.org/patient-information" target="_blank" rel="noopener noreferrer">
               American College of Rheumatology - Patient Resources
             </a>
           </li>

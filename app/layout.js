@@ -172,32 +172,6 @@ const structuredData = {
       "inLanguage": "en",
       "keywords": "rheumatology, ACR guidelines, medical education, giant cell arteritis, rheumatoid arthritis, lupus"
     },
-    // Medical Clinic (GCA Fast Track)
-    {
-      "@type": "MedicalClinic",
-      "name": "UW GCA Fast Track Clinic",
-      "description": "Rapid evaluation clinic for Giant Cell Arteritis (temporal arteritis) at University of Washington. Same-day and next-day appointments available for urgent GCA evaluation.",
-      "url": "https://rheumify.org/gca-fast-track",
-      "medicalSpecialty": {
-        "@type": "MedicalSpecialty",
-        "name": "Rheumatology"
-      },
-      "availableService": {
-        "@type": "MedicalProcedure",
-        "name": "Giant Cell Arteritis Evaluation",
-        "procedureType": "Diagnostic"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Seattle",
-        "addressRegion": "WA",
-        "addressCountry": "US"
-      },
-      "parentOrganization": {
-        "@type": "Organization",
-        "name": "University of Washington Medicine"
-      }
-    },
     // FAQ for common questions (helps with LLM and featured snippets)
     {
       "@type": "FAQPage",
@@ -207,7 +181,7 @@ const structuredData = {
           "name": "What is Rheumify?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Rheumify is a comprehensive rheumatology education platform created by Dr. Alison Bays, a board-certified rheumatologist. It offers ABIM board preparation resources including question banks and flashcards, the RheumCast podcast covering ACR guidelines, manuscript planning tools for researchers, and information about the UW GCA Fast Track Clinic."
+            "text": "Rheumify is a comprehensive rheumatology education platform created by Dr. Alison Bays, a board-certified rheumatologist. It offers ABIM board preparation resources including question banks and flashcards, the RheumCast podcast covering ACR guidelines, and manuscript planning tools for researchers."
           }
         },
         {
@@ -216,14 +190,6 @@ const structuredData = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Rheumify offers a comprehensive question bank with 500+ AI-generated questions validated by board-certified rheumatologists, plus spaced repetition flashcards. The platform covers all rheumatology subspecialties and is optimized for mobile study. Pricing is $15/month or $119/year."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the GCA Fast Track Clinic?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The UW GCA Fast Track Clinic provides rapid evaluation for patients with suspected Giant Cell Arteritis (temporal arteritis). It offers same-day or next-day appointments including temporal artery ultrasound and expert rheumatology consultation to prevent vision loss and other complications."
           }
         },
         {
@@ -280,12 +246,14 @@ export default function RootLayout({ children }) {
               <a href="/rheumatologists">For Rheumatologists</a>
               <a href="/fellows">For Fellows</a>
               <a href="/patients">Patient Resources</a>
-              <a href="/gca-fast-track">GCA Fast Track</a>
               <a href="/tools/scriptswap">ScriptSwap</a>
               <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>
             </div>
             <p className="footer-copyright">
               © {new Date().getFullYear()} Rheumify. Created by Dr. Alison Bays, MD. All rights reserved.
+            </p>
+            <p className="footer-photo-credit" style={{ fontSize: '0.8rem', opacity: 0.7, marginTop: '0.5rem' }}>
+              Photography by <a href="https://emazingphotography.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>Emazing Photography</a>
             </p>
           </div>
         </footer>

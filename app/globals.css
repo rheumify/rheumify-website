@@ -43,18 +43,44 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navigation */
+/* Navigation with Cherry Blossoms Background */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgba(10, 22, 40, 0.95);
+  background: rgba(10, 22, 40, 0.85);
   backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
   z-index: 100;
   border-bottom: 1px solid rgba(107, 139, 184, 0.2);
+}
+
+/* Cherry Blossoms Banner - appears under navbar */
+.navbar::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background:
+    radial-gradient(ellipse 80px 60px at 15% 40%, rgba(249, 168, 212, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 60px 50px at 85% 30%, rgba(196, 181, 224, 0.25) 0%, transparent 70%),
+    radial-gradient(ellipse 70px 55px at 75% 70%, rgba(249, 168, 212, 0.15) 0%, transparent 70%),
+    radial-gradient(ellipse 50px 40px at 25% 60%, rgba(196, 181, 224, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 90px 70px at 50% 50%, rgba(249, 168, 212, 0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 40px 35px at 10% 80%, rgba(196, 181, 224, 0.15) 0%, transparent 70%),
+    radial-gradient(ellipse 55px 45px at 90% 60%, rgba(249, 168, 212, 0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 45px 38px at 35% 25%, rgba(196, 181, 224, 0.15) 0%, transparent 70%),
+    radial-gradient(ellipse 65px 52px at 65% 45%, rgba(249, 168, 212, 0.2) 0%, transparent 70%),
+    url('/cherry-blossoms.jpg') center/cover no-repeat;
+  opacity: 0.35;
+  z-index: -1;
+  pointer-events: none;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
 }
 
 .nav-brand {
@@ -327,6 +353,7 @@ a:hover {
   max-width: 1000px;
   margin: 0 auto;
   padding: 3rem 2rem;
+  padding-top: 4rem; /* Extra padding for cherry blossom fade */
 }
 
 .page-header {
@@ -722,5 +749,13 @@ a:hover {
 
   .tool-tabs {
     flex-wrap: wrap;
+  }
+
+  .navbar::after {
+    height: 80px;
+  }
+
+  .page-container {
+    padding-top: 3rem;
   }
 }

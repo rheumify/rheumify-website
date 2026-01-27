@@ -23,14 +23,190 @@ export default function FellowsPage() {
           over 300 cards covering all rheumatology subspecialties.
         </p>
         <div className="product-buttons" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-          <a href="https://rheumify.glideapp.io" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
+          <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
              style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
             Sign up: $15/month
           </a>
-          <a href="https://rheumify.glideapp.io" className="btn btn-secondary" target="_blank" rel="noopener noreferrer"
+          <a href="https://buy.stripe.com/14A14mdKf2kB5hFbIFc3m04" className="btn btn-secondary" target="_blank" rel="noopener noreferrer"
              style={{ borderColor: 'var(--purple-light)', color: 'var(--purple-light)' }}>
             Sign up: $119/year (Save $61)
           </a>
+        </div>
+      </div>
+
+      {/* Mastering Board Questions: 5-Step Method */}
+      <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
+        <h2 style={{ color: 'var(--purple-light)', marginBottom: '1.5rem' }}>Mastering Board Questions: Your 5-Step Method</h2>
+        <p style={{ fontSize: '1.05rem', lineHeight: '1.7', marginBottom: '2rem' }}>
+          Learn a systematic approach to tackle any board-style question with confidence. Each question in Rheumify includes
+          detailed explanations that reinforce these clinical reasoning principles.
+        </p>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+          {/* Step 1 */}
+          <div style={{
+            display: 'flex',
+            gap: '1rem',
+            alignItems: 'flex-start',
+            padding: '1.25rem',
+            background: 'rgba(196, 181, 224, 0.1)',
+            borderRadius: '10px',
+            border: '1px solid rgba(196, 181, 224, 0.2)'
+          }}>
+            <div style={{
+              width: '44px',
+              height: '44px',
+              background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+              fontSize: '1.25rem',
+              fontWeight: 'bold',
+              color: 'var(--navy-dark)'
+            }}>
+              1
+            </div>
+            <div>
+              <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Deconstruct the Prompt</h3>
+              <p style={{ margin: 0, opacity: 0.9, lineHeight: '1.6' }}>
+                Identify keywords, patient context, and the precise question being asked to avoid misinterpretation.
+              </p>
+            </div>
+          </div>
+
+          {/* Step 2 */}
+          <div style={{
+            display: 'flex',
+            gap: '1rem',
+            alignItems: 'flex-start',
+            padding: '1.25rem',
+            background: 'rgba(196, 181, 224, 0.1)',
+            borderRadius: '10px',
+            border: '1px solid rgba(196, 181, 224, 0.2)'
+          }}>
+            <div style={{
+              width: '44px',
+              height: '44px',
+              background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+              fontSize: '1.25rem',
+              fontWeight: 'bold',
+              color: 'var(--navy-dark)'
+            }}>
+              2
+            </div>
+            <div>
+              <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Analyze Clinical Data</h3>
+              <p style={{ margin: 0, opacity: 0.9, lineHeight: '1.6' }}>
+                Thoroughly review all provided laboratory results, imaging, and physical examination findings for critical clues.
+              </p>
+            </div>
+          </div>
+
+          {/* Step 3 */}
+          <div style={{
+            display: 'flex',
+            gap: '1rem',
+            alignItems: 'flex-start',
+            padding: '1.25rem',
+            background: 'rgba(196, 181, 224, 0.1)',
+            borderRadius: '10px',
+            border: '1px solid rgba(196, 181, 224, 0.2)'
+          }}>
+            <div style={{
+              width: '44px',
+              height: '44px',
+              background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+              fontSize: '1.25rem',
+              fontWeight: 'bold',
+              color: 'var(--navy-dark)'
+            }}>
+              3
+            </div>
+            <div>
+              <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Formulate a Differential</h3>
+              <p style={{ margin: 0, opacity: 0.9, lineHeight: '1.6' }}>
+                Based on the evidence, generate a concise list of possible diagnoses or management strategies.
+              </p>
+            </div>
+          </div>
+
+          {/* Step 4 */}
+          <div style={{
+            display: 'flex',
+            gap: '1rem',
+            alignItems: 'flex-start',
+            padding: '1.25rem',
+            background: 'rgba(196, 181, 224, 0.1)',
+            borderRadius: '10px',
+            border: '1px solid rgba(196, 181, 224, 0.2)'
+          }}>
+            <div style={{
+              width: '44px',
+              height: '44px',
+              background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+              fontSize: '1.25rem',
+              fontWeight: 'bold',
+              color: 'var(--navy-dark)'
+            }}>
+              4
+            </div>
+            <div>
+              <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Select the Best Answer</h3>
+              <p style={{ margin: 0, opacity: 0.9, lineHeight: '1.6' }}>
+                Critically evaluate each option, ruling out distractors and choosing the most accurate and appropriate response.
+              </p>
+            </div>
+          </div>
+
+          {/* Step 5 */}
+          <div style={{
+            display: 'flex',
+            gap: '1rem',
+            alignItems: 'flex-start',
+            padding: '1.25rem',
+            background: 'rgba(196, 181, 224, 0.1)',
+            borderRadius: '10px',
+            border: '1px solid rgba(196, 181, 224, 0.2)'
+          }}>
+            <div style={{
+              width: '44px',
+              height: '44px',
+              background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+              fontSize: '1.25rem',
+              fontWeight: 'bold',
+              color: 'var(--navy-dark)'
+            }}>
+              5
+            </div>
+            <div>
+              <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Learn from Explanations</h3>
+              <p style={{ margin: 0, opacity: 0.9, lineHeight: '1.6' }}>
+                Review the rationale for both correct and incorrect answers to reinforce your understanding and knowledge retention.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -341,7 +517,7 @@ export default function FellowsPage() {
           Join rheumatology fellows who are using Rheumify to prepare for their ABIM board certification.
         </p>
         <div className="product-buttons" style={{ justifyContent: 'center', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-          <a href="https://rheumify.glideapp.io" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
+          <a href="https://buy.stripe.com/14A14mdKf2kB5hFbIFc3m04" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
              style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)', padding: '1rem 2rem', fontSize: '1.1rem' }}>
             Get Started Today
           </a>
