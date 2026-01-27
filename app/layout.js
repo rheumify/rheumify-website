@@ -94,7 +94,8 @@ const structuredData = {
       },
       "sameAs": [
         "https://soundcloud.com/rheumify",
-        "https://www.tiktok.com/@rheumify"
+        "https://www.tiktok.com/@rheumify",
+        "https://rheumify.substack.com"
       ]
     },
     // Founder/Creator
@@ -213,6 +214,7 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#0A1628" />
+        <meta name="google-site-verification" content="hKtwRCtuiCHH_Du0HgMwI3Ebcg4NXQliRcyALl7fvlQ" />
 
         {/* Structured Data for SEO and LLM Discovery */}
         <script
@@ -246,6 +248,7 @@ export default function RootLayout({ children }) {
               <a href="/patients">Patient Resources</a>
               <a href="/tools/scriptswap">ScriptSwap</a>
               <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>
+              <a href="https://rheumify.substack.com" target="_blank" rel="noopener noreferrer">Substack</a>
             </div>
             <p className="footer-copyright">
               © {new Date().getFullYear()} Rheumify. Created by Dr. Alison Bays, MD. All rights reserved.
