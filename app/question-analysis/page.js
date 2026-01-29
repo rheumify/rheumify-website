@@ -123,8 +123,9 @@ export default function QuestionAnalysisPage() {
                   <span style={{ fontSize: '1rem' }}>→</span>
                 </h2>
                 <p style={{ opacity: 0.9, lineHeight: '1.6', marginBottom: '1rem' }}>
-                  Understanding how answer choices are constructed helps you identify the correct answer and avoid common traps.
-                  Each pattern type signals a specific test-taking strategy.
+                  Board exam answer choices aren't random—they're carefully designed using principles from the NBME Item-Writing Guide.
+                  Each distractor (wrong answer) is crafted to seem plausible to test-takers who have specific knowledge gaps.
+                  Understanding these patterns helps you recognize what the question writer is testing and avoid falling for common traps.
                 </p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                   {['The Outlier Pattern', 'Conservative vs Action', 'Specific Doses/Numbers', 'Three Stages of Management',
@@ -172,8 +173,10 @@ export default function QuestionAnalysisPage() {
                   <span style={{ fontSize: '1rem' }}>→</span>
                 </h2>
                 <p style={{ opacity: 0.9, lineHeight: '1.6', marginBottom: '1rem' }}>
-                  Understanding the cognitive skills tested on board examinations. Each type represents a different
-                  cognitive skill that physicians use in practice.
+                  Every board question tests a specific cognitive skill—not just factual recall. Recognizing which type of
+                  thinking is being tested helps you approach each question with the right mental framework. Most diagnostic
+                  errors stem from reasoning failures (like premature closure) rather than knowledge gaps. These frameworks
+                  help you systematically work through clinical scenarios the way expert clinicians do.
                 </p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                   {['Pattern Recognition', 'Multi-Step Problem Solving', 'Risk-Benefit Analysis', 'Guideline Application',
