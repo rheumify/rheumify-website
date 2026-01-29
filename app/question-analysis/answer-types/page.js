@@ -166,16 +166,16 @@ export default function AnswerTypesPage() {
             border: '1px solid var(--purple-light)'
           }}>
             <p style={{ fontStyle: 'italic', marginBottom: '0.75rem', fontSize: '0.95rem' }}>
-              <strong>Example:</strong> A patient with giant cell arteritis and vision symptoms. What is the appropriate initial prednisone dose?
+              <strong>Example:</strong> A patient with giant cell arteritis presents with new vision changes. What is the most appropriate initial treatment?
             </p>
             <p style={{ fontSize: '0.9rem', opacity: 0.85 }}>
-              A) 10 mg daily<br/>
-              B) 20 mg daily<br/>
-              C) 40-60 mg daily ✓<br/>
-              D) 100 mg daily
+              A) Prednisone 20 mg daily<br/>
+              B) Prednisone 60 mg daily<br/>
+              C) Methylprednisolone 1,000 mg IV daily for 3 days ✓<br/>
+              D) Tocilizumab
             </p>
             <p style={{ fontSize: '0.85rem', marginTop: '0.75rem', opacity: 0.7 }}>
-              <em>Analysis: GCA with vision symptoms requires high-dose steroids (1 mg/kg, typically 40-60 mg). Options A and B are too low; option D is higher than standard recommendations unless using IV methylprednisolone initially.</em>
+              <em>Analysis: GCA with vision symptoms is an emergency requiring IV pulse steroids—methylprednisolone 1,000 mg IV daily for 3 days. Oral prednisone alone (A, B) is insufficient when vision is threatened. Tocilizumab (D) is steroid-sparing but not initial therapy for acute vision loss.</em>
             </p>
           </div>
         </div>
@@ -202,7 +202,7 @@ export default function AnswerTypesPage() {
           <p style={{ marginBottom: '0.75rem', fontWeight: '500' }}>Key stages to recognize:</p>
           <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem', marginBottom: '1rem', lineHeight: '1.8' }}>
             <li><strong>Induction therapy:</strong> High-intensity treatment to control active disease (e.g., cyclophosphamide for severe vasculitis)</li>
-            <li><strong>Maintenance therapy:</strong> Lower-intensity treatment to prevent flares after remission (e.g., azathioprine, rituximab)</li>
+            <li><strong>Maintenance therapy:</strong> Lower-intensity treatment to prevent flares after remission (e.g., rituximab)</li>
             <li><strong>Rescue/escalation therapy:</strong> Treatment for refractory disease or relapse (e.g., switching mechanism of action)</li>
           </ul>
           <div style={{
@@ -217,12 +217,12 @@ export default function AnswerTypesPage() {
             </p>
             <p style={{ fontSize: '0.9rem', opacity: 0.85 }}>
               A) Continue cyclophosphamide for another 6 months<br/>
-              B) Switch to azathioprine or rituximab for maintenance ✓<br/>
+              B) Switch to rituximab for maintenance ✓<br/>
               C) Stop all immunosuppression<br/>
               D) Add methotrexate to cyclophosphamide
             </p>
             <p style={{ fontSize: '0.85rem', marginTop: '0.75rem', opacity: 0.7 }}>
-              <em>Analysis: After achieving remission with induction (cyclophosphamide), the patient transitions to maintenance therapy (B). Continuing cyclophosphamide (A) increases toxicity risk. Stopping all therapy (C) risks relapse. Adding more immunosuppression (D) is inappropriate after remission.</em>
+              <em>Analysis: After achieving remission with induction (cyclophosphamide), the patient transitions to maintenance therapy with rituximab (B). Continuing cyclophosphamide (A) increases toxicity risk. Stopping all therapy (C) risks relapse. Adding more immunosuppression (D) is inappropriate after remission.</em>
             </p>
           </div>
         </div>
