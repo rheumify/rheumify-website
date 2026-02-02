@@ -427,6 +427,42 @@ export default function ClinicalReasoningPage() {
         </p>
       </div>
 
+{/* Cognitive Debiasing Section */}
+      <div className="content-card" style={{ marginTop: '2rem', borderLeft: '4px solid var(--purple-light)' }}>
+        <h2 style={{ color: 'var(--purple-light)', marginBottom: '1rem' }}>Cognitive Debiasing</h2>
+        <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
+          Research shows that 10-17% of diagnostic errors are due to <strong>premature closure</strong>—settling on a
+          diagnosis too quickly without considering alternatives. Before finalizing your answer, pause and ask yourself
+          two debiasing questions:
+          </p>
+        <div style={{
+                      background: 'rgba(196, 181, 224, 0.15)',
+                      padding: '1.25rem',
+                      borderRadius: '8px',
+                      marginBottom: '1rem'
+          }}>
+          <p style={{ fontSize: '1.1rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--purple-light)' }}>
+            1. "What doesn't fit?"
+              </p>
+          <p style={{ lineHeight: '1.7', marginBottom: '1rem', opacity: 0.9 }}>
+            Look for findings in the vignette that your chosen diagnosis doesn't explain. If there's a lab value,
+                          symptom, or timeline that doesn't quite fit, that's a signal to reconsider.
+              </p>
+          <p style={{ fontSize: '1.1rem', fontWeight: '600', marginBottom: '0.75rem', color: 'var(--purple-light)' }}>
+            2. "What else could this be?"
+              </p>
+          <p style={{ lineHeight: '1.7', opacity: 0.9 }}>
+            Force yourself to consider at least one alternative before committing. This simple step has been shown
+            to significantly reduce confirmation bias and improve diagnostic accuracy.
+              </p>
+              </div>
+        <p style={{ fontSize: '0.9rem', opacity: 0.8 }}>
+          <em>Studies using structured reflection techniques show improved diagnostic accuracy from 38% to 50%
+                        when learners are prompted to consider alternatives before finalizing their answer.</em>
+              </p>
+              </div>
+
+
       {/* References Section */}
       <div className="content-card" style={{ marginTop: '2rem', background: 'rgba(196, 181, 224, 0.05)' }}>
         <h3 style={{ color: 'var(--purple-light)', marginBottom: '1rem', fontSize: '1rem' }}>Further Reading</h3>
@@ -446,6 +482,16 @@ export default function ClinicalReasoningPage() {
               Eva KW. What every teacher needs to know about clinical reasoning. Med Educ. 2005 →
             </a>
           </li>
+                          <li style={{ marginBottom: '0.5rem' }}>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/40012058/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+                              Kojima T, et al. Reducing confirmation bias using the OMP model with verbalizing discordance. BMC Med Educ. 2025 →
+                                </a>
+                                </li>
+                                          <li>
+                                            <a href="https://pubmed.ncbi.nlm.nih.gov/31290117/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+                                              Costa Filho GB, et al. Effects of deliberate reflection on diagnostic accuracy and calibration. Perspect Med Educ. 2019 →
+                                                </a>
+                                                </li>
         </ul>
       </div>
 
