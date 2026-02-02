@@ -46,8 +46,7 @@ export default function QuestionTypesPage() {
               🎯 The Strategic Decoder
             </h4>
             <p style={{ marginBottom: '1rem', lineHeight: '1.7', fontSize: '0.95rem' }}>
-              <strong>"Next best step" is NOT one question type—it's actually 5 different questions disguised as the same phrase.</strong> Your first job is to decode WHICH question they're actually asking.
-            </p>
+              <strong>"Next best step" is NOT one question type—it's actually 3 different scenarios disguised as the same phrase.</strong>            </p>
             <p style={{ marginBottom: '0.75rem', fontSize: '0.9rem', fontWeight: '500' }}>Ask yourself two questions:</p>
             <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem', marginBottom: '0', lineHeight: '1.8', fontSize: '0.9rem' }}>
               <li><strong>Is the patient stable or unstable?</strong> (If unstable → stabilize first)</li>
