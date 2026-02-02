@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  metadataBase: new URL('https://rheumify.org'),
+  metadataBase: new URL('https://www.rheumify.org'),
   title: {
     default: 'Rheumify | Master Rheumatology - Board Prep, Education & Clinical Resources',
     template: '%s | Rheumify'
@@ -29,13 +29,13 @@ export const metadata = {
     // Creator
     'Dr. Alison Bays', 'board-certified rheumatologist'
   ],
-  authors: [{ name: 'Dr. Alison Bays, MD', url: 'https://rheumify.org/#about' }],
+  authors: [{ name: 'Dr. Alison Bays, MD', url: 'https://www.rheumify.org/#about' }],
   creator: 'Dr. Alison Bays',
   publisher: 'Rheumify',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://rheumify.org',
+    url: 'https://www.rheumify.org',
     siteName: 'Rheumify',
     title: 'Rheumify | Master Rheumatology - Board Prep & Clinical Resources',
     description: 'Comprehensive rheumatology education platform by Dr. Alison Bays. ABIM board prep, question banks, flashcards, ACR guidelines podcast, and UW GCA Fast Track Clinic.',
@@ -66,9 +66,6 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: 'https://rheumify.org',
-  },
   category: 'Medical Education',
 };
 
@@ -79,18 +76,18 @@ const structuredData = {
     // Organization
     {
       "@type": "Organization",
-      "@id": "https://rheumify.org/#organization",
+      "@id": "https://www.rheumify.org/#organization",
       "name": "Rheumify",
-      "url": "https://rheumify.org",
+      "url": "https://www.rheumify.org",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://rheumify.org/logo.png"
+        "url": "https://www.rheumify.org/logo.png"
       },
       "description": "Comprehensive rheumatology education platform for medical professionals and patients",
       "foundingDate": "2024",
       "founder": {
         "@type": "Person",
-        "@id": "https://rheumify.org/#founder"
+        "@id": "https://www.rheumify.org/#founder"
       },
       "sameAs": [
         "https://soundcloud.com/rheumify",
@@ -101,7 +98,7 @@ const structuredData = {
     // Founder/Creator
     {
       "@type": "Person",
-      "@id": "https://rheumify.org/#founder",
+      "@id": "https://www.rheumify.org/#founder",
       "name": "Dr. Alison Bays",
       "jobTitle": "Board-Certified Rheumatologist",
       "description": "Academic rheumatologist with 10+ years of experience in clinical practice, medical education, and research. Specializes in vasculitis, autoimmune diseases, and medical technology in rheumatology.",
@@ -119,22 +116,22 @@ const structuredData = {
       },
       "worksFor": {
         "@type": "Organization",
-        "@id": "https://rheumify.org/#organization"
+        "@id": "https://www.rheumify.org/#organization"
       }
     },
     // Website
     {
       "@type": "WebSite",
-      "@id": "https://rheumify.org/#website",
-      "url": "https://rheumify.org",
+      "@id": "https://www.rheumify.org/#website",
+      "url": "https://www.rheumify.org",
       "name": "Rheumify",
       "description": "Master Rheumatology - Board prep, education, and clinical resources",
       "publisher": {
-        "@id": "https://rheumify.org/#organization"
+        "@id": "https://www.rheumify.org/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://rheumify.org/search?q={search_term_string}",
+        "target": "https://www.rheumify.org/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     },
@@ -144,7 +141,7 @@ const structuredData = {
       "name": "Rheumify Question Bank",
       "description": "Comprehensive ABIM rheumatology board preparation question bank with 500+ AI-generated questions validated by board-certified rheumatologists. Includes spaced repetition flashcards.",
       "brand": {
-        "@id": "https://rheumify.org/#organization"
+        "@id": "https://www.rheumify.org/#organization"
       },
       "category": "Medical Education Software",
       "offers": {
@@ -167,7 +164,7 @@ const structuredData = {
       "description": "AI-generated podcast discussing ACR Clinical Practice Guidelines for rheumatic diseases. Free educational content for rheumatology professionals.",
       "url": "https://soundcloud.com/rheumify",
       "author": {
-        "@id": "https://rheumify.org/#organization"
+        "@id": "https://www.rheumify.org/#organization"
       },
       "genre": "Medical Education",
       "inLanguage": "en",
@@ -215,13 +212,10 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#0A1628" />
         <meta name="google-site-verification" content="hKtwRCtuiCHH_Du0HgMwI3Ebcg4NXQliRcyALl7fvlQ" />
-
         {/* Structured Data for SEO and LLM Discovery */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData)
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
       <body>
