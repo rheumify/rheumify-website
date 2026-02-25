@@ -3,7 +3,7 @@ import './globals.css';
 export const metadata = {
   metadataBase: new URL('https://www.rheumify.org'),
   title: {
-    default: 'Rheumify | Master Rheumatology - Board Prep, Education & Clinical Resources',
+    default: 'Rheumify | Master Rheumatology — Board Prep, Education & Clinical Resources',
     template: '%s | Rheumify'
   },
   description: 'Rheumify is the most comprehensive rheumatology education platform. Board-certified rheumatologist Dr. Alison Bays offers ABIM board prep question banks, spaced repetition flashcards, ACR guidelines podcast, manuscript planning tools, and the UW GCA Fast Track Clinic.',
@@ -228,18 +228,18 @@ export default function RootLayout({ children }) {
             <li><a href="/residents">Residents</a></li>
             <li><a href="/students">Students</a></li>
             <li><a href="/patients">Patient Resources</a></li>
+            <li><a href="/learning">Learning</a></li>
             <li><a href="/tools/scriptswap">Tools</a></li>
           </ul>
         </nav>
-
         <main role="main">{children}</main>
-
         <footer className="footer" role="contentinfo">
           <div className="footer-content">
             <div className="footer-brand">Rheum<span>ify</span></div>
             <div className="footer-links">
               <a href="/fellows">For Rheumatologists & Fellows</a>
               <a href="/patients">Patient Resources</a>
+              <a href="/learning">Learning</a>
               <a href="/tools/scriptswap">ScriptSwap</a>
               <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>
               <a href="https://rheumify.substack.com" target="_blank" rel="noopener noreferrer">Substack</a>
