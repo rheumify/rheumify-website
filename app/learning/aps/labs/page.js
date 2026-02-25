@@ -4,7 +4,6 @@ import { useState } from 'react';
 export default function APSLabsModule() {
   const [expandedSection, setExpandedSection] = useState(null);
   const [showAnswer, setShowAnswer] = useState({});
-
   const toggle = (id) => setExpandedSection(expandedSection === id ? null : id);
   const toggleAnswer = (id) => setShowAnswer(prev => ({...prev, [id]: !prev[id]}));
 
@@ -23,22 +22,13 @@ export default function APSLabsModule() {
         <h2 className="section-title">The Big Picture</h2>
         <div className="story-card">
           <p>
-            Picture a massive bank — not your neighborhood branch, but a 24/7 financial network where
-            trillions of transactions flow every second. This bank is your <strong>bloodstream</strong>.
-            Red blood cells are the armored trucks carrying oxygen-cash to every organ. Platelets are
-            the security team, rushing to seal any breach in the vault walls. And the coagulation cascade?
-            That’s the bank’s <strong>fraud detection system</strong> — a sophisticated network of
-            checkpoints designed to stop unauthorized withdrawals.
+            Picture a massive bank — not your neighborhood branch, but a 24/7 financial network where trillions of transactions flow every second. This bank is your <strong>bloodstream</strong>. Red blood cells are the armored trucks carrying oxygen-cash to every organ. Platelets are the security team, rushing to seal any breach in the vault walls. And the coagulation cascade? That’s the bank’s <strong>fraud detection system</strong> — a sophisticated network of checkpoints designed to stop unauthorized withdrawals.
           </p>
           <p>
-            Now imagine the fraud detection system goes rogue. It starts flagging legitimate transactions
-            as suspicious. Accounts get frozen. Money stops flowing. That’s <strong>Antiphospholipid
-            Syndrome</strong> — and the rogue detectors are the <em>aPL antibodies</em>.
+            Now imagine the fraud detection system goes rogue. It starts flagging legitimate transactions as suspicious. Accounts get frozen. Money stops flowing. That’s <strong>Antiphospholipid Syndrome</strong> — and the rogue detectors are the <em>aPL antibodies</em>.
           </p>
           <p>
-            But here’s the thing about a rogue fraud department: you can’t fix it until you figure
-            out which detectors are malfunctioning. This bank has <strong>three fraud departments</strong>,
-            each using different methods to scan for problems. Your job? Identify which ones have gone rogue.
+            But here’s the thing about a rogue fraud department: you can’t fix it until you figure out which detectors are malfunctioning. This bank has <strong>three fraud departments</strong>, each using different methods to scan for problems. Your job? Identify which ones have gone rogue.
           </p>
         </div>
         <div className="board-pearl-box">
@@ -46,6 +36,7 @@ export default function APSLabsModule() {
           <p>What are the three types of aPL antibodies, how do we detect each one, and why does this matter for APS diagnosis?</p>
         </div>
       </section>
+
       <section className="module-content-section">
         <h2 className="section-title">Core Content — The Three Fraud Departments</h2>
 
@@ -59,16 +50,10 @@ export default function APSLabsModule() {
             <div className="expanded-content">
               <div className="story-card">
                 <p>
-                  The first department monitors <strong>how fast transactions process</strong>. In a normal bank,
-                  transactions clear at a predictable speed. The Transaction Speed Monitor times each one.
-                  When it detects something “suspicious,” it slows everything down for review.
+                  The first department monitors <strong>how fast transactions process</strong>. In a normal bank, transactions clear at a predictable speed. The Transaction Speed Monitor times each one. When it detects something “suspicious,” it slows everything down for review.
                 </p>
                 <p>
-                  Here’s the great paradox of LA: <strong>in the test tube (in vitro), it SLOWS
-                  coagulation</strong> — hence the name “anticoagulant.” But <strong>in the
-                  body (in vivo), it PROMOTES thrombosis</strong>. It’s like a monitor that slows things
-                  down during an audit but in real time causes accounts to lock up. This is the fundamental
-                  paradox you must understand: <em>in vitro anticoagulant, in vivo procoagulant</em>.
+                  Here’s the great paradox of LA: <strong>in the test tube (in vitro), it SLOWS coagulation</strong> — hence the name “anticoagulant.” But <strong>in the body (in vivo), it PROMOTES thrombosis</strong>. It’s like a monitor that slows things down during an audit but in real time causes accounts to lock up. This is the fundamental paradox you must understand: <em>in vitro anticoagulant, in vivo procoagulant</em>.
                 </p>
               </div>
               <h4>The 3-Step Detection Process</h4>
@@ -104,14 +89,10 @@ export default function APSLabsModule() {
             <div className="expanded-content">
               <div className="story-card">
                 <p>
-                  The second department works completely differently from the first. Instead of monitoring
-                  transaction speed, the Pattern Scanner <strong>examines the paperwork</strong> — specifically,
-                  it looks for antibodies that target cardiolipin (a phospholipid in cell membranes).
+                  The second department works completely differently from the first. Instead of monitoring transaction speed, the Pattern Scanner <strong>examines the paperwork</strong> — specifically, it looks for antibodies that target cardiolipin (a phospholipid in cell membranes).
                 </p>
                 <p>
-                  Because it’s scanning paperwork rather than timing transactions, <strong>it CAN work while
-                  the bank is running its override system</strong> (anticoagulation). This is a key practical
-                  difference from LA testing.
+                  Because it’s scanning paperwork rather than timing transactions, <strong>it CAN work while the bank is running its override system</strong> (anticoagulation). This is a key practical difference from LA testing.
                 </p>
               </div>
               <ul className="content-list">
@@ -135,10 +116,7 @@ export default function APSLabsModule() {
             <div className="expanded-content">
               <div className="story-card">
                 <p>
-                  While the Pattern Scanner looks at paperwork, the Identity Investigator <strong>tracks the
-                  actual person responsible</strong> for the fraud. β2-Glycoprotein I is the cofactor that
-                  aPL antibodies need to bind phospholipids — it’s the <em>true antigenic target</em>.
-                  Finding antibodies against it is like finding the ringleader’s exact address.
+                  While the Pattern Scanner looks at paperwork, the Identity Investigator <strong>tracks the actual person responsible</strong> for the fraud. β2-Glycoprotein I is the cofactor that aPL antibodies need to bind phospholipids — it’s the <em>true antigenic target</em>. Finding antibodies against it is like finding the ringleader’s exact address.
                 </p>
               </div>
               <ul className="content-list">
@@ -151,6 +129,7 @@ export default function APSLabsModule() {
           )}
         </div>
       </section>
+
       <section className="module-content-section">
         <h2 className="section-title">The Comparison Table</h2>
         <div className="module-table-wrapper">
@@ -179,15 +158,10 @@ export default function APSLabsModule() {
         <h2 className="section-title">Triple Positivity — The Grand Slam</h2>
         <div className="story-card highlight-card">
           <p>
-            When <strong>ALL THREE</strong> departments report the same person… when the Transaction Speed
-            Monitor flags a slowdown, the Pattern Scanner finds suspicious paperwork, AND the Identity
-            Investigator confirms the culprit’s identity — that’s <strong>triple positivity</strong>.
-            The case is airtight.
+            When <strong>ALL THREE</strong> departments report the same person… when the Transaction Speed Monitor flags a slowdown, the Pattern Scanner finds suspicious paperwork, AND the Identity Investigator confirms the culprit’s identity — that’s <strong>triple positivity</strong>. The case is airtight.
           </p>
           <p>
-            Clinically, these patients face the <strong>highest thrombotic risk: 5–10% per year</strong>.
-            They are the patients who absolutely cannot use DOACs (the TRAPS trial — Module 3). Triple
-            positivity is the “grand slam” of aPL profiling.
+            Clinically, these patients face the <strong>highest thrombotic risk: 5–10% per year</strong>. They are the patients who absolutely cannot use DOACs (the TRAPS trial — Module 3). Triple positivity is the “grand slam” of aPL profiling.
           </p>
         </div>
       </section>
@@ -196,13 +170,11 @@ export default function APSLabsModule() {
         <h2 className="section-title">The 12-Week Confirmation Rule</h2>
         <div className="story-card">
           <p>
-            The bank doesn’t act on a single report. What if the detector malfunctioned once? A transient
-            infection can trigger temporary aPL positivity — the system threw a false alarm. That’s
-            why the 2023 criteria require <strong>confirmation at least 12 weeks apart</strong>: two independent
-            investigations, same conclusion. Never diagnose APS on a single positive test.
+            The bank doesn’t act on a single report. What if the detector malfunctioned once? A transient infection can trigger temporary aPL positivity — the system threw a false alarm. That’s why the 2023 criteria require <strong>confirmation at least 12 weeks apart</strong>: two independent investigations, same conclusion. Never diagnose APS on a single positive test.
           </p>
         </div>
       </section>
+
       <section className="module-content-section">
         <h2 className="section-title">Board Pearls</h2>
         <div className="board-pearl-box"><div className="board-pearl-label">Pearl 1</div><p><strong>LA is in vitro anticoagulant, in vivo procoagulant.</strong> In your lab coagulation assays, LA slows clotting. In the patient’s blood vessels, it causes clots. Know this backwards and forwards.</p></div>
@@ -214,15 +186,15 @@ export default function APSLabsModule() {
 
       <section className="module-content-section">
         <h2 className="section-title">Memory Aids</h2>
-        <div className="mnemonic-box"><p><strong>“Three Departments:”</strong> Speed Monitor (LA), Pattern Scanner (aCL), Identity Investigator (anti-β2GPI)</p></div>
+        <div className="mnemonic-box"><p><strong>“LA: Liar in the Lab, Assassin in the Artery”</strong> — In vitro anticoagulant, in vivo procoagulant.</p></div>
         <div className="mnemonic-box"><p><strong>“Mix and Fix / Mix and Miss”</strong> — Fix = deficiency corrects. Miss = inhibitor persists.</p></div>
+        <div className="mnemonic-box"><p><strong>“LA lies about the INR — X marks the spot”</strong> — Use chromogenic factor X assay to monitor warfarin in LA-positive patients.</p></div>
         <div className="mnemonic-box"><p><strong>“Triple Positive = Grand Slam = Highest Risk”</strong></p></div>
         <div className="mnemonic-box"><p><strong>“12 Weeks or It Doesn’t Count”</strong> — Single positive is not APS.</p></div>
       </section>
 
       <section className="module-content-section">
         <h2 className="section-title">Test Yourself</h2>
-
         <div className="quiz-card" onClick={() => toggleAnswer('q1')}>
           <p className="quiz-question"><strong>Q1:</strong> A 32-year-old woman with recurrent DVTs has a prolonged aPTT. A mixing study is performed and the aPTT does NOT correct. What is the next step?</p>
           {showAnswer.q1 && (
@@ -232,7 +204,6 @@ export default function APSLabsModule() {
           )}
           <span className="quiz-toggle">{showAnswer.q1 ? 'Hide Answer' : 'Show Answer'}</span>
         </div>
-
         <div className="quiz-card" onClick={() => toggleAnswer('q2')}>
           <p className="quiz-question"><strong>Q2:</strong> A patient with known APS and LA positivity on warfarin has an INR of 3.8 but doesn’t appear over-anticoagulated. What’s happening?</p>
           {showAnswer.q2 && (
@@ -242,7 +213,6 @@ export default function APSLabsModule() {
           )}
           <span className="quiz-toggle">{showAnswer.q2 ? 'Hide Answer' : 'Show Answer'}</span>
         </div>
-
         <div className="quiz-card" onClick={() => toggleAnswer('q3')}>
           <p className="quiz-question"><strong>Q3:</strong> Which aPL antibody profile carries the highest thrombotic risk?</p>
           {showAnswer.q3 && (
@@ -274,4 +244,5 @@ export default function APSLabsModule() {
       </div>
     </main>
   );
-              }
+}
+
