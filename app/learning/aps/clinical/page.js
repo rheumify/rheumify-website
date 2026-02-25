@@ -4,7 +4,6 @@ import { useState } from 'react';
 export default function APSClinicalModule() {
   const [expandedSection, setExpandedSection] = useState(null);
   const [showAnswer, setShowAnswer] = useState({});
-
   const toggle = (id) => setExpandedSection(expandedSection === id ? null : id);
   const toggleAnswer = (id) => setShowAnswer(prev => ({...prev, [id]: !prev[id]}));
 
@@ -23,16 +22,10 @@ export default function APSClinicalModule() {
         <h2 className="section-title">The Big Picture</h2>
         <div className="story-card">
           <p>
-            The fraud detection system has gone rogue. You identified the culprits in Module 1 —
-            the three departments falsely flagging legitimate transactions. But here’s the problem:
-            <strong>you didn’t catch them in time</strong>. They’ve already started freezing accounts
-            across the bank.
+            The fraud detection system has gone rogue. You identified the culprits in Module 1 — the three departments falsely flagging legitimate transactions. But here’s the problem: <strong>you didn’t catch them in time</strong>. They’ve already started freezing accounts across the bank.
           </p>
           <p>
-            And depending on <strong>which branch they hit</strong>, the consequences look very different.
-            A frozen checking account is inconvenient. A frozen investment account is devastating. A
-            system-wide crash is catastrophic. The 2023 ACR/EULAR criteria organize these consequences
-            into <strong>six clinical domains</strong> — six different ways the bank gets hit.
+            And depending on <strong>which branch they hit</strong>, the consequences look very different. A frozen checking account is inconvenient. A frozen investment account is devastating. A system-wide crash is catastrophic. The 2023 ACR/EULAR criteria organize these consequences into <strong>six clinical domains</strong> — six different ways the bank gets hit.
           </p>
         </div>
         <div className="board-pearl-box">
@@ -42,7 +35,7 @@ export default function APSClinicalModule() {
       </section>
 
       <section className="module-content-section">
-        <h2 className="section-title">The Six Domains — VAMOCH</h2>
+        <h2 className="section-title">The Six Domains</h2>
 
         <div className="expandable-module-card" onClick={() => toggle('venous')}>
           <div className="expandable-header-row">
@@ -53,9 +46,7 @@ export default function APSClinicalModule() {
           {expandedSection === 'venous' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>Start with the most everyday accounts — checking. These handle routine daily transactions.
-                When checking accounts freeze, it’s the most common and most recognizable problem:
-                <strong>DVT and PE</strong>.</p>
+                <p>Start with the most everyday accounts — checking. These handle routine daily transactions. When checking accounts freeze, it’s the most common and most recognizable problem: <strong>DVT and PE</strong>.</p>
               </div>
               <ul className="content-list">
                 <li>DVT of lower extremities = single most common thrombotic event in APS</li>
@@ -68,6 +59,7 @@ export default function APSClinicalModule() {
             </div>
           )}
         </div>
+
         <div className="expandable-module-card" onClick={() => toggle('arterial')}>
           <div className="expandable-header-row">
             <h3>Domain 2: Investment Accounts — Macrovascular Arterial</h3>
@@ -77,8 +69,7 @@ export default function APSClinicalModule() {
           {expandedSection === 'arterial' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>Now the rogue system targets the high-value accounts — investments, retirement funds.
-                When these get frozen, the consequences are catastrophic: <strong>stroke and MI in young patients</strong>.</p>
+                <p>Now the rogue system targets the high-value accounts — investments, retirement funds. When these get frozen, the consequences are catastrophic: <strong>stroke and MI in young patients</strong>.</p>
               </div>
               <ul className="content-list">
                 <li>Stroke is the most common arterial event, especially in patients &lt;50 without CV risk factors</li>
@@ -105,9 +96,7 @@ export default function APSClinicalModule() {
           {expandedSection === 'micro' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>Beyond the big accounts, there’s the ATM network — thousands of small, distributed
-                transactions. When this goes down, you don’t get one dramatic freeze; you get <strong>widespread,
-                subtle dysfunction</strong> across many small systems.</p>
+                <p>Beyond the big accounts, there’s the ATM network — thousands of small, distributed transactions. When this goes down, you don’t get one dramatic freeze; you get <strong>widespread, subtle dysfunction</strong> across many small systems.</p>
               </div>
               <ul className="content-list">
                 <li><strong>NEW in 2023</strong> — not part of old Sapporo criteria</li>
@@ -131,9 +120,7 @@ export default function APSClinicalModule() {
           {expandedSection === 'obstetric' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>Think of pregnancy as a major new construction project that requires a constant wire transfer
-                of funds (blood through the placenta). When the fraud system blocks that transfer, the project
-                stalls or fails.</p>
+                <p>Think of pregnancy as a major new construction project that requires a constant wire transfer of funds (blood through the placenta). When the fraud system blocks that transfer, the project stalls or fails.</p>
               </div>
               <ul className="content-list">
                 <li>≥3 consecutive early losses (&lt;10 wk) after excluding other causes = 1pt</li>
@@ -148,6 +135,7 @@ export default function APSClinicalModule() {
             </div>
           )}
         </div>
+
         <div className="expandable-module-card" onClick={() => toggle('cardiac')}>
           <div className="expandable-header-row">
             <h3>Domain 5: Vault Doors — Cardiac Valve Disease</h3>
@@ -157,9 +145,7 @@ export default function APSClinicalModule() {
           {expandedSection === 'cardiac' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>The bank vault doors — they’re supposed to open and close smoothly. When the fraud
-                system targets them, they malfunction: <strong>Libman-Sacks endocarditis</strong>, sterile
-                vegetations on the mitral and aortic valves.</p>
+                <p>The bank vault doors — they’re supposed to open and close smoothly. When the fraud system targets them, they malfunction: <strong>Libman-Sacks endocarditis</strong>, sterile vegetations on the mitral and aortic valves.</p>
               </div>
               <ul className="content-list">
                 <li>Valve thickening/regurgitation on echo = 2pts</li>
@@ -180,8 +166,7 @@ export default function APSClinicalModule() {
           {expandedSection === 'heme' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>In the chaos, the bank’s own staff get caught in the crossfire. The most common casualty:
-                <strong>thrombocytopenia</strong> — platelets consumed in the process of forming clots.</p>
+                <p>In the chaos, the bank’s own staff get caught in the crossfire. The most common casualty: <strong>thrombocytopenia</strong> — platelets consumed in the process of forming clots.</p>
               </div>
               <ul className="content-list">
                 <li>20–50% of APS patients have thrombocytopenia</li>
@@ -198,14 +183,10 @@ export default function APSClinicalModule() {
         <h2 className="section-title">Catastrophic APS — System-Wide Meltdown</h2>
         <div className="story-card highlight-card">
           <p>
-            The entire banking system crashes. Every branch, every ATM, every portal — <strong>frozen
-            simultaneously</strong>. Catastrophic APS is the rarest (&lt;1%) and deadliest (30–50% mortality)
-            variant: widespread thrombosis affecting <strong>≥3 organ systems</strong> developing over
-            <strong>≤1 week</strong>, with small vessel predominance.
+            The entire banking system crashes. Every branch, every ATM, every portal — <strong>frozen simultaneously</strong>. Catastrophic APS is the rarest (&lt;1%) and deadliest (30–50% mortality) variant: widespread thrombosis affecting <strong>≥3 organ systems</strong> developing over <strong>≤1 week</strong>, with small vessel predominance.
           </p>
           <p>
-            Classic triggers: infection, surgery, anticoagulation withdrawal. Treatment = everything deployed
-            at once: anticoagulation + steroids + plasma exchange ± IVIG.
+            Classic triggers: infection, surgery, anticoagulation withdrawal. Treatment = everything deployed at once: anticoagulation + steroids + plasma exchange ± IVIG.
           </p>
         </div>
       </section>
@@ -223,12 +204,11 @@ export default function APSClinicalModule() {
           <p>2023 criteria traded sensitivity for specificity: <strong>99% specific but 84% sensitive</strong> (vs. old Sapporo: 86% specific, 99% sensitive). Some true APS patients won’t meet classification criteria — that’s by design.</p>
         </div>
       </section>
+
       <section className="module-content-section">
         <h2 className="section-title">Memory Aids</h2>
-        <div className="mnemonic-box"><p><strong>“VAMOCH”</strong> — Venous, Arterial, Microvascular, Obstetric, Cardiac, Hematologic</p></div>
         <div className="mnemonic-box"><p><strong>“Three-and-Three to Get the Key”</strong> — ≥3 clinical AND ≥3 lab points to classify</p></div>
-        <div className="mnemonic-box"><p><strong>“Young Stroke, No Risk = Go Fish for aPL”</strong></p></div>
-        <div className="mnemonic-box"><p><strong>“CAPS = Crash All Parts Simultaneously”</strong> — ≥3 organs, ≤1 week, treat with everything</p></div>
+        <div className="mnemonic-box"><p><strong>“Platelets low but clots still flow — APS paradox, now you know”</strong> — Thrombocytopenia in APS means clotting risk, not bleeding risk.</p></div>
       </section>
 
       <section className="module-content-section">
@@ -283,4 +263,5 @@ export default function APSClinicalModule() {
       </div>
     </main>
   );
-                  }
+}
+
