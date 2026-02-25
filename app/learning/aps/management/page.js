@@ -4,7 +4,6 @@ import { useState } from 'react';
 export default function APSManagementModule() {
   const [expandedSection, setExpandedSection] = useState(null);
   const [showAnswer, setShowAnswer] = useState({});
-
   const toggle = (id) => setExpandedSection(expandedSection === id ? null : id);
   const toggleAnswer = (id) => setShowAnswer(prev => ({...prev, [id]: !prev[id]}));
 
@@ -23,14 +22,10 @@ export default function APSManagementModule() {
         <h2 className="section-title">The Big Picture</h2>
         <div className="story-card">
           <p>
-            You’ve identified the rogue fraud detectors (Module 1). You’ve documented the damage —
-            frozen checking accounts, seized investments, collapsed ATM networks, blocked construction projects,
-            jammed vault doors, and friendly fire on employees (Module 2). Now the board of directors demands
-            answers: <strong>How do we override this system? How do we unfreeze the accounts?</strong>
+            You’ve identified the rogue fraud detectors (Module 1). You’ve documented the damage — frozen checking accounts, seized investments, collapsed ATM networks, blocked construction projects, jammed vault doors, and friendly fire on employees (Module 2). Now the board of directors demands answers: <strong>How do we override this system? How do we unfreeze the accounts?</strong>
           </p>
           <p>
-            The answer comes in four tiers — from basic prevention to full emergency response. Think of it
-            as the bank’s <strong>crisis management playbook</strong>.
+            The answer comes in four tiers — from basic prevention to full emergency response. Think of it as the bank’s <strong>crisis management playbook</strong>.
           </p>
         </div>
       </section>
@@ -47,10 +42,7 @@ export default function APSManagementModule() {
           {expandedSection === 'tier1' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>The fraud system is installed and active, but no accounts have been affected yet. You’ve
-                detected the rogue code (positive aPL) but nothing’s frozen. Do you bring in a full override
-                team? No — that’s overkill and might cause its own problems (bleeding). Instead, you install
-                a <strong>basic safeguard</strong>.</p>
+                <p>The fraud system is installed and active, but no accounts have been affected yet. You’ve detected the rogue code (positive aPL) but nothing’s frozen. Do you bring in a full override team? No — that’s overkill and might cause its own problems (bleeding). Instead, you install a <strong>basic safeguard</strong>.</p>
               </div>
               <ul className="content-list">
                 <li><strong>Low-dose aspirin (75–100 mg)</strong> for high-risk aPL carriers (triple positive, LA positive, persistently high titers)</li>
@@ -62,6 +54,7 @@ export default function APSManagementModule() {
             </div>
           )}
         </div>
+
         <div className="expandable-module-card" onClick={() => toggle('tier2')}>
           <div className="expandable-header-row">
             <h3>Tier 2: The Manual Override Team — After Thrombosis</h3>
@@ -71,12 +64,8 @@ export default function APSManagementModule() {
           {expandedSection === 'tier2' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>Accounts are actively getting frozen. It’s time for the <strong>manual override team</strong> —
-                experienced operators who sit in the bank and manually process every transaction the fraud system
-                tries to block. That team is <strong>warfarin</strong>. Not the automated app (DOACs). The manual
-                team that needs constant supervision (INR monitoring) but can be fine-tuned in real time.</p>
+                <p>Accounts are actively getting frozen. It’s time for the <strong>manual override team</strong> — experienced operators who sit in the bank and manually process every transaction the fraud system tries to block. That team is <strong>warfarin</strong>. Not the automated app (DOACs). The manual team that needs constant supervision (INR monitoring) but can be fine-tuned in real time.</p>
               </div>
-
               <h4>After Venous Thrombosis</h4>
               <div className="module-table-wrapper">
                 <table className="module-table">
@@ -88,7 +77,6 @@ export default function APSManagementModule() {
                   </tbody>
                 </table>
               </div>
-
               <h4>After Arterial Thrombosis</h4>
               <div className="module-table-wrapper">
                 <table className="module-table">
@@ -100,7 +88,6 @@ export default function APSManagementModule() {
                   </tbody>
                 </table>
               </div>
-
               <div className="board-pearl-box">
                 <div className="board-pearl-label">Board Pearl</div>
                 <p>APS thrombosis = <strong>indefinite anticoagulation with warfarin</strong>. This is NOT a time-limited 3–6 month course. The fraud system never turns off, so neither does the override team. <strong>“Two-Three for Veins, Three-Four for Brains.”</strong></p>
@@ -118,12 +105,8 @@ export default function APSManagementModule() {
           {expandedSection === 'doacs' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>Think of DOACs as an <strong>automated override app</strong> — modern, convenient, no monitoring.
-                Warfarin is the old-school <strong>manual override team</strong>. In most situations, the app works
-                great. But APS is not most situations.</p>
-                <p>The rogue fraud system attacks through <strong>multiple pathways</strong> — endothelial cells,
-                platelets, complement. DOACs target a single factor (Xa or thrombin). Warfarin suppresses
-                <strong>multiple factors (II, VII, IX, X)</strong> — casting a wider net.</p>
+                <p>Think of DOACs as an <strong>automated override app</strong> — modern, convenient, no monitoring. Warfarin is the old-school <strong>manual override team</strong>. In most situations, the app works great. But APS is not most situations.</p>
+                <p>The rogue fraud system attacks through <strong>multiple pathways</strong> — endothelial cells, platelets, complement. DOACs target a single factor (Xa or thrombin). Warfarin suppresses <strong>multiple factors (II, VII, IX, X)</strong> — casting a wider net.</p>
               </div>
               <div className="module-table-wrapper">
                 <table className="module-table">
@@ -135,12 +118,10 @@ export default function APSManagementModule() {
                   </tbody>
                 </table>
               </div>
-              <div className="mnemonic-box">
-                <p><strong>“TRAPS Trapped the DOACs”</strong> — stopped early, excess strokes on rivaroxaban. Triple-positive patients are absolutely trapped on warfarin.</p>
-              </div>
             </div>
           )}
         </div>
+
         <div className="expandable-module-card" onClick={() => toggle('tier3')}>
           <div className="expandable-header-row">
             <h3>Tier 3: Security Escort — Obstetric APS</h3>
@@ -150,9 +131,7 @@ export default function APSManagementModule() {
           {expandedSection === 'tier3' && (
             <div className="expanded-content">
               <div className="story-card">
-                <p>The bank is funding a major construction project (pregnancy). The fraud system threatens to cut
-                off the wire transfer (placental blood supply). You need a <strong>dedicated security escort</strong> —
-                but the level depends on how dangerous the neighborhood is.</p>
+                <p>The bank is funding a major construction project (pregnancy). The fraud system threatens to cut off the wire transfer (placental blood supply). You need a <strong>dedicated security escort</strong> — but the level depends on how dangerous the neighborhood is.</p>
               </div>
               <div className="module-table-wrapper">
                 <table className="module-table">
@@ -182,9 +161,7 @@ export default function APSManagementModule() {
           {expandedSection === 'tier4' && (
             <div className="expanded-content">
               <div className="story-card highlight-card">
-                <p>The entire banking system has crashed. Every branch, every ATM, every portal — frozen simultaneously.
-                This isn’t time for a manual override team. You need the <strong>emergency response protocol</strong>:
-                shut down the fraud system entirely, bring in emergency liquidity from outside, and repair the damage all at once.</p>
+                <p>The entire banking system has crashed. Every branch, every ATM, every portal — frozen simultaneously. This isn’t time for a manual override team. You need the <strong>emergency response protocol</strong>: shut down the fraud system entirely, bring in emergency liquidity from outside, and repair the damage all at once.</p>
               </div>
               <div className="module-table-wrapper">
                 <table className="module-table">
@@ -202,12 +179,10 @@ export default function APSManagementModule() {
           )}
         </div>
       </section>
+
       <section className="module-content-section">
         <h2 className="section-title">Memory Aids</h2>
         <div className="mnemonic-box"><p><strong>“Warfarin is the Workhorse”</strong> — In APS, warfarin works and DOACs don’t. When in doubt on boards, choose warfarin.</p></div>
-        <div className="mnemonic-box"><p><strong>“TRAPS Trapped the DOACs”</strong> — Stopped early, excess strokes on rivaroxaban in triple-positive APS.</p></div>
-        <div className="mnemonic-box"><p><strong>“Pregnancy = Heparin Escort”</strong> — Light (LDA), Standard (+ prophylactic heparin), Full (+ therapeutic heparin), Upgraded (+ HCQ)</p></div>
-        <div className="mnemonic-box"><p><strong>“CAPS = Call All Possible Support”</strong> — Corticosteroids + Anticoagulation + Plasma exchange + (±) IVIG. Deploy everything simultaneously.</p></div>
         <div className="mnemonic-box"><p><strong>“Two-Three for Veins, Three-Four for Brains”</strong> — Venous: INR 2–3. Arterial (stroke): consider INR 3–4.</p></div>
       </section>
 
@@ -264,3 +239,4 @@ export default function APSManagementModule() {
     </main>
   );
 }
+
