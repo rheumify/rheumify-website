@@ -4,7 +4,7 @@ export const metadata = {
 };
 
 export default function BiologicsPage() {
-  return 
+  return (
     <main className="main">
       <div className="learning-hero">
         <p className="breadcrumb">
@@ -663,4 +663,3 @@ export default function BiologicsPage() {
     </main>
   );
 }
-
