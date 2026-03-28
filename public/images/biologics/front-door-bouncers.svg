@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#2d2d5e"/>
+    </linearGradient>
+    <linearGradient id="door" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)" rx="16"/>
+  <text x="450" y="44" text-anchor="middle" fill="#e2e8f0" font-size="26" font-weight="700">The Front Door — IL-1 Inhibitors</text>
+  <text x="450" y="72" text-anchor="middle" fill="#94a3b8" font-size="16" font-style="italic">The first signal that kicks off autoinflammatory fires</text>
+  <rect x="280" y="90" width="340" height="340" rx="4" fill="#475569"/>
+  <rect x="310" y="100" width="280" height="320" rx="2" fill="#78350f" stroke="#451a03" stroke-width="3"/>
+  <rect x="330" y="120" width="110" height="120" rx="4" fill="url(#door)" stroke="#451a03" stroke-width="1.5"/>
+  <rect x="460" y="120" width="110" height="120" rx="4" fill="url(#door)" stroke="#451a03" stroke-width="1.5"/>
+  <rect x="330" y="260" width="110" height="140" rx="4" fill="url(#door)" stroke="#451a03" stroke-width="1.5"/>
+  <rect x="460" y="260" width="110" height="140" rx="4" fill="url(#door)" stroke="#451a03" stroke-width="1.5"/>
+  <circle cx="455" cy="280" r="8" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+  <rect x="370" y="95" width="160" height="28" rx="4" fill="#dc2626"/>
+  <text x="450" y="115" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">IL-1 ENTRANCE</text>
+  <rect x="100" y="420" width="700" height="12" fill="#64748b" rx="2"/>
+  <rect x="120" y="220" width="120" height="140" rx="12" fill="#1e1e1e" stroke="#000" stroke-width="2"/>
+  <circle cx="180" cy="195" r="35" fill="#d4a574"/>
+  <rect x="155" y="185" width="22" height="12" rx="4" fill="#111"/>
+  <rect x="181" y="185" width="22" height="12" rx="4" fill="#111"/>
+  <line x1="177" y1="191" x2="181" y2="191" stroke="#333" stroke-width="2"/>
+  <line x1="168" y1="215" x2="192" y2="215" stroke="#8b6040" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M120,260 Q100,280 115,310" fill="none" stroke="#1e1e1e" stroke-width="18" stroke-linecap="round"/>
+  <path d="M240,260 Q260,280 245,310" fill="none" stroke="#1e1e1e" stroke-width="18" stroke-linecap="round"/>
+  <rect x="140" y="260" width="80" height="50" rx="4" fill="#dc2626"/>
+  <text x="180" y="282" text-anchor="middle" fill="#fff" font-size="18" font-weight="900">α + β</text>
+  <text x="180" y="300" text-anchor="middle" fill="#fecaca" font-size="10" font-weight="600">BLOCKS BOTH</text>
+  <rect x="140" y="355" width="30" height="65" rx="6" fill="#1e1e1e"/>
+  <rect x="190" y="355" width="30" height="65" rx="6" fill="#1e1e1e"/>
+  <rect x="135" y="410" width="40" height="14" rx="5" fill="#111"/>
+  <rect x="185" y="410" width="40" height="14" rx="5" fill="#111"/>
+  <rect x="130" y="168" width="100" height="22" rx="4" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="180" y="184" text-anchor="middle" fill="#78350f" font-size="12" font-weight="800">ANAKINRA</text>
+  <text x="180" y="450" text-anchor="middle" fill="#f87171" font-size="17" font-weight="700">Blocks ALL IL-1</text>
+  <text x="180" y="470" text-anchor="middle" fill="#fca5a5" font-size="14">(α and β — full doorframe)</text>
+  <rect x="645" y="250" width="100" height="115" rx="10" fill="#1e1e1e" stroke="#000" stroke-width="2"/>
+  <circle cx="695" cy="228" r="28" fill="#c9956a"/>
+  <rect x="675" y="220" width="17" height="10" rx="3" fill="#111"/>
+  <rect x="696" y="220" width="17" height="10" rx="3" fill="#111"/>
+  <line x1="692" y1="225" x2="696" y2="225" stroke="#333" stroke-width="1.5"/>
+  <line x1="685" y1="243" x2="705" y2="243" stroke="#8b6040" stroke-width="2" stroke-linecap="round"/>
+  <path d="M645,280 Q625,295 630,320" fill="none" stroke="#1e1e1e" stroke-width="14" stroke-linecap="round"/>
+  <path d="M745,270 Q770,255 760,230" fill="none" stroke="#1e1e1e" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="760" cy="225" r="8" fill="#c9956a"/>
+  <rect x="658" y="285" width="74" height="42" rx="4" fill="#2563eb"/>
+  <text x="695" y="306" text-anchor="middle" fill="#fff" font-size="18" font-weight="900">β only</text>
+  <text x="695" y="320" text-anchor="middle" fill="#bfdbfe" font-size="9" font-weight="600">SELECTIVE</text>
+  <rect x="665" y="360" width="24" height="55" rx="5" fill="#1e1e1e"/>
+  <rect x="705" y="360" width="24" height="55" rx="5" fill="#1e1e1e"/>
+  <rect x="660" y="408" width="34" height="12" rx="5" fill="#111"/>
+  <rect x="700" y="408" width="34" height="12" rx="5" fill="#111"/>
+  <rect x="640" y="200" width="110" height="22" rx="4" fill="#60a5fa" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="695" y="216" text-anchor="middle" fill="#1e3a5f" font-size="11" font-weight="800">CANAKINUMAB</text>
+  <text x="695" y="450" text-anchor="middle" fill="#60a5fa" font-size="17" font-weight="700">Blocks IL-1β only</text>
+  <text x="695" y="470" text-anchor="middle" fill="#93c5fd" font-size="14">(CAN only block beta)</text>
+  <rect x="40" y="480" width="820" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="450" y="501" text-anchor="middle" fill="#e2e8f0" font-size="17" font-style="italic">"ANA blocks ALL IL-ONE at the door (α and β). CANA? CAN only block beta, nothing more."</text>
+</svg>
