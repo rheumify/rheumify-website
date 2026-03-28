@@ -23,6 +23,27 @@ export default function LearningPage() {
       <section className="learning-topics">
         <h2 className="section-title">Topics</h2>
 
+        <a href="/learning/biologics" className="topic-card topic-card-active">
+          <div className="topic-card-icon">🏠</div>
+          <div className="topic-card-content">
+            <div className="topic-card-tags">
+              <span className="topic-tag">4 Steps</span>
+              <span className="topic-tag">30 min</span>
+              <span className="topic-tag">High Yield</span>
+              <span className="topic-tag tag-difficulty">All Levels</span>
+            </div>
+            <h3>Rheumatology Biologics</h3>
+            <p className="topic-card-analogy">&ldquo;The Memory Palace&rdquo;</p>
+            <p className="topic-card-description">
+              Every biologic mechanism mapped to a room in your house. Walk from the garden hose
+              (drug suffixes) through the front door (IL-1), living room (IL-6, IL-17), kitchen
+              (TNF), laundry room (B cells), garage (JAK/TYK2), and backyard (PDE4). Includes
+              dosing, FDA indications, and board-testable mnemonics for every drug.
+            </p>
+            <span className="topic-card-cta">Start Learning &rarr;</span>
+          </div>
+        </a>
+
         <a href="/learning/aps" className="topic-card topic-card-active">
           <div className="topic-card-icon">🏦</div>
           <div className="topic-card-content">
@@ -92,3 +113,4 @@ export default function LearningPage() {
     </main>
   );
 }
+
