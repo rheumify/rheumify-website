@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#2d2d5e"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d8a4e"/>
+      <stop offset="100%" stop-color="#1a6b3a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#sky)" rx="16"/>
+  <text x="450" y="44" text-anchor="middle" fill="#e2e8f0" font-size="26" font-weight="700">The Garden Hose</text>
+  <text x="450" y="72" text-anchor="middle" fill="#94a3b8" font-size="16" font-style="italic">Water = cytokines · Grass = cell receptor · Three ways to stop the flow</text>
+  <rect x="0" y="395" width="900" height="125" fill="url(#grass)" rx="0"/>
+  <g fill="#34d399" opacity="0.6">
+    <path d="M520,395 L525,362 L530,395Z"/>
+    <path d="M555,395 L559,370 L563,395Z"/>
+    <path d="M590,395 L596,358 L602,395Z"/>
+    <path d="M625,395 L629,370 L633,395Z"/>
+    <path d="M660,395 L666,355 L672,395Z"/>
+    <path d="M695,395 L699,365 L703,395Z"/>
+    <path d="M730,395 L736,358 L742,395Z"/>
+    <path d="M765,395 L769,368 L773,395Z"/>
+    <path d="M800,395 L806,356 L812,395Z"/>
+    <path d="M840,395 L844,367 L848,395Z"/>
+  </g>
+  <text x="700" y="435" text-anchor="middle" fill="#d1fae5" font-size="15" font-weight="600" opacity="0.8">RECEPTOR (cell surface)</text>
+  <path d="M30,230 C70,200 110,270 160,240 C210,210 240,280 300,250 C340,230 370,270 420,245 C460,225 480,260 500,245" fill="none" stroke="#16a34a" stroke-width="26" stroke-linecap="round"/>
+  <path d="M30,230 C70,200 110,270 160,240 C210,210 240,280 300,250 C340,230 370,270 420,245 C460,225 480,260 500,245" fill="none" stroke="#86efac" stroke-width="10" stroke-linecap="round" opacity="0.3"/>
+  <path d="M260,258 C280,248 310,268 330,252" fill="none" stroke="#86efac" stroke-width="26" stroke-linecap="round" opacity="0.25"/>
+  <polygon points="500,233 540,222 540,270 500,258" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  <rect x="535" y="220" width="14" height="54" rx="3" fill="#9ca3af" stroke="#6b7280" stroke-width="1.5"/>
+  <path d="M549,247 Q630,190 720,395" fill="none" stroke="url(#water)" stroke-width="20" stroke-linecap="round" opacity="0.2" stroke-dasharray="4,8"/>
+  <g fill="#60a5fa" opacity="0.5">
+    <circle cx="585" cy="222" r="6"/>
+    <circle cx="615" cy="218" r="5"/>
+    <circle cx="645" cy="228" r="7"/>
+    <circle cx="675" cy="255" r="6"/>
+    <circle cx="700" cy="295" r="5"/>
+    <circle cx="718" cy="345" r="6"/>
+  </g>
+  <text x="620" y="200" fill="#93c5fd" font-size="15" font-weight="700" transform="rotate(-15,620,200)">CYTOKINES</text>
+  <rect x="635" y="228" width="78" height="56" rx="12" fill="#fbbf24" stroke="#d97706" stroke-width="2.5" opacity="0.95"/>
+  <circle cx="655" cy="248" r="6" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="678" cy="262" r="5" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="698" cy="246" r="4.5" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="662" cy="272" r="5" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="690" cy="274" r="4" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="640" cy="242" r="4" fill="#60a5fa" opacity="0.6"/>
+  <circle cx="708" cy="256" r="4" fill="#60a5fa" opacity="0.6"/>
+  <text x="674" y="308" text-anchor="middle" fill="#fbbf24" font-size="20" font-weight="800">-MAB</text>
+  <text x="674" y="328" text-anchor="middle" fill="#fcd34d" font-size="13">Soak up the stream</text>
+  <text x="674" y="346" text-anchor="middle" fill="#fcd34d" font-size="12" font-style="italic">(binds cytokine directly)</text>
+  <path d="M770,305 L753,390 L827,390 L810,305 Z" fill="#a78bfa" stroke="#7c3aed" stroke-width="2.5" opacity="0.95"/>
+  <ellipse cx="790" cy="305" rx="23" ry="7" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
+  <path d="M758,355 Q790,348 822,355 L817,390 L762,390 Z" fill="#60a5fa" opacity="0.4"/>
+  <text x="790" y="420" text-anchor="middle" fill="#a78bfa" font-size="20" font-weight="800">-CEPT</text>
+  <text x="790" y="440" text-anchor="middle" fill="#c4b5fd" font-size="13">Catch the runoff</text>
+  <text x="790" y="458" text-anchor="middle" fill="#c4b5fd" font-size="12" font-style="italic">(decoy receptor)</text>
+  <ellipse cx="295" cy="255" rx="24" ry="11" fill="#f87171" stroke="#dc2626" stroke-width="2.5" opacity="0.9"/>
+  <text x="295" y="259" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">CLOG</text>
+  <line x1="295" y1="208" x2="295" y2="238" stroke="#f87171" stroke-width="2.5"/>
+  <polygon points="295,240 289,232 301,232" fill="#f87171"/>
+  <text x="295" y="196" text-anchor="middle" fill="#f87171" font-size="20" font-weight="800">-INIB</text>
+  <text x="295" y="298" text-anchor="middle" fill="#fca5a5" font-size="13">Clog the hose inside</text>
+  <text x="295" y="316" text-anchor="middle" fill="#fca5a5" font-size="12" font-style="italic">(blocks intracellular signaling)</text>
+  <rect x="40" y="472" width="820" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="450" y="497" text-anchor="middle" fill="#e2e8f0" font-size="17" font-style="italic">"MABs go straight for the source, CEPTs catch the runoff, INIBs clog the course."</text>
+</svg>
