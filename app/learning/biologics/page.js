@@ -4,7 +4,7 @@ export const metadata = {
 };
 
 export default function BiologicsPage() {
-  return (
+  return 
     <main className="main">
       <div className="learning-hero">
         <p className="breadcrumb">
@@ -248,29 +248,24 @@ export default function BiologicsPage() {
                 <tr style={{borderBottom: '2px solid rgba(255,255,255,0.2)'}}>
                   <th style={{padding: '0.5rem', textAlign: 'left'}}>Drug</th>
                   <th style={{padding: '0.5rem', textAlign: 'left'}}>Target</th>
-                  <th style={{padding: '0.5rem', textAlign: 'left'}}>How to Remember</th>
                 </tr>
               </thead>
               <tbody>
                 <tr style={{borderBottom: '1px solid rgba(255,255,255,0.1)'}}>
                   <td style={{padding: '0.5rem'}}><strong>Cana</strong>kinumab</td>
                   <td style={{padding: '0.5rem'}}>IL-1β</td>
-                  <td style={{padding: '0.5rem'}}>The CANA-non fires at ONE.</td>
                 </tr>
                 <tr style={{borderBottom: '1px solid rgba(255,255,255,0.1)'}}>
                   <td style={{padding: '0.5rem'}}><strong>Uste</strong>kinumab</td>
                   <td style={{padding: '0.5rem'}}>IL-12 + IL-23</td>
-                  <td style={{padding: '0.5rem'}}>USTE blocks the USUAL TWO.</td>
                 </tr>
                 <tr style={{borderBottom: '1px solid rgba(255,255,255,0.1)'}}>
                   <td style={{padding: '0.5rem'}}><strong>Secu</strong>kinumab, <strong>Ixeki</strong>zumab, <strong>Bime</strong>kizumab</td>
                   <td style={{padding: '0.5rem'}}>IL-17</td>
-                  <td style={{padding: '0.5rem'}}>SECU-rity checks IDs at SEVENTEEN. BIME means BOTH (A and F).</td>
                 </tr>
                 <tr>
                   <td style={{padding: '0.5rem'}}><strong>Risan</strong>kizumab, <strong>Gusel</strong>kumab</td>
                   <td style={{padding: '0.5rem'}}>IL-23 only</td>
-                  <td style={{padding: '0.5rem'}}>RISAN and GUSEL are precise &mdash; only twenty-three.</td>
                 </tr>
               </tbody>
             </table>
