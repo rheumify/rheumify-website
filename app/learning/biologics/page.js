@@ -127,6 +127,9 @@ export default function BiologicsPage() {
             <strong>CEPTs</strong> are decoy receptors that also work outside the cell, grabbing the cytokine before it reaches the real receptor.
             <strong>INIBs</strong> are tiny enough to get inside the cell and block signaling pathways (like JAK-STAT). The hose looks fine from the outside, but something&rsquo;s clogged inside.
           </p>
+          <div style={{margin: '2rem 0', textAlign: 'center'}}>
+            <img src="/images/biologics/garden-hose.svg" alt="Garden hose analogy - MABs soak up stream, CEPTs catch runoff, INIBs clog hose" style={{width: '100%', maxWidth: '800px', borderRadius: '12px'}} />
+          </div>
         </div>
       </section>
 
@@ -295,6 +298,9 @@ export default function BiologicsPage() {
             IL-1 is the front door &mdash; the first signal that kicks off autoinflammatory fires
             (gout, FMF, CAPS, Still&rsquo;s disease). These drugs guard the door.
           </p>
+          <div style={{margin: '2rem 0', textAlign: 'center'}}>
+            <img src="/images/biologics/front-door-bouncers.svg" alt="IL-1 Inhibitors - Two bouncers at the front door" style={{width: '100%', maxWidth: '800px', borderRadius: '12px'}} />
+          </div>
           <blockquote className="key-mnemonic" style={{borderLeft: '4px solid #64b5f6', padding: '1rem', margin: '1.5rem 0', fontStyle: 'italic', fontSize: '1.1em'}}>
             &ldquo;ANA blocks ALL IL-ONE at the door (alpha and beta). CANA? CAN only block beta, nothing more.&rdquo;
           </blockquote>
@@ -367,6 +373,9 @@ export default function BiologicsPage() {
             &ldquo;SECU-rity checks IDs at SEVENTEEN &mdash; but Crohn&rsquo;s gets cancelled from the screen.&rdquo;
           </blockquote>
           <p>Subtype pattern: Secukinumab and ixekizumab target IL-17<strong>A</strong>. Bimekizumab targets <strong>BOTH</strong> IL-17A AND IL-17F.</p>
+          <div style={{margin: '2rem 0', textAlign: 'center'}}>
+            <img src="/images/biologics/tv-il17-security.svg" alt="IL-17 Inhibitors - TV with security guard checking IDs at Channel 17" style={{width: '100%', maxWidth: '800px', borderRadius: '12px'}} />
+          </div>
           <blockquote className="key-mnemonic" style={{borderLeft: '4px solid #64b5f6', padding: '1rem', margin: '1rem 0', fontStyle: 'italic'}}>
             &ldquo;BIME means BOTH &mdash; A and F, get out. Two subtypes, one drug, total knockout.&rdquo;
           </blockquote>
@@ -389,7 +398,7 @@ export default function BiologicsPage() {
             <h4>Bimekizumab (Bimzelx)</h4>
             <p><strong>Dosing:</strong> 320mg SC every 4 weeks initially, then every 4–8 weeks (varies by indication)</p>
             <p><strong>FDA:</strong> Plaque psoriasis, PsA.</p>
-            <p><strong>Pearl:</strong> Dual IL-17A/F inhibition &mdash; the only IL-17 blocker that hits both subtypes. Higher rates of oral candidiasis.</p>
+            <p><strong>Pearl:</strong> Dual IL-17A/F inhibition &mdash; the only IL-17 blocker that hits both subtypes. Higher rates of oral candidiasis. Avoid in IBD (class effect).</p>
           </div>
         </div>
 
@@ -539,6 +548,9 @@ export default function BiologicsPage() {
             JAK inhibitors sneak into the electrical panel and cut the wiring &mdash; the signaling system that
             tells everything to turn on.
           </p>
+          <div style={{margin: '2rem 0', textAlign: 'center'}}>
+            <img src="/images/biologics/jak-electrical-panel.svg" alt="JAK Inhibitors Electrical Panel - breaker switches showing selectivity" style={{width: '100%', maxWidth: '800px', borderRadius: '12px'}} />
+          </div>
           <blockquote className="key-mnemonic" style={{borderLeft: '4px solid #64b5f6', padding: '1rem', margin: '1.5rem 0', fontStyle: 'italic', fontSize: '1.1em'}}>
             &ldquo;TOFA&rsquo;s a TOTAL blackout, BARI BARS the first two, UPA blocks just one &mdash; JAK1, that&rsquo;s you.&rdquo;
           </blockquote>
