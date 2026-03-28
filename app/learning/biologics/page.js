@@ -240,11 +240,6 @@ export default function BiologicsPage() {
           <h3 style={{marginTop: '1.5rem'}}>The &ldquo;-KIN- Family&rdquo; &mdash; Same Last Name, Different Targets</h3>
           <p><em>&ldquo;See -KIN- in the name? It&rsquo;s hunting an interleuKIN.&rdquo;</em></p>
 
-          <blockquote className="key-mnemonic" style={{borderLeft: '4px solid #64b5f6', padding: '1rem', margin: '1.5rem 0', fontStyle: 'italic', fontSize: '1.1em'}}>
-            &ldquo;CANA&rsquo;s cannon fires at ONE. USTE&rsquo;s the usual &mdash; TWELVE and TWENTY-THREE, done.
-            SECU-rity guards SEVENTEEN&rsquo;s scene. RISAN and GUSEL? TWENTY-THREE only &mdash; precise and clean.&rdquo;
-          </blockquote>
-
           <div className="references-card" style={{marginTop: '1rem'}}>
             <table style={{width: '100%', borderCollapse: 'collapse'}}>
               <thead>
