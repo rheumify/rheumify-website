@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#2d2d5e"/>
+    </linearGradient>
+    <linearGradient id="metalPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)" rx="16"/>
+  <text x="450" y="46" text-anchor="middle" fill="#e2e8f0" font-size="26" font-weight="700">The Garage — JAK Inhibitors (Electrical Panel)</text>
+  <text x="450" y="74" text-anchor="middle" fill="#94a3b8" font-size="16" font-style="italic">They sneak inside and cut the wiring — blocking intracellular signaling</text>
+  <rect x="180" y="95" width="540" height="330" rx="8" fill="url(#metalPanel)" stroke="#334155" stroke-width="3"/>
+  <rect x="205" y="120" width="490" height="290" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+  <rect x="360" y="98" width="180" height="24" rx="3" fill="#f59e0b"/>
+  <text x="450" y="116" text-anchor="middle" fill="#78350f" font-size="14" font-weight="800">JAK SIGNALING PANEL</text>
+  <text x="250" y="195" fill="#e2e8f0" font-size="18" font-weight="700">JAK1</text>
+  <text x="250" y="255" fill="#e2e8f0" font-size="18" font-weight="700">JAK2</text>
+  <text x="250" y="315" fill="#e2e8f0" font-size="18" font-weight="700">JAK3</text>
+  <line x1="215" y1="212" x2="685" y2="212" stroke="#334155" stroke-width="1"/>
+  <line x1="215" y1="272" x2="685" y2="272" stroke="#334155" stroke-width="1"/>
+  <line x1="215" y1="332" x2="685" y2="332" stroke="#334155" stroke-width="1"/>
+  <line x1="340" y1="140" x2="340" y2="400" stroke="#334155" stroke-width="1"/>
+  <line x1="470" y1="140" x2="470" y2="400" stroke="#334155" stroke-width="1"/>
+  <line x1="590" y1="140" x2="590" y2="400" stroke="#334155" stroke-width="1"/>
+  <text x="405" y="162" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="800">TOFACITINIB</text>
+  <text x="530" y="162" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="800">BARICITINIB</text>
+  <text x="645" y="162" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="800">UPADACITINIB</text>
+  <rect x="380" y="180" width="50" height="28" rx="6" fill="#7f1d1d" stroke="#dc2626" stroke-width="2.5"/>
+  <rect x="380" y="180" width="50" height="14" rx="6" fill="#dc2626"/>
+  <text x="405" y="193" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">OFF</text>
+  <rect x="380" y="240" width="50" height="28" rx="6" fill="#7f1d1d" stroke="#dc2626" stroke-width="2.5"/>
+  <rect x="380" y="240" width="50" height="14" rx="6" fill="#dc2626"/>
+  <text x="405" y="253" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">OFF</text>
+  <rect x="380" y="300" width="50" height="28" rx="6" fill="#7f1d1d" stroke="#dc2626" stroke-width="2.5"/>
+  <rect x="380" y="300" width="50" height="14" rx="6" fill="#dc2626"/>
+  <text x="405" y="313" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">OFF</text>
+  <rect x="505" y="180" width="50" height="28" rx="6" fill="#7f1d1d" stroke="#dc2626" stroke-width="2.5"/>
+  <rect x="505" y="180" width="50" height="14" rx="6" fill="#dc2626"/>
+  <text x="530" y="193" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">OFF</text>
+  <rect x="505" y="240" width="50" height="28" rx="6" fill="#7f1d1d" stroke="#dc2626" stroke-width="2.5"/>
+  <rect x="505" y="240" width="50" height="14" rx="6" fill="#dc2626"/>
+  <text x="530" y="253" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">OFF</text>
+  <rect x="505" y="300" width="50" height="28" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="2.5"/>
+  <rect x="505" y="314" width="50" height="14" rx="6" fill="#10b981"/>
+  <text x="530" y="326" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">ON</text>
+  <rect x="620" y="180" width="50" height="28" rx="6" fill="#7f1d1d" stroke="#dc2626" stroke-width="2.5"/>
+  <rect x="620" y="180" width="50" height="14" rx="6" fill="#dc2626"/>
+  <text x="645" y="193" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">OFF</text>
+  <rect x="620" y="240" width="50" height="28" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="2.5"/>
+  <rect x="620" y="254" width="50" height="14" rx="6" fill="#10b981"/>
+  <text x="645" y="266" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">ON</text>
+  <rect x="620" y="300" width="50" height="28" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="2.5"/>
+  <rect x="620" y="314" width="50" height="14" rx="6" fill="#10b981"/>
+  <text x="645" y="326" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">ON</text>
+  <rect x="355" y="350" width="100" height="48" rx="6" fill="#7f1d1d" opacity="0.7"/>
+  <text x="405" y="372" text-anchor="middle" fill="#fca5a5" font-size="14" font-weight="800">TOTAL</text>
+  <text x="405" y="390" text-anchor="middle" fill="#fca5a5" font-size="14" font-weight="800">BLACKOUT</text>
+  <rect x="480" y="350" width="100" height="48" rx="6" fill="#7f1d1d" opacity="0.5"/>
+  <text x="530" y="372" text-anchor="middle" fill="#fcd34d" font-size="14" font-weight="800">BARS THE</text>
+  <text x="530" y="390" text-anchor="middle" fill="#fcd34d" font-size="14" font-weight="800">FIRST TWO</text>
+  <rect x="600" y="350" width="100" height="48" rx="6" fill="#064e3b" opacity="0.7"/>
+  <text x="650" y="372" text-anchor="middle" fill="#6ee7b7" font-size="14" font-weight="800">JUST ONE</text>
+  <text x="650" y="390" text-anchor="middle" fill="#6ee7b7" font-size="14" font-weight="800">SWITCH</text>
+  <rect x="215" y="365" width="16" height="16" rx="3" fill="#dc2626"/>
+  <text x="238" y="378" fill="#fca5a5" font-size="14" font-weight="600">= Blocked</text>
+  <rect x="215" y="388" width="16" height="16" rx="3" fill="#10b981"/>
+  <text x="238" y="401" fill="#6ee7b7" font-size="14" font-weight="600">= Active</text>
+  <g fill="#fbbf24" opacity="0.7">
+    <polygon points="178,130 168,142 182,139 172,154 190,136 178,139"/>
+    <polygon points="725,160 715,172 729,169 719,184 737,166 725,169"/>
+    <polygon points="170,350 160,362 174,359 164,374 182,356 170,359"/>
+  </g>
+  <rect x="40" y="430" width="820" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="450" y="456" text-anchor="middle" fill="#e2e8f0" font-size="17" font-style="italic">"TOFA's a TOTAL blackout, BARI BARS the first two, UPA blocks just one — JAK1, that's you."</text>
+  <text x="450" y="500" text-anchor="middle" fill="#94a3b8" font-size="15">More red = less selective · More green = more selective</text>
+</svg>
