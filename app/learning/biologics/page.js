@@ -25,7 +25,7 @@ export default function BiologicsPage() {
           <p>
             Start outside. There&rsquo;s a <strong>garden hose</strong> spraying water onto the lawn.
             The water is cytokines. The grass is the receptor on the cell. Walk through the front door,
-            into the living room, the kitchen, the laundry room, the garage, and out to the backyard.
+            into the living room, the kitchen, the B-cell death row, the garage, and out to the backyard.
             By the time you&rsquo;re done, every biologic has a home.
           </p>
           <p>
@@ -100,7 +100,7 @@ export default function BiologicsPage() {
             <p className="topic-card-analogy">&ldquo;Room by Room, Drug by Drug&rdquo;</p>
             <p className="topic-card-description">
               Front door (IL-1) &rarr; Thermostat (IL-6) &rarr; TV (IL-17) &rarr; Kitchen freezer (TNF)
-              &rarr; Laundry room (B cells) &rarr; Garage (JAK/TYK2) &rarr; Backyard (PDE4).
+              &rarr; B-Cell Death Row &rarr; Garage (JAK/TYK2) &rarr; Backyard (PDE4).
             </p>
             <span className="topic-card-cta">Start Learning &rarr;</span>
           </div>
@@ -481,30 +481,68 @@ export default function BiologicsPage() {
           </div>
         </div>
 
-        {/* --- B Cells: Laundry Room --- */}
-        <div className="analogy-setup-card" style={{marginTop: '2rem'}}>
-          <h3 className="section-title">🧹 The Laundry Room &mdash; B-Cell Targeting</h3>
-          <p>Two ways to deal with B cells: rituximab clears them out, belimumab starves the survivors.</p>
-
-          <div className="references-card" style={{marginTop: '1rem'}}>
-            <h4>Rituximab (Rituxan)</h4>
-            <p><strong>Mechanism:</strong> Anti-CD20 monoclonal antibody. Depletes B cells.</p>
-            <p><strong>Mnemonic:</strong> <em>&ldquo;RITUximaB &mdash; a RITUAL sacrifice of older B cells.&rdquo;</em></p>
-            <p><strong>Dosing:</strong> 1000mg IV on days 1 and 15; repeat every 6 months (500mg for vasculitis maintenance)</p>
-            <p><strong>FDA:</strong> RA, GPA, MPA (ANCA vasculitis), pemphigus vulgaris.</p>
-            <p><strong>Pearls:</strong> Check Hep B before starting (&ldquo;Before the RITUAL, check the liver&rdquo;). Pre-medicate with methylpred, acetaminophen, diphenhydramine. PML risk (rare). RAVE trial: non-inferior to cyclophosphamide for ANCA vasculitis. Depletes CD20+ B cells but NOT plasma cells.</p>
+        {/* --- B-Cell Death Row --- */}
+          <div className="analogy-setup-card" style={{marginTop: '2rem'}}>
+            <h2 className="room-title">💀 B-Cell Death Row</h2>
+            <p>B-cell death row, five ways to go. These drugs target B cells through depletion or starvation — each one a different way to eliminate rogue B cells driving autoimmunity.</p>
+            <blockquote className="key-mnemonic" style={{borderLeft: '4px solid #64b5f6', padding: '1rem', margin: '1.5rem 0', fontStyle: 'italic', fontSize: '1.1em'}}>
+              &ldquo;B-cell death row, five ways to go:<br/>
+              RITUXIMAB — CD20&rsquo;s last RITE.<br/>
+              OBI — the OBITUARY, same target, deadlier bite.<br/>
+              INE-B — INEVITABLE, NINETEEN swept clean.<br/>
+              BELI — BELLY-empty, no BLyS to feed the machine.<br/>
+              CAR-T — your own cells, reprogrammed and mean.&rdquo;
+            </blockquote>
           </div>
 
-          <div className="references-card" style={{marginTop: '1rem'}}>
-            <h4>Belimumab (Benlysta)</h4>
-            <p><strong>Mechanism:</strong> Monoclonal antibody against BLyS (B-Lymphocyte Stimulator). Blocks BLyS &mdash; the survival signal B cells need to stay alive. Without it, B cells slowly starve.</p>
-            <p><strong>Dosing:</strong> 10mg/kg IV every 2 weeks x3, then every 4 weeks; or 200mg SC weekly</p>
-            <p><strong>FDA:</strong> SLE (BLISS-52, BLISS-76 trials) and lupus nephritis (BLISS-LN).</p>
-            <p><strong>Pearl:</strong> Add-on therapy. Takes months to see full effect (B cell starvation is slow).</p>
+          {/* Rituximab Card */}
+          <div className="drug-card">
+            <h3>Rituximab (-ximab → chimeric mAb)</h3>
+            <p><strong>Target:</strong> CD20 on B cells</p>
+            <p><strong>Mnemonic:</strong> RITUXIMAB = CD20&rsquo;s last <em>RITE</em>. A ritualistic elimination of B cells bearing CD20.</p>
+            <p><strong>Type:</strong> Type I anti-CD20 (chimeric IgG1). Kills via CDC and ADCC.</p>
+            <p><strong>Key uses:</strong> RA (after TNF failure), ANCA vasculitis (GPA/MPA), pemphigus vulgaris.</p>
+            <p><strong>Pearl:</strong> Check hepatitis B before starting — risk of reactivation. Monitor immunoglobulin levels with repeated cycles.</p>
           </div>
-        </div>
 
-        {/* --- Other: Abatacept, Anifrolumab, Avacopan --- */}
+          {/* Obinutuzumab Card */}
+          <div className="drug-card">
+            <h3>Obinutuzumab (-zumab → humanized mAb)</h3>
+            <p><strong>Target:</strong> CD20 on B cells (same target, different mechanism)</p>
+            <p><strong>Mnemonic:</strong> OBI writes the <em>OBITUARY</em> — same target, deadlier bite. More potent B-cell killing than rituximab.</p>
+            <p><strong>Type:</strong> Type II anti-CD20 (humanized, glycoengineered IgG1). Enhanced direct cell death + ADCC; less CDC than rituximab.</p>
+            <p><strong>Key uses:</strong> Lupus nephritis (NOBILITY trial). First IgG4-related disease studies. Originally approved in CLL/lymphoma.</p>
+            <p><strong>Pearl:</strong> Glycoengineered Fc region makes it more potent at B-cell depletion. The NOBILITY trial showed benefit in proliferative lupus nephritis on top of MMF.</p>
+          </div>
+
+          {/* Inebilizumab Card */}
+          <div className="drug-card">
+            <h3>Inebilizumab (-zumab → humanized mAb)</h3>
+            <p><strong>Target:</strong> CD19 on B cells (broader than CD20)</p>
+            <p><strong>Mnemonic:</strong> INE-B = <em>INEVITABLE</em>, NINETEEN swept clean. CD19 is on more B cells than CD20 — plasmablasts and some plasma cells included.</p>
+            <p><strong>Key uses:</strong> NMOSD/neuromyelitis optica (N-MOmentum trial — FDA approved). Being studied in IgG4-related disease and myasthenia gravis.</p>
+            <p><strong>Pearl:</strong> CD19 is expressed earlier and later in B-cell development than CD20, so inebilizumab catches cells that rituximab misses — including antibody-secreting plasmablasts.</p>
+          </div>
+
+          {/* Belimumab Card */}
+          <div className="drug-card">
+            <h3>Belimumab (-mumab → fully human mAb)</h3>
+            <p><strong>Target:</strong> BLyS / BAFF (B-lymphocyte stimulator)</p>
+            <p><strong>Mnemonic:</strong> BELI = <em>BELLY-empty</em>, no BLyS to feed the machine. Starves B cells instead of directly killing them.</p>
+            <p><strong>Key uses:</strong> SLE (first drug approved specifically for lupus in 50+ years), lupus nephritis (BLISS-LN trial). IV or subcutaneous.</p>
+            <p><strong>Pearl:</strong> Doesn&rsquo;t deplete B cells directly — blocks the survival signal. Takes months to see full effect. Often combined with standard therapy.</p>
+          </div>
+
+          {/* CAR-T Card */}
+          <div className="drug-card">
+            <h3>CAR-T Cell Therapy (chimeric antigen receptor T cells)</h3>
+            <p><strong>Target:</strong> CD19 (via patient&rsquo;s own reprogrammed T cells)</p>
+            <p><strong>Mnemonic:</strong> CAR-T = your own cells, <em>reprogrammed and mean</em>. T cells harvested, engineered with a CD19-targeting receptor, and reinfused.</p>
+            <p><strong>Key uses:</strong> Experimental in autoimmune diseases. Mackensen et al. (NEJM 2022) showed deep remission in SLE, myositis, and systemic sclerosis. Active trials in lupus nephritis, ANCA vasculitis, and more.</p>
+            <p><strong>Pearl:</strong> Cytokine release syndrome (CRS) is the major risk. Unlike conventional drugs, this is a one-time living therapy — the reprogrammed T cells persist and hunt B cells. Drug-free remissions reported lasting 1–2+ years.</p>
+          </div>
+
+          {/* --- Other: Abatacept, Anifrolumab, Avacopan --- */}
         <div className="analogy-setup-card" style={{marginTop: '2rem'}}>
           <h3 className="section-title">Other Key Players</h3>
 
@@ -645,7 +683,7 @@ export default function BiologicsPage() {
               The CEPT can CATCH but can&rsquo;t CROHN&rsquo;s.
             </li>
             <li>
-              <strong>Laundry Room (B cells):</strong> RITUAL sacrifice (rituximab). Starve the
+              <strong>B-Cell Death Row:</strong> RITUAL sacrifice (rituximab). Starve the
               survivors (belimumab).
             </li>
             <li>
