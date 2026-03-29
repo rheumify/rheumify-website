@@ -511,8 +511,8 @@ export default function BiologicsPage() {
             <p><strong>Target:</strong> CD20 on B cells (same target, different mechanism)</p>
             <p><strong>Mnemonic:</strong> OBI writes the <em>OBITUARY</em> — same target, deadlier bite. More potent B-cell killing than rituximab.</p>
             <p><strong>Type:</strong> Type II anti-CD20 (humanized, glycoengineered IgG1). Enhanced direct cell death + ADCC; less CDC than rituximab.</p>
-            <p><strong>Key uses:</strong> Lupus nephritis (NOBILITY trial). First IgG4-related disease studies. Originally approved in CLL/lymphoma.</p>
-            <p><strong>Pearl:</strong> Glycoengineered Fc region makes it more potent at B-cell depletion. The NOBILITY trial showed benefit in proliferative lupus nephritis on top of MMF.</p>
+            <p><strong>Key uses:</strong> Lupus nephritis (FDA-approved Oct 2025, based on NOBILITY Phase II + REGENCY Phase III trials). Originally approved in CLL/lymphoma.</p>
+            <p><strong>Pearl:</strong> Glycoengineered Fc region makes it more potent at B-cell depletion. The REGENCY Phase III trial showed 46.4% complete renal response on top of MMF + glucocorticoids. Only anti-CD20 mAb to show complete renal response benefit in a Phase III lupus nephritis trial. Administered twice yearly after 4 initial doses in year one.</p>
           </div>
 
           {/* Inebilizumab Card */}
@@ -520,8 +520,8 @@ export default function BiologicsPage() {
             <h3>Inebilizumab (-zumab → humanized mAb)</h3>
             <p><strong>Target:</strong> CD19 on B cells (broader than CD20)</p>
             <p><strong>Mnemonic:</strong> INE-B = <em>INEVITABLE</em>, NINETEEN swept clean. CD19 is on more B cells than CD20 — plasmablasts and some plasma cells included.</p>
-            <p><strong>Key uses:</strong> NMOSD/neuromyelitis optica (N-MOmentum trial — FDA approved). Being studied in IgG4-related disease and myasthenia gravis.</p>
-            <p><strong>Pearl:</strong> CD19 is expressed earlier and later in B-cell development than CD20, so inebilizumab catches cells that rituximab misses — including antibody-secreting plasmablasts.</p>
+            <p><strong>Key uses:</strong> NMOSD/neuromyelitis optica (N-MOmentum trial — FDA approved). IgG4-related disease (FDA-approved Apr 2025, MITIGATE trial — first and only approved treatment for IgG4-RD).</p>
+            <p><strong>Pearl:</strong> CD19 is expressed earlier and later in B-cell development than CD20, so inebilizumab catches cells that rituximab misses — including antibody-secreting plasmablasts. The MITIGATE trial showed 87% reduction in IgG4-RD flare risk (10% vs 60% flare rate).</p>
           </div>
 
           {/* Belimumab Card */}
