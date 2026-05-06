@@ -2,136 +2,126 @@
 import { useState } from 'react';
 
 export default function APSLabsModule() {
-  const [expandedSection, setExpandedSection] = useState(null);
   const [showAnswer, setShowAnswer] = useState({});
-  const toggle = (id) => setExpandedSection(expandedSection === id ? null : id);
   const toggleAnswer = (id) => setShowAnswer(prev => ({...prev, [id]: !prev[id]}));
 
   return (
     <main className="main">
+      <style>{`
+        .dept-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.25rem; }
+        .dept-header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 0.75rem; }
+        .dept-number { width: 36px; height: 36px; min-width: 36px; border-radius: 50%; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; }
+        .dept-tagline { font-style: italic; color: var(--text-mid); font-size: 0.9rem; margin: 4px 0 0; }
+        .dept-card h3 { margin: 0 0 2px; font-size: 1.1rem; }
+        .inline-mnemonic { background: rgba(108,99,255,0.08); border-left: 3px solid var(--accent); border-radius: 6px; padding: 0.65rem 0.9rem; margin: 10px 0; font-size: 0.95rem; }
+      `}</style>
+
       <div className="learning-hero">
         <p className="breadcrumb">
           <a href="/">Home</a> &gt; <a href="/learning">Learning</a> &gt; <a href="/learning/aps">APS</a> &gt; Labs
         </p>
-        <div className="module-badge">Module 1 of 3 • 5 min • Lab Interpretation</div>
+        <div className="module-badge">Module 1 of 3 &bull; 5 min &bull; Lab Interpretation</div>
         <h1 className="page-title">Decoding the Labs</h1>
         <p className="learning-subtitle">&ldquo;The Three Fraud Departments&rdquo;</p>
       </div>
 
       <section className="module-story-section">
-        <h2 className="section-title">The Big Picture</h2>
         <div className="story-card">
           <p>
-            Picture a massive bank — not your neighborhood branch, but a 24/7 financial network where trillions of transactions flow every second. This bank is your <strong>bloodstream</strong>. Red blood cells are the armored trucks carrying oxygen-cash to every organ. Platelets are the security team, rushing to seal any breach in the vault walls. And the coagulation cascade? That’s the bank’s <strong>fraud detection system</strong> — a sophisticated network of checkpoints designed to stop unauthorized withdrawals.
+            Your bloodstream is a 24/7 financial network &mdash; trillions of transactions every second. Platelets are the security team. The coagulation cascade is the bank&rsquo;s <strong>fraud detection system</strong> &mdash; a layered network of checkpoints designed to stop unauthorized withdrawals (bleeding).
           </p>
           <p>
-            Now imagine the fraud detection system goes rogue. It starts flagging legitimate transactions as suspicious. Accounts get frozen. Money stops flowing. That’s <strong>Antiphospholipid Syndrome</strong> — and the rogue detectors are the <em>aPL antibodies</em>.
+            Now the fraud detection system <em>goes rogue</em>. It flags legitimate transactions as suspicious. Accounts freeze. Money stops flowing to critical branches. That&rsquo;s <strong>Antiphospholipid Syndrome</strong> &mdash; and the rogue detectors are the <em>aPL antibodies</em>. You can&rsquo;t fix the system until you know which departments went rogue &mdash; and how to prove it.
           </p>
-          <p>
-            But here’s the thing about a rogue fraud department: you can’t fix it until you figure out which detectors are malfunctioning. This bank has <strong>three fraud departments</strong>, each using different methods to scan for problems. Your job? Identify which ones have gone rogue.
-          </p>
-        </div>
-        <div className="board-pearl-box">
-          <div className="board-pearl-label">Key Question</div>
-          <p>What are the three types of aPL antibodies, how do we detect each one, and why does this matter for APS diagnosis?</p>
         </div>
       </section>
 
       <section className="module-content-section">
-        <h2 className="section-title">Core Content — The Three Fraud Departments</h2>
+        <h2 className="section-title">The Three Fraud Departments</h2>
 
-        <div className="expandable-module-card" onClick={() => toggle('la')}>
-          <div className="expandable-header-row">
-            <h3>Department 1: Lupus Anticoagulant (LA) — The Transaction Speed Monitor</h3>
-            <span className="expand-icon">{expandedSection === 'la' ? '▲' : '▼'}</span>
-          </div>
-          <p className="card-preview">The most important fraud detector — and the most paradoxical.</p>
-          {expandedSection === 'la' && (
-            <div className="expanded-content">
-              <div className="story-card">
-                <p>
-                  The first department monitors <strong>how fast transactions process</strong>. In a normal bank, transactions clear at a predictable speed. The Transaction Speed Monitor times each one. When it detects something “suspicious,” it slows everything down for review.
-                </p>
-                <p>
-                  Here’s the great paradox of LA: <strong>in the test tube (in vitro), it SLOWS coagulation</strong> — hence the name “anticoagulant.” But <strong>in the body (in vivo), it PROMOTES thrombosis</strong>. It’s like a monitor that slows things down during an audit but in real time causes accounts to lock up. This is the fundamental paradox you must understand: <em>in vitro anticoagulant, in vivo procoagulant</em>.
-                </p>
-              </div>
-              <h4>The 3-Step Detection Process</h4>
-              <div className="step-flow">
-                <div className="step-card">
-                  <div className="step-number">1</div>
-                  <div><strong>Screen:</strong> Notice transactions are slow (aPTT is prolonged)</div>
-                </div>
-                <div className="step-card">
-                  <div className="step-number">2</div>
-                  <div><strong>Mixing Study:</strong> Bring in normal operators (normal plasma). If speed normalizes = <strong>“Mix and Fix” = factor deficiency</strong>. If still slow = <strong>“Mix and Miss” = inhibitor (LA)</strong></div>
-                </div>
-                <div className="step-card">
-                  <div className="step-number">3</div>
-                  <div><strong>Confirmatory:</strong> Flood the system with excess phospholipid. If speed normalizes, it confirms LA — the problem was phospholipid-dependent</div>
-                </div>
-              </div>
-              <div className="board-pearl-box">
-                <div className="board-pearl-label">Board Pearl</div>
-                <p>LA is the <strong>strongest predictor of thrombotic events</strong> among all aPL antibodies. It also interferes with INR monitoring — use a <strong>chromogenic factor X assay</strong> instead of PT in LA-positive patients on warfarin. And it <strong>cannot be tested while on anticoagulants</strong> (the drugs also slow transactions).</p>
-              </div>
+        <div className="dept-card">
+          <div className="dept-header">
+            <div className="dept-number">1</div>
+            <div>
+              <h3>Lupus Anticoagulant (LA) &mdash; The Transaction Speed Monitor</h3>
+              <p className="dept-tagline">The most important detector &mdash; and the most paradoxical.</p>
             </div>
-          )}
+          </div>
+          <p>
+            This department monitors <strong>how fast transactions process</strong>. Here&rsquo;s the great paradox: <strong>in the test tube (in vitro), LA SLOWS coagulation</strong> &mdash; hence &ldquo;anticoagulant.&rdquo; But <strong>in the body (in vivo), it PROMOTES thrombosis</strong>. The monitor that slows things down during the audit causes real accounts to lock up in real time.
+          </p>
+          <div className="inline-mnemonic">
+            <strong>&ldquo;LA: Liar in the Lab, Assassin in the Artery&rdquo;</strong> &mdash; In vitro anticoagulant. In vivo procoagulant.
+          </div>
+          <h4 style={{marginTop:'14px', marginBottom:'8px'}}>The 3-Step Detection</h4>
+          <div className="step-flow">
+            <div className="step-card">
+              <div className="step-number">1</div>
+              <div><strong>Screen:</strong> aPTT is prolonged &mdash; transactions are slow.</div>
+            </div>
+            <div className="step-card">
+              <div className="step-number">2</div>
+              <div><strong>Mixing Study:</strong> Add normal plasma. Normalizes? <strong>Mix and Fix = factor deficiency.</strong> Still slow? <strong>Mix and Miss = inhibitor (LA).</strong></div>
+            </div>
+            <div className="step-card">
+              <div className="step-number">3</div>
+              <div><strong>Confirmatory:</strong> Flood with excess phospholipid. Normalizes? LA confirmed &mdash; the problem was phospholipid-dependent.</div>
+            </div>
+          </div>
+          <div className="inline-mnemonic" style={{marginTop:'8px'}}>
+            <strong>&ldquo;Mix and Fix / Mix and Miss&rdquo;</strong> &mdash; Fix = deficiency corrects. Miss = inhibitor persists.
+          </div>
+          <div className="board-pearl-box" style={{marginTop:'12px'}}>
+            <div className="board-pearl-label">Two Practical Consequences</div>
+            <p><strong>1. Cannot test on anticoagulation</strong> &mdash; the drugs also slow transactions, making results uninterpretable. Test before starting, or use aCL/anti-&beta;2GPI instead.</p>
+            <p style={{marginTop:'6px'}}><strong>2. Falsely elevates the INR</strong> &mdash; LA interferes with the PT assay (also phospholipid-dependent), so the reported INR doesn&rsquo;t reflect true anticoagulation intensity. Use a <strong>chromogenic factor X assay</strong> instead to monitor warfarin in LA-positive patients.</p>
+            <div className="inline-mnemonic" style={{marginTop:'8px'}}>
+              <strong>&ldquo;LA: Liar in the Lab, Liar on the INR &mdash; Factor X tells the truth&rdquo;</strong>
+            </div>
+          </div>
         </div>
 
-        <div className="expandable-module-card" onClick={() => toggle('acl')}>
-          <div className="expandable-header-row">
-            <h3>Department 2: Anticardiolipin (aCL) — The Pattern Scanner</h3>
-            <span className="expand-icon">{expandedSection === 'acl' ? '▲' : '▼'}</span>
-          </div>
-          <p className="card-preview">It doesn’t time transactions — it scans for suspicious patterns on the paperwork.</p>
-          {expandedSection === 'acl' && (
-            <div className="expanded-content">
-              <div className="story-card">
-                <p>
-                  The second department works completely differently from the first. Instead of monitoring transaction speed, the Pattern Scanner <strong>examines the paperwork</strong> — specifically, it looks for antibodies that target cardiolipin (a phospholipid in cell membranes).
-                </p>
-                <p>
-                  Because it’s scanning paperwork rather than timing transactions, <strong>it CAN work while the bank is running its override system</strong> (anticoagulation). This is a key practical difference from LA testing.
-                </p>
-              </div>
-              <ul className="content-list">
-                <li><strong>Method:</strong> ELISA immunoassay (measures antibodies directly, not function)</li>
-                <li><strong>Reports:</strong> Titers — how many suspicious patterns detected (IgG and IgM isotypes)</li>
-                <li><strong>2023 ACR/EULAR thresholds:</strong> IgG ≥40 units or IgM ≥80 units for highest-weight category</li>
-                <li><strong>Key advantage:</strong> NOT affected by anticoagulation — can test on warfarin</li>
-                <li><strong>Key limitation:</strong> Less specific than LA — can have false positives from infections, medications</li>
-              </ul>
+        <div className="dept-card">
+          <div className="dept-header">
+            <div className="dept-number">2</div>
+            <div>
+              <h3>Anticardiolipin (aCL) &mdash; The Pattern Scanner</h3>
+              <p className="dept-tagline">Doesn&rsquo;t time transactions &mdash; scans for suspicious patterns in the paperwork.</p>
             </div>
-          )}
+          </div>
+          <p>
+            Instead of monitoring transaction speed, this department examines the <strong>paperwork</strong> &mdash; antibodies targeting cardiolipin (a phospholipid in cell membranes). Because it scans paperwork rather than times transactions, <strong>it CAN run while anticoagulation is active</strong> &mdash; a key practical difference from LA.
+          </p>
+          <ul className="content-list">
+            <li><strong>Method:</strong> ELISA &mdash; measures antibodies directly, not clotting function</li>
+            <li><strong>2023 thresholds:</strong> IgG &ge;40 GPL units or IgM &ge;80 MPL units for highest-weight category</li>
+            <li><strong>&#10003; Can test on anticoagulation</strong></li>
+            <li><strong>Limitation:</strong> Less specific &mdash; infections and medications can cause transient false positives</li>
+          </ul>
         </div>
 
-        <div className="expandable-module-card" onClick={() => toggle('b2gpi')}>
-          <div className="expandable-header-row">
-            <h3>Department 3: Anti-β2GPI — The Identity Investigator</h3>
-            <span className="expand-icon">{expandedSection === 'b2gpi' ? '▲' : '▼'}</span>
-          </div>
-          <p className="card-preview">The most sophisticated department — it tracks the actual person responsible.</p>
-          {expandedSection === 'b2gpi' && (
-            <div className="expanded-content">
-              <div className="story-card">
-                <p>
-                  While the Pattern Scanner looks at paperwork, the Identity Investigator <strong>tracks the actual person responsible</strong> for the fraud. β2-Glycoprotein I is the cofactor that aPL antibodies need to bind phospholipids — it’s the <em>true antigenic target</em>. Finding antibodies against it is like finding the ringleader’s exact address.
-                </p>
-              </div>
-              <ul className="content-list">
-                <li><strong>Method:</strong> ELISA targeting anti-β2GPI antibodies</li>
-                <li><strong>Most specific</strong> antibody for APS pathogenesis</li>
-                <li><strong>Domain I antibodies</strong> are the new gold standard in 2023 criteria (like finding the ringleader’s office, not just their neighborhood)</li>
-                <li>Superior correlation with thrombosis compared to full-length β2GPI testing</li>
-              </ul>
+        <div className="dept-card">
+          <div className="dept-header">
+            <div className="dept-number">3</div>
+            <div>
+              <h3>Anti-&beta;2GPI &mdash; The Identity Investigator</h3>
+              <p className="dept-tagline">Tracks the actual ringleader &mdash; not just the paperwork trail.</p>
             </div>
-          )}
+          </div>
+          <p>
+            While the Pattern Scanner finds suspicious paperwork, the Identity Investigator tracks the <strong>actual person responsible</strong>. &beta;2-Glycoprotein I is the cofactor aPL antibodies need to bind phospholipids &mdash; it&rsquo;s the <em>true antigenic target</em>. Finding antibodies against it is like confirming the ringleader&rsquo;s exact address.
+          </p>
+          <ul className="content-list">
+            <li><strong>Method:</strong> ELISA targeting anti-&beta;2GPI</li>
+            <li><strong>Most specific</strong> antibody for true APS pathogenesis</li>
+            <li><strong>Domain I antibodies</strong> are the 2023 gold standard &mdash; the ringleader&rsquo;s office, not just the neighborhood</li>
+            <li><strong>&#10003; Can test on anticoagulation</strong></li>
+          </ul>
         </div>
       </section>
 
       <section className="module-content-section">
-        <h2 className="section-title">The Comparison Table</h2>
+        <h2 className="section-title">Side by Side</h2>
         <div className="module-table-wrapper">
           <table className="module-table">
             <thead>
@@ -139,29 +129,25 @@ export default function APSLabsModule() {
                 <th>Feature</th>
                 <th>LA (Speed Monitor)</th>
                 <th>aCL (Pattern Scanner)</th>
-                <th>Anti-β2GPI (Investigator)</th>
+                <th>Anti-&beta;2GPI (Investigator)</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td>Method</td><td>Functional (coag assay)</td><td>ELISA (immunoassay)</td><td>ELISA (immunoassay)</td></tr>
-              <tr><td>Measures</td><td>What the system DOES</td><td>Antibodies on paperwork</td><td>The actual target</td></tr>
-              <tr><td>On anticoagulation?</td><td>❌ Cannot test</td><td>✅ Can test</td><td>✅ Can test</td></tr>
+              <tr><td>Method</td><td>Functional (coag assay)</td><td>ELISA</td><td>ELISA</td></tr>
+              <tr><td>On anticoagulation?</td><td>&#10060; Cannot test</td><td>&#10003; Can test</td><td>&#10003; Can test</td></tr>
               <tr><td>Specificity for APS</td><td>Highest</td><td>Moderate</td><td>High</td></tr>
               <tr><td>Thrombosis prediction</td><td>Strongest</td><td>Moderate</td><td>Strong</td></tr>
-              <tr><td>Key threshold (2023)</td><td>Positive/Negative</td><td>IgG ≥40, IgM ≥80</td><td>Domain I positivity</td></tr>
+              <tr><td>2023 key threshold</td><td>Positive / Negative</td><td>IgG &ge;40, IgM &ge;80</td><td>Domain I positivity</td></tr>
             </tbody>
           </table>
         </div>
       </section>
 
       <section className="module-content-section">
-        <h2 className="section-title">Triple Positivity — The Grand Slam</h2>
+        <h2 className="section-title">Triple Positivity</h2>
         <div className="story-card highlight-card">
           <p>
-            When <strong>ALL THREE</strong> departments report the same person… when the Transaction Speed Monitor flags a slowdown, the Pattern Scanner finds suspicious paperwork, AND the Identity Investigator confirms the culprit’s identity — that’s <strong>triple positivity</strong>. The case is airtight.
-          </p>
-          <p>
-            Clinically, these patients face the <strong>highest thrombotic risk: 5–10% per year</strong>. They are the patients who absolutely cannot use DOACs (the TRAPS trial — Module 3). Triple positivity is the “grand slam” of aPL profiling.
+            When <strong>all three departments</strong> flag the same culprit &mdash; Speed Monitor, Pattern Scanner, and Identity Investigator all positive &mdash; the case is airtight. That&rsquo;s <strong>triple positivity</strong>: the grand slam of aPL profiling. These patients face the <strong>highest thrombotic risk: 5&ndash;10% per year</strong> and absolutely cannot use DOACs (see Module 3, TRAPS trial). Warfarin only.
           </p>
         </div>
       </section>
@@ -170,54 +156,36 @@ export default function APSLabsModule() {
         <h2 className="section-title">The 12-Week Confirmation Rule</h2>
         <div className="story-card">
           <p>
-            The bank doesn’t act on a single report. What if the detector malfunctioned once? A transient infection can trigger temporary aPL positivity — the system threw a false alarm. That’s why the 2023 criteria require <strong>confirmation at least 12 weeks apart</strong>: two independent investigations, same conclusion. Never diagnose APS on a single positive test.
+            The bank doesn&rsquo;t act on a single report. Transient infections can trigger temporary aPL positivity &mdash; a false alarm. The 2023 criteria require <strong>confirmation at least 12 weeks apart</strong>: two independent investigations, same conclusion. A single positive is never enough to diagnose APS.
           </p>
         </div>
       </section>
 
       <section className="module-content-section">
-        <h2 className="section-title">Board Pearls</h2>
-        <div className="board-pearl-box"><div className="board-pearl-label">Pearl 1</div><p><strong>LA is in vitro anticoagulant, in vivo procoagulant.</strong> In your lab coagulation assays, LA slows clotting. In the patient’s blood vessels, it causes clots. Know this backwards and forwards.</p></div>
-        <div className="board-pearl-box"><div className="board-pearl-label">Pearl 2</div><p><strong>Mix and Fix = Deficiency; Mix and Miss = Inhibitor.</strong> If aPTT corrects with mixing (Fix), it’s a factor deficiency. If it stays prolonged (Miss), it’s an inhibitor — LA positive.</p></div>
-        <div className="board-pearl-box"><div className="board-pearl-label">Pearl 3</div><p><strong>Triple Positive = Highest Risk (5–10%/yr).</strong> LA + aCL + anti-β2GPI all positive = the grand slam. These patients need warfarin, never DOACs.</p></div>
-        <div className="board-pearl-box"><div className="board-pearl-label">Pearl 4</div><p><strong>12-Week Confirmation Rule.</strong> Never diagnose APS on a single positive test. Confirm at ≥12 weeks. Transient positivity from infections is common.</p></div>
-        <div className="board-pearl-box"><div className="board-pearl-label">Pearl 5</div><p><strong>Chromogenic Factor X Assay.</strong> LA interferes with INR monitoring. Use chromogenic factor X assay instead of PT to monitor warfarin in LA-positive patients.</p></div>
-      </section>
-
-      <section className="module-content-section">
-        <h2 className="section-title">Memory Aids</h2>
-        <div className="mnemonic-box"><p><strong>“LA: Liar in the Lab, Assassin in the Artery”</strong> — In vitro anticoagulant, in vivo procoagulant.</p></div>
-        <div className="mnemonic-box"><p><strong>“Mix and Fix / Mix and Miss”</strong> — Fix = deficiency corrects. Miss = inhibitor persists.</p></div>
-        <div className="mnemonic-box"><p><strong>“LA lies about the INR — X marks the spot”</strong> — Use chromogenic factor X assay to monitor warfarin in LA-positive patients.</p></div>
-        <div className="mnemonic-box"><p><strong>“Triple Positive = Grand Slam = Highest Risk”</strong></p></div>
-        <div className="mnemonic-box"><p><strong>“12 Weeks or It Doesn’t Count”</strong> — Single positive is not APS.</p></div>
-      </section>
-
-      <section className="module-content-section">
         <h2 className="section-title">Test Yourself</h2>
         <div className="quiz-card" onClick={() => toggleAnswer('q1')}>
-          <p className="quiz-question"><strong>Q1:</strong> A 32-year-old woman with recurrent DVTs has a prolonged aPTT. A mixing study is performed and the aPTT does NOT correct. What is the next step?</p>
+          <p className="quiz-question"><strong>Q1:</strong> A 32-year-old woman with recurrent DVTs has a prolonged aPTT. Mixing study does NOT correct. Next step?</p>
           {showAnswer.q1 && (
             <div className="quiz-answer">
-              <p><strong>Answer:</strong> Confirmatory test with excess phospholipid. The “Mix and Miss” pattern indicates an inhibitor, not a factor deficiency. If the confirmatory test normalizes, this confirms lupus anticoagulant.</p>
+              <p><strong>Answer:</strong> Confirmatory test with excess phospholipid (e.g., dRVVT with phospholipid neutralization). &ldquo;Mix and Miss&rdquo; = inhibitor, not factor deficiency. If the confirmatory test normalizes, lupus anticoagulant is confirmed.</p>
             </div>
           )}
           <span className="quiz-toggle">{showAnswer.q1 ? 'Hide Answer' : 'Show Answer'}</span>
         </div>
         <div className="quiz-card" onClick={() => toggleAnswer('q2')}>
-          <p className="quiz-question"><strong>Q2:</strong> A patient with known APS and LA positivity on warfarin has an INR of 3.8 but doesn’t appear over-anticoagulated. What’s happening?</p>
+          <p className="quiz-question"><strong>Q2:</strong> A known LA-positive APS patient on warfarin has an INR of 3.8 but no clinical over-anticoagulation. What&rsquo;s happening and what do you do?</p>
           {showAnswer.q2 && (
             <div className="quiz-answer">
-              <p><strong>Answer:</strong> LA can falsely elevate the INR by interfering with the PT assay (also phospholipid-dependent). Use a <strong>chromogenic factor X assay</strong> to monitor actual anticoagulation intensity.</p>
+              <p><strong>Answer:</strong> LA falsely elevates the INR by interfering with the PT assay (phospholipid-dependent). The true anticoagulation intensity is lower than reported. Use a <strong>chromogenic factor X assay</strong> to monitor actual warfarin effect.</p>
             </div>
           )}
           <span className="quiz-toggle">{showAnswer.q2 ? 'Hide Answer' : 'Show Answer'}</span>
         </div>
         <div className="quiz-card" onClick={() => toggleAnswer('q3')}>
-          <p className="quiz-question"><strong>Q3:</strong> Which aPL antibody profile carries the highest thrombotic risk?</p>
+          <p className="quiz-question"><strong>Q3:</strong> Which aPL profile carries the highest thrombotic risk, and what therapy does it mandate?</p>
           {showAnswer.q3 && (
             <div className="quiz-answer">
-              <p><strong>Answer:</strong> Triple positivity (LA + aCL + anti-β2GPI all positive). These patients have 5–10% annual thrombotic risk and are specifically contraindicated from DOACs per the TRAPS trial.</p>
+              <p><strong>Answer:</strong> Triple positivity (LA + aCL + anti-&beta;2GPI all positive) = 5&ndash;10% annual thrombotic risk. Warfarin is mandatory. DOACs are contraindicated &mdash; the TRAPS trial was stopped early for excess arterial events on rivaroxaban in triple-positive patients.</p>
             </div>
           )}
           <span className="quiz-toggle">{showAnswer.q3 ? 'Hide Answer' : 'Show Answer'}</span>
@@ -228,21 +196,21 @@ export default function APSLabsModule() {
         <h2 className="section-title">Summary</h2>
         <div className="summary-box">
           <ul className="summary-list">
-            <li>The three aPL antibodies are LA (functional assay), aCL (ELISA), and anti-β2GPI (ELISA)</li>
-            <li>LA is the strongest thrombosis predictor but cannot be tested on anticoagulation</li>
-            <li>aCL and anti-β2GPI CAN be tested on anticoagulation</li>
-            <li>Triple positivity = highest risk (5–10%/year) = warfarin mandatory</li>
-            <li>Always confirm at ≥12 weeks — never diagnose on a single positive</li>
-            <li>Use chromogenic factor X assay for INR monitoring in LA-positive patients</li>
+            <li>Three aPL antibodies: LA (functional assay), aCL (ELISA), anti-&beta;2GPI (ELISA)</li>
+            <li>LA: in vitro anticoagulant, in vivo procoagulant &mdash; strongest thrombosis predictor</li>
+            <li>LA cannot be tested on anticoagulation; aCL and anti-&beta;2GPI can</li>
+            <li>Mix and Fix = factor deficiency; Mix and Miss = inhibitor (LA)</li>
+            <li>LA lies on the INR &mdash; use chromogenic factor X assay for warfarin monitoring</li>
+            <li>Triple positivity = grand slam = highest risk (5&ndash;10%/year) = warfarin only</li>
+            <li>Always confirm at &ge;12 weeks &mdash; never diagnose APS on a single positive test</li>
           </ul>
         </div>
       </section>
 
       <div className="module-nav">
-        <a href="/learning/aps" className="module-nav-link">← Back to APS Overview</a>
-        <a href="/learning/aps/clinical" className="module-nav-link module-nav-next">Next: Clinical Manifestations →</a>
+        <a href="/learning/aps" className="module-nav-link">&larr; Back to APS Overview</a>
+        <a href="/learning/aps/clinical" className="module-nav-link module-nav-next">Next: Clinical Manifestations &rarr;</a>
       </div>
     </main>
   );
 }
-
