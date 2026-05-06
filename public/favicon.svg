@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="rg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#6B8BB8"/>
+    </linearGradient>
+  </defs>
+  <!-- Navy rounded-square background matching site theme -->
+  <rect width="32" height="32" rx="7" fill="#0A1628"/>
+  <!-- Stylized R in white-to-blue gradient -->
+  <text
+    x="16"
+    y="24"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="23"
+    font-weight="700"
+    fill="url(#rg)"
+    text-anchor="middle"
+    dominant-baseline="auto">R</text>
+</svg>
