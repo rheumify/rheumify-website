@@ -36,13 +36,14 @@ export default function BiologicsPage() {
       --pearl-border:#3A7EA0;
     }
 
-    body {
-      font-family: 'EB Garamond', Georgia, serif;
+    .bio-content {
       background: var(--bg);
       color: var(--text);
       font-size: 18px;
       line-height: 1.75;
+      font-family: 'EB Garamond', Georgia, serif;
     }
+
 
     /* ── NAV ── */
     nav {
@@ -64,14 +65,13 @@ export default function BiologicsPage() {
     nav ul a:hover { color: #FAF8F5; }
 
     /* ── BREADCRUMB ── */
-    .breadcrumb {
+    .bio-breadcrumb {
       font-family: 'Inter', sans-serif;
       font-size: 0.85rem;
-      color: var(--text-light);
-      padding: 1rem 2rem;
-      border-bottom: 1px solid var(--border);
+      color: #9CA3AF;
+      padding: 0.9rem 2rem;
     }
-    .breadcrumb a { color: var(--teal); text-decoration: none; }
+    .bio-breadcrumb a { color: #C4B5E0; text-decoration: none; }
 
     /* ── HERO ── */
     .hero {
@@ -85,10 +85,10 @@ export default function BiologicsPage() {
       letter-spacing: -0.02em;
       margin-bottom: 0.3rem;
     }
-    .hero .subtitle {
-      font-size: 1.2rem;
+    .hero .bio-subtitle {
+      font-size: 1.35rem;
       font-style: italic;
-      color: var(--text-mid);
+      color: #C4B5E0;
     }
 
     /* ── INTRO BOX ── */
@@ -118,7 +118,7 @@ export default function BiologicsPage() {
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 1rem;
     }
-    .step-card {
+    .bio-step-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 10px;
@@ -129,8 +129,8 @@ export default function BiologicsPage() {
       text-decoration: none;
       color: var(--text);
     }
-    .step-card:hover { border-color: var(--teal); box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
-    .step-card .step-num {
+    .bio-step-card:hover { border-color: var(--teal); box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+    .bio-step-card .step-num {
       font-family: 'Inter', sans-serif;
       font-size: 0.75rem;
       font-weight: 600;
@@ -139,8 +139,8 @@ export default function BiologicsPage() {
       letter-spacing: 0.08em;
       margin-bottom: 0.3rem;
     }
-    .step-card .step-title { font-size: 1rem; font-weight: 600; }
-    .step-card .step-time {
+    .bio-step-card .step-title { font-size: 1rem; font-weight: 600; }
+    .bio-step-card .step-time {
       font-family: 'Inter', sans-serif;
       font-size: 0.8rem;
       color: var(--text-light);
@@ -430,16 +430,18 @@ export default function BiologicsPage() {
     }
       `}</style>
 
-<div className="breadcrumb">
+<div className="bio-breadcrumb">
   <a href="#">Home</a> &rsaquo; <a href="#">Learning</a> &rsaquo; Biologics
 </div>
 
 
 <div className="hero">
   <h1>Rheumatology Biologics</h1>
-  <p className="subtitle">&ldquo;The Memory Palace&rdquo;</p>
+  <p className="bio-subtitle">&ldquo;The Memory Palace&rdquo;</p>
 </div>
 
+
+<div className="bio-content">
 
 <div className="intro-box">
   <h2>The Analogy</h2>
@@ -450,22 +452,22 @@ export default function BiologicsPage() {
 
 
 <div className="step-nav">
-  <a className="step-card" href="#step-1">
+  <a className="bio-step-card" href="#step-1">
     <div className="step-num">Step 1 &middot; 5 min</div>
     <div className="step-title">Drug Suffixes</div>
     <div className="step-time">The Garden Hose</div>
   </a>
-  <a className="step-card" href="#step-2">
+  <a className="bio-step-card" href="#step-2">
     <div className="step-num">Step 2 &middot; 5 min</div>
     <div className="step-title">WHO Naming</div>
     <div className="step-time">The Labeling System</div>
   </a>
-  <a className="step-card" href="#step-3">
+  <a className="bio-step-card" href="#step-3">
     <div className="step-num">Step 3 &middot; 5 min</div>
     <div className="step-title">Name Cheat Codes</div>
     <div className="step-time">Hidden Gems</div>
   </a>
-  <a className="step-card" href="#step-4">
+  <a className="bio-step-card" href="#step-4">
     <div className="step-num">Step 4 &middot; 15 min</div>
     <div className="step-title">Drug-by-Drug</div>
     <div className="step-time">The House Tour</div>
@@ -483,7 +485,7 @@ export default function BiologicsPage() {
 
   <p>The grass is the receptor on the cell. Three ways to stop the water from hitting the grass:</p>
 
-      <img src="https://www.rheumify.org/images/biologics/garden-hose.svg" alt="Garden hose analogy — MABs soak up stream, CEPTs catch runoff, INIBs clog hose" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1.5rem auto' }} />
+        <img src="https://www.rheumify.org/images/biologics/garden-hose.svg" alt="Garden hose analogy — MABs soak up stream, CEPTs catch runoff, INIBs clog hose" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1.5rem auto' }} />
 
   <table>
     <thead>
@@ -572,7 +574,7 @@ export default function BiologicsPage() {
       <h3>The Front Door &mdash; IL-1 Inhibitors</h3>
     </div>
     <p className="room-intro">IL-1 is the front door &mdash; the first signal that kicks off autoinflammatory fires (gout, FMF, CAPS, Still&rsquo;s disease). These drugs guard the door.</p>
-        <img src="https://www.rheumify.org/images/biologics/front-door-bouncers.svg" alt="IL-1 Inhibitors — Two bouncers at the front door" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1rem auto 1.2rem' }} />
+          <img src="https://www.rheumify.org/images/biologics/front-door-bouncers.svg" alt="IL-1 Inhibitors — Two bouncers at the front door" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1rem auto 1.2rem' }} />
     <div className="mnemonic"><strong>&ldquo;ANA blocks ALL IL-ONE at the door (alpha and beta). CANA? CAN only block beta, nothing more.&rdquo;</strong></div>
 
     <div className="drug-grid">
@@ -659,7 +661,7 @@ export default function BiologicsPage() {
       <h3>The TV &mdash; IL-17 &amp; IL-12/23 Inhibitors</h3>
     </div>
     <p className="room-intro">IL-17 drives inflammation in the skin and spine. Think of it as an R-rated channel &mdash; you must be SEVENTEEN to watch.</p>
-        <img src="https://www.rheumify.org/images/biologics/tv-il17-security.svg" alt="IL-17 Inhibitors — TV with security guard checking IDs at Channel 17" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1rem auto 1.2rem' }} />
+          <img src="https://www.rheumify.org/images/biologics/tv-il17-security.svg" alt="IL-17 Inhibitors — TV with security guard checking IDs at Channel 17" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1rem auto 1.2rem' }} />
     <div className="mnemonic"><strong>&ldquo;SECU-rity checks IDs at SEVENTEEN &mdash; but Crohn&rsquo;s gets cancelled from the screen.&rdquo;</strong></div>
 
     <p style={{ margin: '0.8rem 0', fontSize: '0.97rem', color: 'var(--text-mid)' }}>
@@ -797,7 +799,7 @@ export default function BiologicsPage() {
       </div>
 
       <div className="drug-card">
-        <h4>Certolizumab Pegol <span className="badge sc">SC</span> <span className="badge pregnancy">✓ Pregnancy</span></h4>
+        <h4>Certolizumab Pegol <span className="badge sc">SC</span> <span className="badge pregnancy">&#10003; Pregnancy</span></h4>
         <div className="brand">Cimzia</div>
         <dl>
           <dt>Mechanism</dt><dd>PEGylated Fab fragment &mdash; NO Fc portion. Cannot cross the placenta.</dd>
@@ -805,7 +807,7 @@ export default function BiologicsPage() {
           <dt>FDA</dt><dd>RA, Crohn&rsquo;s, PsA, AS, nr-axSpA, plaque psoriasis.</dd>
         </dl>
         <div className="card-mnemonic">&ldquo;CERTolizumab is CERTified PEG-nant friendly.&rdquo;</div>
-        <div className="card-pearl">The only TNF inhibitor that does NOT cross the placenta. #1 board-tested fact.</div>
+        <div className="card-pearl">The only TNF inhibitor that does NOT cross the placenta.</div>
       </div>
 
       <div className="drug-card">
@@ -871,7 +873,7 @@ export default function BiologicsPage() {
         <div className="brand">Uplizna</div>
         <dl>
           <dt>Target</dt><dd>CD19 (broader than CD20 &mdash; catches plasmablasts and some plasma cells)</dd>
-          <dt>Key uses</dt><dd>NMOSD (N-MOmentum trial). IgG4-related disease (FDA-approved Apr 2025, MITIGATE trial &mdash; first approved treatment for IgG4-RD).</dd>
+          <dt>Key uses</dt><dd>IgG4-related disease (FDA-approved Apr 2025, MITIGATE trial &mdash; first approved treatment for IgG4-RD).</dd>
         </dl>
         <div className="card-mnemonic">INE-B = INEVITABLE, NINETEEN swept clean.</div>
         <div className="card-pearl">CD19 is expressed earlier and later in B-cell development than CD20 &mdash; inebilizumab catches cells that rituximab misses, including antibody-secreting plasmablasts. MITIGATE trial: 87% reduction in IgG4-RD flare risk.</div>
@@ -907,63 +909,11 @@ export default function BiologicsPage() {
 <div className="content-section">
   <div className="room">
     <div className="room-header">
-      <span className="room-emoji">🔑</span>
-      <h3>Other Key Players</h3>
-    </div>
-
-    <div className="drug-grid">
-      <div className="drug-card">
-        <h4>Abatacept <span className="badge sc">SC</span><span className="badge iv">IV</span></h4>
-        <div className="brand">Orencia &mdash; T-Cell Co-Stimulation Blocker</div>
-        <dl>
-          <dt>Mechanism</dt><dd>CTLA-4-Ig fusion protein. Blocks Signal 2 (the co-stimulatory handshake between APC and T cell).</dd>
-          <dt>Dosing</dt><dd>Weight-based IV monthly; or 125 mg SC weekly</dd>
-          <dt>FDA</dt><dd>RA, JIA, PsA.</dd>
-        </dl>
-        <div className="card-mnemonic">&ldquo;ABATE the handshake &mdash; T cells won&rsquo;t awake.&rdquo;</div>
-        <div className="card-pearl">It&rsquo;s a -CEPT (receptor fusion protein). DO NOT combine with TNF inhibitors.</div>
-      </div>
-
-      <div className="drug-card">
-        <h4>Anifrolumab <span className="badge iv">IV</span></h4>
-        <div className="brand">Saphnelo &mdash; Type I Interferon Blocker</div>
-        <dl>
-          <dt>Mechanism</dt><dd>Monoclonal antibody against type I interferon receptor (IFNAR1).</dd>
-          <dt>Name cheat</dt><dd>AN-ti-inter<strong>FRO</strong>-n-lu-mab &mdash; the target is in the name.</dd>
-          <dt>Dosing</dt><dd>300 mg IV every 4 weeks</dd>
-          <dt>FDA</dt><dd>Moderate-to-severe SLE (TULIP-1, TULIP-2 trials).</dd>
-        </dl>
-        <div className="card-pearl">Increased risk of herpes zoster &mdash; type I IFN is critical for antiviral defense.</div>
-      </div>
-
-      <div className="drug-card">
-        <h4>Avacopan <span className="badge oral">Oral</span></h4>
-        <div className="brand">Tavneos &mdash; Complement Inhibitor</div>
-        <dl>
-          <dt>Mechanism</dt><dd>Oral C5a receptor antagonist. Blocks C5a from binding its receptor, cutting off complement-driven neutrophil activation.</dd>
-          <dt>Dosing</dt><dd>30 mg PO twice daily</dd>
-          <dt>FDA</dt><dd>Adjunctive treatment for ANCA vasculitis (GPA and MPA).</dd>
-        </dl>
-        <div className="card-mnemonic">&ldquo;AVA-copan ADVOCATES by phone &mdash; blocks C5a&rsquo;s call so steroids can go home.&rdquo;</div>
-        <div className="card-pearl">ORAL medication (the only oral complement inhibitor in rheumatology). ADVOCATE trial: non-inferior to prednisone taper at 52 weeks. Steroid-sparing.</div>
-        <div style={{ marginTop: '0.8rem', padding: '0.9rem 1.1rem', background: '#fff5f5', borderLeft: '4px solid #c53030', borderRadius: '6px' }}>
-          <strong style={{ color: '#c53030' }}>&#9888; FDA Safety Warning &mdash; Drug-Induced Liver Injury (DILI)</strong>
-          <p style={{ marginTop: '0.4rem', fontSize: '0.95rem', color: '#742a2a' }}>Post-marketing reports of serious hepatotoxicity including fatal cases and vanishing bile duct syndrome. Monitor LFTs at baseline and periodically during treatment. Discontinue if significant liver injury develops.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div className="content-section">
-  <div className="room">
-    <div className="room-header">
       <span className="room-emoji">⚡</span>
       <h3>The Garage &mdash; JAK Inhibitors (The Electrical Panel)</h3>
     </div>
     <p className="room-intro">JAK inhibitors sneak into the electrical panel and cut the wiring &mdash; the intracellular signaling system that tells everything to turn on. Unlike the biologics in the fridge (which work outside the cell), JAKi are small molecules that penetrate the cell and interrupt signaling at the source.</p>
-        <img src="https://www.rheumify.org/images/biologics/jak-electrical-panel.svg" alt="JAK Inhibitors Electrical Panel — breaker switches showing selectivity" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1rem auto 1.2rem' }} />
+          <img src="https://www.rheumify.org/images/biologics/jak-electrical-panel.svg" alt="JAK Inhibitors Electrical Panel — breaker switches showing selectivity" style={{ width: '100%', maxWidth: '800px', borderRadius: '12px', display: 'block', margin: '1rem auto 1.2rem' }} />
     <div className="mnemonic"><strong>&ldquo;TOFA&rsquo;s a TOTAL blackout, BARI BARS the first two, UPA blocks just one &mdash; JAK1, that&rsquo;s you.&rdquo;</strong></div>
 
     <div className="drug-grid">
@@ -1066,6 +1016,57 @@ export default function BiologicsPage() {
   </div>
 </div>
 
+<div className="content-section">
+  <div className="room">
+    <div className="room-header">
+      <span className="room-emoji">🔑</span>
+      <h3>Other Key Players</h3>
+    </div>
+
+    <div className="drug-grid">
+      <div className="drug-card">
+        <h4>Abatacept <span className="badge sc">SC</span><span className="badge iv">IV</span></h4>
+        <div className="brand">Orencia &mdash; T-Cell Co-Stimulation Blocker</div>
+        <dl>
+          <dt>Mechanism</dt><dd>CTLA-4-Ig fusion protein. Blocks Signal 2 (the co-stimulatory handshake between APC and T cell).</dd>
+          <dt>Dosing</dt><dd>Weight-based IV monthly; or 125 mg SC weekly</dd>
+          <dt>FDA</dt><dd>RA, JIA, PsA.</dd>
+        </dl>
+        <div className="card-mnemonic">&ldquo;ABATE the handshake &mdash; T cells won&rsquo;t awake.&rdquo;</div>
+        <div className="card-pearl">It&rsquo;s a -CEPT (receptor fusion protein). DO NOT combine with TNF inhibitors.</div>
+      </div>
+
+      <div className="drug-card">
+        <h4>Anifrolumab <span className="badge iv">IV</span></h4>
+        <div className="brand">Saphnelo &mdash; Type I Interferon Blocker</div>
+        <dl>
+          <dt>Mechanism</dt><dd>Monoclonal antibody against type I interferon receptor (IFNAR1).</dd>
+          <dt>Name cheat</dt><dd>AN-ti-inter<strong>FRO</strong>-n-lu-mab &mdash; the target is in the name.</dd>
+          <dt>Dosing</dt><dd>300 mg IV every 4 weeks</dd>
+          <dt>FDA</dt><dd>Moderate-to-severe SLE (TULIP-1, TULIP-2 trials).</dd>
+        </dl>
+        <div className="card-pearl">Increased risk of herpes zoster &mdash; type I IFN is critical for antiviral defense.</div>
+      </div>
+
+      <div className="drug-card">
+        <h4>Avacopan <span className="badge oral">Oral</span></h4>
+        <div className="brand">Tavneos &mdash; Complement Inhibitor</div>
+        <dl>
+          <dt>Mechanism</dt><dd>Oral C5a receptor antagonist. Blocks C5a from binding its receptor, cutting off complement-driven neutrophil activation.</dd>
+          <dt>Dosing</dt><dd>30 mg PO twice daily</dd>
+          <dt>FDA</dt><dd>Adjunctive treatment for ANCA vasculitis (GPA and MPA).</dd>
+        </dl>
+        <div className="card-mnemonic">&ldquo;AVA-copan ADVOCATES by phone &mdash; blocks C5a&rsquo;s call so steroids can go home.&rdquo;</div>
+        <div className="card-pearl">ORAL medication (the only oral complement inhibitor in rheumatology). ADVOCATE trial: non-inferior to prednisone taper at 52 weeks. Steroid-sparing.</div>
+        <div style={{ marginTop: '0.8rem', padding: '0.9rem 1.1rem', background: '#fff5f5', borderLeft: '4px solid #c53030', borderRadius: '6px' }}>
+          <strong style={{ color: '#c53030' }}>&#9888; FDA Safety Warning &mdash; Drug-Induced Liver Injury (DILI)</strong>
+          <p style={{ marginTop: '0.4rem', fontSize: '0.95rem', color: '#742a2a' }}>Post-marketing reports of serious hepatotoxicity including fatal cases and vanishing bile duct syndrome. Monitor LFTs at baseline and periodically during treatment. Discontinue if significant liver injury develops.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <hr className="section-divider" />
 
 
@@ -1103,10 +1104,6 @@ export default function BiologicsPage() {
       <p>Rituximab &mdash; last RITE (CD20). Obinutuzumab &mdash; OBITUARY. Inebilizumab &mdash; INEVITABLE (CD19). Belimumab &mdash; BELLY-empty. CAR-T &mdash; reprogrammed and mean.</p>
     </div>
     <div className="summary-card">
-      <div className="room-label">🔑 Other Key Players</div>
-      <p>AN-ti-interFRO-n (anifrolumab). AVA ADVOCATES by phone &mdash; steroids can go home.</p>
-    </div>
-    <div className="summary-card">
       <div className="room-label">⚡ Garage (JAK)</div>
       <p>TOFA&rsquo;s a TOTAL blackout, BARI BARS the first two, UPA blocks just one &mdash; JAK1, that&rsquo;s you.</p>
     </div>
@@ -1118,7 +1115,12 @@ export default function BiologicsPage() {
       <div className="room-label">⛺ Backyard (PDE4)</div>
       <p>Block PDE, let cAMP stay &mdash; APREMILAST saves the day.</p>
     </div>
+    <div className="summary-card">
+      <div className="room-label">🔑 Other Key Players</div>
+      <p>AN-ti-interFRO-n (anifrolumab). AVA ADVOCATES by phone &mdash; steroids can go home.</p>
+    </div>
   </div>
+</div>
 </div>
     </>
   );
