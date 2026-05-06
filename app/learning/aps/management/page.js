@@ -10,7 +10,57 @@ export default function APSManagementModule() {
   return (
     <main className="main">
       <style>{`
-        .inline-mnemonic { background: rgba(108,99,255,0.08); border-left: 3px solid var(--accent); border-radius: 6px; padding: 0.65rem 0.9rem; margin: 10px 0; font-size: 0.95rem; }
+        /* ── LIGHT THEME (biologics palette) ── */
+        body { background: #FAF8F5 !important; color: #1C1A17 !important; }
+        .main { background: #FAF8F5; min-height: 100vh; }
+        .page-title { color: #1C1A17; }
+        .learning-subtitle { color: #4A4540; }
+        .breadcrumb { color: #7A7268; }
+        .breadcrumb a { color: #1D5F74; }
+        .module-badge { background: rgba(29,95,116,0.08); color: #1D5F74; border: 1px solid rgba(29,95,116,0.2); border-radius: 20px; padding: 0.25rem 0.75rem; display: inline-block; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .section-title { color: #1C1A17; }
+        .story-card { background: #FFFFFF; border: 1px solid #DDD6CB; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.25rem; }
+        .story-card p { color: #4A4540; }
+        .story-card strong { color: #1C1A17; }
+        .story-card em { color: #4A4540; }
+        .highlight-card { border-left: 4px solid #C8964A; background: #FDF6EC; }
+        .board-pearl-box { background: #EFF6FB; border-left: 4px solid #3A7EA0; border-radius: 8px; padding: 1.25rem 1.5rem; margin: 1.25rem 0; }
+        .board-pearl-label { color: #3A7EA0; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem; }
+        .board-pearl-box p { color: #1C1A17; }
+        .board-pearl-box strong { color: #1D5F74; }
+        .step-card { background: #FFFFFF; border: 1px solid #DDD6CB; }
+        .step-card div { color: #4A4540; }
+        .step-card strong { color: #1C1A17; }
+        .step-number { background: #1D5F74; color: #FFFFFF; }
+        .content-list li { color: #4A4540; }
+        .content-list li::before { color: #1D5F74; }
+        .content-list strong { color: #1C1A17; }
+        .quiz-card { background: #FFFFFF; border: 1px solid #DDD6CB; }
+        .quiz-card:hover { border-color: #1D5F74; }
+        .quiz-question { color: #4A4540; }
+        .quiz-question strong { color: #1C1A17; }
+        .quiz-answer { background: #F5F0EB; border-radius: 8px; padding: 1rem 1.25rem; margin: 0.75rem 0; }
+        .quiz-answer p { color: #4A4540; }
+        .quiz-answer strong { color: #1C1A17; }
+        .quiz-toggle { color: #1D5F74; font-weight: 600; font-size: 0.85rem; display: block; margin-top: 0.5rem; }
+        .module-table { background: #FFFFFF; border-collapse: collapse; }
+        .module-table th { background: #1D5F74; color: #FFFFFF; }
+        .module-table td { color: #4A4540; border-color: #DDD6CB; }
+        .module-table strong { color: #1C1A17; }
+        .summary-box { background: #FFFFFF; border: 1px solid #DDD6CB; border-radius: 12px; padding: 1.5rem; }
+        .summary-list li { color: #4A4540; }
+        .summary-list li::before { color: #1D5F74; }
+        .module-nav-link { background: #FFFFFF; border: 1px solid #DDD6CB; color: #1C1A17; }
+        .module-nav-link:hover { border-color: #1D5F74; color: #1D5F74; text-decoration: none; }
+        /* ── PAGE-SPECIFIC ── */
+        .expandable-module-card { background: #FFFFFF; border: 1px solid #DDD6CB; border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 1rem; cursor: pointer; transition: border-color 0.2s; }
+        .expandable-module-card:hover { border-color: #1D5F74; }
+        .expandable-header-row h3 { color: #1D5F74; font-size: 1.15rem; }
+        .expand-icon { color: #1D5F74; font-size: 0.9rem; }
+        .card-preview { color: #7A7268; margin-top: 0.4rem; font-size: 0.95rem; }
+        .expanded-content p { color: #4A4540; }
+        .expanded-content strong { color: #1C1A17; }
+        .inline-mnemonic { background: #FDF6EC; border-left: 3px solid #C8964A; border-radius: 6px; padding: 0.65rem 0.9rem; margin: 10px 0; font-size: 0.95rem; color: #4A4540; }
       `}</style>
 
       <div className="learning-hero">
@@ -158,7 +208,7 @@ export default function APSManagementModule() {
                   </tbody>
                 </table>
               </div>
-              <p style={{color: '#9CA3AF', marginTop: '12px'}}>Salvage: rituximab (destroy the factory making the rogue software), eculizumab (block downstream pathways). Mortality remains 30&ndash;37% even with triple therapy. Always treat the trigger.</p>
+              <p style={{color: '#7A7268', marginTop: '12px'}}>Salvage: rituximab (destroy the factory making the rogue software), eculizumab (block downstream pathways). Mortality remains 30&ndash;37% even with triple therapy. Always treat the trigger.</p>
             </div>
           )}
         </div>
