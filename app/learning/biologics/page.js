@@ -665,7 +665,7 @@ export default function BiologicsPage() {
     <p style={{ margin: '0.8rem 0', fontSize: '0.97rem', color: 'var(--text-mid)' }}>
       Secukinumab and ixekizumab target <strong>IL-17A</strong> only. Bimekizumab targets <strong>both IL-17A and IL-17F</strong>.
     </p>
-    <div className="mnemonic"><strong>&ldquo;BIME means BOTH &mdash; A and F, get out. Two subtypes, one drug, total knockout.&rdquo;</strong></div>
+    <div className="mnemonic"><strong>&ldquo;The <em>BI</em> in <em>BI</em>mekizumab = two targets. IL-17<em>A</em> and IL-17<em>F</em>. Every other IL-17 inhibitor only blocks one.&rdquo;</strong></div>
 
     <div className="drug-grid">
       <div className="drug-card">
@@ -698,7 +698,8 @@ export default function BiologicsPage() {
           <dt>Dosing</dt><dd>320 mg SC every 4 weeks initially, then every 4&ndash;8 weeks</dd>
           <dt>FDA</dt><dd>Plaque psoriasis, PsA, AS, nr-axSpA.</dd>
         </dl>
-        <div className="card-pearl">Dual IL-17A/F inhibition. Higher rates of oral candidiasis. Avoid in IBD (class effect).</div>
+        <div className="card-mnemonic">&ldquo;<em>BI</em>mekizumab = <em>BI</em>-target. The only drug in the room that blocks both A and F simultaneously.&rdquo;</div>
+        <div className="card-pearl">Dual IL-17A/F inhibition leads to superior skin clearance vs. IL-17A-only agents. Higher rates of oral candidiasis. Avoid in IBD (class effect).</div>
       </div>
     </div>
 
@@ -760,6 +761,10 @@ export default function BiologicsPage() {
 
     <div className="mnemonic"><strong>&ldquo;Five on ICE &mdash; biologics, temperature-sensitive proteins that intercept TNF&rsquo;s call before it reaches the cell.&rdquo;</strong></div>
 
+    <p style={{ margin: '0.8rem 0 1.4rem', fontSize: '0.97rem', color: 'var(--text-mid)' }}>
+      Open the fridge: <strong>🍞 Adalimumab is the bread</strong> (Humira is the loaf, every slice is a biosimilar). <strong>🍪 Infliximab is the cookie</strong> (give a mouse a cookie without MTX, they&rsquo;ll keep coming back). <strong>🧈 Etanercept is the margarine</strong> (I Can&rsquo;t Believe It&rsquo;s Not a MAB). <strong>🥛 Certolizumab is the milk</strong> (safe to share with baby). <strong>Golimumab is in the back</strong> (once a month &mdash; easy to forget it&rsquo;s there).
+    </p>
+
     <div className="drug-grid two-col">
       <div className="drug-card">
         <h4>Adalimumab <span className="badge sc">SC</span></h4>
@@ -770,7 +775,8 @@ export default function BiologicsPage() {
           <dt>Dosing</dt><dd>40 mg SC every 2 weeks</dd>
           <dt>FDA</dt><dd>RA, JIA, PsA, AS, plaque psoriasis, Crohn&rsquo;s, UC, uveitis, HS.</dd>
         </dl>
-        <div className="card-pearl">Most indications of any biologic. Now has biosimilars galore.</div>
+        <div className="card-mnemonic">&ldquo;Adalimumab is the LOAF OF BREAD &mdash; Humira is the original loaf, and every slice is a biosimilar. Same bread, different wrapper.&rdquo;</div>
+        <div className="card-pearl">Most prescribed biologic in the world. More biosimilars than any other drug (35+). Fully human (-u-mab) = 100% pure. Every slice is interchangeable.</div>
       </div>
 
       <div className="drug-card">
@@ -781,7 +787,8 @@ export default function BiologicsPage() {
           <dt>Dosing</dt><dd>3&ndash;10 mg/kg IV; induction at weeks 0, 2, 6, then every 4&ndash;8 weeks</dd>
           <dt>FDA</dt><dd>RA, Crohn&rsquo;s, UC, AS, PsA, plaque psoriasis.</dd>
         </dl>
-        <div className="card-pearl">Chimeric (-ximab) = higher immunogenicity &rarr; pair with methotrexate. IV only. Check for latent TB before ALL TNF inhibitors. Can trigger drug-induced lupus.</div>
+        <div className="card-mnemonic">&ldquo;Infliximab is the COOKIE &mdash; <em>If You Give a Mouse a Cookie</em>. It&rsquo;s chimeric (part mouse, part human), and mice love cookies. Give infliximab without MTX and the mouse will form anti-drug antibodies and keep coming back for more.&rdquo;</div>
+        <div className="card-pearl">Chimeric (-ximab) = highest immunogenicity among TNF inhibitors &rarr; must pair with methotrexate. IV only &mdash; no SC option. Check for latent TB before ALL TNF inhibitors. Can trigger drug-induced lupus.</div>
       </div>
 
       <div className="drug-card">
@@ -792,8 +799,8 @@ export default function BiologicsPage() {
           <dt>Dosing</dt><dd>50 mg SC weekly</dd>
           <dt>FDA</dt><dd>RA, JIA, PsA, AS, plaque psoriasis.</dd>
         </dl>
-        <div className="card-mnemonic">&ldquo;The CEPT can CATCH but can&rsquo;t CROHN&rsquo;S &mdash; leave granulomas alone.&rdquo;</div>
-        <div className="card-pearl">Does NOT work for IBD, granulomatous diseases, or uveitis. Shorter half-life.</div>
+        <div className="card-mnemonic">&ldquo;Etanercept is MARGARINE &mdash; &lsquo;I Can&rsquo;t Believe It&rsquo;s Not a MAB.&rsquo; It looks and works like the others for joints, but it&rsquo;s a fusion protein (-cept), not a monoclonal antibody. And like margarine, don&rsquo;t substitute it for IBD &mdash; it just won&rsquo;t work.&rdquo;</div>
+        <div className="card-pearl">The ONLY fusion protein (decoy receptor) among TNF inhibitors &mdash; not a MAB. Does NOT work for IBD, granulomatous disease, or uveitis.</div>
       </div>
 
       <div className="drug-card">
@@ -804,8 +811,8 @@ export default function BiologicsPage() {
           <dt>Dosing</dt><dd>400 mg SC weeks 0, 2, 4; then 200 mg every 2 weeks (or 400 mg every 4 weeks)</dd>
           <dt>FDA</dt><dd>RA, Crohn&rsquo;s, PsA, AS, nr-axSpA, plaque psoriasis.</dd>
         </dl>
-        <div className="card-mnemonic">&ldquo;CERTolizumab is CERTified PEG-nant friendly.&rdquo;</div>
-        <div className="card-pearl">The only TNF inhibitor that does NOT cross the placenta. #1 board-tested fact.</div>
+        <div className="card-mnemonic">&ldquo;Certolizumab is the MILK &mdash; safe to share with baby. No Fc region = no placental transfer = the only TNF inhibitor you can prescribe to a pregnant or breastfeeding patient.&rdquo;</div>
+        <div className="card-pearl">No Fc region = no active placental transport via FcRn = minimal fetal exposure. Also transfers minimally into breast milk. The only TNF inhibitor safe in pregnancy and breastfeeding. #1 board-tested fact.</div>
       </div>
 
       <div className="drug-card">
