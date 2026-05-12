@@ -105,7 +105,7 @@ export default function APSLabsModule() {
             </div>
             <div className="step-card">
               <div className="step-number">2</div>
-              <div><strong>Mixing Study:</strong> Add normal plasma. Normalizes? <strong>Mix and Fix = factor deficiency.</strong> Still slow? <strong>Mix and Miss = inhibitor (LA).</strong></div>
+              <div><strong>Mixing Study:</strong> Add normal plasma. Normalizes? <strong>Mix and Fix — the Factor was missed (deficiency).</strong> Still slow? <strong>Mix and Miss — an Inhibitor exists.</strong></div>
             </div>
             <div className="step-card">
               <div className="step-number">3</div>
@@ -113,7 +113,7 @@ export default function APSLabsModule() {
             </div>
           </div>
           <div className="inline-mnemonic" style={{marginTop:'8px'}}>
-            <strong>&ldquo;Mix and Fix / Mix and Miss&rdquo;</strong> &mdash; Fix = deficiency corrects. Miss = inhibitor persists.
+            <strong>&ldquo;Mix and Fix &mdash; the Factor was missed. Mix and Miss &mdash; an Inhibitor exists.&rdquo;</strong>
           </div>
           <div className="board-pearl-box" style={{marginTop:'12px'}}>
             <div className="board-pearl-label">Two Practical Consequences</div>
@@ -161,6 +161,9 @@ export default function APSLabsModule() {
             <li><strong>Domain I antibodies</strong> are the 2023 gold standard &mdash; the ringleader&rsquo;s office, not just the neighborhood</li>
             <li><strong>&#10003; Can test on anticoagulation</strong></li>
           </ul>
+          <div className="inline-mnemonic" style={{marginTop:'10px'}}>
+            <strong>&ldquo;B2G-PI = Private Investigator&rdquo;</strong> &mdash; The PI tracks down the actual ringleader directly, not just the paperwork trail. Most specific because it targets the true antigenic culprit.
+          </div>
         </div>
       </section>
 
@@ -243,7 +246,7 @@ export default function APSLabsModule() {
             <li>Three aPL antibodies: LA (functional assay), aCL (ELISA), anti-&beta;2GPI (ELISA)</li>
             <li>LA: in vitro anticoagulant, in vivo procoagulant &mdash; strongest thrombosis predictor</li>
             <li>LA cannot be tested on anticoagulation; aCL and anti-&beta;2GPI can</li>
-            <li>Mix and Fix = factor deficiency; Mix and Miss = inhibitor (LA)</li>
+            <li>Mix and Fix &mdash; the Factor was missed; Mix and Miss &mdash; an Inhibitor exists (LA)</li>
             <li>LA lies on the INR &mdash; use chromogenic factor X assay for warfarin monitoring</li>
             <li>Triple positivity = grand slam = highest risk (5&ndash;10%/year) = warfarin only</li>
             <li>Always confirm at &ge;12 weeks &mdash; never diagnose APS on a single positive test</li>
