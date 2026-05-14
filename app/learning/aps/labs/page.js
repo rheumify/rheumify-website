@@ -208,6 +208,171 @@ export default function APSLabsModule() {
         </div>
       </section>
 
+
+      <section className="module-content-section">
+        <h2 className="section-title">Understanding the Coagulation Cascade</h2>
+        <div className="story-card">
+          <p>
+            The aPL antibodies don&rsquo;t attack the blood directly &mdash; they hijack the coagulation cascade, the system that normally stops bleeding after injury. Understanding how it works explains why LA prolongs the PTT but not the PT, why certain factor deficiencies look different from lupus anticoagulant in the lab, and how our anticoagulants target different parts of this pathway.
+          </p>
+        </div>
+        <div style={{fontFamily:'Georgia, serif', background:'#FAF8F5', padding:'16px', borderRadius:'12px', maxWidth:'700px', margin:'0 auto', boxSizing:'border-box', fontSize:'13px', color:'#1C1A17'}}>
+
+          <div style={{display:'flex', gap:'12px', marginBottom:'6px'}}>
+            <div style={{flex:1, background:'#1D5F74', color:'white', borderRadius:'8px', padding:'10px 12px', textAlign:'center'}}>
+              <div style={{fontWeight:'bold', fontSize:'14px'}}>PTT &mdash; Regular Lane</div>
+              <div style={{fontSize:'11px', color:'#A8D8E8', marginTop:'2px'}}>Intrinsic Pathway</div>
+            </div>
+            <div style={{flex:1, background:'#C8964A', color:'white', borderRadius:'8px', padding:'10px 12px', textAlign:'center'}}>
+              <div style={{fontWeight:'bold', fontSize:'14px'}}>PT &mdash; Express Lane</div>
+              <div style={{fontSize:'11px', color:'#FDF0DC', marginTop:'2px'}}>Extrinsic Pathway</div>
+            </div>
+          </div>
+
+          <div style={{color:'#9B9590', fontSize:'10px', fontStyle:'italic', marginBottom:'8px', paddingLeft:'2px'}}>
+            &#8627; XII activates cascade &mdash; isolated XII deficiency does not cause bleeding
+          </div>
+
+          <div style={{display:'flex', gap:'12px', alignItems:'flex-start'}}>
+
+            <div style={{flex:1}}>
+              <div style={{display:'flex', alignItems:'center', gap:'8px', background:'#E8F4F8', border:'1.5px dashed #3A7EA0', borderRadius:'6px', padding:'8px 10px', opacity:0.85}}>
+                <div style={{minWidth:'30px', height:'30px', background:'#5A9DB8', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>12</div>
+                <div>
+                  <div style={{fontWeight:'bold'}}>Factor XII</div>
+                  <div style={{fontSize:'10px', color:'#4A4540', fontStyle:'italic'}}>Contact activation &mdash; isolated XII deficiency &ne; bleeding</div>
+                </div>
+              </div>
+
+              <div style={{textAlign:'center', color:'#1D5F74', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
+
+              <div style={{display:'flex', alignItems:'center', gap:'8px', background:'#EFF6FB', border:'1.5px solid #3A7EA0', borderRadius:'6px', padding:'8px 10px'}}>
+                <div style={{minWidth:'30px', height:'30px', background:'#1D5F74', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>11</div>
+                <div>
+                  <div style={{fontWeight:'bold'}}>Factor XI</div>
+                  <div style={{fontSize:'11px', color:'#4A4540'}}>Hemophilia C</div>
+                </div>
+              </div>
+
+              <div style={{textAlign:'center', color:'#1D5F74', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
+
+              <div style={{display:'flex', alignItems:'center', gap:'8px', background:'#EFF6FB', border:'1.5px solid #3A7EA0', borderRadius:'6px', padding:'8px 10px'}}>
+                <div style={{minWidth:'30px', height:'30px', background:'#1D5F74', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>9</div>
+                <div>
+                  <div style={{fontWeight:'bold'}}>Factor IX</div>
+                  <div style={{fontSize:'11px', color:'#4A4540'}}>Hemophilia B (Christmas disease)</div>
+                </div>
+              </div>
+
+              <div style={{background:'#FDF6EC', borderLeft:'3px solid #C8964A', borderRadius:'0 4px 4px 0', padding:'3px 8px', margin:'3px 0', fontSize:'10px', color:'#7A4A10'}}>
+                &#9888; LA interferes here (phospholipid-dependent step)
+              </div>
+
+              <div style={{textAlign:'center', color:'#1D5F74', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
+
+              <div style={{display:'flex', alignItems:'center', gap:'8px', background:'#EFF6FB', border:'1.5px solid #3A7EA0', borderRadius:'6px', padding:'8px 10px'}}>
+                <div style={{minWidth:'30px', height:'30px', background:'#1D5F74', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>8</div>
+                <div>
+                  <div style={{fontWeight:'bold'}}>Factor VIII</div>
+                  <div style={{fontSize:'11px', color:'#4A4540'}}>Hemophilia A &mdash; cofactor for IX</div>
+                </div>
+              </div>
+
+              <div style={{background:'#FDF6EC', border:'1px solid #C8964A', borderRadius:'6px', padding:'5px 10px', marginTop:'6px', textAlign:'center', fontSize:'11px', fontStyle:'italic', color:'#7A4A10'}}>
+                Counts down: 12 &#8594; 11 &#8594; 9 &#8594; 8
+              </div>
+
+              <div style={{background:'#1D5F74', color:'white', borderRadius:'6px', padding:'7px 10px', marginTop:'6px', fontSize:'11px', textAlign:'center'}}>
+                <span style={{fontWeight:'bold'}}>Hepar<u>IN</u></span> monitors the <span style={{fontWeight:'bold'}}><u>IN</u>trinsic</span> pathway<br/>
+                <span style={{fontSize:'10px', color:'#A8D8E8'}}>&#8594; tracked by PTT</span>
+              </div>
+            </div>
+
+            <div style={{flex:1}}>
+              <div style={{display:'flex', alignItems:'center', gap:'8px', background:'#FDF0DC', border:'1.5px solid #C8964A', borderRadius:'6px', padding:'8px 10px'}}>
+                <div style={{minWidth:'30px', height:'30px', background:'#A07030', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>III</div>
+                <div>
+                  <div style={{fontWeight:'bold'}}>Tissue Factor (III)</div>
+                  <div style={{fontSize:'11px', color:'#4A4540'}}>Exposed on vessel injury</div>
+                </div>
+              </div>
+
+              <div style={{textAlign:'center', color:'#C8964A', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
+
+              <div style={{display:'flex', alignItems:'flex-start', gap:'8px', background:'#FDF6EC', border:'1.5px solid #C8964A', borderRadius:'6px', padding:'8px 10px'}}>
+                <div style={{minWidth:'30px', height:'30px', background:'#C8964A', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0, marginTop:'1px'}}>7</div>
+                <div>
+                  <div style={{fontWeight:'bold'}}>Factor VII</div>
+                  <div style={{fontSize:'11px', color:'#4A4540'}}>Activates X (with TF)</div>
+                  <div style={{fontSize:'11px', fontStyle:'italic', color:'#7A4A10', marginTop:'2px'}}>&ldquo;Seven stands alone&rdquo;</div>
+                  <div style={{fontSize:'10px', color:'#4A4540', marginTop:'3px', borderTop:'1px solid #DDD6CB', paddingTop:'3px'}}>PT&#8593; + PTT normal = Factor VII only</div>
+                </div>
+              </div>
+
+              <div style={{background:'#C8964A', color:'white', borderRadius:'6px', padding:'7px 10px', marginTop:'6px', fontSize:'11px', textAlign:'center'}}>
+                <span style={{fontWeight:'bold'}}>Warfarin</span> &#8594; blocks vitamin K factors<br/>
+                <span style={{fontSize:'10px', color:'#FDF0DC'}}>VII has shortest half-life &mdash; PT rises first<br/>&#8594; tracked by PT / INR</span>
+              </div>
+
+              <div style={{background:'#FDF0DC', border:'1px solid #C8964A', borderRadius:'6px', padding:'6px 10px', marginTop:'6px', fontSize:'10px', color:'#7A4A10'}}>
+                <strong>Vitamin K&ndash;dependent:</strong> II, VII, IX, X + Protein C &amp; S
+              </div>
+            </div>
+          </div>
+
+          <svg viewBox="0 0 400 44" width="100%" height="44" style={{display:'block', margin:'4px 0'}} overflow="visible">
+            <defs>
+              <marker id="cascadeArr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+                <polygon points="0 0, 8 4, 0 8" fill="#5B52C7"/>
+              </marker>
+            </defs>
+            <line x1="100" y1="2" x2="100" y2="22" stroke="#5B52C7" strokeWidth="2"/>
+            <line x1="300" y1="2" x2="300" y2="22" stroke="#5B52C7" strokeWidth="2"/>
+            <line x1="100" y1="22" x2="300" y2="22" stroke="#5B52C7" strokeWidth="2"/>
+            <line x1="200" y1="22" x2="200" y2="42" stroke="#5B52C7" strokeWidth="2" markerEnd="url(#cascadeArr)"/>
+          </svg>
+
+          <div style={{background:'#5B52C7', color:'white', borderRadius:'8px', padding:'10px 12px', textAlign:'center', marginBottom:'4px'}}>
+            <div style={{fontWeight:'bold', fontSize:'13px'}}>Common Pathway</div>
+            <div style={{fontSize:'11px', color:'#D0CCFF', marginTop:'2px'}}>Both lanes merge here</div>
+          </div>
+
+          <div style={{textAlign:'center', color:'#5B52C7', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
+
+          <div style={{background:'#F0EEFF', border:'1.5px solid #5B52C7', borderRadius:'6px', padding:'8px 12px', textAlign:'center', marginBottom:'4px'}}>
+            <div style={{fontWeight:'bold'}}>Factor X + V</div>
+            <div style={{fontSize:'11px', color:'#4A4540'}}>Prothrombinase complex</div>
+          </div>
+
+          <div style={{textAlign:'center', color:'#5B52C7', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
+
+          <div style={{background:'#5B52C7', color:'white', borderRadius:'8px', padding:'12px', textAlign:'center', marginBottom:'4px'}}>
+            <div style={{fontWeight:'bold', fontSize:'14px'}}>Prothrombin (Factor II)</div>
+            <div style={{fontSize:'11px', color:'#D0CCFF', marginTop:'2px'}}>&#8594; Thrombin: the final turnstile</div>
+          </div>
+
+          <div style={{textAlign:'center', color:'#5B52C7', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
+
+          <div style={{background:'#F0EEFF', border:'1.5px solid #5B52C7', borderRadius:'6px', padding:'8px 12px', textAlign:'center', marginBottom:'10px'}}>
+            <div style={{fontWeight:'bold'}}>Fibrinogen &#8594; Fibrin &#128274;</div>
+            <div style={{fontSize:'11px', color:'#4A4540', marginTop:'2px'}}>Crosslinked and stabilized by Factor XIII</div>
+          </div>
+
+          <div style={{background:'#EFF6FB', border:'1px solid #3A7EA0', borderRadius:'6px', padding:'8px 12px', textAlign:'center', marginBottom:'6px', fontSize:'11px', fontStyle:'italic', color:'#1D5F74', fontWeight:'bold'}}>
+            Pearl: &ldquo;LA lies low &mdash; half the time PTT won&rsquo;t show&rdquo;
+            <div style={{fontWeight:'normal', fontSize:'10px', marginTop:'2px'}}>(LA falsely normal in ~50% of cases)</div>
+          </div>
+
+          <div style={{background:'#FDF6EC', border:'1px solid #C8964A', borderRadius:'5px', padding:'8px 14px', textAlign:'center', fontSize:'11px', fontStyle:'italic', color:'#7A4A10', lineHeight:'1.8'}}>
+            Regular Lane counts down &mdash; twelve, eleven, nine, eight.<br/>
+            Express Lane has one stop &mdash; Factor Seven, no wait.<br/>
+            Both lines end at prothrombin &mdash; it seals every fate.
+          </div>
+
+        </div>
+      </section>
+
+
       <section className="module-content-section">
         <h2 className="section-title">Test Yourself</h2>
         <div className="quiz-card" onClick={() => toggleAnswer('q1')}>
