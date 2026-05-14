@@ -237,7 +237,7 @@ export default function APSLabsModule() {
 
             <div style={{flex:1}}>
               <div style={{display:'flex', alignItems:'center', gap:'8px', background:'#E8F4F8', border:'1.5px dashed #3A7EA0', borderRadius:'6px', padding:'8px 10px', opacity:0.85}}>
-                <div style={{minWidth:'30px', height:'30px', background:'#5A9DB8', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>12</div>
+                <div style={{minWidth:'30px', height:'30px', background:'#1D5F74', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>12</div>
                 <div>
                   <div style={{fontWeight:'bold'}}>Factor XII</div>
                   <div style={{fontSize:'10px', color:'#4A4540', fontStyle:'italic'}}>Contact activation &mdash; isolated XII deficiency &ne; bleeding</div>
@@ -290,7 +290,7 @@ export default function APSLabsModule() {
 
             <div style={{flex:1}}>
               <div style={{display:'flex', alignItems:'center', gap:'8px', background:'#FDF0DC', border:'1.5px solid #C8964A', borderRadius:'6px', padding:'8px 10px'}}>
-                <div style={{minWidth:'30px', height:'30px', background:'#A07030', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>III</div>
+                <div style={{minWidth:'30px', height:'30px', background:'#6B4510', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0}}>III</div>
                 <div>
                   <div style={{fontWeight:'bold'}}>Tissue Factor (III)</div>
                   <div style={{fontSize:'11px', color:'#4A4540'}}>Exposed on vessel injury</div>
@@ -300,7 +300,7 @@ export default function APSLabsModule() {
               <div style={{textAlign:'center', color:'#C8964A', fontSize:'18px', lineHeight:'1.3'}}>&#8595;</div>
 
               <div style={{display:'flex', alignItems:'flex-start', gap:'8px', background:'#FDF6EC', border:'1.5px solid #C8964A', borderRadius:'6px', padding:'8px 10px'}}>
-                <div style={{minWidth:'30px', height:'30px', background:'#C8964A', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0, marginTop:'1px'}}>7</div>
+                <div style={{minWidth:'30px', height:'30px', background:'#7A5020', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', color:'white', fontWeight:'bold', fontSize:'14px', flexShrink:0, marginTop:'1px'}}>7</div>
                 <div>
                   <div style={{fontWeight:'bold'}}>Factor VII</div>
                   <div style={{fontSize:'11px', color:'#4A4540'}}>Activates X (with TF)</div>
@@ -384,15 +384,7 @@ export default function APSLabsModule() {
           )}
           <span className="quiz-toggle">{showAnswer.q1 ? 'Hide Answer' : 'Show Answer'}</span>
         </div>
-        <div className="quiz-card" onClick={() => toggleAnswer('q2')}>
-          <p className="quiz-question"><strong>Q2:</strong> A known LA-positive APS patient on warfarin has an INR of 3.8 but no clinical over-anticoagulation. What&rsquo;s happening and what do you do?</p>
-          {showAnswer.q2 && (
-            <div className="quiz-answer">
-              <p><strong>Answer:</strong> LA falsely elevates the INR by interfering with the PT assay (phospholipid-dependent). The true anticoagulation intensity is lower than reported. Use a <strong>chromogenic factor X assay</strong> to monitor actual warfarin effect.</p>
-            </div>
-          )}
-          <span className="quiz-toggle">{showAnswer.q2 ? 'Hide Answer' : 'Show Answer'}</span>
-        </div>
+
         <div className="quiz-card" onClick={() => toggleAnswer('q3')}>
           <p className="quiz-question"><strong>Q3:</strong> Which aPL profile carries the highest thrombotic risk, and what therapy does it mandate?</p>
           {showAnswer.q3 && (
