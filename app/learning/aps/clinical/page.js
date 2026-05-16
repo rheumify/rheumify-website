@@ -55,7 +55,7 @@ export default function APSClinicalModule() {
         .domain-card h3 { margin: 0 0 2px; font-size: 1.1rem; color: #1C1A17; }
         .domain-card p { color: #4A4540; }
         .domain-header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 0.75rem; }
-        .domain-num { width: 36px; height: 36px; min-width: 36px; border-radius: 50%; background: #6C63FF; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; }
+        .domain-num { width: 36px; height: 36px; min-width: 36px; border-radius: 50%; background: #8680C0; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; }
         .domain-tagline { font-style: italic; color: #7A7268; font-size: 0.9rem; margin: 4px 0 0; }
         .domain-score { background: rgba(29,95,116,0.06); border: 1px solid rgba(29,95,116,0.15); border-radius: 8px; padding: 0.5rem 0.9rem; margin: 10px 0; font-size: 0.9rem; color: #4A4540; }
         .inline-mnemonic { background: #FDF6EC; border-left: 3px solid #C8964A; border-radius: 6px; padding: 0.65rem 0.9rem; margin: 10px 0; font-size: 0.95rem; color: #4A4540; }
@@ -105,7 +105,7 @@ export default function APSClinicalModule() {
             <li>Unprovoked VTE in a young patient (&lt;50, especially women) should always trigger aPL testing</li>
           </ul>
           <div className="domain-score">
-            <strong>2023 Scoring:</strong> Provoked DVT/PE = 1pt &nbsp;|&nbsp; Unprovoked DVT/PE = 3pts &nbsp;|&nbsp; Unusual-site venous = 3pts
+            <strong>Classified:</strong> DVT/PE (provoked or unprovoked), unusual-site venous thrombosis (cerebral sinus, Budd-Chiari, renal vein) &nbsp;&bull;&nbsp; <strong>Not classified:</strong> Superficial thrombophlebitis
           </div>
         </div>
 
@@ -126,7 +126,7 @@ export default function APSClinicalModule() {
             <li>Peripheral and renal arterial thrombosis also occur</li>
           </ul>
           <div className="domain-score">
-            <strong>2023 Scoring:</strong> With CV risk factors = 2pts &nbsp;|&nbsp; Without CV risk factors = 4pts
+            <strong>Classified:</strong> Stroke, MI, peripheral arterial thrombosis (weighted by CV risk factor burden) &nbsp;&bull;&nbsp; <strong>Not classified:</strong> Events clearly attributable to atherosclerosis alone
           </div>
           <div className="board-pearl-box" style={{marginTop: '10px'}}>
             <div className="board-pearl-label">Board Pearl</div>
@@ -152,7 +152,7 @@ export default function APSClinicalModule() {
             <li>Livedoid vasculopathy, adrenal hemorrhage</li>
           </ul>
           <div className="domain-score">
-            <strong>2023 Scoring:</strong> Livedo reticularis = 2pts &nbsp;|&nbsp; Biopsy-proven TMA/livedoid vasculopathy = 5pts &nbsp;|&nbsp; Adrenal hemorrhage = 5pts
+            <strong>Classified:</strong> Livedo reticularis, APS nephropathy (TMA on biopsy), livedoid vasculopathy, adrenal hemorrhage &nbsp;&bull;&nbsp; <strong>Not classified:</strong> Raynaud&rsquo;s phenomenon, isolated skin findings without biopsy
           </div>
         </div>
 
@@ -168,9 +168,9 @@ export default function APSClinicalModule() {
             Pregnancy is a major new construction project that requires a constant flow of funds (blood through the placenta). When the fraud system blocks that supply line, the project stalls or fails.
           </p>
           <ul className="content-list">
-            <li>&ge;3 consecutive early losses (&lt;10 wk) after excluding other causes = 1pt</li>
-            <li>Fetal loss &ge;10 wk = 3pts (major supply blocked mid-project)</li>
-            <li>Severe preeclampsia/eclampsia &lt;34 wk = 4pts (emergency shutdown)</li>
+            <li>&ge;3 consecutive early losses (&lt;10 wk) after excluding other causes</li>
+            <li>Fetal loss &ge;10 wk</li>
+            <li>Severe preeclampsia/eclampsia &lt;34 wk &nbsp;&bull;&nbsp; <strong>Not classified:</strong> &le;2 early losses, term preeclampsia, unexplained infertility alone</li>
             <li><strong>Obstetric APS can exist WITHOUT thrombosis</strong> &mdash; some patients only ever have pregnancy complications</li>
           </ul>
           <div className="board-pearl-box" style={{marginTop: '10px'}}>
@@ -191,7 +191,7 @@ export default function APSClinicalModule() {
             The bank&rsquo;s valve gates &mdash; they&rsquo;re supposed to open and close smoothly, controlling flow between chambers. When the fraud system targets them, they malfunction: <strong>Libman-Sacks endocarditis</strong>, sterile vegetations on the mitral and aortic valves.
           </p>
           <ul className="content-list">
-            <li>Valve thickening/regurgitation on echo = 2pts</li>
+            <li>Classified: Valve thickening or regurgitation &nbsp;&bull;&nbsp; Not classified: Isolated MVP without thickening</li>
             <li>Typically mitral and aortic valves</li>
             <li>Can be a source of embolic stroke</li>
             <li>Distinguish from infective endocarditis (blood cultures negative, vegetations usually smaller)</li>
@@ -213,7 +213,7 @@ export default function APSClinicalModule() {
             <li>20&ndash;50% of APS patients have thrombocytopenia</li>
             <li>Usually moderate (50,000&ndash;100,000) &mdash; severe = consider other diagnoses</li>
             <li><strong>THE PARADOX:</strong> Low platelets but at risk for CLOTTING, not bleeding (like HIT)</li>
-            <li>Persistent thrombocytopenia = 2pts</li>
+            <li>Classified: Persistent thrombocytopenia (&lt;100k) &nbsp;&bull;&nbsp; Not classified: Mild/transient thrombocytopenia</li>
           </ul>
           <div className="inline-mnemonic">
             <strong>&ldquo;Platelets low but clots still flow &mdash; APS paradox, now you know&rdquo;</strong> &mdash; Thrombocytopenia in APS means clotting risk, not bleeding risk.
@@ -238,7 +238,7 @@ export default function APSClinicalModule() {
         <div className="step-flow">
           <div className="step-card"><div className="step-number">1</div><div><strong>Entry:</strong> At least one positive aPL test within 3 years of event</div></div>
           <div className="step-card"><div className="step-number">2</div><div><strong>Score Clinical:</strong> Pick highest-weighted item per domain (D1&ndash;D6)</div></div>
-          <div className="step-card"><div className="step-number">3</div><div><strong>Score Lab:</strong> LA assays (1&ndash;5pts) + aCL/anti-&beta;2GPI ELISA (1&ndash;7pts)</div></div>
+          <div className="step-card"><div className="step-number">3</div><div><strong>Score Lab:</strong> LA assays + aCL/anti-&beta;2GPI ELISA titers (weighted by titer level and test type)</div></div>
           <div className="step-card"><div className="step-number">4</div><div><strong>Classify:</strong> Clinical &ge;3 AND Lab &ge;3 = APS</div></div>
         </div>
         <div className="inline-mnemonic" style={{marginTop: '12px'}}>
