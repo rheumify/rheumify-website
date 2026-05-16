@@ -98,7 +98,7 @@ export default function APSManagementModule() {
                 <p>The fraud system is installed and active, but no accounts have been affected yet. You&rsquo;ve detected the rogue code (positive aPL) but nothing&rsquo;s frozen. Do you bring in a full override team? No &mdash; that&rsquo;s overkill and might cause its own problems (bleeding). Instead, you install a <strong>basic safeguard</strong>.</p>
               </div>
               <ul className="content-list">
-                <li><strong>Low-dose aspirin (75&ndash;100 mg)</strong> for high-risk aPL carriers (triple positive, LA positive, persistently high titers)</li>
+                <li><strong>Low-dose aspirin (LDA, 81 mg)</strong> for high-risk aPL carriers (triple positive, LA positive, persistently high titers)</li>
                 <li>Also recommended for SLE patients with positive aPL</li>
                 <li>Cardiovascular risk factor management</li>
                 <li><strong>DO NOT anticoagulate</strong> without a clinical event &mdash; bleeding risk outweighs benefit</li>
@@ -226,10 +226,10 @@ export default function APSManagementModule() {
           <span className="quiz-toggle">{showAnswer.q1 ? 'Hide Answer' : 'Show Answer'}</span>
         </div>
         <div className="quiz-card" onClick={() => toggleAnswer('q2')}>
-          <p className="quiz-question"><strong>Q2:</strong> A 30-year-old woman with obstetric APS (two fetal losses at 14 and 18 weeks, no thrombosis) is planning pregnancy. Currently on LDA. Pregnancy management?</p>
+          <p className="quiz-question"><strong>Q2:</strong> A 32-year-old woman has persistent lupus anticoagulant and high-titer aCL IgG on two tests 12 weeks apart. She has <em>no</em> history of pregnancy loss or thrombosis. Now planning pregnancy. What is the recommended management per ACR 2020 guidelines?</p>
           {showAnswer.q2 && (
             <div className="quiz-answer">
-              <p><strong>Answer:</strong> LDA (continue) + prophylactic heparin (enoxaparin 40mg daily). If another loss despite this &rarr; escalate to therapeutic heparin + consider HCQ. Warfarin must be avoided (teratogenic).</p>
+              <p><strong>Answer:</strong> <strong>Low-dose aspirin (LDA, 81 mg) alone.</strong> Per ACR 2020 reproductive health guidelines, aPL-positive patients with <em>no prior thrombosis and no obstetric APS criteria</em> should receive LDA only during pregnancy &mdash; prophylactic heparin is <em>not</em> added. Combination LDA + prophylactic heparin is reserved for patients who meet obstetric APS classification criteria (&ge;3 early losses &lt;10 weeks, or &ge;1 fetal loss &ge;10 weeks, or premature delivery &lt;34 weeks from preeclampsia/placental insufficiency). <strong>Board trap:</strong> positive aPL &ne; automatic heparin in pregnancy.</p>
             </div>
           )}
           <span className="quiz-toggle">{showAnswer.q2 ? 'Hide Answer' : 'Show Answer'}</span>
