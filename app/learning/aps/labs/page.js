@@ -283,8 +283,8 @@ export default function APSLabsModule() {
               </div>
 
               <div style={{background:'#1D5F74', color:'white', borderRadius:'6px', padding:'7px 10px', marginTop:'6px', fontSize:'11px', textAlign:'center'}}>
-                <span style={{fontWeight:'bold'}}>Hepar<u>IN</u></span> monitors the <span style={{fontWeight:'bold'}}><u>IN</u>trinsic</span> pathway<br/>
-                <span style={{fontSize:'10px', color:'#A8D8E8'}}>&#8594; tracked by PTT</span>
+                <span style={{fontWeight:'bold'}}>Heparin &rarr; PTT</span><br/>
+                <span style={{fontSize:'10px', color:'#A8D8E8', fontStyle:'italic'}}>&ldquo;The other one is the other one.&rdquo; &mdash; Dr. Goljan</span>
               </div>
             </div>
 
@@ -310,8 +310,8 @@ export default function APSLabsModule() {
               </div>
 
               <div style={{background:'#C8964A', color:'white', borderRadius:'6px', padding:'7px 10px', marginTop:'6px', fontSize:'11px', textAlign:'center'}}>
-                <span style={{fontWeight:'bold'}}>Warfarin</span> &#8594; blocks vitamin K factors<br/>
-                <span style={{fontSize:'10px', color:'#FDF0DC'}}>VII has shortest half-life &mdash; PT rises first<br/>&#8594; tracked by PT / INR</span>
+                <span style={{fontWeight:'bold'}}>Going to WAR with your EX over the Proper<u>T</u>y</span><br/>
+                <span style={{fontSize:'10px', color:'#FDF0DC'}}>WAR = Warfarin &bull; EX = Extrinsic &bull; PT = Proper<u>T</u>y<br/>&rarr; tracked by PT / INR</span>
               </div>
 
               <div style={{background:'#FDF0DC', border:'1px solid #C8964A', borderRadius:'6px', padding:'6px 10px', marginTop:'6px', fontSize:'10px', color:'#7A4A10'}}>
