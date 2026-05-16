@@ -37,7 +37,7 @@ export default function APSClinicalPage() {
         .module-nav-link:hover { border-color: #1D5F74; color: #1D5F74; text-decoration: none; }
         .domain-card { border: 1px solid #D8ECF4; border-radius: 10px; padding: 0.9rem 1rem; margin-bottom: 0.75rem; background: #fff; }
         .domain-header { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem; }
-        .domain-num { width: 26px; height: 26px; border-radius: 50%; background: #1D5F74; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; }
+        .domain-num { width: 26px; height: 26px; border-radius: 50%; background: #8680C0; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; }
         .domain-name { font-weight: 700; font-size: 0.95rem; color: #1D3A4A; }
         .domain-tagline { font-style: italic; color: #7A7268; font-size: 0.9rem; margin: 4px 0 0; }
         .domain-score { background: rgba(29,95,116,0.06); border: 1px solid rgba(29,95,116,0.15); border-radius: 8px; padding: 0.5rem 0.9rem; margin: 10px 0; font-size: 0.9rem; color: #4A4540; }
@@ -161,7 +161,7 @@ export default function APSClinicalPage() {
           <div className="step-card"><div className="step-number">4</div><div><strong>Classify:</strong> Clinical &ge;3 AND Lab &ge;3 = APS</div></div>
         </div>
 <p style={{fontSize:'12px', color:'#6B6560', marginBottom:'8px'}}>
-  Based on: <a href="https://doi.org/10.1002/art.42624" target="_blank" rel="noopener noreferrer" style={{color:'#1D5F74', textDecoration:'underline'}}>Barbhaiya et al. 2023 ACR/EULAR APS Classification Criteria. <em>Arthritis Rheumatol</em> 2023;75(10):1687–1702</a>
+  Based on: <a href="https://doi.org/10.1002/art.42624" target="_blank" rel="noopener noreferrer" style={{color:'#1D5F74', textDecoration:'underline'}}>Barbhaiya et al. 2023 ACR/EULAR APS Classification Criteria. <em>Arthritis Rheumatol</em> 2023;75(10):1687&ndash;1702</a>
 </p>
         <div className="inline-mnemonic" style={{marginTop: '12px'}}>
           <strong>&ldquo;Three-and-Three to Get the Key&rdquo;</strong> &mdash; &ge;3 clinical AND &ge;3 lab points to classify as APS.
@@ -180,7 +180,7 @@ export default function APSClinicalPage() {
         <div className="domain-card">
           <div className="domain-header">
             <div className="domain-num">D1</div>
-            <div className="domain-name">Macrovascular — Venous TE</div>
+            <div className="domain-name">Macrovascular &mdash; Venous TE</div>
           </div>
           <div className="domain-tagline">DVT, PE, other venous events</div>
           <div className="domain-score">
@@ -194,7 +194,7 @@ export default function APSClinicalPage() {
         <div className="domain-card">
           <div className="domain-header">
             <div className="domain-num">D2</div>
-            <div className="domain-name">Macrovascular — Arterial TE</div>
+            <div className="domain-name">Macrovascular &mdash; Arterial TE</div>
           </div>
           <div className="domain-tagline">Stroke, TIA, MI</div>
           <div className="domain-score">
