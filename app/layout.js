@@ -1,11 +1,4 @@
 import './globals.css';
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from '@clerk/nextjs'
 
 export const metadata = {
   metadataBase: new URL('https://www.rheumify.org'),
@@ -120,67 +113,57 @@ const structuredData = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
-      <html lang="en">
-        <head>
-          <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-          <link rel="icon" href="/favicon.ico" />
-          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-          <link rel="manifest" href="/site.webmanifest" />
-          <meta name="theme-color" content="#0A1628" />
-          <meta name="google-site-verification" content="hKtwRCtuiCHH_Du0HgMwI3Ebcg4NXQliRcyALl7fvlQ" />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-          />
-        </head>
-        <body>
-          <nav className="navbar" role="navigation" aria-label="Main navigation">
-            <a href="/" className="nav-brand" aria-label="Rheumify Home">
-              Rheum<span>ify</span>
-            </a>
-            <ul className="nav-links">
-              <li><a href="/fellows">Rheumatologists &amp; Fellows</a></li>
-              <li><a href="/residents">Residents</a></li>
-              <li><a href="/students">Students</a></li>
-              <li><a href="/patients">Patient Resources</a></li>
-              <li><a href="/learning">Learning</a></li>
-              <li><a href="/study">Study</a></li>
-              <li><a href="/tools/scriptswap">Tools</a></li>
-            </ul>
-            <div className="nav-auth">
-              <SignedOut>
-                <SignInButton mode="modal">
-                  <button className="nav-signin-btn">Sign In</button>
-                </SignInButton>
-              </SignedOut>
-              <SignedIn>
-                <UserButton afterSignOutUrl="/" />
-              </SignedIn>
+    <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#0A1628" />
+        <meta name="google-site-verification" content="hKtwRCtuiCHH_Du0HgMwI3Ebcg4NXQliRcyALl7fvlQ" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
+      <body>
+        <nav className="navbar" role="navigation" aria-label="Main navigation">
+          <a href="/" className="nav-brand" aria-label="Rheumify Home">
+            Rheum<span>ify</span>
+          </a>
+          <ul className="nav-links">
+            <li><a href="/fellows">Rheumatologists &amp; Fellows</a></li>
+            <li><a href="/residents">Residents</a></li>
+            <li><a href="/students">Students</a></li>
+            <li><a href="/patients">Patient Resources</a></li>
+            <li><a href="/learning">Learning</a></li>
+            <li><a href="/tools/scriptswap">Tools</a></li>
+          </ul>
+          <a href="https://app.rheumify.org" className="nav-app-btn">
+            Study App →
+          </a>
+        </nav>
+        <main role="main">{children}</main>
+        <footer className="footer" role="contentinfo">
+          <div className="footer-content">
+            <div className="footer-brand">Rheum<span>ify</span></div>
+            <div className="footer-links">
+              <a href="/fellows">For Rheumatologists &amp; Fellows</a>
+              <a href="/patients">Patient Resources</a>
+              <a href="/learning">Learning</a>
+              <a href="/tools/scriptswap">ScriptSwap</a>
+              <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>
+              <a href="https://rheumify.substack.com" target="_blank" rel="noopener noreferrer">Substack</a>
             </div>
-          </nav>
-          <main role="main">{children}</main>
-          <footer className="footer" role="contentinfo">
-            <div className="footer-content">
-              <div className="footer-brand">Rheum<span>ify</span></div>
-              <div className="footer-links">
-                <a href="/fellows">For Rheumatologists &amp; Fellows</a>
-                <a href="/patients">Patient Resources</a>
-                <a href="/learning">Learning</a>
-                <a href="/tools/scriptswap">ScriptSwap</a>
-                <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>
-                <a href="https://rheumify.substack.com" target="_blank" rel="noopener noreferrer">Substack</a>
-              </div>
-              <p className="footer-copyright">
-                © {new Date().getFullYear()} Rheumify. Created by Dr. Alison Bays, MD. All rights reserved.
-              </p>
-              <p className="footer-photo-credit" style={{ fontSize: '0.8rem', opacity: 0.7, marginTop: '0.5rem' }}>
-                Photography by <a href="https://emazingphotography.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>Emazing Photography</a>
-              </p>
-            </div>
-          </footer>
-        </body>
-      </html>
-    </ClerkProvider>
+            <p className="footer-copyright">
+              © {new Date().getFullYear()} Rheumify. Created by Dr. Alison Bays, MD. All rights reserved.
+            </p>
+            <p className="footer-photo-credit" style={{ fontSize: '0.8rem', opacity: 0.7, marginTop: '0.5rem' }}>
+              Photography by <a href="https://emazingphotography.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>Emazing Photography</a>
+            </p>
+          </div>
+        </footer>
+      </body>
+    </html>
   );
 }
