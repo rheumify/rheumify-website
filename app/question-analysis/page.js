@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Question Analysis | Rheumify',
-  description: 'Learn about different question types, answer patterns, and clinical reasoning approaches used in rheumatology board exams.',
+  description: 'Learn about different question types and clinical reasoning approaches used in rheumatology board exams.',
   keywords: ['ABIM question types', 'board exam strategy', 'clinical reasoning', 'rheumatology board prep'],
 };
 
@@ -12,7 +12,7 @@ export default function QuestionAnalysisPage() {
       <div className="page-header">
         <h1>Question <span style={{ color: 'var(--purple-light)' }}>Analysis</span></h1>
         <p>
-          Understanding question patterns, answer structures, and clinical reasoning frameworks to approach board-style questions with confidence.
+          Understanding question patterns and clinical reasoning frameworks to approach board-style questions with confidence.
         </p>
       </div>
 
@@ -26,7 +26,8 @@ export default function QuestionAnalysisPage() {
           rule out alternatives before selecting an answer.
         </p>
         <p style={{ lineHeight: '1.7', marginBottom: '1rem' }}>
-          By recognizing question patterns, you can:
+          We organize that skill along two axes: the <strong>question type</strong> (the clinical task you are being asked to do)
+          and the <strong>clinical reasoning</strong> it tests (the kind of thinking required). Recognizing both helps you:
         </p>
         <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem', lineHeight: '1.8', marginBottom: '1rem' }}>
           <li>Identify what cognitive task the question is testing</li>
@@ -77,59 +78,9 @@ export default function QuestionAnalysisPage() {
                   identify what's being asked and focus your clinical reasoning appropriately.
                 </p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-                  {['Next Best Step', 'Most Specific Test', 'Differential Diagnosis', 'Treatment Contraindication',
+                  {['Next Best Step', 'Most Specific Test', 'Mechanism / Pathophysiology', 'Differential Diagnosis', 'Treatment Contraindication',
                     'Timing/Urgency', 'Red Flag Emergency', 'Lab Interpretation', 'Treatment Escalation',
                     'Complication Recognition', 'Exception to Rule'].map((type, i) => (
-                    <span key={i} style={{
-                      background: 'rgba(196, 181, 224, 0.2)',
-                      padding: '0.25rem 0.75rem',
-                      borderRadius: '20px',
-                      fontSize: '0.8rem',
-                      color: 'var(--purple-light)'
-                    }}>{type}</span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </Link>
-
-        {/* Answer Types Card */}
-        <Link href="/question-analysis/answer-types" style={{ textDecoration: 'none' }}>
-          <div className="content-card" style={{
-            borderLeft: '4px solid var(--purple-light)',
-            cursor: 'pointer',
-            transition: 'transform 0.2s, box-shadow 0.2s',
-          }}>
-            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-              <div style={{
-                width: '56px',
-                height: '56px',
-                background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
-                borderRadius: '12px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexShrink: 0
-              }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9 11l3 3L22 4"/>
-                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
-                </svg>
-              </div>
-              <div style={{ flex: 1 }}>
-                <h2 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  Answer Choice Patterns
-                  <span style={{ fontSize: '1rem' }}>→</span>
-                </h2>
-                <p style={{ opacity: 0.9, lineHeight: '1.6', marginBottom: '1rem' }}>
-                  Board exam answer choices aren't random—they're carefully designed using principles from the NBME Item-Writing Guide.
-                  Each distractor (wrong answer) is crafted to seem plausible to test-takers who have specific knowledge gaps.
-                  Understanding these patterns helps you recognize what the question writer is testing and avoid falling for common traps.
-                </p>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-                  {['The Outlier Pattern', 'Conservative vs Action', 'Specific Doses/Numbers', 'Three Stages of Management',
-                    'Two Correct at Different Times'].map((type, i) => (
                     <span key={i} style={{
                       background: 'rgba(196, 181, 224, 0.2)',
                       padding: '0.25rem 0.75rem',
@@ -180,7 +131,58 @@ export default function QuestionAnalysisPage() {
                 </p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                   {['Pattern Recognition', 'Multi-Step Problem Solving', 'Risk-Benefit Analysis', 'Guideline Application',
-                    'Exception Recognition', 'Integration of Findings', 'Timing/Urgency Decision'].map((type, i) => (
+                    'Exception/Nuance Recognition', 'Integration of Multiple Findings'].map((type, i) => (
+                    <span key={i} style={{
+                      background: 'rgba(196, 181, 224, 0.2)',
+                      padding: '0.25rem 0.75rem',
+                      borderRadius: '20px',
+                      fontSize: '0.8rem',
+                      color: 'var(--purple-light)'
+                    }}>{type}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </Link>
+
+        {/* Answer-Choice Tips Card (demoted from a primary axis to optional tactical cues) */}
+        <Link href="/question-analysis/answer-types" style={{ textDecoration: 'none' }}>
+          <div className="content-card" style={{
+            borderLeft: '4px solid var(--purple-light)',
+            cursor: 'pointer',
+            transition: 'transform 0.2s, box-shadow 0.2s',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
+              <div style={{
+                width: '56px',
+                height: '56px',
+                background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+                borderRadius: '12px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexShrink: 0
+              }}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M9 11l3 3L22 4"/>
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                </svg>
+              </div>
+              <div style={{ flex: 1 }}>
+                <h2 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  Answer-Choice Tips
+                  <span style={{ fontSize: '1rem' }}>→</span>
+                </h2>
+                <p style={{ opacity: 0.9, lineHeight: '1.6', marginBottom: '1rem' }}>
+                  Most board questions just use four homogeneous options (all diagnoses, all regimens)—the NBME standard for a
+                  well-written item—so there's no shortcut, and the right move is to reason the case. A handful of questions do
+                  carry a recognizable option structure worth a quick tactical nudge. Treat these as optional cues, not a skill
+                  you're graded on—and never pick an answer just because of its shape.
+                </p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                  {['Numeric / Threshold', 'Conservative vs Intervene', 'Sequencing / Timing',
+                    'Convergence / Odd-One-Out'].map((type, i) => (
                     <span key={i} style={{
                       background: 'rgba(196, 181, 224, 0.2)',
                       padding: '0.25rem 0.75rem',
