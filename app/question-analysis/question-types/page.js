@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Question Pattern Types | Rheumify',
-  description: 'The 11 patterns of how rheumatology board questions are structured — what each is asking, the trap, and how to work it.',
+  description: 'The 12 patterns of how rheumatology board questions are structured — what each is asking, the trap, and how to work it.',
   keywords: ['ABIM question types', 'board exam patterns', 'rheumatology board prep'],
 };
 
@@ -18,9 +18,9 @@ const TYPES = [
   {
     name: 'Most Specific Test / Finding',
     asks: 'You already have a diagnosis in mind — what would PROVE it?',
-    trap: 'Picking the diagnosis itself instead of the confirmatory finding.',
-    work: 'Once you have a diagnosis in your head, ignore it and pick the test or finding that would be diagnostic, not just suggestive.',
-    also: ['suspected APS → confirmatory antiphospholipid panel timing', 'GPA → PR3-ANCA over the c-ANCA pattern', 'amyloid → tissue biopsy with Congo red, not just SPEP'],
+    trap: 'Choosing a sensitive but non-specific test that only raises suspicion, instead of the finding specific enough to confirm the diagnosis.',
+    work: 'Name the diagnosis you suspect, then pick the option most specific FOR it — the test that nails it down, not the one that merely screens or suggests.',
+    also: ['suspected APS → confirmatory antiphospholipid panel timing', 'amyloid → tissue biopsy with Congo red, not just SPEP', 'SLE → anti-dsDNA/anti-Sm over a sensitive but nonspecific ANA'],
   },
   {
     name: 'Mechanism / Pathophysiology',
@@ -31,17 +31,17 @@ const TYPES = [
   },
   {
     name: 'Lab Interpretation',
-    asks: 'A lab pattern points to one disease — which one, and what does it imply?',
-    trap: 'Naming the lab abnormality instead of using it to drive a decision.',
-    work: 'Read the labs as a single pattern, not a list. Ask: what one diagnosis explains ALL of them together?',
+    asks: 'You are handed labs or serologies and asked what they mean for this patient.',
+    trap: 'Latching onto the single most striking value — or a familiar one-test association — and picking the interpretation that fits it, not the whole panel.',
+    work: 'Read every result as one pattern and pick the interpretation that fits all of them. Then ask whether a confounder is inflating one value — an ESR raised by anemia or age, or a CK bumped by a statin or recent exercise.',
     also: ['low C3/C4 + anti-dsDNA + proteinuria → lupus nephritis flare', 'high CK + aldolase + anti-Jo-1 → antisynthetase', 'high ferritin + LFTs + cytopenias → MAS/HLH'],
   },
   {
     name: 'Complication Recognition',
     asks: 'A patient on a known disease or drug has a new symptom. Connect them.',
-    trap: 'Treating the new symptom as a fresh diagnosis rather than a known complication.',
+    trap: 'Treating the new symptom as a fresh diagnosis rather than a known complication of the disease or the medication used to treat it.',
     work: 'Re-read the medication list and the diagnosis, then ask: is this new symptom a known consequence of either?',
-    also: ['SSc + new dyspnea + low DLCO → PAH', 'long-term steroids + bone pain → AVN or insufficiency fracture', 'TNF inhibitor + new neurology → demyelination'],
+    also: ['SSc + new dyspnea + low DLCO → PAH', 'long-term steroids + bone pain → AVN or insufficiency fracture', 'TNF inhibitor + new neurological symptoms → demyelination'],
   },
   {
     name: 'Next Best Step',
@@ -53,9 +53,9 @@ const TYPES = [
   {
     name: 'Treatment Escalation',
     asks: 'Current therapy is working but not enough. What is the next rung?',
-    trap: 'Jumping to the most aggressive option instead of the next rung on the ladder.',
-    work: 'Name the rung the patient is on, then pick the very next one. (If first-line never worked at all, that is a Next Best Step question, not escalation.)',
-    also: ['RA: csDMARD → biologic, not straight to a JAK inhibitor', 'axSpA: NSAID failure → TNFi or IL-17i, not a csDMARD', 'lupus nephritis: follow the induction sequence'],
+    trap: 'Under-escalating (just maximizing the current agent) or over-escalating (jumping to the most aggressive option) instead of the specific next step the guideline names.',
+    work: 'Confirm the current therapy got a fair trial, then follow the ACR/EULAR algorithm to the exact next step it names — usually a defined add-on or switch, not the strongest drug. (If first-line never worked at all, that is a Next Best Step question.)',
+    also: ['RA: methotrexate inadequate at target dose → add a biologic', 'axSpA: NSAID failure → TNFi or IL-17i, not a csDMARD', 'lupus nephritis: follow the induction sequence'],
   },
   {
     name: 'Treatment Contraindication',
@@ -84,6 +84,13 @@ const TYPES = [
     trap: 'Applying the guideline you correctly memorized and missing the one detail that changes it.',
     work: 'After you land on the textbook answer, pause and ask what is unusual about THIS patient — age, pregnancy, comorbidity, organ function, prior failure.',
     also: ['HCQ continued in pregnancy despite "minimize immunosuppression"', 'denosumab cannot simply be stopped', 'baseline DXA threshold shifts with glucocorticoid-induced osteoporosis'],
+  },
+  {
+    name: 'Recall / Knowledge',
+    asks: 'A direct knowledge check — name the gene, criterion, association, or number.',
+    trap: 'A close, familiar-sounding fact that belongs to a related disease or the wrong criterion.',
+    work: 'You know it or you do not. Eliminate what you can, commit, and turn it into a flashcard — do not overthink a recall item into a reasoning question.',
+    also: ['VEXAS → UBA1 mutation', 'CDAI components', 'antibody–disease associations (anti-Mi-2, anti-cN1A)'],
   },
 ];
 
