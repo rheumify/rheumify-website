@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'For Rheumatologists & Fellows | Rheumify',
-  description: 'Comprehensive resources for rheumatologists and fellows - ABIM board prep, manuscript planning, ACR guidelines podcast, citation tools, and ACR Convergence highlights.',
-  keywords: ['rheumatology board prep', 'ABIM rheumatology', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'spaced repetition', 'manuscript tracker', 'ACR guidelines', 'ACR Convergence'],
+  title: 'ABIM Rheumatology Board Prep for Fellows',
+  description: 'Rheumatology board review for fellows and recertifying physicians, from Dr. Alison Bays, MD: 500+ ABIM-style questions, flashcards, and a full exam-format guide.',
+  keywords: ['rheumatology board review', 'ABIM rheumatology board prep', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'rheumatology recertification', 'spaced repetition', 'exam format', 'certification prep'],
 };
 
 export default function FellowsPage() {
