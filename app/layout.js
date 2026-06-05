@@ -3,23 +3,14 @@ import './globals.css';
 export const metadata = {
   metadataBase: new URL('https://www.rheumify.org'),
   title: {
-    default: 'Rheumify | Master Rheumatology — Board Prep, Education & Clinical Resources',
+    default: 'Rheumatology Question Bank & ABIM Board Prep | Rheumify',
     template: '%s | Rheumify'
   },
-  description: 'Rheumify is the most comprehensive rheumatology education platform. Board-certified rheumatologist Dr. Alison Bays offers ABIM board prep question banks, spaced repetition flashcards, ACR guidelines podcast, manuscript planning tools, and the UW GCA Fast Track Clinic.',
+  description: 'ABIM rheumatology board prep from a board-certified rheumatologist: 500+ board-style questions, 300+ spaced-repetition flashcards, and free clinical tools.',
   keywords: [
-    'rheumatology', 'rheumatologist', 'rheumatology education',
-    'ABIM rheumatology board prep', 'rheumatology board exam', 'rheumatology question bank',
-    'rheumatology flashcards', 'rheumatology board review', 'rheumatology certification',
-    'rheumatology fellowship', 'rheumatology fellow resources', 'rheumatology training',
-    'ACR guidelines', 'ACR clinical practice guidelines', 'rheumatology guidelines',
-    'giant cell arteritis', 'GCA', 'temporal arteritis', 'vasculitis',
-    'rheumatoid arthritis', 'lupus', 'SLE', 'autoimmune diseases',
-    'polymyalgia rheumatica', 'PMR', 'spondyloarthritis', 'psoriatic arthritis',
-    'citation formatter', 'reference manager', 'medical bibliography',
-    'manuscript planner', 'research tools',
-    'University of Washington', 'UW Medicine', 'Seattle rheumatology',
-    'Dr. Alison Bays', 'board-certified rheumatologist'
+    'rheumatology question bank', 'rheumatology qbank', 'ABIM rheumatology board prep',
+    'rheumatology board review', 'rheumatology flashcards', 'rheumatology certification',
+    'spaced repetition flashcards', 'rheumatology fellowship', 'ACR guidelines', 'Dr. Alison Bays'
   ],
   authors: [{ name: 'Dr. Alison Bays, MD', url: 'https://www.rheumify.org/#about' }],
   creator: 'Dr. Alison Bays',
@@ -29,14 +20,14 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://www.rheumify.org',
     siteName: 'Rheumify',
-    title: 'Rheumify | Master Rheumatology - Board Prep & Clinical Resources',
-    description: 'Comprehensive rheumatology education platform by Dr. Alison Bays. ABIM board prep, question banks, flashcards, ACR guidelines podcast, and UW GCA Fast Track Clinic.',
+    title: 'Rheumatology Question Bank & ABIM Board Prep | Rheumify',
+    description: 'ABIM rheumatology board prep from a board-certified rheumatologist: 500+ board-style questions, 300+ spaced-repetition flashcards, and free clinical tools.',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Rheumify - Master Rheumatology with Dr. Alison Bays' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rheumify | Master Rheumatology',
-    description: 'Comprehensive rheumatology education platform - board prep, question banks, ACR guidelines podcast, and clinical resources.',
+    title: 'Rheumatology Question Bank & ABIM Board Prep | Rheumify',
+    description: 'ABIM rheumatology board prep from a board-certified rheumatologist: 500+ board-style questions, 300+ spaced-repetition flashcards, and free clinical tools.',
     creator: '@Rheumify',
     images: ['/og-image.png'],
   },
