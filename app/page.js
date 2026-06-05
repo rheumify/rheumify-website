@@ -4,7 +4,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1>Master Rheumatology with <span>Rheumify</span></h1>
+          <h1>Master Rheumatology: <span>Board Prep, Question Bank & Clinical Tools</span></h1>
           <p>
             The most comprehensive web-based platform for rheumatology - from preparing
             fellows for board exams to helping researchers organize and track their manuscripts.
