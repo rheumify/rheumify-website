@@ -116,47 +116,6 @@ const structuredData = {
         'Medical Education',
       ],
     },
-    {
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What is on the ABIM rheumatology board exam?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text:
-              'A single-day, multiple-choice exam built on the ABIM rheumatology blueprint, weighted toward rheumatoid arthritis, spondyloarthritis, lupus and other connective tissue diseases, vasculitis, crystal arthropathies, and osteoarthritis, mostly presented as clinical vignettes asking for the next best step.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long should I study for the rheumatology boards?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text:
-              'It depends on you. Most people do best with steady, consistent study over time rather than a final cram. Give yourself more time if standardized tests have been hard for you or if the internal medicine ABIM exam was a struggle, and start early so the material accumulates.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'Does spaced repetition work for board prep?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text:
-              'Yes. Spreading study over time (distributed practice) produces far stronger long-term retention than cramming, and pairing it with retrieval practice — actively recalling answers, as with flashcards and questions — compounds the effect.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What is the rheumatology board exam pass rate?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text:
-              'First-time pass rates run high: 92% of first-time takers passed the ABIM rheumatology certification exam in 2025, and the rate has stayed in the high-80s to low-90s for years.',
-          },
-        },
-      ],
-    },
   ],
 };
 
