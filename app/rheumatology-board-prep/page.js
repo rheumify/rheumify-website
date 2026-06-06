@@ -122,6 +122,13 @@ const structuredData = {
         'Medical Education',
       ],
     },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.rheumify.org' },
+        { '@type': 'ListItem', position: 2, name: 'Rheumatology Board Prep', item: 'https://www.rheumify.org/rheumatology-board-prep' },
+      ],
+    },
   ],
 };
 
