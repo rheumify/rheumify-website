@@ -16,7 +16,7 @@ export default function Home() {
       <section className="about-section" id="about">
         <div className="about-container">
           <div className="about-image">
-            <img src="/dr-alison-bays.jpg" alt="Dr. Alison Bays, MD - Board-certified rheumatologist and creator of Rheumify" />
+            <img src="/dr-alison-bays.jpg" alt="Dr. Alison Bays, MD - Board-certified academic rheumatologist and creator of Rheumify" />
           </div>
           <div className="about-content">
             <h2>About <span>Dr. Alison Bays</span></h2>
@@ -140,7 +140,7 @@ export default function Home() {
             <h3><a href="/fellows" style={{ color: 'inherit', textDecoration: 'none' }}>Rheumify Question Bank</a></h3>
             <p>
               The most comprehensive web-based platform for rheumatology fellows preparing for ABIM board certification.
-              AI-created content curated and reviewed by a board-certified rheumatologist. Contains both a question bank
+              AI-created content curated and reviewed by a board-certified academic rheumatologist. Contains both a question bank
               as well as spaced repetition flashcards.
             </p>
             <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
