@@ -2,6 +2,7 @@ export const metadata = {
   title: 'For Medical Students',
   description: 'Introduction to rheumatology for medical students - study guides and specialty exploration.',
   keywords: ['medical student rheumatology', 'rheumatology introduction', 'rheumatology specialty', 'medical education'],
+  robots: { index: false, follow: true },
 };
 
 export default function StudentsPage() {
