@@ -86,30 +86,6 @@ export default function Home() {
             <p>Board prep, manuscript planning, ACR guidelines podcast, citation tools, and ACR Convergence highlights - all in one place.</p>
           </a>
 
-          <a href="/residents" className="audience-card coming-soon">
-            <div className="icon icon-svg">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="32" height="32">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                <polyline points="9,22 9,12 15,12 15,22"/>
-              </svg>
-            </div>
-            <h3>For Internal Medicine Residents</h3>
-            <p>Build your rheumatology foundation with resources designed for your rotation and board prep.</p>
-            <span className="coming-soon-badge">Coming Soon</span>
-          </a>
-
-          <a href="/students" className="audience-card coming-soon">
-            <div className="icon icon-svg">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="32" height="32">
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
-              </svg>
-            </div>
-            <h3>For Medical Students</h3>
-            <p>Discover the fascinating world of rheumatology with introductory resources and study guides.</p>
-            <span className="coming-soon-badge">Coming Soon</span>
-          </a>
-
           <a href="/patients" className="audience-card">
             <div className="icon icon-svg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="32" height="32">
