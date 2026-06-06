@@ -78,8 +78,7 @@ const structuredData = {
       "description": "Comprehensive ABIM rheumatology board preparation question bank with 550+ AI-generated questions validated by board-certified academic rheumatologists. Includes spaced repetition flashcards.",
       "brand": { "@id": "https://www.rheumify.org/#organization" },
       "category": "Medical Education Software",
-      "offers": { "@type": "AggregateOffer", "lowPrice": "119", "highPrice": "180", "priceCurrency": "USD", "offerCount": "2" },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "50" }
+      "offers": { "@type": "AggregateOffer", "lowPrice": "119", "highPrice": "180", "priceCurrency": "USD", "offerCount": "2" }
     },
     {
       "@type": "PodcastSeries",
@@ -124,8 +123,6 @@ export default function RootLayout({ children }) {
           </a>
           <ul className="nav-links">
             <li><a href="/fellows">Rheumatologists &amp; Fellows</a></li>
-            <li><a href="/residents">Residents</a></li>
-            <li><a href="/students">Students</a></li>
             <li><a href="/patients">Patient Resources</a></li>
             <li><a href="/learning">Learning</a></li>
             <li><a href="/tools/scriptswap">Tools</a></li>
