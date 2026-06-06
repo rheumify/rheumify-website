@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'ABIM Rheumatology Board Prep for Fellows',
-  description: 'Rheumatology board review for fellows and recertifying physicians, from Dr. Alison Bays, MD: 500+ ABIM-style questions, flashcards, and a full exam-format guide.',
+  description: 'Rheumatology board review for fellows and recertifying physicians, from Dr. Alison Bays, MD: 550+ ABIM-style questions, flashcards, and a full exam-format guide.',
   keywords: ['rheumatology board review', 'ABIM rheumatology board prep', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'rheumatology recertification', 'spaced repetition', 'exam format', 'certification prep'],
 };
 
@@ -19,8 +19,8 @@ export default function FellowsPage() {
         <h2 style={{ color: 'var(--purple-light)' }}>Rheumify App - Board Prep & Knowledge Assessment</h2>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
           AI-created content curated and reviewed by a board-certified rheumatologist. Contains both a
-          <strong> question bank</strong> with over 500 questions as well as <strong>spaced repetition flashcards</strong> with
-          over 300 cards covering all rheumatology subspecialties.
+          <strong> question bank</strong> with over 550 questions as well as <strong>spaced repetition flashcards</strong> with
+          over 700 cards covering all rheumatology subspecialties.
         </p>
         <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
           Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams.
