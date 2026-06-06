@@ -18,7 +18,7 @@ export default function FellowsPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
         <h2 style={{ color: 'var(--purple-light)' }}>Rheumify App - Board Prep & Knowledge Assessment</h2>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-          AI-created content curated and reviewed by a board-certified rheumatologist. Contains both a
+          AI-created content curated and reviewed by a board-certified academic rheumatologist. Contains both a
           <strong> question bank</strong> with over 550 questions as well as <strong>spaced repetition flashcards</strong> with
           over 700 cards covering all rheumatology subspecialties.
         </p>
@@ -138,7 +138,7 @@ export default function FellowsPage() {
             <div>
               <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem' }}>AI-Generated Questions</h3>
               <p style={{ margin: 0, opacity: 0.9 }}>
-                Advanced AI creates board-style questions covering all rheumatology subspecialties, validated by a board-certified rheumatologist.
+                Advanced AI creates board-style questions covering all rheumatology subspecialties, validated by a board-certified academic rheumatologist.
               </p>
             </div>
           </div>
