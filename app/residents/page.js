@@ -2,6 +2,7 @@ export const metadata = {
   title: 'For Internal Medicine Residents',
   description: 'Rheumatology resources for internal medicine residents - rotation guides and board prep.',
   keywords: ['internal medicine rheumatology', 'rheumatology rotation', 'IM resident rheumatology', 'medicine board prep'],
+  robots: { index: false, follow: true },
 };
 
 export default function ResidentsPage() {
