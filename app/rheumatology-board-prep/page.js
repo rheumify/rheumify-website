@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'How to Study for the ABIM Rheumatology Board Exam (2026 Guide)',
+  title: 'How to Study for the ABIM Rheumatology Board Exam',
   description:
-    'A rheumatologist’s honest guide to the ABIM rheumatology boards: what is on the exam, how to study, why starting early and spaced repetition beat cramming, and current first-time pass rates.',
+    'A rheumatologist’s honest guide to the ABIM rheumatology boards: what is on the exam, how to study, and current first-time pass rates.',
   keywords: [
     'rheumatology boards',
     'rheumatology board review',
@@ -14,11 +14,17 @@ export const metadata = {
   ],
   alternates: { canonical: 'https://www.rheumify.org/rheumatology-board-prep' },
   openGraph: {
-    title: 'How to Study for the ABIM Rheumatology Board Exam (2026 Guide)',
+    title: 'How to Study for the ABIM Rheumatology Board Exam',
     description:
       'What is on the exam, how to study, and why starting early beats cramming — from academic rheumatologist Dr. Alison Bays, MD, MPH&TM.',
     url: 'https://www.rheumify.org/rheumatology-board-prep',
     type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Study for the ABIM Rheumatology Board Exam',
+    description:
+      'A rheumatologist’s honest guide to the ABIM rheumatology boards — exam content, study strategy, and current pass rates.',
   },
 };
 
