@@ -144,7 +144,7 @@ export default function Home() {
               as well as spaced repetition flashcards.
             </p>
             <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-              Over 550 board-style questions and 700+ flashcards covering all rheumatology subspecialties with detailed explanations.
+              Over 550 board-style questions and 700+ flashcards covering all of rheumatology with detailed explanations.
             </p>
             <div className="product-buttons">
               <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
