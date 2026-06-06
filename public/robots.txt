@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://rheumify.org/sitemap.xml
+Sitemap: https://www.rheumify.org/sitemap.xml
 
 # Allow all major search engines
 User-agent: Googlebot
