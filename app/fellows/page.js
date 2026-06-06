@@ -73,6 +73,20 @@ export default function FellowsPage() {
         </a>
       </div>
 
+      {/* Board Prep Guide link */}
+      <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
+        <h2 style={{ color: 'var(--purple-light)' }}>How to Study for the Rheumatology Boards</h2>
+        <p style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>
+          A complete, no-hype guide to the ABIM rheumatology board exam: what is actually tested, how to plan your studying, why starting early and spaced repetition beat cramming, and current first-time pass rates.
+        </p>
+        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
+          <a href="/rheumatology-board-prep" className="btn btn-primary"
+             style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
+            Read the Board Prep Guide →
+          </a>
+        </div>
+      </div>
+
       {/* ACR Convergence 2025 */}
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
         <h2 style={{ color: 'var(--purple-light)' }}>ACR Convergence 2025 Vasculitis Resources</h2>
@@ -297,10 +311,10 @@ export default function FellowsPage() {
           }}>
             <h3 style={{ color: 'var(--purple-light)', marginBottom: '1rem' }}>Pass Rates</h3>
             <p style={{ opacity: 0.9, lineHeight: '1.6' }}>
+              2025: 92% (285 examinees)<br/>
               2024: 90% (304 examinees)<br/>
-              2023: 88% (256 examinees)<br/>
-              2022: 87% (270 examinees)<br/><br/>
-              Average 5-year first-time pass rate: ~91%
+              2023: 88% (256 examinees)<br/><br/>
+              Average 5-year first-time pass rate: ~90%
             </p>
           </div>
           <div style={{
