@@ -163,6 +163,9 @@ export default function Home() {
               on PubMed — so you can verify the answer and read further. Over 550 board-style questions and 700+ flashcards cover all of
               rheumatology, reviewed and updated daily.
             </p>
+            <p style={{ marginTop: '1rem', padding: '0.85rem 1rem', borderRadius: '8px', background: 'rgba(196, 181, 224, 0.12)', borderLeft: '4px solid var(--purple-light)', fontSize: '0.95rem', lineHeight: '1.6' }}>
+              <strong>Pricing update — effective June 21, 2026.</strong> Fellows and trainees keep the current rate ($15/month or $119/year). Practicing rheumatologists move to $25/month or $199/year. Current members are grandmothered in at their existing price for as long as their subscription stays active — so subscribe before June 21 to lock in today's pricing.
+            </p>
             <div className="product-buttons">
               <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                 Sign up: $15/month
