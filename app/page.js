@@ -16,7 +16,7 @@ export default function Home() {
       <section className="about-section" id="about">
         <div className="about-container">
           <div className="about-image">
-            <img src="/dr-alison-bays.jpg" alt="Dr. Alison Bays, MD - Board-certified academic rheumatologist and creator of Rheumify" width="1200" height="800" decoding="async" />
+            <img src="/dr-alison-bays.jpg" alt="Dr. Alison Bays, MD - Board-certified academic rheumatologist and creator of Rheumify" width="1200" height="800" decoding="async" style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'contain' }} />
           </div>
           <div className="about-content">
             <h2>About <span>Dr. Alison Bays</span></h2>
@@ -71,6 +71,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Continuously Updated */}
+      <section className="products-section" style={{ background: 'var(--navy-dark)' }}>
+        <h2 className="section-title">Reviewed &amp; Updated <span>Every Day</span></h2>
+        <div className="products-grid">
+          <div className="product-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
+            <p style={{ fontSize: '1.05rem', lineHeight: '1.8', marginBottom: '1rem' }}>
+              Most board prep is written once and left to age. Rheumify is different. I personally review questions every day — sharpening explanations, fixing anything a user flags, retiring what's outdated, and adding new questions as guidelines and trials change.
+            </p>
+            <p style={{ lineHeight: '1.8', marginBottom: '1rem' }}>
+              When a guideline updates or a trial changes practice, the questions change with it — not in the next edition, but right away. You're always studying the current standard of care, from someone who treats these patients and teaches this material.
+            </p>
+            <p style={{ color: 'var(--purple-light)', fontWeight: 600, margin: 0 }}>
+              — Dr. Alison Bays, MD, board-certified academic rheumatologist
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Audience Selection */}
       <section className="audience-section">
         <h2 className="section-title">Resources for <span>Every Stage</span> of Your Journey</h2>
@@ -96,14 +114,15 @@ export default function Home() {
             <p>Learn about rheumatic conditions, find clinic information, and understand your diagnosis and treatment options.</p>
           </a>
 
-          <a href="/tools/scriptswap" className="audience-card">
+          <a href="/learning" className="audience-card">
             <div className="icon icon-svg">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="32" height="32">
-                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
               </svg>
             </div>
-            <h3>Tools</h3>
-            <p>Free utilities including ScriptSwap citation formatter and more to support your research and clinical work.</p>
+            <h3>Learning Modules</h3>
+            <p>Free, board-focused rheumatology lessons with analogies, clinical pearls, and quick quizzes covering high-yield topics.</p>
           </a>
         </div>
       </section>
@@ -120,7 +139,7 @@ export default function Home() {
               as well as spaced repetition flashcards.
             </p>
             <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-              Over 550 board-style questions and 700+ flashcards covering all of rheumatology with detailed explanations.
+              Over 550 board-style questions and 700+ flashcards covering all of rheumatology with detailed explanations - reviewed and updated daily.
             </p>
             <div className="product-buttons">
               <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
@@ -179,22 +198,57 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="product-card">
-            <h3>ScriptSwap</h3>
-            <p>
-              A free resource to quickly add references in any form and get a bibliography.
-              Add multiple PMIDs or DOIs or URLs. Swap citation styles back and forth between Vancouver, APA, AMA, and more.
-            </p>
-            <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-              Paste your references, pick a style, and copy a perfectly formatted bibliography in seconds.
-            </p>
-            <div className="product-buttons">
-              <a href="/tools/scriptswap" className="btn btn-primary">
-                Use ScriptSwap
-              </a>
-            </div>
+      {/* How Rheumify Compares */}
+      <section className="products-section" style={{ background: 'var(--navy-dark)' }}>
+        <h2 className="section-title">How Rheumify <span>Compares</span></h2>
+        <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
+          <div className="module-table-wrapper">
+            <table className="module-table">
+              <thead>
+                <tr>
+                  <th>Resource</th>
+                  <th>What you get</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
+                  <td><strong>Rheumify</strong></td>
+                  <td>550+ board-style questions, 700+ spaced-repetition flashcards, reviewed &amp; updated daily</td>
+                  <td><strong>$119/year</strong> (or $15/mo)</td>
+                </tr>
+                <tr>
+                  <td>BoardVitals</td>
+                  <td>400+ rheumatology questions</td>
+                  <td>$149 / 1 mo · $239 / 3 mo · $299 / 6 mo</td>
+                </tr>
+                <tr>
+                  <td>Rheum Review</td>
+                  <td>250+ questions</td>
+                  <td>By sign-up / institutional (free 10-question trial)</td>
+                </tr>
+                <tr>
+                  <td>ACR CARE (self-assessment)</td>
+                  <td>Case-based MOC self-assessment</td>
+                  <td>Included with ACR membership (membership required)</td>
+                </tr>
+                <tr>
+                  <td>In-person board review course</td>
+                  <td>Multi-day lectures (e.g., ACR Review Course, UCSF)</td>
+                  <td>~$400–$600+ registration, plus travel</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+          <p style={{ maxWidth: '800px', margin: '1.5rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
+            Rheumify is the lowest-priced dedicated rheumatology question bank — a full year costs less than a single month of most competitors, and a fraction of a board review course. It's also the only one personally reviewed and updated every day by the board-certified rheumatologist who built it.
+          </p>
+          <p style={{ maxWidth: '800px', margin: '0.75rem auto 0', fontSize: '0.8rem', opacity: 0.6, textAlign: 'center' }}>
+            Competitor pricing as of June 2026 and subject to change; check each provider for current rates.
+          </p>
         </div>
       </section>
     </>
