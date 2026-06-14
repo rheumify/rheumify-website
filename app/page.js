@@ -95,6 +95,15 @@ export default function Home() {
                 Learn how Rheumify is built — I write openly about the process on Substack →
               </a>
             </p>
+            <p style={{ marginTop: '0.6rem', marginBottom: 0 }}>
+              <a href="https://bsky.app/profile/rheumify.bsky.social" target="_blank" rel="noopener noreferrer"
+                 style={{ color: 'var(--purple-light)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M17.5 19a4.5 4.5 0 1 0 0-9h-1.8A7 7 0 1 0 4 15.9"/>
+                </svg>
+                Follow along on Bluesky — frequent rheum posts, Mnemonic Mondays, and more →
+              </a>
+            </p>
           </div>
         </div>
       </section>
