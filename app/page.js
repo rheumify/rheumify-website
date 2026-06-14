@@ -154,11 +154,13 @@ export default function Home() {
             <h3><a href="/fellows" style={{ color: 'inherit', textDecoration: 'none' }}>Rheumify Question Bank</a></h3>
             <p>
               The most comprehensive web-based platform for rheumatology fellows preparing for ABIM board certification.
-              AI-created content curated and reviewed by a board-certified academic rheumatologist. Contains both a question bank
-              as well as spaced repetition flashcards.
+              Every question is AI-drafted, then curated and reviewed by a board-certified academic rheumatologist — pairing the breadth of AI
+              with physician judgment for accuracy. Includes both a question bank and spaced-repetition flashcards.
             </p>
             <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-              Over 550 board-style questions and 700+ flashcards covering all of rheumatology with detailed explanations - reviewed and updated daily.
+              Each question comes with a detailed, per-choice explanation and, where relevant, references linked to the primary literature
+              on PubMed — so you can verify the answer and read further. Over 550 board-style questions and 700+ flashcards cover all of
+              rheumatology, reviewed and updated daily.
             </p>
             <div className="product-buttons">
               <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
