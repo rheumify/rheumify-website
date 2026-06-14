@@ -23,7 +23,7 @@ export default function FellowsPage() {
           over 700 cards covering all of rheumatology.
         </p>
         <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-          Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams. Questions are reviewed and updated daily.
+          Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams. Questions are reviewed and updated daily, with detailed per-choice explanations and PubMed-linked references to the primary literature where applicable.
         </p>
         <div className="product-buttons" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
@@ -150,9 +150,9 @@ export default function FellowsPage() {
               </svg>
             </div>
             <div>
-              <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem' }}>AI-Generated Questions</h3>
+              <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem' }}>AI-Generated, Physician-Reviewed Questions</h3>
               <p style={{ margin: 0, opacity: 0.9 }}>
-                Advanced AI creates board-style questions covering all of rheumatology, validated by a board-certified academic rheumatologist.
+                Board-style questions are AI-drafted, then validated by a board-certified academic rheumatologist — with detailed per-choice explanations and references linked to the primary literature on PubMed where applicable, so you can trust each answer and dig deeper.
               </p>
             </div>
           </div>
