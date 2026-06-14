@@ -94,8 +94,8 @@ const structuredData = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "What is Rheumify?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify is a comprehensive rheumatology education platform created by Dr. Alison Bays, a board-certified academic rheumatologist. It offers ABIM board preparation resources including question banks and flashcards, the RheumCast podcast covering ACR guidelines, and manuscript planning tools for researchers." } },
-        { "@type": "Question", "name": "How do I prepare for the ABIM rheumatology board exam?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify offers a comprehensive question bank with 550+ AI-generated questions validated by board-certified academic rheumatologists, plus spaced repetition flashcards. The platform covers all of rheumatology and is optimized for mobile study. Pricing is $15/month or $119/year." } },
-        { "@type": "Question", "name": "What rheumatology resources are available for free?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify offers several free resources: RheumCast podcast covering ACR guidelines on SoundCloud, ScriptCycle Notion template for manuscript planning, and ScriptSwap citation formatter tool for converting references between Vancouver, APA, AMA and other styles." } }
+        { "@type": "Question", "name": "How do I prepare for the ABIM rheumatology board exam?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify offers a comprehensive question bank with 550+ AI-generated questions validated by board-certified academic rheumatologists, plus spaced repetition flashcards. Questions are reviewed and updated daily. The platform covers all of rheumatology and is optimized for mobile study. Pricing is $15/month or $119/year." } },
+        { "@type": "Question", "name": "What rheumatology resources are available for free?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify offers several free resources: the RheumCast podcast covering ACR guidelines on SoundCloud and the ScriptCycle Notion template for manuscript planning." } }
       ]
     }
   ]
@@ -125,7 +125,6 @@ export default function RootLayout({ children }) {
             <li><a href="/fellows">Rheumatologists &amp; Fellows</a></li>
             <li><a href="/patients">Patient Resources</a></li>
             <li><a href="/learning">Learning</a></li>
-            <li><a href="/tools/scriptswap">Tools</a></li>
           </ul>
           <a href="https://app.rheumify.org" className="nav-app-btn">
             Study App →
@@ -139,7 +138,6 @@ export default function RootLayout({ children }) {
               <a href="/fellows">For Rheumatologists &amp; Fellows</a>
               <a href="/patients">Patient Resources</a>
               <a href="/learning">Learning</a>
-              <a href="/tools/scriptswap">ScriptSwap</a>
               <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>
               <a href="https://rheumify.substack.com" target="_blank" rel="noopener noreferrer">Substack</a>
             </div>
