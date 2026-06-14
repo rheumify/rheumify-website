@@ -23,7 +23,7 @@ export default function FellowsPage() {
           over 700 cards covering all of rheumatology.
         </p>
         <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-          Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams.
+          Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams. Questions are reviewed and updated daily.
         </p>
         <div className="product-buttons" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
@@ -83,6 +83,20 @@ export default function FellowsPage() {
           <a href="/rheumatology-board-prep" className="btn btn-primary"
              style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
             Read the Board Prep Guide →
+          </a>
+        </div>
+      </div>
+
+      {/* Learning Modules */}
+      <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
+        <h2 style={{ color: 'var(--purple-light)' }}>Free Learning Modules</h2>
+        <p style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>
+          Board-focused rheumatology lessons covering high-yield topics, built around memorable analogies, clinical pearls, and quick self-check quizzes. Free to read - no account needed.
+        </p>
+        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
+          <a href="/learning" className="btn btn-primary"
+             style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
+            Explore Learning Modules →
           </a>
         </div>
       </div>
@@ -275,16 +289,6 @@ export default function FellowsPage() {
             </a>
           </div>
 
-          <div style={{ padding: '1.5rem', background: 'rgba(196, 181, 224, 0.1)', borderRadius: '12px' }}>
-            <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.75rem' }}>ScriptSwap - Citation Formatter</h3>
-            <p style={{ opacity: 0.9, fontSize: '0.95rem', lineHeight: '1.6' }}>
-              Paste PMIDs, DOIs, or URLs and instantly generate formatted citations in Vancouver, APA, AMA, and more.
-            </p>
-            <a href="/tools/scriptswap" className="btn btn-secondary"
-               style={{ marginTop: '1rem', display: 'inline-block', borderColor: 'var(--purple-light)', color: 'var(--purple-light)' }}>
-              Use ScriptSwap
-            </a>
-          </div>
         </div>
       </div>
 
