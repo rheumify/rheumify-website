@@ -85,25 +85,26 @@ export default function Home() {
             <p style={{ color: 'var(--purple-light)', fontWeight: 600, margin: 0 }}>
               — Dr. Alison Bays, MD, board-certified academic rheumatologist
             </p>
-            <p style={{ marginTop: '1.25rem', marginBottom: 0 }}>
-              <a href="https://substack.com/@rheumify" target="_blank" rel="noopener noreferrer"
-                 style={{ color: 'var(--purple-light)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+            <p style={{ marginTop: '1.5rem', marginBottom: '1rem', fontWeight: 600 }}>
+              I build Rheumify in the open — follow the process and the daily posts:
+            </p>
+            <div className="product-buttons" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+              <a href="https://substack.com/@rheumify" className="btn btn-secondary" target="_blank" rel="noopener noreferrer"
+                 style={{ borderColor: 'var(--purple-light)', color: 'var(--purple-light)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                   <polyline points="22,6 12,13 2,6"/>
                 </svg>
-                Learn how Rheumify is built — I write openly about the process on Substack →
+                Substack: how Rheumify is built →
               </a>
-            </p>
-            <p style={{ marginTop: '0.6rem', marginBottom: 0 }}>
-              <a href="https://bsky.app/profile/rheumify.bsky.social" target="_blank" rel="noopener noreferrer"
-                 style={{ color: 'var(--purple-light)', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+              <a href="https://bsky.app/profile/rheumify.bsky.social" className="btn btn-secondary" target="_blank" rel="noopener noreferrer"
+                 style={{ borderColor: 'var(--purple-light)', color: 'var(--purple-light)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M17.5 19a4.5 4.5 0 1 0 0-9h-1.8A7 7 0 1 0 4 15.9"/>
                 </svg>
-                Follow along on Bluesky — frequent rheum posts, Mnemonic Mondays, and more →
+                Bluesky: Mnemonic Mondays &amp; more →
               </a>
-            </p>
+            </div>
           </div>
         </div>
       </section>
@@ -146,9 +147,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Products Section */}
+      {/* Rheumify Question Bank */}
       <section className="products-section">
-        <h2 className="section-title">Rheumify <span>Products</span></h2>
+        <h2 className="section-title">Rheumify <span>Question Bank</span></h2>
         <div className="products-grid">
           <div className="product-card">
             <h3><a href="/fellows" style={{ color: 'inherit', textDecoration: 'none' }}>Rheumify Question Bank</a></h3>
@@ -171,7 +172,64 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* How Rheumify Compares */}
+      <section className="products-section" style={{ background: 'var(--navy-dark)', paddingTop: '2rem' }}>
+        <h2 className="section-title">How Rheumify <span>Compares</span></h2>
+        <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
+          <div className="module-table-wrapper">
+            <table className="module-table">
+              <thead>
+                <tr>
+                  <th>Question bank</th>
+                  <th>Questions</th>
+                  <th>Lowest annual cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
+                  <td><strong>Rheumify</strong></td>
+                  <td>550+ questions, 700+ flashcards</td>
+                  <td><strong>$119/year</strong> (or $15/mo)</td>
+                </tr>
+                <tr>
+                  <td>Rheum Review</td>
+                  <td>~250 questions</td>
+                  <td>$399/year (or $99/mo)</td>
+                </tr>
+                <tr>
+                  <td>RheumWorld</td>
+                  <td>1,400+ questions</td>
+                  <td>$599/year (or $199/mo)</td>
+                </tr>
+                <tr>
+                  <td>BoardVitals</td>
+                  <td>400+ questions</td>
+                  <td>$299 / 6 months (longest plan)</td>
+                </tr>
+                <tr>
+                  <td>In-person board review course</td>
+                  <td>Multi-day lectures (e.g., ACR, UCSF)</td>
+                  <td>~$400–$600+ registration, plus travel</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p style={{ maxWidth: '820px', margin: '1.5rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
+            Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify costs about the same as a single month of most competitors, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
+          </p>
+          <p style={{ maxWidth: '820px', margin: '0.75rem auto 0', fontSize: '0.8rem', opacity: 0.6, textAlign: 'center' }}>
+            Competitor pricing as of June 2026 and subject to change; check each provider for current rates.
+          </p>
+        </div>
+      </section>
+
+      {/* More from Rheumify */}
+      <section className="products-section">
+        <h2 className="section-title">More from <span>Rheumify</span></h2>
+        <div className="products-grid">
           <div className="product-card">
             <h3><a href="https://acr2025-vasculitis-ozg9.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>ACR Convergence 2025 Vasculitis Resources</a></h3>
             <p>
@@ -219,57 +277,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* How Rheumify Compares */}
-      <section className="products-section" style={{ background: 'var(--navy-dark)' }}>
-        <h2 className="section-title">How Rheumify <span>Compares</span></h2>
-        <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-          <div className="module-table-wrapper">
-            <table className="module-table">
-              <thead>
-                <tr>
-                  <th>Question bank</th>
-                  <th>Questions</th>
-                  <th>Lowest annual cost</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
-                  <td><strong>Rheumify</strong></td>
-                  <td>550+ questions, 700+ flashcards</td>
-                  <td><strong>$119/year</strong> (or $15/mo)</td>
-                </tr>
-                <tr>
-                  <td>Rheum Review</td>
-                  <td>~250 questions</td>
-                  <td>$399/year (or $99/mo)</td>
-                </tr>
-                <tr>
-                  <td>RheumWorld</td>
-                  <td>1,400+ questions</td>
-                  <td>$599/year (or $199/mo)</td>
-                </tr>
-                <tr>
-                  <td>BoardVitals</td>
-                  <td>400+ questions</td>
-                  <td>$299 / 6 months (longest plan)</td>
-                </tr>
-                <tr>
-                  <td>In-person board review course</td>
-                  <td>Multi-day lectures (e.g., ACR, UCSF)</td>
-                  <td>~$400–$600+ registration, plus travel</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p style={{ maxWidth: '820px', margin: '1.5rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
-            Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify costs about the same as a single month of most competitors, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
-          </p>
-          <p style={{ maxWidth: '820px', margin: '0.75rem auto 0', fontSize: '0.8rem', opacity: 0.6, textAlign: 'center' }}>
-            Competitor pricing as of June 2026 and subject to change; check each provider for current rates.
-          </p>
         </div>
       </section>
     </>
