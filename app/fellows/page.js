@@ -73,6 +73,55 @@ export default function FellowsPage() {
         </a>
       </div>
 
+      {/* How Rheumify Compares */}
+      <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
+        <h2 style={{ color: 'var(--purple-light)' }}>How Rheumify Compares</h2>
+        <div className="module-table-wrapper" style={{ marginTop: '1rem' }}>
+          <table className="module-table">
+            <thead>
+              <tr>
+                <th>Question bank</th>
+                <th>Questions</th>
+                <th>Lowest annual cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
+                <td><strong>Rheumify</strong></td>
+                <td>550+ questions, 700+ flashcards</td>
+                <td><strong>$119/year</strong> (or $15/mo)</td>
+              </tr>
+              <tr>
+                <td>Rheum Review</td>
+                <td>~250 questions</td>
+                <td>$399/year (or $99/mo)</td>
+              </tr>
+              <tr>
+                <td>RheumWorld</td>
+                <td>1,400+ questions</td>
+                <td>$599/year (or $199/mo)</td>
+              </tr>
+              <tr>
+                <td>BoardVitals</td>
+                <td>400+ questions</td>
+                <td>$299 / 6 months (longest plan)</td>
+              </tr>
+              <tr>
+                <td>In-person board review course</td>
+                <td>Multi-day lectures (e.g., ACR, UCSF)</td>
+                <td>~$400–$600+ registration, plus travel</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style={{ marginTop: '1.5rem', lineHeight: '1.7' }}>
+          Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify costs about the same as a single month of most competitors, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
+        </p>
+        <p style={{ marginTop: '0.5rem', fontSize: '0.8rem', opacity: 0.6 }}>
+          Competitor pricing as of June 2026 and subject to change; check each provider for current rates.
+        </p>
+      </div>
+
       {/* Board Prep Guide link */}
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
         <h2 style={{ color: 'var(--purple-light)' }}>How to Study for the Rheumatology Boards</h2>
