@@ -209,44 +209,44 @@ export default function Home() {
             <table className="module-table">
               <thead>
                 <tr>
-                  <th>Resource</th>
-                  <th>What you get</th>
-                  <th>Price</th>
+                  <th>Question bank</th>
+                  <th>Questions</th>
+                  <th>Lowest annual cost</th>
                 </tr>
               </thead>
               <tbody>
                 <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
                   <td><strong>Rheumify</strong></td>
-                  <td>550+ board-style questions, 700+ spaced-repetition flashcards, reviewed &amp; updated daily</td>
+                  <td>550+ questions, 700+ flashcards</td>
                   <td><strong>$119/year</strong> (or $15/mo)</td>
                 </tr>
                 <tr>
-                  <td>BoardVitals</td>
-                  <td>400+ rheumatology questions</td>
-                  <td>$149 / 1 mo · $239 / 3 mo · $299 / 6 mo</td>
-                </tr>
-                <tr>
                   <td>Rheum Review</td>
-                  <td>250+ questions</td>
-                  <td>By sign-up / institutional (free 10-question trial)</td>
+                  <td>~250 questions</td>
+                  <td>$399/year (or $99/mo)</td>
                 </tr>
                 <tr>
-                  <td>ACR CARE (self-assessment)</td>
-                  <td>Case-based MOC self-assessment</td>
-                  <td>Included with ACR membership (membership required)</td>
+                  <td>RheumWorld</td>
+                  <td>1,400+ questions</td>
+                  <td>$599/year (or $199/mo)</td>
+                </tr>
+                <tr>
+                  <td>BoardVitals</td>
+                  <td>400+ questions</td>
+                  <td>$299 / 6 months (longest plan)</td>
                 </tr>
                 <tr>
                   <td>In-person board review course</td>
-                  <td>Multi-day lectures (e.g., ACR Review Course, UCSF)</td>
+                  <td>Multi-day lectures (e.g., ACR, UCSF)</td>
                   <td>~$400–$600+ registration, plus travel</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p style={{ maxWidth: '800px', margin: '1.5rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
-            Rheumify is the lowest-priced dedicated rheumatology question bank — a full year costs less than a single month of most competitors, and a fraction of a board review course. It's also the only one personally reviewed and updated every day by the board-certified rheumatologist who built it.
+          <p style={{ maxWidth: '820px', margin: '1.5rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
+            Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify costs about the same as a single month of most competitors, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
           </p>
-          <p style={{ maxWidth: '800px', margin: '0.75rem auto 0', fontSize: '0.8rem', opacity: 0.6, textAlign: 'center' }}>
+          <p style={{ maxWidth: '820px', margin: '0.75rem auto 0', fontSize: '0.8rem', opacity: 0.6, textAlign: 'center' }}>
             Competitor pricing as of June 2026 and subject to change; check each provider for current rates.
           </p>
         </div>
