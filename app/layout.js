@@ -51,7 +51,7 @@ const structuredData = {
       "description": "Comprehensive rheumatology education platform for medical professionals and patients",
       "foundingDate": "2024",
       "founder": { "@type": "Person", "@id": "https://www.rheumify.org/#founder" },
-      "sameAs": ["https://soundcloud.com/rheumify", "https://www.tiktok.com/@rheumify", "https://rheumify.substack.com"]
+      "sameAs": ["https://soundcloud.com/rheumify", "https://www.tiktok.com/@rheumify", "https://rheumify.substack.com", "https://bsky.app/profile/rheumify.bsky.social"]
     },
     {
       "@type": "Person",
@@ -140,6 +140,7 @@ export default function RootLayout({ children }) {
               <a href="/learning">Learning</a>
               <a href="https://soundcloud.com/rheumify" target="_blank" rel="noopener noreferrer">Podcast</a>
               <a href="https://rheumify.substack.com" target="_blank" rel="noopener noreferrer">Substack</a>
+              <a href="https://bsky.app/profile/rheumify.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
             </div>
             <p className="footer-copyright">
               © {new Date().getFullYear()} Rheumify. Created by Dr. Alison Bays, MD. All rights reserved.
