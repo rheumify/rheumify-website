@@ -8,15 +8,59 @@ export const metadata = {
   alternates: { canonical: 'https://www.rheumify.org/patients/conditions/gout' },
 };
 
-const AVS_TEXT =
-  "Gout is a form of arthritis caused by uric acid crystals forming in a joint, leading to sudden attacks of severe pain, swelling, and redness - often in the big toe. There are two separate goals: (1) treat the flare with an anti-inflammatory medicine such as an NSAID, colchicine, or a steroid; and (2) lower uric acid for the long term with a daily medicine such as allopurinol, aiming for a level below 6 mg/dL to prevent future flares. When you first start allopurinol, flares can briefly increase as old crystals dissolve - keep taking it and treat the flare separately; do not stop it. Stay well hydrated, limit alcohol (especially beer) and sugary drinks, and work toward a healthy weight. Call your rheumatology team if a flare won't settle, if a hot swollen joint comes with a fever, or for a rash after starting allopurinol. This is general education and is not a substitute for advice from your own rheumatologist.";
+const COPY_TEXT = `GOUT
+Patient information from Rheumify - reviewed by Alison Bays, MD (June 15, 2026)
+
+This information is for general education and is not medical advice. Always talk with your own rheumatologist about your diagnosis and treatment.
+
+WHAT IT IS
+Gout is a common form of arthritis caused by uric acid. When there is too much uric acid in the blood, it can form tiny, sharp crystals in a joint that trigger sudden, intense inflammation - a "gout attack" or flare. Gout is very treatable, and with the right medicine most people can stop flares from happening at all.
+
+WHO GETS IT
+Gout is more common in men and after middle age, though it also affects women, especially after menopause. Uric acid can be raised by certain foods and drinks (red meat, shellfish, alcohol - especially beer - and drinks with high-fructose corn syrup), excess weight, some medicines (such as certain water pills), kidney disease, and family history.
+
+SIGNS AND SYMPTOMS
+- A sudden attack of severe pain, swelling, redness, and warmth - often the big toe, but also the foot, ankle, or knee
+- Pain that often starts at night and can be so intense that even a bedsheet hurts
+- Flares that build over hours then settle over days to a couple of weeks
+- Over years, untreated gout can form lumps of crystals under the skin (tophi) and damage joints
+
+HOW IT'S DIAGNOSED
+A rheumatologist diagnoses gout from your symptoms and exam. The most certain way to confirm it is to take a small sample of fluid from the joint and look for uric acid crystals under a microscope. Blood uric acid helps, but it can be normal during a flare, so a normal result does not rule gout out.
+
+COMMON TREATMENTS
+There are two separate goals - and this is the part that's often misunderstood:
+1. Treating the flare (fast relief). Anti-inflammatory medicines such as NSAIDs, colchicine, or steroids. These calm the attack but do not lower uric acid.
+2. Lowering uric acid long-term (preventing flares). This is urate-lowering therapy, most commonly allopurinol (or febuxostat). Taken daily, it dissolves the crystals so flares stop. Your rheumatologist aims for a uric acid level below 6 mg/dL.
+Important: when you first start urate-lowering medicine, flares can briefly become more common as old crystals dissolve. This is expected - don't stop it during a flare; keep taking it and treat the flare separately.
+
+LIVING WELL WITH GOUT
+- Take your urate-lowering medicine every day, long-term - it only works if you stay on it.
+- Stay well hydrated.
+- Cut back on alcohol (especially beer), sugary drinks, and large amounts of red meat and shellfish.
+- Work toward a healthy weight; review other medicines that can raise uric acid with your doctor.
+
+QUESTIONS TO ASK YOUR RHEUMATOLOGIST
+- What is my uric acid level, and what number are we aiming for?
+- Should I be on a daily medicine to prevent flares, not just treat them?
+- What do I do if I flare while taking my daily medicine?
+- How often do I need my uric acid checked?
+
+WHEN TO CALL YOUR DOCTOR
+Call if a flare doesn't improve with treatment, if a hot swollen joint comes with a fever (this can look like a joint infection - an emergency), or if you have side effects from a new medicine - especially any rash after starting allopurinol.
+
+Medications commonly used to treat gout: allopurinol, febuxostat, colchicine, NSAIDs, prednisone.
+
+Learn more: ACR Gout fact sheet - https://rheumatology.org/patients/gout
+
+Reviewed by Alison Bays, MD - June 15, 2026. For general education only; not a substitute for advice from your own health care provider.`;
 
 const printCSS = `
 @media print {
   .navbar, .footer, .pp-actions, .pp-no-print, .breadcrumb { display: none !important; }
   body { background: #fff !important; color: #111 !important; }
   .page-container { padding-top: 0 !important; }
-  .content-card { background: #fff !important; border: none !important; box-shadow: none !important; color: #111 !important; padding: 0.4rem 0 !important; margin-bottom: 0.8rem !important; }
+  .content-card { background: #fff !important; border: none !important; box-shadow: none !important; color: #111 !important; padding: 0.2rem 0 !important; margin-bottom: 0.6rem !important; }
   .content-card h2 { color: #5E4F87 !important; }
   .content-card p, .content-card li, .page-header p { color: #111 !important; }
   .page-header h1 { color: #111 !important; }
@@ -44,7 +88,7 @@ export default function GoutPage() {
         </p>
       </div>
 
-      <PatientPageActions avsText={AVS_TEXT} />
+      <PatientPageActions copyText={COPY_TEXT} />
 
       <div className="content-card">
         <p>
@@ -53,36 +97,31 @@ export default function GoutPage() {
           attack&rdquo; or <strong>flare</strong>. Gout is very treatable, and with the right medicine most people can stop
           flares from happening at all.
         </p>
-        <h2 style={{ marginTop: '1.25rem' }}>Who gets it</h2>
+
+        <h2 style={{ marginTop: '1.75rem' }}>Who gets it</h2>
         <p>
           Gout is more common in men and after middle age, though it also affects women, especially after menopause. Uric
           acid can be raised by certain foods and drinks (red meat, shellfish, alcohol &mdash; especially beer &mdash; and
           drinks with high-fructose corn syrup), excess weight, some medicines (such as certain water pills), kidney
           disease, and family history.
         </p>
-      </div>
 
-      <div className="content-card">
-        <h2>Signs and symptoms</h2>
+        <h2 style={{ marginTop: '1.75rem' }}>Signs and symptoms</h2>
         <ul>
           <li>A sudden attack of <strong>severe pain, swelling, redness, and warmth</strong> &mdash; often the big toe, but also the foot, ankle, or knee</li>
           <li>Pain that often starts at night and can be so intense that even a bedsheet hurts</li>
           <li>Flares that build over hours then settle over days to a couple of weeks</li>
           <li>Over years, untreated gout can form lumps of crystals under the skin (<strong>tophi</strong>) and damage joints</li>
         </ul>
-      </div>
 
-      <div className="content-card">
-        <h2>How it&rsquo;s diagnosed</h2>
+        <h2 style={{ marginTop: '1.75rem' }}>How it&rsquo;s diagnosed</h2>
         <p>
           A rheumatologist diagnoses gout from your symptoms and exam. The most certain way to confirm it is to take a
           small sample of fluid from the joint and look for uric acid crystals under a microscope. Blood uric acid helps,
           but it can be normal during a flare, so a normal result does not rule gout out.
         </p>
-      </div>
 
-      <div className="content-card">
-        <h2>Common treatments</h2>
+        <h2 style={{ marginTop: '1.75rem' }}>Common treatments</h2>
         <p>There are two separate goals &mdash; and this is the part that&rsquo;s often misunderstood:</p>
         <p>
           <strong>1. Treating the flare (fast relief).</strong> Anti-inflammatory medicines such as <strong>NSAIDs</strong>,
@@ -100,17 +139,16 @@ export default function GoutPage() {
             treat the flare separately.
           </p>
         </div>
-      </div>
 
-      <div className="content-card">
-        <h2>Living well with gout</h2>
+        <h2 style={{ marginTop: '1.75rem' }}>Living well with gout</h2>
         <ul>
           <li>Take your urate-lowering medicine <strong>every day, long-term</strong> &mdash; it only works if you stay on it.</li>
           <li>Stay well hydrated.</li>
           <li>Cut back on alcohol (especially beer), sugary drinks, and large amounts of red meat and shellfish.</li>
           <li>Work toward a healthy weight; review other medicines that can raise uric acid with your doctor.</li>
         </ul>
-        <h2 style={{ marginTop: '1.25rem' }}>Questions to ask your rheumatologist</h2>
+
+        <h2 style={{ marginTop: '1.75rem' }}>Questions to ask your rheumatologist</h2>
         <ul>
           <li>What is my uric acid level, and what number are we aiming for?</li>
           <li>Should I be on a daily medicine to prevent flares, not just treat them?</li>
@@ -130,24 +168,20 @@ export default function GoutPage() {
 
       <div className="content-card">
         <h2>Medications commonly used to treat gout</h2>
-        <p style={{ marginBottom: '0.5rem' }}>
+        <p style={{ marginBottom: '0.4rem' }}>
           Allopurinol &middot; Febuxostat &middot; Colchicine &middot; NSAIDs &middot; Prednisone
         </p>
         <p style={{ color: 'var(--gray-medium)', fontStyle: 'italic', fontSize: '0.9rem', margin: 0 }}>
           Detailed medication pages are coming soon.
         </p>
-      </div>
 
-      <div className="content-card">
-        <h2>Patient support &amp; community</h2>
+        <h2 style={{ marginTop: '1.75rem' }}>Patient support &amp; community</h2>
         <ul>
           <li><a href="https://www.arthritis.org/" target="_blank" rel="noopener noreferrer">Arthritis Foundation</a></li>
           <li><a href="https://gouteducation.org/" target="_blank" rel="noopener noreferrer">Gout Education Society</a></li>
         </ul>
-      </div>
 
-      <div className="content-card" style={{ background: 'transparent', border: 'none', padding: '0.5rem 0' }}>
-        <p style={{ color: 'var(--gray-medium)', fontStyle: 'italic', fontSize: '0.9rem' }}>
+        <p style={{ color: 'var(--gray-medium)', fontStyle: 'italic', fontSize: '0.9rem', marginTop: '1.75rem' }}>
           Reviewed by Alison Bays, MD &mdash; June 15, 2026. This information is for general education only and is not a
           substitute for advice from your own health care provider.
         </p>
