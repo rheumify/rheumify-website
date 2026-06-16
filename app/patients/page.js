@@ -39,11 +39,15 @@ export default function PatientsPage() {
         <p style={{ marginTop: '1rem' }}>
           <strong>Common conditions include:</strong>
         </p>
+        <p style={{ marginTop: '0.5rem', fontSize: '0.95rem', color: 'var(--gray-medium)' }}>
+          In-depth guides written and reviewed by Dr. Bays are now available for Rheumatoid Arthritis and Gout (more conditions coming soon). Other conditions currently link to the American College of Rheumatology.
+        </p>
         <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
           <li style={{ marginBottom: '0.75rem' }}>
-            <a href="https://rheumatology.org/patients/rheumatoid-arthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+            <a href="/patients/conditions/rheumatoid-arthritis" style={{ color: 'var(--purple-light)' }}>
               Rheumatoid Arthritis
-            </a>
+            </a>{' '}
+            <span style={{ fontSize: '0.8rem', color: 'var(--gray-medium)' }}>&mdash; in-depth guide</span>
           </li>
           <li style={{ marginBottom: '0.75rem' }}>
             <a href="https://rheumatology.org/patients/lupus" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
@@ -51,9 +55,10 @@ export default function PatientsPage() {
             </a>
           </li>
           <li style={{ marginBottom: '0.75rem' }}>
-            <a href="https://rheumatology.org/patients/gout" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+            <a href="/patients/conditions/gout" style={{ color: 'var(--purple-light)' }}>
               Gout
-            </a>
+            </a>{' '}
+            <span style={{ fontSize: '0.8rem', color: 'var(--gray-medium)' }}>&mdash; in-depth guide</span>
           </li>
           <li style={{ marginBottom: '0.75rem' }}>
             <a href="https://rheumatology.org/patients/psoriatic-arthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
