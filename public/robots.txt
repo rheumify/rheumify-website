@@ -5,7 +5,7 @@ Allow: /
 # Sitemap location
 Sitemap: https://www.rheumify.org/sitemap.xml
 
-# Allow all major search engines
+# Major search engines
 User-agent: Googlebot
 Allow: /
 
@@ -15,11 +15,25 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# Allow AI/LLM crawlers
+# AI / LLM crawlers and answer engines (current agent names)
+# OpenAI / ChatGPT
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: anthropic-ai
@@ -28,7 +42,32 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
+# Google (Gemini / Vertex AI training & grounding)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Other AI crawlers
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
 Allow: /
 
 User-agent: Bytespider
