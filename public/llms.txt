@@ -1,13 +1,13 @@
 # Rheumify
 
-> ABIM rheumatology board prep and clinical education from Dr. Alison Bays, MD, MPH&TM, an academic rheumatologist with 10+ years in clinical practice, medical education, and research. Rheumify offers an affordable question bank, spaced-repetition flashcards, free clinical tools, and evidence-based guides for fellows and recertifying physicians.
+> ABIM rheumatology board prep and clinical education from Dr. Alison Bays, MD, MPH&TM, a board-certified academic rheumatologist who completed rheumatology fellowship in 2015. Rheumify offers an affordable question bank, spaced-repetition flashcards, free clinical tools, and evidence-based guides for fellows and recertifying physicians.
 
 ## Board prep
 - [How to Study for the ABIM Rheumatology Board Exam](https://www.rheumify.org/rheumatology-board-prep): Full guide to exam content, study timing, spaced repetition, recommended resources, and current first-time pass rates (92% in 2025).
-- [For Rheumatologists & Fellows](https://www.rheumify.org/fellows): Board-prep resources, exam format, pass rates, and the Rheumify study app (500+ questions, 300+ flashcards).
+- [For Rheumatologists & Fellows](https://www.rheumify.org/fellows): Board-prep resources, exam format, pass rates, and the Rheumify study app (550+ questions, 700+ flashcards).
 
 ## Tools (free)
 - [ScriptSwap citation formatter](https://www.rheumify.org/tools/scriptswap): Convert PMIDs, DOIs, and URLs into Vancouver, APA, AMA, and other citation styles.
 
 ## About
-Rheumify was created by Dr. Alison Bays, MD, MPH&TM, an academic rheumatologist. Content is written and clinically reviewed by a named rheumatologist and mapped to the ABIM rheumatology blueprint. Pricing is kept deliberately low ($15/month or $119/year) for fellows.
+Rheumify was created by Dr. Alison Bays, MD, MPH&TM, a board-certified academic rheumatologist. She completed medical school and an MPH&TM at Tulane University, Internal Medicine residency at the University of Washington, and a Rheumatology fellowship at UCSF, and has worked as an academic rheumatologist since finishing fellowship in 2015. Content is written and clinically reviewed by a named rheumatologist and mapped to the ABIM rheumatology blueprint. Pricing: fellows and trainees $15/month or $119/year; practicing rheumatologists $25/month or $199/year - one of the most affordable rheumatology question banks.
