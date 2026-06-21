@@ -26,15 +26,18 @@ export default function FellowsPage() {
           Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams. Questions are reviewed and updated daily, with detailed per-choice explanations and PubMed-linked references to the primary literature where applicable.
         </p>
         <div className="product-buttons" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-          <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
+          <a href="https://app.rheumify.org/pricing" className="btn btn-primary"
              style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
-            Sign up: $15/month
+            Subscribe: $25/month
           </a>
-          <a href="https://buy.stripe.com/14A14mdKf2kB5hFbIFc3m04" className="btn btn-secondary" target="_blank" rel="noopener noreferrer"
+          <a href="https://app.rheumify.org/pricing" className="btn btn-secondary"
              style={{ borderColor: 'var(--purple-light)', color: 'var(--purple-light)' }}>
-            Sign up: $119/year (Save $61)
+            Subscribe: $199/year (Save $101)
           </a>
         </div>
+        <p style={{ marginTop: '0.85rem', fontSize: '0.9rem', opacity: 0.85 }}>
+          Rheumatology fellow or trainee? Your rate is $15/month or $119/year (verification required) — <a href="https://app.rheumify.org/pricing" style={{ color: 'var(--purple-light)' }}>see fellow pricing</a>.
+        </p>
         <a href="/question-analysis" style={{
           display: 'block',
           marginTop: '1.5rem',
@@ -89,7 +92,7 @@ export default function FellowsPage() {
               <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
                 <td><strong>Rheumify</strong></td>
                 <td>550+ questions, 700+ flashcards</td>
-                <td><strong>$119/year</strong> (or $15/mo)</td>
+                <td><strong>$199/year</strong> (or $25/mo)</td>
               </tr>
               <tr>
                 <td>Rheum Review</td>
@@ -115,7 +118,10 @@ export default function FellowsPage() {
           </table>
         </div>
         <p style={{ marginTop: '1.5rem', lineHeight: '1.7' }}>
-          Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify costs about the same as a single month of most competitors, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
+          Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify still costs less than most competitors charge for a few months, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
+        </p>
+        <p style={{ marginTop: '0.75rem', lineHeight: '1.7' }}>
+          Rheumatology fellows and trainees pay even less — $119/year (or $15/month), verification required.
         </p>
         <p style={{ marginTop: '0.5rem', fontSize: '0.8rem', opacity: 0.6 }}>
           Competitor pricing as of June 2026 and subject to change; check each provider for current rates.
@@ -395,7 +401,7 @@ export default function FellowsPage() {
           Join rheumatologists and fellows who are using Rheumify to master rheumatology and ace their boards.
         </p>
         <div className="product-buttons" style={{ justifyContent: 'center', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-          <a href="https://buy.stripe.com/14A14mdKf2kB5hFbIFc3m04" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
+          <a href="https://app.rheumify.org/pricing" className="btn btn-primary"
              style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)', padding: '1rem 2rem', fontSize: '1.1rem' }}>
             Get Started Today
           </a>
