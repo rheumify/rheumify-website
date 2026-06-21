@@ -163,17 +163,17 @@ export default function Home() {
               on PubMed — so you can verify the answer and read further. Over 550 board-style questions and 700+ flashcards cover all of
               rheumatology, reviewed and updated daily.
             </p>
-            <p style={{ marginTop: '1rem', padding: '0.85rem 1rem', borderRadius: '8px', background: 'rgba(196, 181, 224, 0.12)', borderLeft: '4px solid var(--purple-light)', fontSize: '0.95rem', lineHeight: '1.6' }}>
-              <strong>Pricing update — effective June 21, 2026.</strong> Fellows and trainees keep the current rate ($15/month or $119/year). Practicing rheumatologists move to $25/month or $199/year. Current members are grandmothered in at their existing price for as long as their subscription stays active — so subscribe before June 21 to lock in today's pricing.
-            </p>
             <div className="product-buttons">
-              <a href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Sign up: $15/month
+              <a href="https://app.rheumify.org/pricing" className="btn btn-primary">
+                Subscribe: $25/month
               </a>
-              <a href="https://buy.stripe.com/14A14mdKf2kB5hFbIFc3m04" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                Sign up: $119/year (Save $61)
+              <a href="https://app.rheumify.org/pricing" className="btn btn-secondary">
+                Subscribe: $199/year (Save $101)
               </a>
             </div>
+            <p style={{ marginTop: '0.85rem', fontSize: '0.9rem', opacity: 0.85 }}>
+              Rheumatology fellow or trainee? Your rate is $15/month or $119/year (verification required) — <a href="https://app.rheumify.org/pricing" style={{ color: 'var(--purple-light)' }}>see fellow pricing</a>.
+            </p>
           </div>
         </div>
       </section>
@@ -195,7 +195,7 @@ export default function Home() {
                 <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
                   <td><strong>Rheumify</strong></td>
                   <td>550+ questions, 700+ flashcards</td>
-                  <td><strong>$119/year</strong> (or $15/mo)</td>
+                  <td><strong>$199/year</strong> (or $25/mo)</td>
                 </tr>
                 <tr>
                   <td>Rheum Review</td>
@@ -221,7 +221,10 @@ export default function Home() {
             </table>
           </div>
           <p style={{ maxWidth: '820px', margin: '1.5rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
-            Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify costs about the same as a single month of most competitors, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
+            Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify still costs less than most competitors charge for a few months, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
+          </p>
+          <p style={{ maxWidth: '820px', margin: '0.75rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
+            Rheumatology fellows and trainees pay even less — $119/year (or $15/month), verification required.
           </p>
           <p style={{ maxWidth: '820px', margin: '0.75rem auto 0', fontSize: '0.8rem', opacity: 0.6, textAlign: 'center' }}>
             Competitor pricing as of June 2026 and subject to change; check each provider for current rates.
