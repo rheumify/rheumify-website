@@ -77,32 +77,78 @@ export default function LearningPage() {
           margin-top: 0.2rem;
         }
 
-        /* ── TOPIC CARDS ── */
+        /* ── TOPIC BLOCKS (modules listed inline) ── */
         .learning-topics { max-width: 900px; margin: 0 auto; padding: 0 2rem 3rem; }
-        .topic-card {
+        .topic-block { margin-bottom: 2.25rem; }
+        .topic-block-header {
+          display: flex;
+          align-items: center;
+          gap: 0.8rem;
+          margin-bottom: 0.75rem;
+        }
+        .topic-block-header .tb-icon { font-size: 1.9rem; min-width: 2.2rem; text-align: center; }
+        .topic-block-header h3 {
+          color: #1C1A17;
+          font-size: 1.25rem;
+          font-weight: 600;
+          margin: 0;
+        }
+        .topic-block-header a.tb-title-link { color: #1C1A17; text-decoration: none; }
+        .topic-block-header a.tb-title-link:hover { color: #1D5F74; }
+        .topic-block-header .tb-analogy {
+          color: #1D5F74;
+          font-style: italic;
+          font-size: 0.95rem;
+          margin: 0;
+        }
+        .topic-block-meta { font-family: inherit; }
+
+        .module-list {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          background: #FFFFFF;
+          border: 1px solid #DDD6CB;
+          border-radius: 12px;
+          overflow: hidden;
+        }
+        .module-link {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          padding: 0.85rem 1.3rem;
+          border-bottom: 1px solid #EDE7DD;
+          text-decoration: none;
+          color: #1C1A17;
+          transition: background 0.15s;
+        }
+        .module-link:last-child { border-bottom: none; }
+        .module-link:hover { background: #F5F0EB; text-decoration: none; }
+        .module-link .ml-num {
+          font-size: 0.78rem;
+          font-weight: 700;
+          color: #7A7268;
+          min-width: 2.4rem;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+        }
+        .module-link .ml-title { flex: 1; font-size: 1rem; font-weight: 500; }
+        .module-link .ml-meta { color: #1D5F74; font-size: 0.85rem; font-weight: 600; white-space: nowrap; }
+        .module-link.coming-soon { opacity: 0.55; cursor: default; pointer-events: none; }
+        .module-link.coming-soon .ml-meta { color: #7A7268; }
+
+        /* ── COMING SOON TOPIC CARDS ── */
+        .topic-card-coming-soon {
           display: flex;
           gap: 1.5rem;
           background: #FFFFFF;
           border: 1px solid #DDD6CB;
           border-radius: 14px;
-          padding: 1.75rem 2rem;
+          padding: 1.5rem 1.75rem;
           margin-bottom: 1.25rem;
-          text-decoration: none;
-          color: #1C1A17;
-          transition: border-color 0.2s, box-shadow 0.2s;
+          opacity: 0.6;
         }
-        .topic-card-active:hover {
-          border-color: #1D5F74;
-          box-shadow: 0 3px 12px rgba(29,95,116,0.1);
-          text-decoration: none;
-        }
-        .topic-card-coming-soon { opacity: 0.6; cursor: default; }
-        .topic-card-icon {
-          font-size: 2.2rem;
-          min-width: 2.5rem;
-          text-align: center;
-          padding-top: 0.1rem;
-        }
+        .topic-card-icon { font-size: 2.2rem; min-width: 2.5rem; text-align: center; padding-top: 0.1rem; }
         .topic-card-content { flex: 1; }
         .topic-card-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
         .topic-tag {
@@ -114,15 +160,10 @@ export default function LearningPage() {
           font-size: 0.75rem;
           font-weight: 600;
         }
-        .tag-difficulty {
-          background: rgba(108,99,255,0.08);
-          color: #6C63FF;
-          border-color: rgba(108,99,255,0.2);
-        }
         .topic-card-content h3 { color: #1C1A17; font-size: 1.2rem; margin-bottom: 0.2rem; }
         .topic-card-analogy { color: #1D5F74; font-style: italic; font-size: 0.97rem; margin-bottom: 0.5rem; }
-        .topic-card-description { color: #4A4540; font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.75rem; }
-        .topic-card-cta { color: #1D5F74; font-weight: 600; font-size: 0.9rem; }
+        .topic-card-description { color: #4A4540; font-size: 0.95rem; line-height: 1.65; }
+        .subhead { color: #7A7268; font-size: 0.95rem; max-width: 900px; margin: 0 auto 1rem; padding: 0 2rem; }
       `}</style>
 
       <div className="learning-hero">
@@ -168,87 +209,78 @@ export default function LearningPage() {
         </div>
       </section>
 
+      <p className="subhead">Jump straight to any module below.</p>
+
       <section className="learning-topics">
         <h2 className="section-title">Topics</h2>
 
-        <a href="/learning/biologics" className="topic-card topic-card-active">
-          <div className="topic-card-icon">🏠</div>
-          <div className="topic-card-content">
-            <div className="topic-card-tags">
-              <span className="topic-tag">4 Steps</span>
-              <span className="topic-tag">30 min</span>
-              <span className="topic-tag">High Yield</span>
-              <span className="topic-tag tag-difficulty">All Levels</span>
+        <div className="topic-block">
+          <div className="topic-block-header">
+            <span className="tb-icon">🏠</span>
+            <div>
+              <h3><a className="tb-title-link" href="/learning/biologics">Rheumatology Biologics</a></h3>
+              <p className="tb-analogy">&ldquo;The Memory Palace&rdquo; &mdash; A House</p>
             </div>
-            <h3>Rheumatology Biologics</h3>
-            <p className="topic-card-analogy">&ldquo;The Memory Palace&rdquo; &mdash; A House</p>
-            <p className="topic-card-description">
-              Every biologic mechanism mapped to a room in your house. Walk from the garden hose
-              (drug suffixes) through the front door (IL-1), living room (IL-6, IL-17), kitchen
-              (TNF), laundry room (B cells), garage (JAK/TYK2), and backyard (PDE4). Includes
-              dosing, FDA indications, and board-testable mnemonics for every drug.
-            </p>
-            <span className="topic-card-cta">Start Learning &rarr;</span>
           </div>
-        </a>
+          <ul className="module-list">
+            <li><a className="module-link" href="/learning/biologics#step-1"><span className="ml-num">Step 1</span><span className="ml-title">The Garden Hose &mdash; Drug Suffixes</span><span className="ml-meta">Read &rarr;</span></a></li>
+            <li><a className="module-link" href="/learning/biologics#step-2"><span className="ml-num">Step 2</span><span className="ml-title">The Labeling System &mdash; WHO Naming</span><span className="ml-meta">Read &rarr;</span></a></li>
+            <li><a className="module-link" href="/learning/biologics#step-3"><span className="ml-num">Step 3</span><span className="ml-title">Name Cheat Codes</span><span className="ml-meta">Read &rarr;</span></a></li>
+            <li><a className="module-link" href="/learning/biologics#step-4"><span className="ml-num">Step 4</span><span className="ml-title">The House Tour &mdash; Drug by Drug</span><span className="ml-meta">Read &rarr;</span></a></li>
+          </ul>
+        </div>
 
-        <a href="/learning/aps" className="topic-card topic-card-active">
-          <div className="topic-card-icon">🏦</div>
-          <div className="topic-card-content">
-            <div className="topic-card-tags">
-              <span className="topic-tag">3 Modules</span>
-              <span className="topic-tag">15 min</span>
-              <span className="topic-tag">ABIM 9%</span>
-              <span className="topic-tag tag-difficulty">Intermediate</span>
+        <div className="topic-block">
+          <div className="topic-block-header">
+            <span className="tb-icon">🏦</span>
+            <div>
+              <h3><a className="tb-title-link" href="/learning/aps">Antiphospholipid Syndrome</a></h3>
+              <p className="tb-analogy">&ldquo;Your Blood Is a Bank&rdquo;</p>
             </div>
-            <h3>Antiphospholipid Syndrome</h3>
-            <p className="topic-card-analogy">&ldquo;Your Blood Is a Bank&rdquo;</p>
-            <p className="topic-card-description">
-              Master APS labs, clinical manifestations, and management through a banking analogy.
-              When the fraud detection system goes rogue, accounts get frozen &mdash; and the consequences
-              depend on which branch gets hit. Covers the 2023 ACR/EULAR classification criteria,
-              the TRAPS trial, and catastrophic APS.
-            </p>
-            <span className="topic-card-cta">Start Learning &rarr;</span>
           </div>
-        </a>
+          <ul className="module-list">
+            <li><a className="module-link" href="/learning/aps/labs"><span className="ml-num">Mod 1</span><span className="ml-title">Decoding the Labs</span><span className="ml-meta">Read &rarr;</span></a></li>
+            <li><a className="module-link" href="/learning/aps/clinical"><span className="ml-num">Mod 2</span><span className="ml-title">When Accounts Get Frozen</span><span className="ml-meta">Read &rarr;</span></a></li>
+            <li><a className="module-link" href="/learning/aps/management"><span className="ml-num">Mod 3</span><span className="ml-title">Unfreezing the Accounts</span><span className="ml-meta">Read &rarr;</span></a></li>
+          </ul>
+        </div>
 
-        <a href="/learning/osteoporosis" className="topic-card topic-card-active">
-          <div className="topic-card-icon">🦴</div>
-          <div className="topic-card-content">
-            <div className="topic-card-tags">
-              <span className="topic-tag">6 Modules</span>
-              <span className="topic-tag">Free on Substack</span>
-              <span className="topic-tag tag-difficulty">All Levels</span>
+        <div className="topic-block">
+          <div className="topic-block-header">
+            <span className="tb-icon">🦴</span>
+            <div>
+              <h3><a className="tb-title-link" href="/learning/osteoporosis">Osteoporosis</a></h3>
+              <p className="tb-analogy">A six-part series &mdash; free on Substack</p>
             </div>
-            <h3>Osteoporosis</h3>
-            <p className="topic-card-description">
-              A six-part series covering pathophysiology, risk assessment, diagnosis, and the full
-              treatment landscape. Each module is published free on Substack &mdash; read them in order
-              or jump to what you need.
-            </p>
-            <span className="topic-card-cta">View Modules &rarr;</span>
           </div>
-        </a>
+          <ul className="module-list">
+            <li><a className="module-link" href="https://rheumify.substack.com/p/osteoporosis-module-1?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 1</span><span className="ml-title">Osteoporosis Module 1</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/osteoporosis-module-ii?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 2</span><span className="ml-title">Osteoporosis Module 2</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/osteoporosis-module-iii?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 3</span><span className="ml-title">Osteoporosis Module 3</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/osteoporosis-module-iv?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 4</span><span className="ml-title">Osteoporosis Module 4</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/osteoporosis-module-v?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 5</span><span className="ml-title">Osteoporosis Module 5</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/osteoporosis-module-vi?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 6</span><span className="ml-title">Osteoporosis Module 6</span><span className="ml-meta">Substack &#8599;</span></a></li>
+          </ul>
+        </div>
 
-        <a href="/learning/immunology" className="topic-card topic-card-active">
-          <div className="topic-card-icon">🛡️</div>
-          <div className="topic-card-content">
-            <div className="topic-card-tags">
-              <span className="topic-tag">4 Modules</span>
-              <span className="topic-tag">Free on Substack</span>
-              <span className="topic-tag tag-difficulty">All Levels</span>
+        <div className="topic-block">
+          <div className="topic-block-header">
+            <span className="tb-icon">🛡️</span>
+            <div>
+              <h3><a className="tb-title-link" href="/learning/immunology">Immunology</a></h3>
+              <p className="tb-analogy">A module series &mdash; free on Substack</p>
             </div>
-            <h3>Immunology</h3>
-            <p className="topic-card-description">
-              The foundational immunology that underpins rheumatology, in a focused module series.
-              Each module is published free on Substack &mdash; read them in order or jump to what you need.
-            </p>
-            <span className="topic-card-cta">View Modules &rarr;</span>
           </div>
-        </a>
+          <ul className="module-list">
+            <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-1?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 1</span><span className="ml-title">Immunology Module 1</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-2?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 2</span><span className="ml-title">Immunology Module 2</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-3?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 3</span><span className="ml-title">Immunology Module 3</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-4?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 4</span><span className="ml-title">Immunology Module 4</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 5</span><span className="ml-title">Immunology Module 5</span><span className="ml-meta">Coming soon</span></span></li>
+          </ul>
+        </div>
 
-        <div className="topic-card topic-card-coming-soon">
+        <div className="topic-card-coming-soon">
           <div className="topic-card-icon">🔥</div>
           <div className="topic-card-content">
             <div className="topic-card-tags">
@@ -263,7 +295,7 @@ export default function LearningPage() {
           </div>
         </div>
 
-        <div className="topic-card topic-card-coming-soon">
+        <div className="topic-card-coming-soon">
           <div className="topic-card-icon">🦋</div>
           <div className="topic-card-content">
             <div className="topic-card-tags">
@@ -278,7 +310,7 @@ export default function LearningPage() {
           </div>
         </div>
 
-        <div className="topic-card topic-card-coming-soon">
+        <div className="topic-card-coming-soon">
           <div className="topic-card-icon">🔧</div>
           <div className="topic-card-content">
             <div className="topic-card-tags">
