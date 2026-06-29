@@ -213,6 +213,41 @@ export default function LearningPage() {
           </div>
         </a>
 
+        <a href="/learning/osteoporosis" className="topic-card topic-card-active">
+          <div className="topic-card-icon">🦴</div>
+          <div className="topic-card-content">
+            <div className="topic-card-tags">
+              <span className="topic-tag">6 Modules</span>
+              <span className="topic-tag">Free on Substack</span>
+              <span className="topic-tag tag-difficulty">All Levels</span>
+            </div>
+            <h3>Osteoporosis</h3>
+            <p className="topic-card-description">
+              A six-part series covering pathophysiology, risk assessment, diagnosis, and the full
+              treatment landscape. Each module is published free on Substack &mdash; read them in order
+              or jump to what you need.
+            </p>
+            <span className="topic-card-cta">View Modules &rarr;</span>
+          </div>
+        </a>
+
+        <a href="/learning/immunology" className="topic-card topic-card-active">
+          <div className="topic-card-icon">🛡️</div>
+          <div className="topic-card-content">
+            <div className="topic-card-tags">
+              <span className="topic-tag">4 Modules</span>
+              <span className="topic-tag">Free on Substack</span>
+              <span className="topic-tag tag-difficulty">All Levels</span>
+            </div>
+            <h3>Immunology</h3>
+            <p className="topic-card-description">
+              The foundational immunology that underpins rheumatology, in a focused module series.
+              Each module is published free on Substack &mdash; read them in order or jump to what you need.
+            </p>
+            <span className="topic-card-cta">View Modules &rarr;</span>
+          </div>
+        </a>
+
         <div className="topic-card topic-card-coming-soon">
           <div className="topic-card-icon">🔥</div>
           <div className="topic-card-content">
