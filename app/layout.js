@@ -1,4 +1,5 @@
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   metadataBase: new URL('https://www.rheumify.org'),
@@ -185,6 +186,7 @@ export default function RootLayout({ children }) {
             </p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
