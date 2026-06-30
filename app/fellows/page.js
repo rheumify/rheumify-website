@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'ABIM Rheumatology Board Prep for Fellows',
-  description: 'Rheumatology board review for fellows and recertifying physicians, from Dr. Alison Bays, MD: 550+ ABIM-style questions, flashcards, and a full exam-format guide.',
+  description: 'Rheumatology board review for fellows and recertifying physicians, from Dr. Alison Bays, MD: 600+ ABIM-style questions, flashcards, and a full exam-format guide.',
   keywords: ['rheumatology board review', 'ABIM rheumatology board prep', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'rheumatology recertification', 'spaced repetition', 'exam format', 'certification prep'],
 };
 
@@ -19,7 +19,7 @@ export default function FellowsPage() {
         <h2 style={{ color: 'var(--purple-light)' }}>Rheumify App - Board Prep & Knowledge Assessment</h2>
         <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
           AI-created content curated and reviewed by a board-certified academic rheumatologist. Contains both a
-          <strong> question bank</strong> with over 550 questions as well as <strong>spaced repetition flashcards</strong> with
+          <strong> question bank</strong> with over 600 questions as well as <strong>spaced repetition flashcards</strong> with
           over 700 cards covering all of rheumatology.
         </p>
         <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
@@ -91,7 +91,7 @@ export default function FellowsPage() {
             <tbody>
               <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
                 <td><strong>Rheumify</strong></td>
-                <td>550+ questions, 700+ flashcards</td>
+                <td>600+ questions, 700+ flashcards</td>
                 <td><strong>$199/year</strong> (or $25/mo)</td>
               </tr>
               <tr>
