@@ -156,25 +156,6 @@ export default function FellowsPage() {
         </div>
       </div>
 
-      {/* ACR Convergence 2025 */}
-      <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
-        <h2 style={{ color: 'var(--purple-light)' }}>ACR Convergence 2025 Vasculitis Resources</h2>
-        <p>
-          A curated collection of vasculitis highlights from ACR Convergence 2025 in Chicago.
-          Includes key trial updates, abstract links, and news coverage organized by disease.
-        </p>
-        <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-          Quick access to SELECT-GCA, METOGiA, MANDARA, and other important vasculitis abstracts with direct links to sources.
-          Organized by condition: GCA, EGPA, IgG4-RD, and more.
-        </p>
-        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
-          <a href="https://acr2025-vasculitis-ozg9.vercel.app/" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
-             style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
-            View ACR 2025 Resources
-          </a>
-        </div>
-      </div>
-
       {/* Why Choose Rheumify */}
       <div className="content-card">
         <h2 style={{ color: 'var(--purple-light)' }}>Why Choose the Rheumify App?</h2>
