@@ -237,22 +237,6 @@ export default function Home() {
         <h2 className="section-title">More from <span>Rheumify</span></h2>
         <div className="products-grid">
           <div className="product-card">
-            <h3><a href="https://acr2025-vasculitis-ozg9.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>ACR Convergence 2025 Vasculitis Resources</a></h3>
-            <p>
-              A curated collection of vasculitis highlights from ACR Convergence 2025 in Chicago.
-              Includes key trial updates, abstract links, and news coverage organized by disease.
-            </p>
-            <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-              Quick access to SELECT-GCA, METOGiA, MANDARA, and other important vasculitis abstracts with direct links to sources.
-            </p>
-            <div className="product-buttons">
-              <a href="https://acr2025-vasculitis-ozg9.vercel.app/" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                View ACR 2025 Resources
-              </a>
-            </div>
-          </div>
-
-          <div className="product-card">
             <h3>RheumCast</h3>
             <p>
               A free AI-generated podcast with two hosts discussing the current ACR Clinical Practice Guidelines.
