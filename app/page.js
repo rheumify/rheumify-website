@@ -121,7 +121,7 @@ export default function Home() {
               </svg>
             </div>
             <h3>For Rheumatologists & Fellows</h3>
-            <p>Board prep, manuscript planning, ACR guidelines podcast, citation tools, and ACR Convergence highlights - all in one place.</p>
+            <p>Board prep, manuscript planning, ACR guidelines podcast, and citation tools - all in one place.</p>
           </a>
 
           <a href="/patients" className="audience-card">
