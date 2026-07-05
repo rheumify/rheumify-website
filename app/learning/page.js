@@ -219,14 +219,18 @@ export default function LearningPage() {
             <span className="tb-icon">🏠</span>
             <div>
               <h3><a className="tb-title-link" href="/learning/biologics">Rheumatology Biologics</a></h3>
-              <p className="tb-analogy">&ldquo;The Memory Palace&rdquo; &mdash; A House</p>
+              <p className="tb-analogy">&ldquo;The Memory Palace&rdquo; &mdash; A House &middot; free on Substack</p>
             </div>
           </div>
           <ul className="module-list">
-            <li><a className="module-link" href="/learning/biologics#step-1"><span className="ml-num">Step 1</span><span className="ml-title">The Garden Hose &mdash; Drug Suffixes</span><span className="ml-meta">Read &rarr;</span></a></li>
-            <li><a className="module-link" href="/learning/biologics#step-2"><span className="ml-num">Step 2</span><span className="ml-title">The Labeling System &mdash; WHO Naming</span><span className="ml-meta">Read &rarr;</span></a></li>
-            <li><a className="module-link" href="/learning/biologics#step-3"><span className="ml-num">Step 3</span><span className="ml-title">Name Cheat Codes</span><span className="ml-meta">Read &rarr;</span></a></li>
-            <li><a className="module-link" href="/learning/biologics#step-4"><span className="ml-num">Step 4</span><span className="ml-title">The House Tour &mdash; Drug by Drug</span><span className="ml-meta">Read &rarr;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module-1?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 1</span><span className="ml-title">The Garden Hose &amp; the Labeling System</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module-2?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 2</span><span className="ml-title">The Front Door &mdash; IL-1 Inhibitors</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/biologic-module-3?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 3</span><span className="ml-title">The Thermostat &mdash; IL-6 Inhibitors</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module-4?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 4</span><span className="ml-title">The TV &mdash; IL-17 &amp; IL-12/23</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 5</span><span className="ml-title">The Kitchen Freezer &mdash; TNF Inhibitors</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 6</span><span className="ml-title">B-Cell Death Row + Other Key Players</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 7</span><span className="ml-title">The Garage &mdash; JAK &amp; TYK2 Inhibitors</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 8</span><span className="ml-title">The Backyard &mdash; PDE4 Inhibitor</span><span className="ml-meta">Coming soon</span></span></li>
           </ul>
         </div>
 
@@ -276,7 +280,7 @@ export default function LearningPage() {
             <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-2?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 2</span><span className="ml-title">Immunology Module 2</span><span className="ml-meta">Substack &#8599;</span></a></li>
             <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-3?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 3</span><span className="ml-title">Immunology Module 3</span><span className="ml-meta">Substack &#8599;</span></a></li>
             <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-4?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 4</span><span className="ml-title">Immunology Module 4</span><span className="ml-meta">Substack &#8599;</span></a></li>
-            <li><span className="module-link coming-soon"><span className="ml-num">Mod 5</span><span className="ml-title">Immunology Module 5</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/immunology-module-5?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 5</span><span className="ml-title">Immunology Module 5</span><span className="ml-meta">Substack &#8599;</span></a></li>
           </ul>
         </div>
 
