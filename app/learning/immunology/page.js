@@ -80,16 +80,18 @@ export default function ImmunologyOverviewPage() {
           </div>
         </a>
 
-        <div className="module-overview-card" style={{opacity: 0.6}}>
+        <a href="https://rheumify.substack.com/p/immunology-module-5?r=5swh49" target="_blank" rel="noopener noreferrer" className="module-overview-card">
           <div className="module-overview-number">5</div>
           <div className="module-overview-content">
             <div className="topic-card-tags">
-              <span className="topic-tag">Coming Soon</span>
+              <span className="topic-tag">5 min</span>
+              <span className="topic-tag">Free on Substack</span>
             </div>
             <h3>Module 5</h3>
-            <p className="topic-card-description">Releasing soon on Substack.</p>
+            <p className="topic-card-description">Read the full module free on Substack.</p>
+            <span className="topic-card-cta">Read on Substack →</span>
           </div>
-        </div>
+        </a>
       </section>
     </main>
   );
