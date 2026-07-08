@@ -229,8 +229,8 @@ export default function LearningPage() {
             <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module-4?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 4</span><span className="ml-title">The TV &mdash; IL-17 &amp; IL-12/23</span><span className="ml-meta">Substack &#8599;</span></a></li>
             <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module-5?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 5</span><span className="ml-title">The Kitchen Freezer &mdash; TNF Inhibitors</span><span className="ml-meta">Substack &#8599;</span></a></li>
             <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 6</span><span className="ml-title">B-Cell Death Row + Other Key Players</span><span className="ml-meta">Substack &#8599;</span></a></li>
-            <li><span className="module-link coming-soon"><span className="ml-num">Mod 7</span><span className="ml-title">The Garage &mdash; JAK &amp; TYK2 Inhibitors</span><span className="ml-meta">Coming soon</span></span></li>
-            <li><span className="module-link coming-soon"><span className="ml-num">Mod 8</span><span className="ml-title">The Backyard &mdash; PDE4 Inhibitor</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module-7?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 7</span><span className="ml-title">The Garage &mdash; JAK &amp; TYK2 Inhibitors</span><span className="ml-meta">Substack &#8599;</span></a></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/biologics-module-8?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 8</span><span className="ml-title">The Backyard &mdash; PDE4 Inhibitor</span><span className="ml-meta">Substack &#8599;</span></a></li>
           </ul>
         </div>
 
