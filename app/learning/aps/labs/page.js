@@ -129,18 +129,21 @@ export default function APSLabsModule() {
           <div className="dept-header">
             <div className="dept-number">2</div>
             <div>
-              <h3>Anticardiolipin (aCL) &mdash; The Pattern Scanner</h3>
-              <p className="dept-tagline">Doesn&rsquo;t time transactions &mdash; scans for suspicious patterns in the paperwork.</p>
+              <h3>Anticardiolipin (aCL) &mdash; The Card Department</h3>
+              <p className="dept-tagline">Doesn&rsquo;t time transactions &mdash; flags the cards themselves.</p>
             </div>
           </div>
           <p>
-            Instead of monitoring transaction speed, this department examines the <strong>paperwork</strong> &mdash; antibodies targeting cardiolipin (a phospholipid in cell membranes). Because it scans paperwork rather than times transactions, <strong>it CAN run while anticoagulation is active</strong> &mdash; a key practical difference from LA.
+            Instead of monitoring transaction speed, this department scans <strong>the cards</strong> &mdash; antibodies targeting <strong>cardiolipin</strong> (a phospholipid in cell membranes). Because it reads the card directly rather than timing transactions, <strong>it CAN run while anticoagulation is active</strong> &mdash; a key practical difference from LA. But a card is only plastic: the antibody actually works through &beta;2GPI, which is why the <strong>Card leads you to the PI</strong> (Department 3).
           </p>
+          <div className="inline-mnemonic">
+            <strong>&ldquo;aCL = the CARD; the PI (&beta;2GPI) owns the real account&rdquo;</strong> &mdash; anti<strong>CARD</strong>iolipin is the plastic; the antibody binds through &beta;2GPI, so the PI (anti-&beta;2GPI, especially Domain I) names the true culprit &mdash; more specific.
+          </div>
           <ul className="content-list">
             <li><strong>Method:</strong> ELISA &mdash; measures antibodies directly, not clotting function</li>
             <li><strong>2023 thresholds:</strong> IgG &ge;40 GPL units or IgM &ge;80 MPL units for highest-weight category</li>
             <li><strong>&#10003; Can test on anticoagulation</strong></li>
-            <li><strong>Limitation:</strong> Less specific &mdash; infections and medications can cause transient false positives</li>
+            <li><strong>Limitation:</strong> Less specific &mdash; infections and medications can cause transient false positives (a cloned card)</li>
           </ul>
         </div>
 
@@ -153,7 +156,7 @@ export default function APSLabsModule() {
             </div>
           </div>
           <p>
-            While the Pattern Scanner finds suspicious paperwork, the Identity Investigator tracks the <strong>actual person responsible</strong>. &beta;2-Glycoprotein I is the cofactor aPL antibodies need to bind phospholipids &mdash; it&rsquo;s the <em>true antigenic target</em>. Finding antibodies against it is like confirming the ringleader&rsquo;s exact address.
+            While the Card Department reads the plastic, the Identity Investigator tracks the <strong>actual person responsible</strong>. &beta;2-Glycoprotein I is the cofactor aPL antibodies need to bind phospholipids &mdash; it&rsquo;s the <em>true antigenic target</em>. Finding antibodies against it is like confirming the ringleader&rsquo;s exact address.
           </p>
           <ul className="content-list">
             <li><strong>Method:</strong> ELISA targeting anti-&beta;2GPI</li>
@@ -175,7 +178,7 @@ export default function APSLabsModule() {
               <tr>
                 <th>Feature</th>
                 <th>LA (Speed Monitor)</th>
-                <th>aCL (Pattern Scanner)</th>
+                <th>aCL (Card Dept)</th>
                 <th>Anti-&beta;2GPI (Investigator)</th>
               </tr>
             </thead>
@@ -194,7 +197,7 @@ export default function APSLabsModule() {
         <h2 className="section-title">Triple Positivity</h2>
         <div className="story-card highlight-card">
           <p>
-            When <strong>all three departments</strong> flag the same culprit &mdash; Speed Monitor, Pattern Scanner, and Identity Investigator all positive &mdash; the case is airtight. That&rsquo;s <strong>triple positivity</strong>: the grand slam of aPL profiling. These patients face the <strong>highest thrombotic risk: 5&ndash;10% per year</strong> and absolutely cannot use DOACs (see Module 3, TRAPS trial). Warfarin only.
+            When <strong>all three departments</strong> flag the same culprit &mdash; Speed Monitor, Card Department, and Identity Investigator all positive &mdash; the case is airtight. That&rsquo;s <strong>triple positivity</strong>: the grand slam of aPL profiling. These patients face the <strong>highest thrombotic risk: 5&ndash;10% per year</strong> and absolutely cannot use DOACs (see Module 3, TRAPS trial). Warfarin only.
           </p>
         </div>
       </section>
@@ -405,6 +408,7 @@ export default function APSLabsModule() {
             <li>LA cannot be tested on anticoagulation; aCL and anti-&beta;2GPI can</li>
             <li>Mix and Fix &mdash; the Factor was missed; Mix and Miss &mdash; an Inhibitor exists (LA)</li>
             <li>LA lies on the INR &mdash; use chromogenic factor X assay for warfarin monitoring</li>
+            <li>The Card leads to the PI &mdash; aCL binds via &beta;2GPI; anti-&beta;2GPI (Domain I) is the most specific target</li>
             <li>Triple positivity = grand slam = highest risk (5&ndash;10%/year) = warfarin only</li>
             <li>Always confirm at &ge;12 weeks &mdash; never diagnose APS on a single positive test</li>
           </ul>
