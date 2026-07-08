@@ -101,7 +101,7 @@ export default function APSLabsModule() {
           <div className="step-flow">
             <div className="step-card">
               <div className="step-number">1</div>
-              <div><strong>Screen:</strong> aPTT is prolonged &mdash; transactions are slow.</div>
+              <div><strong>Screen:</strong> aPTT is prolonged &mdash; <strong>a Part-Time Teller</strong> works the window, so transactions drag.</div>
             </div>
             <div className="step-card">
               <div className="step-number">2</div>
