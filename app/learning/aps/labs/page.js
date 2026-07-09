@@ -29,7 +29,7 @@ export default function APSLabsModule() {
         .step-card { background: #FFFFFF; border: 1px solid #DDD6CB; }
         .step-card div { color: #4A4540; }
         .step-card strong { color: #1C1A17; }
-        .step-number { background: #1D5F74; color: #FFFFFF; }
+        .step-card .step-number { background: #1D5F74; color: #FFFFFF; }
         .content-list li { color: #4A4540; }
         .content-list li::before { color: #1D5F74; }
         .content-list strong { color: #1C1A17; }
@@ -55,7 +55,7 @@ export default function APSLabsModule() {
         .dept-card h3 { margin: 0 0 2px; font-size: 1.1rem; color: #1C1A17; }
         .dept-card p { color: #4A4540; }
         .dept-header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 0.75rem; }
-        .dept-number { width: 36px; height: 36px; min-width: 36px; border-radius: 50%; background: #6C63FF; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; }
+        .dept-number { width: 36px; height: 36px; min-width: 36px; border-radius: 50%; background: #7B6B9E; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; }
         .dept-tagline { font-style: italic; color: #7A7268; font-size: 0.9rem; margin: 4px 0 0; }
         .inline-mnemonic { background: #FDF6EC; border-left: 3px solid #C8964A; border-radius: 6px; padding: 0.65rem 0.9rem; margin: 10px 0; font-size: 0.95rem; color: #4A4540; }
       `}</style>
