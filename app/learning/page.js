@@ -239,13 +239,13 @@ export default function LearningPage() {
             <span className="tb-icon">🏦</span>
             <div>
               <h3><a className="tb-title-link" href="/learning/aps">Antiphospholipid Syndrome</a></h3>
-              <p className="tb-analogy">&ldquo;Your Blood Is a Bank&rdquo;</p>
+              <p className="tb-analogy">&ldquo;Your Blood Is a Bank&rdquo; &mdash; free on Substack</p>
             </div>
           </div>
           <ul className="module-list">
-            <li><a className="module-link" href="/learning/aps/labs"><span className="ml-num">Mod 1</span><span className="ml-title">Decoding the Labs</span><span className="ml-meta">Read &rarr;</span></a></li>
-            <li><a className="module-link" href="/learning/aps/clinical"><span className="ml-num">Mod 2</span><span className="ml-title">When Accounts Get Frozen</span><span className="ml-meta">Read &rarr;</span></a></li>
-            <li><a className="module-link" href="/learning/aps/management"><span className="ml-num">Mod 3</span><span className="ml-title">Unfreezing the Accounts</span><span className="ml-meta">Read &rarr;</span></a></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 1</span><span className="ml-title">Decoding the Labs</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 2</span><span className="ml-title">When Accounts Get Frozen</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><span className="module-link coming-soon"><span className="ml-num">Mod 3</span><span className="ml-title">Unfreezing the Accounts</span><span className="ml-meta">Coming soon</span></span></li>
           </ul>
         </div>
 
