@@ -267,7 +267,7 @@ export default function LearningPage() {
           </div>
           <ul className="module-list">
             <li><a className="module-link" href="https://rheumify.substack.com/p/anti-phospholipid-antibody-syndrome?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 1</span><span className="ml-title">Decoding the Labs</span><span className="ml-meta">Substack &#8599;</span></a></li>
-            <li><span className="module-link coming-soon"><span className="ml-num">Mod 2</span><span className="ml-title">When Accounts Get Frozen</span><span className="ml-meta">Coming soon</span></span></li>
+            <li><a className="module-link" href="https://rheumify.substack.com/p/anti-phospholipid-antibody-syndrome-86f?r=5swh49" target="_blank" rel="noopener noreferrer"><span className="ml-num">Mod 2</span><span className="ml-title">When Accounts Get Frozen</span><span className="ml-meta">Substack &#8599;</span></a></li>
             <li><span className="module-link coming-soon"><span className="ml-num">Mod 3</span><span className="ml-title">Unfreezing the Accounts</span><span className="ml-meta">Coming soon</span></span></li>
           </ul>
         </div>
