@@ -164,6 +164,20 @@ export default function LearningPage() {
         .topic-card-analogy { color: #1D5F74; font-style: italic; font-size: 0.97rem; margin-bottom: 0.5rem; }
         .topic-card-description { color: #4A4540; font-size: 0.95rem; line-height: 1.65; }
         .subhead { color: #7A7268; font-size: 0.95rem; max-width: 900px; margin: 0 auto 1rem; padding: 0 2rem; }
+
+        /* ── ACCESS CALLOUT ── */
+        .access-callout {
+          max-width: 900px;
+          margin: 1.5rem auto 0.5rem;
+          padding: 1.1rem 1.5rem;
+          background: rgba(29,95,116,0.06);
+          border: 1px solid rgba(29,95,116,0.22);
+          border-left: 4px solid #1D5F74;
+          border-radius: 12px;
+        }
+        .access-callout .ac-lead { color: #1C1A17; font-size: 1.02rem; line-height: 1.6; margin: 0 0 0.5rem; }
+        .access-callout .ac-lead a { color: #1D5F74; font-weight: 600; }
+        .access-callout .ac-sub { color: #4A4540; font-size: 0.92rem; line-height: 1.6; margin: 0; }
       `}</style>
 
       <div className="learning-hero">
@@ -171,6 +185,15 @@ export default function LearningPage() {
         <h1 className="page-title">Rheumatology Learning</h1>
         <p className="learning-subtitle">
           Master complex topics through analogy-based 5-minute modules
+        </p>
+      </div>
+
+      <div className="access-callout">
+        <p className="ac-lead">
+          <strong>A Rheumify subscription unlocks every module inside the app</strong> &mdash; the full library, all series start to finish, in one place at <a href="https://app.rheumify.org" target="_blank" rel="noopener noreferrer">app.rheumify.org</a>.
+        </p>
+        <p className="ac-sub">
+          Reading on Substack? The first module of each series is free &mdash; the rest are for paid Substack subscribers.
         </p>
       </div>
 
@@ -219,7 +242,7 @@ export default function LearningPage() {
             <span className="tb-icon">🏠</span>
             <div>
               <h3><a className="tb-title-link" href="/learning/biologics">Rheumatology Biologics</a></h3>
-              <p className="tb-analogy">&ldquo;The Memory Palace&rdquo; &mdash; A House &middot; free on Substack</p>
+              <p className="tb-analogy">&ldquo;The Memory Palace&rdquo; &mdash; A House &middot; Module 1 free on Substack</p>
             </div>
           </div>
           <ul className="module-list">
@@ -239,7 +262,7 @@ export default function LearningPage() {
             <span className="tb-icon">🏦</span>
             <div>
               <h3><a className="tb-title-link" href="/learning/aps">Antiphospholipid Syndrome</a></h3>
-              <p className="tb-analogy">&ldquo;Your Blood Is a Bank&rdquo; &mdash; free on Substack</p>
+              <p className="tb-analogy">&ldquo;Your Blood Is a Bank&rdquo; &mdash; Module 1 free on Substack</p>
             </div>
           </div>
           <ul className="module-list">
@@ -254,7 +277,7 @@ export default function LearningPage() {
             <span className="tb-icon">🦴</span>
             <div>
               <h3><a className="tb-title-link" href="/learning/osteoporosis">Osteoporosis</a></h3>
-              <p className="tb-analogy">A six-part series &mdash; free on Substack</p>
+              <p className="tb-analogy">A six-part series &mdash; Module 1 free on Substack</p>
             </div>
           </div>
           <ul className="module-list">
@@ -272,7 +295,7 @@ export default function LearningPage() {
             <span className="tb-icon">🛡️</span>
             <div>
               <h3><a className="tb-title-link" href="/learning/immunology">Immunology</a></h3>
-              <p className="tb-analogy">A module series &mdash; free on Substack</p>
+              <p className="tb-analogy">A module series &mdash; Module 1 free on Substack</p>
             </div>
           </div>
           <ul className="module-list">
