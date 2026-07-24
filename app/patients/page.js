@@ -26,6 +26,34 @@ export default function PatientsPage() {
             justifyContent: 'center'
           }}>
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M3 3v18h18"></path>
+              <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path>
+            </svg>
+          </span>
+          Understanding Your Labs
+        </h2>
+        <p>
+          If you get labs drawn at more than one place &mdash; Quest, LabCorp, different health systems &mdash; your results end up scattered across separate MyChart logins. <strong>LabLens</strong> is a free Mac app Dr. Bays built to help you keep them in one place. Download your reports, import them, and see each value tracked over time, with a plain-English explanation of what each test is, why it's checked, and what to ask your doctor. Everything stays on your own computer &mdash; no account, no cloud, nothing uploaded anywhere.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          <a href="https://www.glaze.app/app/lablens-GkByoP" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
+            Get LabLens (free) &rarr;
+          </a>
+        </p>
+      </div>
+
+      <div className="content-card">
+        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <span style={{
+            width: '40px',
+            height: '40px',
+            background: 'linear-gradient(135deg, var(--purple-light), var(--purple-dark))',
+            borderRadius: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
               <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
             </svg>
