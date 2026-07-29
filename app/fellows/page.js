@@ -156,6 +156,27 @@ export default function FellowsPage() {
         </div>
       </div>
 
+      {/* RheumLens - free image bank */}
+      <div className="content-card" style={{ borderLeft: '4px solid var(--blue-accent)' }}>
+        <h2 style={{ color: 'var(--blue-light)' }}>RheumLens - Free Rheumatology Image Practice</h2>
+        <p style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>
+          A free, image-based study tool for the visual side of rheumatology. Flip through real clinical
+          images - crystals under polarized light, rashes, radiographs, ultrasound, CT/MRI, and histopathology -
+          reveal the finding, and train your eye on the images that get tested on the boards. Built on the ACR
+          Rheumatology Image Library.
+        </p>
+        <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
+          Completely free, with no ads and no sign-up required. Sign in is optional if you want to save your
+          progress across devices. Board-style image questions are coming soon; flip cards are live now.
+        </p>
+        <div className="product-buttons" style={{ marginTop: '1.5rem' }}>
+          <a href="https://rheumlens.org" className="btn btn-primary" target="_blank" rel="noopener noreferrer"
+             style={{ background: 'var(--blue-accent)', borderColor: 'var(--blue-accent)' }}>
+            Practice Free at RheumLens.org →
+          </a>
+        </div>
+      </div>
+
       {/* Why Choose Rheumify */}
       <div className="content-card">
         <h2 style={{ color: 'var(--purple-light)' }}>Why Choose the Rheumify App?</h2>
