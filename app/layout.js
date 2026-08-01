@@ -159,6 +159,7 @@ export default function RootLayout({ children }) {
             Rheum<span>ify</span>
           </a>
           <ul className="nav-links">
+            <li><a href="/rheumatology-board-prep">Board Prep</a></li>
             <li><a href="/fellows">Rheumatologists &amp; Fellows</a></li>
             <li><a href="/patients">Patient Resources</a></li>
             <li><a href="/learning">Learning</a></li>
@@ -172,6 +173,7 @@ export default function RootLayout({ children }) {
           <div className="footer-content">
             <div className="footer-brand">Rheum<span>ify</span></div>
             <div className="footer-links">
+              <a href="/rheumatology-board-prep">Rheumatology Board Prep</a>
               <a href="/fellows">For Rheumatologists &amp; Fellows</a>
               <a href="/patients">Patient Resources</a>
               <a href="/learning">Learning</a>
