@@ -163,6 +163,9 @@ export default function Home() {
               on PubMed — so you can verify the answer and read further. Over 600 board-style questions and 700+ flashcards cover all of
               rheumatology, reviewed and updated daily.
             </p>
+            <p style={{ fontSize: '0.95rem', marginTop: '0.75rem' }}>
+              New to board prep? Start with the complete guide to <a href="/rheumatology-board-prep" style={{ color: 'var(--purple-light)' }}>rheumatology board prep</a> — what's actually on the exam, how long to study, and a plan that works.
+            </p>
             <div className="product-buttons">
               <a href="https://app.rheumify.org/pricing" className="btn btn-primary">
                 Subscribe: $25/month
