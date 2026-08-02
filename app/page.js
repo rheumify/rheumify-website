@@ -67,6 +67,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <p style={{ marginTop: '1.5rem' }}>
+              <a href="/about" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
+                Full bio, training &amp; publications →
+              </a>
+            </p>
           </div>
         </div>
       </section>
