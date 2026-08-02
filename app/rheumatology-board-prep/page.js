@@ -16,7 +16,7 @@ export const metadata = {
   ],
   alternates: { canonical: '/rheumatology-board-prep' },
   openGraph: {
-    title: 'How to Study for the ABIM Rheumatology Board Exam',
+    title: 'Rheumatology Board Review & ABIM Exam Study Guide',
     description:
       'What is on the exam, how to study, and why starting early beats cramming — from academic rheumatologist Dr. Alison Bays, MD, MPH&TM.',
     url: 'https://www.rheumify.org/rheumatology-board-prep',
@@ -24,7 +24,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Study for the ABIM Rheumatology Board Exam',
+    title: 'Rheumatology Board Review & ABIM Exam Study Guide',
     description:
       'A rheumatologist’s honest guide to the ABIM rheumatology boards — exam content, study strategy, and current pass rates.',
   },
@@ -95,8 +95,8 @@ const structuredData = {
       '@type': 'MedicalWebPage',
       '@id': 'https://www.rheumify.org/rheumatology-board-prep/#webpage',
       url: 'https://www.rheumify.org/rheumatology-board-prep',
-      name: 'How to Study for the ABIM Rheumatology Board Exam',
-      headline: 'How to Study for the ABIM Rheumatology Board Exam',
+      name: 'Rheumatology Board Review: How to Study for the ABIM Board Exam',
+      headline: 'Rheumatology Board Review: How to Study for the ABIM Board Exam',
       description:
         'A practical guide to preparing for the ABIM rheumatology board exam: exam content, study timing, spaced repetition, recommended resources, and current first-time pass rates.',
       inLanguage: 'en-US',
@@ -144,8 +144,8 @@ export default function RheumatologyBoardPrepPage() {
 
       <div className="page-header">
         <h1>
-          How to Study for the{' '}
-          <span style={{ color: 'var(--purple-light)' }}>ABIM Rheumatology Board Exam</span>
+          Rheumatology Board Review:{' '}
+          <span style={{ color: 'var(--purple-light)' }}>How to Study for the ABIM Board Exam</span>
         </h1>
         <p style={{ fontStyle: 'italic', opacity: 0.85, marginBottom: '1rem' }}>{bylineText}</p>
         <p>{introText}</p>
