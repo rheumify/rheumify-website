@@ -173,6 +173,7 @@ export default function RootLayout({ children }) {
           <div className="footer-content">
             <div className="footer-brand">Rheum<span>ify</span></div>
             <div className="footer-links">
+              <a href="/about">About Dr. Bays</a>
               <a href="/rheumatology-board-prep">Rheumatology Board Prep</a>
               <a href="/fellows">For Rheumatologists &amp; Fellows</a>
               <a href="/patients">Patient Resources</a>
