@@ -1,8 +1,10 @@
 export const metadata = {
-  title: 'How to Study for the ABIM Rheumatology Board Exam',
+  title: 'Rheumatology Board Review & ABIM Exam Study Guide',
   description:
-    'A rheumatologist’s honest guide to the ABIM rheumatology boards: what is on the exam, how to study, and current first-time pass rates.',
+    'An honest rheumatology board review guide from a rheumatologist: what is on the ABIM exam, how to study, and current first-time pass rates.',
   keywords: [
+    'rheumatology board review course',
+    'rheumatology board review questions',
     'rheumatology boards',
     'rheumatology board review',
     'ABIM rheumatology board exam',
@@ -12,7 +14,7 @@ export const metadata = {
     'spaced repetition',
     'rheumatology pass rate',
   ],
-  alternates: { canonical: 'https://www.rheumify.org/rheumatology-board-prep' },
+  alternates: { canonical: '/rheumatology-board-prep' },
   openGraph: {
     title: 'How to Study for the ABIM Rheumatology Board Exam',
     description:
