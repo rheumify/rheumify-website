@@ -141,9 +141,10 @@ const bookChapters = [
 ];
 
 function PubList({ items }) {
+  // Arrays above are ordered oldest-first (CV order); render newest-first.
   return (
     <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-      {items.map((pub, i) => (
+      {[...items].reverse().map((pub, i) => (
         <li key={i} style={{ marginBottom: '1.5rem', paddingLeft: '1rem', borderLeft: '3px solid var(--purple-light)' }}>
           <p style={{ margin: 0, lineHeight: '1.6' }}>
             {pub.pmid ? (
@@ -190,12 +191,12 @@ export default function AboutPage() {
             style={{ width: '280px', maxWidth: '100%', height: 'auto', borderRadius: '12px', flexShrink: 0 }}
           />
           <div style={{ flex: 1, minWidth: '260px' }}>
-            <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+            <p style={{ lineHeight: '1.8' }}>
               Dr. Alison Bays, MD, MPH&amp;TM, is a board-certified academic rheumatologist and clinician
               educator. Her clinical focus is vasculitis - especially giant cell arteritis, where she
               co-founded a fast-track clinic model that speeds diagnosis for patients at risk of
-              irreversible vision loss. She is certified in musculoskeletal ultrasound (RhMSUS) and has
-              spent more than a decade teaching rheumatology to fellows, residents, and students.
+              irreversible vision loss. She has spent more than a decade teaching rheumatology to
+              fellows, residents, and students.
             </p>
             <p style={{ lineHeight: '1.8' }}>
               Her research spans giant cell arteritis and vascular ultrasound, health equity in
