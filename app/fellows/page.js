@@ -1,7 +1,8 @@
 export const metadata = {
-  title: 'ABIM Rheumatology Board Prep for Fellows',
-  description: 'Rheumatology board review for fellows and recertifying physicians, from Dr. Alison Bays, MD: 600+ ABIM-style questions, flashcards, and a full exam-format guide.',
-  keywords: ['rheumatology board review', 'ABIM rheumatology board prep', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'rheumatology recertification', 'spaced repetition', 'exam format', 'certification prep'],
+  title: 'ABIM Rheumatology Certification Prep for Fellows',
+  description: 'Rheumatology certification prep for fellows and recertifying physicians, from Dr. Alison Bays, MD: 600+ ABIM-style questions, flashcards, and a full exam-format guide.',
+  keywords: ['rheumatology certification prep', 'rheumatology board review', 'ABIM rheumatology board prep', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'rheumatology recertification', 'spaced repetition', 'exam format'],
+  alternates: { canonical: '/fellows' },
 };
 
 export default function FellowsPage() {
