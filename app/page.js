@@ -165,8 +165,12 @@ export default function Home() {
             </p>
             <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
               Each question comes with a detailed, per-choice explanation and, where relevant, references linked to the primary literature
-              on PubMed — so you can verify the answer and read further. Over 600 board-style questions and 700+ flashcards cover all of
+              on PubMed — so you can verify the answer and read further. Over 600 board-style questions and 800+ flashcards cover all of
               rheumatology, reviewed and updated daily.
+            </p>
+            <p style={{ fontSize: '0.95rem', marginTop: '0.75rem' }}>
+              You can also generate up to <strong>3 new practice questions a day</strong> on any topic you choose — each one written on the spot,
+              verified against a PubMed source, graded against the same rubric as the bank, and saved to your question bank.
             </p>
             <p style={{ fontSize: '0.95rem', marginTop: '0.75rem' }}>
               New to board prep? Start with the complete guide to <a href="/rheumatology-board-prep" style={{ color: 'var(--purple-light)' }}>rheumatology board prep</a> — what's actually on the exam, how long to study, and a plan that works.
@@ -202,7 +206,7 @@ export default function Home() {
               <tbody>
                 <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
                   <td><strong>Rheumify</strong></td>
-                  <td>600+ questions, 700+ flashcards</td>
+                  <td>600+ questions, 800+ flashcards</td>
                   <td><strong>$199/year</strong> (or $25/mo)</td>
                 </tr>
                 <tr>
