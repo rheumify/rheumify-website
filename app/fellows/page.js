@@ -20,7 +20,7 @@ export default function FellowsPage() {
         <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
           AI-created content curated and reviewed by a board-certified academic rheumatologist. Contains both a
           <strong> question bank</strong> with over 600 questions as well as <strong>spaced repetition flashcards</strong> with
-          over 700 cards covering all of rheumatology.
+          over 800 cards covering all of rheumatology.
         </p>
         <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
           Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams. Questions are reviewed and updated daily, with detailed per-choice explanations and PubMed-linked references to the primary literature where applicable.
@@ -91,7 +91,7 @@ export default function FellowsPage() {
             <tbody>
               <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
                 <td><strong>Rheumify</strong></td>
-                <td>600+ questions, 700+ flashcards</td>
+                <td>600+ questions, 800+ flashcards</td>
                 <td><strong>$199/year</strong> (or $25/mo)</td>
               </tr>
               <tr>
