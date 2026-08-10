@@ -165,7 +165,7 @@ export default function Home() {
             </p>
             <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
               Each question comes with a detailed, per-choice explanation and, where relevant, references linked to the primary literature
-              on PubMed — so you can verify the answer and read further. Over 600 board-style questions and 800+ flashcards cover all of
+              on PubMed — so you can verify the answer and read further. Over 700 board-style questions and 850+ flashcards cover all of
               rheumatology, reviewed and updated daily.
             </p>
             <p style={{ fontSize: '0.95rem', marginTop: '0.75rem' }}>
@@ -206,7 +206,7 @@ export default function Home() {
               <tbody>
                 <tr style={{ background: 'rgba(196, 181, 224, 0.12)' }}>
                   <td><strong>Rheumify</strong></td>
-                  <td>600+ questions, 800+ flashcards</td>
+                  <td>700+ questions, 850+ flashcards</td>
                   <td><strong>$199/year</strong> (or $25/mo)</td>
                 </tr>
                 <tr>
