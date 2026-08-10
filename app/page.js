@@ -164,8 +164,8 @@ export default function Home() {
               with physician judgment for accuracy. Includes both a question bank and spaced-repetition flashcards.
             </p>
             <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
-              Each question comes with a detailed, per-choice explanation and, where relevant, references linked to the primary literature
-              on PubMed — so you can verify the answer and read further. Over 700 board-style questions and 850+ flashcards cover all of
+              Each question comes with a detailed, per-choice explanation and is linked to a relevant PubMed article — so you can verify the answer and read the primary
+              literature yourself. Over 700 board-style questions and 850+ flashcards cover all of
               rheumatology, reviewed and updated daily.
             </p>
             <p style={{ fontSize: '0.95rem', marginTop: '0.75rem' }}>
