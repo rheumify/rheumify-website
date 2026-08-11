@@ -81,7 +81,7 @@ const sections = [
 ];
 
 const rheumifyText =
-  'I built Rheumify because when I was certifying ten years ago, there were so few resources for rheumatology — and the ones that existed were expensive. I have kept pricing deliberately low — $15 a month or $119 a year — because fellow salaries are what they are and board prep should not cost a paycheck. The question bank and flashcards are written and clinically reviewed by me, a practicing academic rheumatologist with my name attached, mapped to the ABIM blueprint and built around spaced repetition so you can start solidifying knowledge well in advance instead of grinding through everything at the end.';
+  'I built Rheumify because when I was certifying ten years ago, there were so few resources for rheumatology — and the ones that existed were expensive. I have kept pricing deliberately low — $25 a month or $199 a year, and just $15 a month or $119 a year for fellows and trainees — because fellow salaries are what they are and board prep should not cost a paycheck. The question bank and flashcards are written and clinically reviewed by me, a practicing academic rheumatologist with my name attached, mapped to the ABIM blueprint and built around spaced repetition so you can start solidifying knowledge well in advance instead of grinding through everything at the end.';
 
 const bioText =
   'Alison Bays, MD, MPH&TM, is an academic rheumatologist with more than a decade in clinical practice, medical education, and research. She created Rheumify to make rheumatology board prep affordable, current, and clear.';
@@ -172,22 +172,22 @@ export default function RheumatologyBoardPrepPage() {
           style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}
         >
           <a
-            href="https://buy.stripe.com/dRmeVc49F0ct9xVcMJc3m03"
+            href="https://buy.stripe.com/bJe3cubC74sJdObfYVc3m0b"
             className="btn btn-primary"
             target="_blank"
             rel="noopener noreferrer"
             style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}
           >
-            Sign up: $15/month
+            Sign up: $25/month
           </a>
           <a
-            href="https://buy.stripe.com/14A14mdKf2kB5hFbIFc3m04"
+            href="https://buy.stripe.com/4gM8wO21x8IZ5hFaEBc3m0c"
             className="btn btn-secondary"
             target="_blank"
             rel="noopener noreferrer"
             style={{ borderColor: 'var(--purple-light)', color: 'var(--purple-light)' }}
           >
-            Sign up: $119/year (Save $61)
+            Sign up: $199/year (Save $101)
           </a>
           <a
             href="/fellows"
@@ -197,6 +197,9 @@ export default function RheumatologyBoardPrepPage() {
             More board-prep resources
           </a>
         </div>
+        <p style={{ marginTop: '0.85rem', fontSize: '0.9rem', opacity: 0.85 }}>
+          Rheumatology fellow or trainee? Your rate is $15/month or $119/year (verification required) — <a href="https://app.rheumify.org/pricing" style={{ color: 'var(--purple-light)' }}>see fellow pricing</a>.
+        </p>
       </div>
 
       {/* Author bio for E-E-A-T */}
