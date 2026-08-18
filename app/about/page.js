@@ -1,11 +1,48 @@
 export const metadata = {
-  title: 'About Dr. Alison Bays - Education, Training & Publications',
+  title: 'About Dr. Alison Bays, MD — Rheumatologist & Creator of Rheumify',
   description:
     'Meet Dr. Alison Bays, MD, MPH&TM - the board-certified academic rheumatologist behind Rheumify. Education, training, board certifications, and peer-reviewed publications.',
   keywords: [
     'Dr. Alison Bays', 'Alison Bays MD', 'academic rheumatologist', 'rheumatology publications',
     'giant cell arteritis research', 'vasculitis expert', 'Rheumify founder',
   ],
+  alternates: { canonical: 'https://www.rheumify.org/about' },
+};
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: {
+    '@type': 'Person',
+    '@id': 'https://www.rheumify.org/#founder',
+    name: 'Dr. Alison Bays',
+    honorificPrefix: 'Dr.',
+    honorificSuffix: 'MD, MPH&TM',
+    jobTitle: 'Board-Certified Academic Rheumatologist',
+    image: 'https://www.rheumify.org/dr-alison-bays.jpg',
+    url: 'https://www.rheumify.org/about',
+    worksFor: { '@id': 'https://www.rheumify.org/#organization' },
+    description:
+      'Board-certified academic rheumatologist (MD, MPH&TM) and clinician educator specializing in vasculitis and giant cell arteritis. Creator of Rheumify, the ABIM rheumatology board-prep platform.',
+    knowsAbout: [
+      'Rheumatology',
+      'Giant Cell Arteritis',
+      'Vasculitis',
+      'Vascular Ultrasound',
+      'Medical Education',
+      'ABIM Board Preparation',
+    ],
+    alumniOf: [
+      { '@type': 'CollegeOrUniversity', name: 'Tulane University' },
+      { '@type': 'CollegeOrUniversity', name: 'University of Washington' },
+      { '@type': 'CollegeOrUniversity', name: 'University of California, San Francisco' },
+    ],
+    sameAs: [
+      'https://rheumify.substack.com',
+      'https://bsky.app/profile/rheumify.bsky.social',
+      'https://pubmed.ncbi.nlm.nih.gov/?term=Bays+AM',
+    ],
+  },
 };
 
 const publications = [
@@ -172,6 +209,10 @@ function PubList({ items }) {
 export default function AboutPage() {
   return (
     <div className="page-container">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <div className="page-header">
         <h1>About <span style={{ color: 'var(--purple-light)' }}>Dr. Alison Bays</span></h1>
         <p>
