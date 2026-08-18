@@ -173,6 +173,10 @@ export default function Home() {
               verified against a PubMed source, graded against the same rubric as the bank, and saved to your question bank.
             </p>
             <p style={{ fontSize: '0.95rem', marginTop: '0.75rem' }}>
+              And the flashcards are yours to shape: <strong>create your own cards or import an existing deck</strong> (CSV or Anki export),
+              and they join the same spaced-repetition queue as the Rheumify cards — with review timing you can customize.
+            </p>
+            <p style={{ fontSize: '0.95rem', marginTop: '0.75rem' }}>
               New to board prep? Start with the complete guide to <a href="/rheumatology-board-prep" style={{ color: 'var(--purple-light)' }}>rheumatology board prep</a> — what's actually on the exam, how long to study, and a plan that works.
             </p>
             <div className="product-buttons">

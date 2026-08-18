@@ -25,6 +25,9 @@ export default function FellowsPage() {
         <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
           Perfect for fellows preparing for initial certification or rheumatologists maintaining certification through board exams. Questions are reviewed and updated daily, with detailed per-choice explanations, and every question is linked to a relevant PubMed article.
         </p>
+        <p style={{ fontSize: '0.95rem', opacity: 0.85, marginTop: '0.75rem' }}>
+          <strong>New:</strong> make the deck your own. Create your own flashcards in the app — or import an existing deck from a CSV or Anki export — and review them right alongside the Rheumify cards in the same spaced-repetition queue, with review timing you can customize.
+        </p>
         <div className="product-buttons" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a href="https://app.rheumify.org/pricing" className="btn btn-primary"
              style={{ background: 'var(--purple-medium)', borderColor: 'var(--purple-medium)' }}>
@@ -242,7 +245,7 @@ export default function FellowsPage() {
             <div>
               <h3 style={{ color: 'var(--purple-light)', marginBottom: '0.5rem' }}>Spaced Repetition Flashcards</h3>
               <p style={{ margin: 0, opacity: 0.9 }}>
-                Evidence-based algorithm optimizes flashcard timing for maximum retention of key concepts and clinical pearls.
+                Evidence-based algorithm optimizes flashcard timing for maximum retention of key concepts and clinical pearls. Add your own cards too — create them in the app or import a deck (CSV or Anki export) — and set the review intervals that work for you.
               </p>
             </div>
           </div>
