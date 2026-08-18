@@ -28,7 +28,7 @@ export const metadata = {
   },
 };
 
-const bylineText = 'By Alison Bays, MD, MPH&TM — academic rheumatologist';
+const bylineText = 'By Alison Bays, MD, MPH&TM — academic rheumatologist · Reviewed August 18, 2026';
 
 const introText =
   'Most people pass the rheumatology boards with steady, consistent study, a good question bank worked twice, and one solid review text. Read the current ACR guidelines — all of them. They are the backbone of the exam, and there is no shortcut around them. Beyond that, you need to recognize patterns, know where the lines are drawn, and not panic when a vignette describes something you have only seen once in fellowship.';
@@ -100,7 +100,7 @@ const structuredData = {
       inLanguage: 'en-US',
       isPartOf: { '@id': 'https://www.rheumify.org/#website' },
       about: 'ABIM Rheumatology Certification Examination',
-      lastReviewed: '2026-06-06',
+      lastReviewed: '2026-08-18',
       author: { '@id': 'https://www.rheumify.org/#author' },
       reviewedBy: { '@id': 'https://www.rheumify.org/#author' },
       publisher: { '@id': 'https://www.rheumify.org/#organization' },
@@ -121,6 +121,16 @@ const structuredData = {
         'Giant Cell Arteritis',
         'Medical Education',
       ],
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: sections
+        .filter((s) => s.h2.endsWith('?'))
+        .map((s) => ({
+          '@type': 'Question',
+          name: s.h2,
+          acceptedAnswer: { '@type': 'Answer', text: s.paras.join(' ') },
+        })),
     },
     {
       '@type': 'BreadcrumbList',
