@@ -2,13 +2,14 @@ export const metadata = {
   title: 'ABIM Rheumatology Board Prep for Fellows',
   description: 'Rheumatology board review for fellows and recertifying physicians, from Dr. Alison Bays, MD: 700+ ABIM-style questions, flashcards, and a full exam-format guide.',
   keywords: ['rheumatology board review', 'ABIM rheumatology board prep', 'rheumatology question bank', 'rheumatology flashcards', 'fellowship board exam', 'rheumatology recertification', 'spaced repetition', 'exam format', 'certification prep'],
+  alternates: { canonical: 'https://www.rheumify.org/fellows' },
 };
 
 export default function FellowsPage() {
   return (
     <div className="page-container">
       <div className="page-header">
-        <h1>For <span style={{ color: 'var(--purple-light)' }}>Rheumatologists & Fellows</span></h1>
+        <h1>ABIM Rheumatology Board Prep for <span style={{ color: 'var(--purple-light)' }}>Fellows & Rheumatologists</span></h1>
         <p>
           Comprehensive resources for board preparation, continuing education, research productivity, and staying current with the latest in rheumatology.
         </p>
