@@ -7,8 +7,8 @@ export default function Home() {
           <h1>Master Rheumatology: <span>Board Prep, Question Bank & Clinical Tools</span></h1>
           <p>
             The most comprehensive web-based platform for rheumatology - board prep for fellows,
-            recertification and LKA review for practicing rheumatologists, and tools that help
-            researchers organize and track their manuscripts.
+            recertification prep and staying current for practicing rheumatologists, and tools that
+            help researchers organize and track their manuscripts.
           </p>
         </div>
       </section>
@@ -161,8 +161,8 @@ export default function Home() {
             <h3><a href="/fellows" style={{ color: 'inherit', textDecoration: 'none' }}>Rheumify Question Bank</a></h3>
             <p>
               The most comprehensive web-based platform for rheumatology fellows preparing for ABIM board
-              certification — and for practicing rheumatologists preparing for recertification or staying
-              sharp for the Longitudinal Knowledge Assessment (LKA).
+              certification — and for practicing rheumatologists preparing for the recertification exam
+              or simply keeping their knowledge sharp.
               Every question is AI-drafted, then curated and reviewed by a board-certified academic rheumatologist — pairing the breadth of AI
               with physician judgment for accuracy. Includes both a question bank and spaced-repetition flashcards.
             </p>
