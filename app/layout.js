@@ -12,7 +12,7 @@ export const metadata = {
   keywords: [
     'rheumatology question bank', 'rheumatology qbank', 'ABIM rheumatology board prep',
     'rheumatology board review', 'rheumatology flashcards', 'rheumatology certification',
-    'spaced repetition flashcards', 'rheumatology fellowship', 'rheumatology recertification', 'ABIM rheumatology LKA', 'ACR guidelines', 'Dr. Alison Bays'
+    'spaced repetition flashcards', 'rheumatology fellowship', 'rheumatology recertification', 'ACR guidelines', 'Dr. Alison Bays'
   ],
   authors: [{ name: 'Dr. Alison Bays, MD', url: 'https://www.rheumify.org/#about' }],
   creator: 'Dr. Alison Bays',
@@ -132,7 +132,7 @@ const structuredData = {
         { "@type": "Question", "name": "How many questions does the Rheumify question bank have?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify has 700+ board-style questions with detailed explanations, plus 850+ spaced-repetition flashcards, covering the full ABIM rheumatology blueprint. Questions are written and clinically reviewed by a board-certified academic rheumatologist and updated regularly." } },
         { "@type": "Question", "name": "Who created Rheumify?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify was created by Dr. Alison Bays, MD, MPH&TM, a board-certified academic rheumatologist. She completed medical school and an MPH&TM at Tulane University, Internal Medicine residency at the University of Washington, and a Rheumatology fellowship at UCSF, and has worked as an academic rheumatologist since finishing fellowship in 2015. All content is written and clinically reviewed by a named rheumatologist and mapped to the ABIM rheumatology blueprint." } },
         { "@type": "Question", "name": "Is Rheumify good for ABIM rheumatology board prep?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify is purpose-built for the ABIM rheumatology certification and recertification exams. It maps to the ABIM rheumatology blueprint, uses board-style questions with detailed explanations, and adds spaced-repetition flashcards and a test-taking analytics engine that targets each user's weakest topics." } },
-        { "@type": "Question", "name": "Can I use Rheumify for ABIM recertification or the LKA?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Practicing rheumatologists use Rheumify to prepare for the ABIM rheumatology recertification exam and to stay sharp for the Longitudinal Knowledge Assessment (LKA). The question bank and spaced-repetition flashcards are updated as guidelines and trials change, so recertifying physicians always review the current standard of care. Practicing rheumatologists pay $25/month or $199/year." } },
+        { "@type": "Question", "name": "Can I use Rheumify for ABIM recertification?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Practicing rheumatologists use Rheumify to prepare for the ABIM rheumatology recertification exam and to keep their clinical knowledge current between certifications. The question bank and spaced-repetition flashcards are updated as guidelines and trials change, so recertifying physicians always review the current standard of care. Practicing rheumatologists pay $25/month or $199/year." } },
         { "@type": "Question", "name": "What rheumatology resources are available for free?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify offers several free resources: the RheumCast podcast covering ACR guidelines on SoundCloud and the ScriptCycle Notion template for manuscript planning." } }
       ]
     }
