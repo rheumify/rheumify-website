@@ -39,6 +39,29 @@ export default function InsurancePage() {
         <MedicationCostTool />
       </div>
 
+      <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
+        <h2>Guides to specific medications</h2>
+        <p>
+          Some medications have enough going on that they deserve their own page — usually because
+          they come in more than one form, and Medicare pays for those forms in completely different
+          ways.
+        </p>
+        <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem', marginLeft: 0 }}>
+          <li style={{ marginBottom: '0.75rem' }}>
+            <a href="/patients/insurance/tocilizumab" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
+              Tocilizumab (Actemra) &rarr;
+            </a>{' '}
+            <span style={{ fontSize: '0.9rem', color: 'var(--gray-medium)' }}>
+              &mdash; the infusion and the self-injection cost very different amounts, and which one
+              is cheaper depends on whether you have a supplement
+            </span>
+          </li>
+        </ul>
+        <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
+          More medications are being added.
+        </p>
+      </div>
+
       <div className="content-card">
         <h2>Why infusions and pills are treated completely differently</h2>
         <p>
