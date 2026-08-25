@@ -1,4 +1,5 @@
 import MedicationCostTool from './MedicationCostTool';
+import { GUIDES } from './guides';
 
 export const metadata = {
   title: 'Medicare and Your Medication — What It Costs and Whether You Can Get It',
@@ -47,15 +48,18 @@ export default function InsurancePage() {
           ways.
         </p>
         <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem', marginLeft: 0 }}>
-          <li style={{ marginBottom: '0.75rem' }}>
-            <a href="/patients/insurance/tocilizumab" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
-              Tocilizumab (Actemra) &rarr;
-            </a>{' '}
-            <span style={{ fontSize: '0.9rem', color: 'var(--gray-medium)' }}>
-              &mdash; the infusion and the self-injection cost very different amounts, and which one
-              is cheaper depends on whether you have a supplement
-            </span>
-          </li>
+          {GUIDES.map((g) => (
+            <li key={g.slug} style={{ marginBottom: '1rem' }}>
+              <a
+                href={'/patients/insurance/' + g.slug}
+                style={{ color: 'var(--purple-light)', fontWeight: 600 }}
+              >
+                {g.title} &rarr;
+              </a>
+              <br />
+              <span style={{ fontSize: '0.9rem', color: 'var(--gray-medium)' }}>{g.blurb}</span>
+            </li>
+          ))}
         </ul>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
           More medications are being added.
@@ -213,9 +217,10 @@ export default function InsurancePage() {
         </p>
         <ul>
           <li>
-            <strong>The drug prices are estimates.</strong> They are the least reliable figures
-            here. What Medicare actually pays for a Part B drug is set quarterly by CMS and varies;
-            what you pay for a Part D drug depends on your specific plan&rsquo;s tier and pricing.
+            <strong>Most drug prices here are estimates.</strong> They are the least reliable
+            figures on the page. Where a medication has its own guide above, the figures have been
+            checked against Medicare&rsquo;s published payment rates and the manufacturer&rsquo;s
+            published price; everywhere else they are approximations.
           </li>
           <li>
             <strong>It does not know your plan.</strong> It cannot see your deductible, what you
