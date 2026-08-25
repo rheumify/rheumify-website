@@ -1,6 +1,12 @@
 # Rheumify robots.txt
+
+# TEMPORARY: /patients/insurance holds the Medicare medication guides, which are
+# written but not released. They are also blocked by a redirect in vercel.json on
+# this branch. Remove the Disallow lines below when the guides launch.
+
 User-agent: *
 Allow: /
+Disallow: /patients/insurance
 
 # Sitemap location
 Sitemap: https://www.rheumify.org/sitemap.xml
@@ -8,67 +14,87 @@ Sitemap: https://www.rheumify.org/sitemap.xml
 # Major search engines
 User-agent: Googlebot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Bingbot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: DuckDuckBot
 Allow: /
+Disallow: /patients/insurance
 
 # AI / LLM crawlers and answer engines (current agent names)
 # OpenAI / ChatGPT
 User-agent: GPTBot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /patients/insurance
 
 # Anthropic / Claude
 User-agent: ClaudeBot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Claude-User
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Claude-Web
 Allow: /
+Disallow: /patients/insurance
 
 # Google (Gemini / Vertex AI training & grounding)
 User-agent: Google-Extended
 Allow: /
+Disallow: /patients/insurance
 
 # Perplexity
 User-agent: PerplexityBot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /patients/insurance
 
 # Apple Intelligence
 User-agent: Applebot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /patients/insurance
 
 # Other AI crawlers
 User-agent: cohere-ai
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: meta-externalagent
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Amazonbot
 Allow: /
+Disallow: /patients/insurance
 
 User-agent: Bytespider
 Allow: /
+Disallow: /patients/insurance
