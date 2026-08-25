@@ -4,6 +4,24 @@
       "source": "/scriptswap",
       "destination": "/tools/scriptswap",
       "permanent": true
+    },
+    {
+      "//": "TEMPORARY. The Medicare medication guides are written but not released.",
+      "//2": "These two rules make every /patients/insurance URL unreachable on any",
+      "//3": "deployment that carries this file. The medicare-guides-preview branch does",
+      "//4": "NOT carry it, so its Vercel preview deployment serves the pages normally —",
+      "//5": "and that preview is behind Vercel Authentication, so only the account owner",
+      "//6": "can open it. To launch: delete these two rules and re-add the sitemap",
+      "//7": "entries and the Patient Resources card. permanent is false on purpose —",
+      "//8": "a 301 would be cached by browsers and search engines and is hard to undo.",
+      "source": "/patients/insurance",
+      "destination": "/patients",
+      "permanent": false
+    },
+    {
+      "source": "/patients/insurance/:path*",
+      "destination": "/patients",
+      "permanent": false
     }
   ],
   "headers": [
