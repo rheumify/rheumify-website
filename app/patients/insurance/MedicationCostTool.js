@@ -21,12 +21,13 @@ const Y = {
 };
 
 // t: "b" = given by a nurse or doctor (Part B). "d" = you take it yourself (Part D).
-// c: rough list cost per year. n: treatments per year. bio: biosimilars exist.
+// c: cost per year. n: treatments per year. bio: biosimilars exist.
 //
-// Most `c` values are estimates and are the least reliable numbers here. Where a
-// figure has been checked against a primary source it is marked SOURCED. The goal
-// is to move every Part B entry onto the quarterly CMS ASP pricing file, at which
-// point these stop being estimates.
+// Entries marked SOURCED are checked against the quarterly CMS Part B ASP pricing
+// file (for infusions) or the manufacturer's published list price (for
+// self-administered drugs), at the dose stated. Everything else is an estimate and
+// is the least reliable number here. The goal is to move every Part B entry onto
+// the ASP file.
 const MEDS = [
   { b: 'Ilaris — for periodic fever syndromes (FMF, TRAPS, HIDS)', g: 'canakinumab', t: 'b', c: 290000, n: 13 },
   { b: 'Ilaris — for Still’s disease', g: 'canakinumab', t: 'b', c: 560000, n: 13 },
@@ -35,24 +36,27 @@ const MEDS = [
   { b: 'Arcalyst', g: 'rilonacept', t: 'd', c: 295000 },
   { b: 'Kineret', g: 'anakinra', t: 'd', c: 80000 },
   { b: 'Kevzara', g: 'sarilumab', t: 'd', c: 57000 },
-  // SOURCED: CMS ASP file Jul–Sep 2026, J0129 at $45.859 per 10 mg; 750 mg every
-  // 4 weeks (the 60–100 kg adult dose), 13 maintenance infusions.
+  // SOURCED: ASP Jul–Sep 2026, J0129 $45.859/10mg; 750 mg q4w (60–100 kg), 13 doses.
   { b: 'Orencia (infusion)', g: 'abatacept', t: 'b', c: 44700, n: 13 },
-  // SOURCED: Bristol Myers Squibb published WAC, $1,517.65 per 125 mg
-  // syringe/ClickJect; weekly dosing.
+  // SOURCED: BMS published WAC $1,517.65 per 125 mg syringe/ClickJect, weekly.
   { b: 'Orencia ClickJect (self-injection)', g: 'abatacept', t: 'd', c: 78900 },
-  // SOURCED: CMS ASP file Jul–Sep 2026, J3262 at $5.408/mg; 6 mg/kg every 4 weeks
-  // (the FDA-approved giant cell arteritis dose) for a 70–80 kg adult.
+  // SOURCED: ASP Jul–Sep 2026, J3262 $5.408/mg; 6 mg/kg q4w (GCA dose), 70–80 kg.
   { b: 'Actemra (infusion)', g: 'tocilizumab', t: 'b', c: 33700, n: 13, bio: 1 },
-  // SOURCED: Genentech published WAC, $1,174.81 per 162 mg syringe/ACTPen,
-  // effective 6 January 2026; weekly dosing.
+  // SOURCED: Genentech published WAC $1,174.81 per 162 mg, weekly.
   { b: 'Actemra (self-injection)', g: 'tocilizumab', t: 'd', c: 61100, bio: 1 },
-  { b: 'Remicade, Inflectra, Avsola, Renflexis', g: 'infliximab', t: 'b', c: 30000, n: 7, bio: 1 },
-  { b: 'Rituxan, Truxima, Ruxience, Riabni', g: 'rituximab', t: 'b', c: 20000, n: 4, bio: 1 },
-  { b: 'Simponi Aria (infusion)', g: 'golimumab', t: 'b', c: 26000, n: 7 },
-  { b: 'Simponi (self-injection)', g: 'golimumab', t: 'd', c: 34000 },
-  { b: 'Cosentyx (infusion)', g: 'secukinumab', t: 'b', c: 32000, n: 12 },
-  { b: 'Cosentyx (self-injection)', g: 'secukinumab', t: 'd', c: 40000 },
+  // SOURCED: ASP Jul–Sep 2026, J1745 $31.479/10mg; 3 mg/kg q8w (RA dose), 70 kg,
+  // 300 mg billed per infusion, 6.5 infusions.
+  { b: 'Remicade, Inflectra, Avsola, Renflexis', g: 'infliximab', t: 'b', c: 6100, n: 7, bio: 1 },
+  // SOURCED: ASP Jul–Sep 2026, J9312 $73.278/10mg; RA course of two 1,000 mg doses.
+  { b: 'Rituxan, Truxima, Ruxience, Riabni', g: 'rituximab', t: 'b', c: 14700, n: 2, bio: 1 },
+  // SOURCED: ASP Jul–Sep 2026, J1602 $11.035/mg; 2 mg/kg q8w, 75 kg, 6.5 infusions.
+  { b: 'Simponi Aria (infusion)', g: 'golimumab', t: 'b', c: 10800, n: 7 },
+  // SOURCED: CMS Part D dashboard average, 50 mg monthly.
+  { b: 'Simponi (self-injection)', g: 'golimumab', t: 'd', c: 68000 },
+  // SOURCED: ASP Jul–Sep 2026, J3247 $18.233/mg; 1.75 mg/kg q4w, 80 kg, 13 doses.
+  { b: 'Cosentyx (infusion)', g: 'secukinumab', t: 'b', c: 33200, n: 13 },
+  // SOURCED: Novartis published list price $8,492.03 per month, January 2026.
+  { b: 'Cosentyx (self-injection)', g: 'secukinumab', t: 'd', c: 101900 },
   { b: 'Entyvio', g: 'vedolizumab', t: 'b', c: 38000, n: 7 },
   { b: 'Krystexxa', g: 'pegloticase', t: 'b', c: 75000, n: 26 },
   { b: 'Benlysta (infusion)', g: 'belimumab', t: 'b', c: 38000, n: 13 },
