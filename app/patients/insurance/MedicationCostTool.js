@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import { GUIDE_BY_GENERIC } from './guides';
 
 // ---------------------------------------------------------------------------
 // 2026 figures. Every one of these comes from a dated CMS publication — see the
@@ -23,9 +24,9 @@ const Y = {
 // c: rough list cost per year. n: treatments per year. bio: biosimilars exist.
 //
 // Most `c` values are estimates and are the least reliable numbers here. Where a
-// figure has been checked against a primary source it is marked SOURCED with the
-// source and date. The goal is to move every Part B entry onto the quarterly CMS
-// ASP pricing file, at which point these stop being estimates.
+// figure has been checked against a primary source it is marked SOURCED. The goal
+// is to move every Part B entry onto the quarterly CMS ASP pricing file, at which
+// point these stop being estimates.
 const MEDS = [
   { b: 'Ilaris — for periodic fever syndromes (FMF, TRAPS, HIDS)', g: 'canakinumab', t: 'b', c: 290000, n: 13 },
   { b: 'Ilaris — for Still’s disease', g: 'canakinumab', t: 'b', c: 560000, n: 13 },
@@ -34,10 +35,14 @@ const MEDS = [
   { b: 'Arcalyst', g: 'rilonacept', t: 'd', c: 295000 },
   { b: 'Kineret', g: 'anakinra', t: 'd', c: 80000 },
   { b: 'Kevzara', g: 'sarilumab', t: 'd', c: 57000 },
+  // SOURCED: CMS ASP file Jul–Sep 2026, J0129 at $45.859 per 10 mg; 750 mg every
+  // 4 weeks (the 60–100 kg adult dose), 13 maintenance infusions.
   { b: 'Orencia (infusion)', g: 'abatacept', t: 'b', c: 44700, n: 13 },
-  { b: 'Orencia ClickJect (self-injection)', g: 'abatacept', t: 'd', c: 30000 },
-  // SOURCED: CMS ASP pricing file Jul–Sep 2026, J3262 at $5.408/mg; 6 mg/kg every
-  // 4 weeks (the FDA-approved giant cell arteritis dose) for a 70–80 kg adult.
+  // SOURCED: Bristol Myers Squibb published WAC, $1,517.65 per 125 mg
+  // syringe/ClickJect; weekly dosing.
+  { b: 'Orencia ClickJect (self-injection)', g: 'abatacept', t: 'd', c: 78900 },
+  // SOURCED: CMS ASP file Jul–Sep 2026, J3262 at $5.408/mg; 6 mg/kg every 4 weeks
+  // (the FDA-approved giant cell arteritis dose) for a 70–80 kg adult.
   { b: 'Actemra (infusion)', g: 'tocilizumab', t: 'b', c: 33700, n: 13, bio: 1 },
   // SOURCED: Genentech published WAC, $1,174.81 per 162 mg syringe/ACTPen,
   // effective 6 January 2026; weekly dosing.
@@ -91,11 +96,6 @@ const MEDS = [
   { b: 'Imuran', g: 'azathioprine', t: 'd', c: 400 },
   { b: 'Arava', g: 'leflunomide', t: 'd', c: 600 },
 ];
-
-// Medications that have their own detailed page.
-const DEEP_LINKS = {
-  tocilizumab: '/patients/insurance/tocilizumab',
-};
 
 const SUPPLEMENTS = [
   { v: 1236, label: 'About $103 a month — around the cheapest available' },
@@ -163,7 +163,7 @@ export default function MedicationCostTool() {
   const c = Number(cost) || 0;
   const clinic = chosen ? chosen.t === 'b' : false;
   const pricey = c >= 5000;
-  const deepLink = chosen ? DEEP_LINKS[chosen.g] : null;
+  const deepLink = chosen ? GUIDE_BY_GENERIC[chosen.g] : null;
 
   let body = null;
 
@@ -197,10 +197,8 @@ export default function MedicationCostTool() {
           <div className="mcc-box mcc-help">
             <h3>There is a full guide to this medication</h3>
             <p>
-              <a href={deepLink}>
-                Read the detailed page on {chosen.g} &rarr;
-              </a>{' '}
-              — it covers both forms of the medication, the biosimilars, how long approval takes,
+              <a href={deepLink}>Read the detailed page on {chosen.g} &rarr;</a> — it covers both
+              forms of the medication, whether plans actually cover them, how long approval takes,
               and which route is cheaper depending on the coverage you have.
             </p>
           </div>
