@@ -4,6 +4,16 @@
       "source": "/scriptswap",
       "destination": "/tools/scriptswap",
       "permanent": true
+    },
+    {
+      "source": "/patients/insurance",
+      "destination": "/patients",
+      "permanent": false
+    },
+    {
+      "source": "/patients/insurance/:path*",
+      "destination": "/patients",
+      "permanent": false
     }
   ],
   "headers": [

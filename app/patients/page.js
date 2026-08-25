@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Patient Resources',
-  description: 'Rheumatology patient education - learn about rheumatic conditions, what your medication costs under Medicare, and find trusted resources from the American College of Rheumatology.',
-  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'ACR patient information', 'Medicare biologic cost'],
+  description: 'Rheumatology patient education - learn about rheumatic conditions and find trusted resources from the American College of Rheumatology.',
+  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'ACR patient information'],
 };
 
 export default function PatientsPage() {
@@ -11,21 +11,6 @@ export default function PatientsPage() {
         <h1>Patient Resources</h1>
         <p>
           Learn about rheumatic conditions and find resources to help you understand your diagnosis and treatment options.
-        </p>
-      </div>
-
-      <div className="content-card">
-        <h2>Paying for Your Medication</h2>
-        <p>
-          If you are on Medicare and taking a biologic, what you pay depends on something almost nobody explains: whether the medication goes in at an infusion center or at your kitchen table. An infusion falls under Part B, where you pay 20% with <strong>no yearly ceiling</strong>. The same kind of medicine taken at home falls under Part D, where costs stop at $2,100 a year. And Original Medicare requires <strong>no prior authorization</strong> for a medication given in a doctor&apos;s office &mdash; while 94% of Medicare Advantage members are in plans that do.
-        </p>
-        <p style={{ marginTop: '1rem' }}>
-          Look up your medication and see what a year would cost under each kind of Medicare. Free, nothing collected, nothing for sale.
-        </p>
-        <p style={{ marginTop: '1rem' }}>
-          <a href="/patients/insurance" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
-            Medicare and your medication &rarr;
-          </a>
         </p>
       </div>
 
