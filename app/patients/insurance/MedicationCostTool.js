@@ -21,6 +21,11 @@ const Y = {
 
 // t: "b" = given by a nurse or doctor (Part B). "d" = you take it yourself (Part D).
 // c: rough list cost per year. n: treatments per year. bio: biosimilars exist.
+//
+// Most `c` values are estimates and are the least reliable numbers here. Where a
+// figure has been checked against a primary source it is marked SOURCED with the
+// source and date. The goal is to move every Part B entry onto the quarterly CMS
+// ASP pricing file, at which point these stop being estimates.
 const MEDS = [
   { b: 'Ilaris — for periodic fever syndromes (FMF, TRAPS, HIDS)', g: 'canakinumab', t: 'b', c: 290000, n: 13 },
   { b: 'Ilaris — for Still’s disease', g: 'canakinumab', t: 'b', c: 560000, n: 13 },
@@ -31,8 +36,12 @@ const MEDS = [
   { b: 'Kevzara', g: 'sarilumab', t: 'd', c: 57000 },
   { b: 'Orencia (infusion)', g: 'abatacept', t: 'b', c: 44700, n: 13 },
   { b: 'Orencia ClickJect (self-injection)', g: 'abatacept', t: 'd', c: 30000 },
-  { b: 'Actemra (infusion)', g: 'tocilizumab', t: 'b', c: 25000, n: 12, bio: 1 },
-  { b: 'Actemra (self-injection)', g: 'tocilizumab', t: 'd', c: 28000, bio: 1 },
+  // SOURCED: CMS ASP pricing file Jul–Sep 2026, J3262 at $5.408/mg; 6 mg/kg every
+  // 4 weeks (the FDA-approved giant cell arteritis dose) for a 70–80 kg adult.
+  { b: 'Actemra (infusion)', g: 'tocilizumab', t: 'b', c: 33700, n: 13, bio: 1 },
+  // SOURCED: Genentech published WAC, $1,174.81 per 162 mg syringe/ACTPen,
+  // effective 6 January 2026; weekly dosing.
+  { b: 'Actemra (self-injection)', g: 'tocilizumab', t: 'd', c: 61100, bio: 1 },
   { b: 'Remicade, Inflectra, Avsola, Renflexis', g: 'infliximab', t: 'b', c: 30000, n: 7, bio: 1 },
   { b: 'Rituxan, Truxima, Ruxience, Riabni', g: 'rituximab', t: 'b', c: 20000, n: 4, bio: 1 },
   { b: 'Simponi Aria (infusion)', g: 'golimumab', t: 'b', c: 26000, n: 7 },
@@ -82,6 +91,11 @@ const MEDS = [
   { b: 'Imuran', g: 'azathioprine', t: 'd', c: 400 },
   { b: 'Arava', g: 'leflunomide', t: 'd', c: 600 },
 ];
+
+// Medications that have their own detailed page.
+const DEEP_LINKS = {
+  tocilizumab: '/patients/insurance/tocilizumab',
+};
 
 const SUPPLEMENTS = [
   { v: 1236, label: 'About $103 a month — around the cheapest available' },
@@ -149,6 +163,7 @@ export default function MedicationCostTool() {
   const c = Number(cost) || 0;
   const clinic = chosen ? chosen.t === 'b' : false;
   const pricey = c >= 5000;
+  const deepLink = chosen ? DEEP_LINKS[chosen.g] : null;
 
   let body = null;
 
@@ -178,6 +193,19 @@ export default function MedicationCostTool() {
 
     body = (
       <div className="mcc-results">
+        {deepLink ? (
+          <div className="mcc-box mcc-help">
+            <h3>There is a full guide to this medication</h3>
+            <p>
+              <a href={deepLink}>
+                Read the detailed page on {chosen.g} &rarr;
+              </a>{' '}
+              — it covers both forms of the medication, the biosimilars, how long approval takes,
+              and which route is cheaper depending on the coverage you have.
+            </p>
+          </div>
+        ) : null}
+
         {clinic ? (
           <div className="mcc-box mcc-accent">
             <h3>This one is given to you by a nurse or a doctor</h3>
