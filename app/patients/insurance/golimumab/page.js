@@ -153,7 +153,7 @@ export default function GolimumabPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>The names are confusingly similar.</strong> Simponi and Simponi Aria are billed
