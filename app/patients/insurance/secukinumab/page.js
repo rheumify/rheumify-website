@@ -165,7 +165,7 @@ export default function SecukinumabPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>There is no cheaper version.</strong> Secukinumab has no biosimilars, and none
