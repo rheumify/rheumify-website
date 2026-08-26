@@ -220,7 +220,7 @@ export default function AbataceptPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>The Orencia copay card does not work if you have Medicare.</strong> Federal law
@@ -313,6 +313,11 @@ export default function AbataceptPage() {
           <li>
             <a href="/patients/insurance">Medicare and your medication</a> — look up any other
             medication and compare your coverage options
+          </li>
+          <li>
+            <a href="/patients/insurance/prior-authorization">
+              Why your medication needs permission first
+            </a>
           </li>
           <li>
             <a href="/patients/insurance/tocilizumab">Tocilizumab (Actemra) and Medicare</a> — the
