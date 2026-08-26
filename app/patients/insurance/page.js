@@ -41,11 +41,11 @@ export default function InsurancePage() {
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
-        <h2>Guides to specific medications</h2>
+        <h2>Guides</h2>
         <p>
-          Some medications have enough going on that they deserve their own page — usually because
-          they come in more than one form, and Medicare pays for those forms in completely different
-          ways.
+          Some subjects have enough going on that they deserve their own page — how the approval
+          process works, and individual medications that come in more than one form, because
+          Medicare pays for those forms in completely different ways.
         </p>
         <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem', marginLeft: 0 }}>
           {GUIDES.map((g) => (
@@ -86,7 +86,7 @@ export default function InsurancePage() {
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          The consequence catches people out. Abatacept given as an infusion in the office is Part B
+          The result surprises people. Abatacept given as an infusion in the office is Part B
           and has no ceiling. The same medicine as a self-injection at home is Part D and stops at
           $2,100. Same drug, same disease, and the difference can run to thousands of dollars a year
           — decided entirely by where it goes in.
@@ -98,7 +98,7 @@ export default function InsurancePage() {
       </div>
 
       <div className="content-card">
-        <h2>The thing almost nobody is told about prior authorization</h2>
+        <h2>Where prior authorization actually applies</h2>
         <p>
           <strong>Original Medicare does not require prior authorization for a medication given in
           a doctor&rsquo;s office</strong>, and it is not permitted to make you try and fail a
