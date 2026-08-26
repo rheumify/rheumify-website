@@ -211,7 +211,7 @@ export default function RituximabPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>The Rituxan copay card does not work if you have Medicare.</strong> Federal law
