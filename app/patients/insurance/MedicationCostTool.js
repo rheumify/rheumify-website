@@ -470,7 +470,10 @@ export default function MedicationCostTool() {
 }
 .mcc input::placeholder { color:var(--gray-medium); }
 .mcc-hint { color:var(--gray-medium); font-size:.92rem; margin-top:.45rem; }
-.mcc-sugg { list-style:none; margin:.5rem 0 0; padding:0; border:1px solid rgba(107,139,184,.35);
+.mcc-privacy { color:var(--gray-light); font-size:.92rem; margin-top:.6rem;
+  padding:.6rem .85rem; background:rgba(107,139,184,.1);
+  border-left:3px solid var(--blue-accent); border-radius:6px; }
+.mcc-sugg { list-style:none; margin:.75rem 0 0; padding:0; border:1px solid rgba(107,139,184,.35);
   border-radius:8px; overflow:hidden; }
 .mcc-sugg li { margin:0; }
 .mcc-sugg button { display:block; width:100%; text-align:left; padding:.7rem 1rem; background:var(--navy-dark);
@@ -518,7 +521,6 @@ export default function MedicationCostTool() {
 .mcc-box.mcc-danger { border-left:4px solid #E88B84; }
 .mcc-box.mcc-good   { border-left:4px solid #7FBF9B; }
 .mcc-box.mcc-help   { border-left:4px solid var(--blue-accent); }
-.mcc-privacy { color:var(--gray-medium); font-size:.9rem; margin-top:1.25rem; }
 `,
         }}
       />
@@ -539,6 +541,10 @@ export default function MedicationCostTool() {
       <p className="mcc-hint">
         Brand name or generic name both work. If yours is not listed, the explanations further down
         still apply.
+      </p>
+      <p className="mcc-privacy">
+        Nothing you type here is saved, sent anywhere, or seen by anyone — including us. It stays in
+        your browser.
       </p>
 
       {matches.length > 0 ? (
@@ -604,11 +610,6 @@ export default function MedicationCostTool() {
       ) : null}
 
       {body}
-
-      <p className="mcc-privacy">
-        Nothing you type here is saved, sent anywhere, or seen by anyone — including us. It stays in
-        your browser.
-      </p>
     </div>
   );
 }
