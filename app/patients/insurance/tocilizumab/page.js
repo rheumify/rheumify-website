@@ -154,7 +154,7 @@ export default function TocilizumabPage() {
       <div className="content-card">
         <h2>Nobody has to approve the infusion — under Original Medicare</h2>
         <p>
-          This is the part almost nobody is told. If you are on Original Medicare and you get
+          If you are on Original Medicare and you get
           tocilizumab as an infusion in a doctor&rsquo;s office or clinic,{' '}
           <strong>there is no prior authorization</strong>. Nothing to submit, nothing to wait for,
           and nobody can require you to fail a cheaper medication first. Original Medicare is not
@@ -233,14 +233,14 @@ export default function TocilizumabPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>The whole $2,100 lands in January.</strong> At a weekly dose you hit the cap on
             the first or second fill of the year. Medicare has a program that spreads it across
             twelve months instead, interest-free — about $175 a month — but{' '}
             <strong>you have to sign up for it</strong>. It is called the Medicare Prescription
-            Payment Plan, and almost nobody knows it exists.
+            Payment Plan.
           </li>
           <li>
             <strong>Manufacturer copay cards do not work if you have Medicare.</strong> Federal law
