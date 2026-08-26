@@ -184,7 +184,7 @@ export default function InfliximabPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>The infusion visit is billed separately.</strong> On top of 20% of the drug, you
