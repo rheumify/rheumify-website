@@ -49,7 +49,7 @@ export default function AbataceptPage() {
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
-        <h2>The catch nobody warns you about</h2>
+        <h2>Most drug plans do not cover the self-injection</h2>
         <p>
           We went through the drug plan formularies CMS published for 2026 and counted. Of 5,490
           Medicare drug plans, <strong>only about 23% cover Orencia&rsquo;s self-injection at
