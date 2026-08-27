@@ -9,7 +9,7 @@
 
 ## Key facts
 
-- Question bank: 700+ ABIM board-style questions with detailed per-choice explanations,
+- Question bank: 750+ ABIM board-style questions with detailed per-choice explanations,
   each linked to a relevant PubMed article. Reviewed and updated daily as guidelines
   and trials change.
 - Flashcards: 850+ spaced-repetition flashcards covering the full ABIM rheumatology
