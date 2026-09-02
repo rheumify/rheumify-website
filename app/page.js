@@ -160,7 +160,7 @@ export default function Home() {
           <div className="product-card">
             <h3><a href="/fellows" style={{ color: 'inherit', textDecoration: 'none' }}>Rheumify Question Bank</a></h3>
             <p>
-              The most comprehensive web-based platform for rheumatology fellows preparing for ABIM board
+              The most comprehensive web-based rheumatology qbank for fellows preparing for ABIM board
               certification — and for practicing rheumatologists preparing for the recertification exam
               or simply keeping their knowledge sharp.
               Every question is AI-drafted, then curated and reviewed by a board-certified academic rheumatologist — pairing the breadth of AI
@@ -240,7 +240,7 @@ export default function Home() {
             </table>
           </div>
           <p style={{ maxWidth: '820px', margin: '1.5rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
-            Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of Rheumify still costs less than most competitors charge for a few months, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
+            Keeping high-quality board prep affordable is a core commitment at Rheumify — not a limited-time launch discount. A full year of the Rheumify qbank still costs less than most competitors charge for a few months, it's updated every day, and it's backed by name by the board-certified rheumatologist who built it.
           </p>
           <p style={{ maxWidth: '820px', margin: '0.75rem auto 0', lineHeight: '1.7', textAlign: 'center', color: 'var(--gray-light)' }}>
             Rheumatology fellows and trainees pay even less — $119/year (or $15/month), verification required.
