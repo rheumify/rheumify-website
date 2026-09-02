@@ -1,10 +1,12 @@
 export const metadata = {
-  title: 'How to Study for the ABIM Rheumatology Board Exam',
+  title: 'Rheumatology Board Review: How to Study for the ABIM Exam',
   description:
-    'A rheumatologist’s honest guide to the ABIM rheumatology boards: what is on the exam, how to study, and current first-time pass rates.',
+    'A rheumatologist’s honest rheumatology board review guide: what is on the ABIM exam, how to study, and current first-time pass rates.',
   keywords: [
     'rheumatology boards',
     'rheumatology board review',
+    'rheumatology board review course',
+    'rheumatology certification prep',
     'ABIM rheumatology board exam',
     'how to study for rheumatology boards',
     'rheumatology board prep',
@@ -14,7 +16,7 @@ export const metadata = {
   ],
   alternates: { canonical: 'https://www.rheumify.org/rheumatology-board-prep' },
   openGraph: {
-    title: 'How to Study for the ABIM Rheumatology Board Exam',
+    title: 'Rheumatology Board Review: How to Study for the ABIM Exam',
     description:
       'What is on the exam, how to study, and why starting early beats cramming — from academic rheumatologist Dr. Alison Bays, MD, MPH&TM.',
     url: 'https://www.rheumify.org/rheumatology-board-prep',
@@ -22,13 +24,13 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Study for the ABIM Rheumatology Board Exam',
+    title: 'Rheumatology Board Review: How to Study for the ABIM Exam',
     description:
       'A rheumatologist’s honest guide to the ABIM rheumatology boards — exam content, study strategy, and current pass rates.',
   },
 };
 
-const bylineText = 'By Alison Bays, MD, MPH&TM — academic rheumatologist · Reviewed August 18, 2026';
+const bylineText = 'By Alison Bays, MD, MPH&TM — academic rheumatologist · Reviewed September 2, 2026';
 
 const introText =
   'Most people pass the rheumatology boards with steady, consistent study, a good question bank worked twice, and one solid review text. Read the current ACR guidelines — all of them. They are the backbone of the exam, and there is no shortcut around them. Beyond that, you need to recognize patterns, know where the lines are drawn, and not panic when a vignette describes something you have only seen once in fellowship.';
@@ -64,13 +66,20 @@ const sections = [
     ],
   },
   {
+    h2: 'Do I need a rheumatology board review course?',
+    paras: [
+      'Not necessarily. A rheumatology board review course — the multi-day lecture series run by ACR, UCSF, and others — is a structured way to hear the whole blueprint from experts, and some people genuinely learn best from lectures. If that is you, and the registration fee plus travel is not a burden, a course can be a useful backbone.',
+      'But a course is not a substitute for practice. Passive lectures do not train the skill the exam actually tests — answering vignette questions under time pressure. If you have to choose, choose a question bank worked twice over a course attended once. Plenty of people pass without any course; almost nobody passes on a course alone.',
+    ],
+  },
+  {
     h2: 'Should I worry about the pass rate?',
     paras: [
       'Less than you probably are. First-time pass rates for the ABIM rheumatology certification exam run high — 92% of first-time takers passed in 2025, and the rate has sat in the high-80s to low-90s for years. The people who struggle are usually the ones who never practiced under timed conditions, or who studied breadth without ever drilling the high-yield decision points. Both are fixable with how you study, not how much.',
     ],
   },
   {
-    h2: 'A study plan that actually works',
+    h2: 'Rheumatology certification prep: a study plan that works',
     paras: [
       'Start early and build in three overlapping phases.',
       'Learn first. Work through your review text by blueprint domain, one major topic at a time, with untimed tutor-mode questions alongside each topic so the reading sticks. Run flashcards daily from the beginning — this is where spaced repetition does its quiet work.',
@@ -93,14 +102,14 @@ const structuredData = {
       '@type': 'MedicalWebPage',
       '@id': 'https://www.rheumify.org/rheumatology-board-prep/#webpage',
       url: 'https://www.rheumify.org/rheumatology-board-prep',
-      name: 'How to Study for the ABIM Rheumatology Board Exam',
-      headline: 'How to Study for the ABIM Rheumatology Board Exam',
+      name: 'Rheumatology Board Review: How to Study for the ABIM Exam',
+      headline: 'Rheumatology Board Review: How to Study for the ABIM Exam',
       description:
-        'A practical guide to preparing for the ABIM rheumatology board exam: exam content, study timing, spaced repetition, recommended resources, and current first-time pass rates.',
+        'A practical rheumatology board review guide for the ABIM exam: exam content, study timing, spaced repetition, recommended resources, and current first-time pass rates.',
       inLanguage: 'en-US',
       isPartOf: { '@id': 'https://www.rheumify.org/#website' },
       about: 'ABIM Rheumatology Certification Examination',
-      lastReviewed: '2026-08-18',
+      lastReviewed: '2026-09-02',
       author: { '@id': 'https://www.rheumify.org/#author' },
       reviewedBy: { '@id': 'https://www.rheumify.org/#author' },
       publisher: { '@id': 'https://www.rheumify.org/#organization' },
@@ -152,8 +161,8 @@ export default function RheumatologyBoardPrepPage() {
 
       <div className="page-header">
         <h1>
-          How to Study for the{' '}
-          <span style={{ color: 'var(--purple-light)' }}>ABIM Rheumatology Board Exam</span>
+          Rheumatology Board Review:{' '}
+          <span style={{ color: 'var(--purple-light)' }}>How to Study for the ABIM Exam</span>
         </h1>
         <p style={{ fontStyle: 'italic', opacity: 0.85, marginBottom: '1rem' }}>{bylineText}</p>
         <p>{introText}</p>
