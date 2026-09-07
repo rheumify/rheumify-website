@@ -305,7 +305,11 @@ export default function GolimumabPage() {
           Medicare, the Centers for Medicare &amp; Medicaid Services, or any government agency.
         </p>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Found something wrong? Please tell us — accuracy matters more than being finished.
+          Found something wrong?{' '}
+          <a href="mailto:rheumify@pm.me?subject=Correction%3A%20golimumab%20guide">
+            Please tell us
+          </a>
+          .
         </p>
       </div>
     </div>
