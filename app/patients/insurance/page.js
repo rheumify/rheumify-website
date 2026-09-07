@@ -1,5 +1,6 @@
 import MedicationCostTool from './MedicationCostTool';
 import { GUIDES } from './guides';
+import ReadingControls from './ReadingControls';
 
 export const metadata = {
   title: 'Medicare and Your Medication — What It Costs and Whether You Can Get It',
@@ -18,6 +19,7 @@ export const metadata = {
 export default function InsurancePage() {
   return (
     <div className="page-container">
+      <ReadingControls />
       <p className="breadcrumb">
         <a href="/patients">Patient Resources</a> &rsaquo; Medicare and your medication
       </p>
