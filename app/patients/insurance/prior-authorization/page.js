@@ -1,3 +1,5 @@
+import ReadingControls from '../ReadingControls';
+
 export const metadata = {
   title: 'Why Your Medicine Needs Permission First: Prior Authorization Explained',
   description:
@@ -15,6 +17,7 @@ export const metadata = {
 export default function PriorAuthPage() {
   return (
     <div className="page-container">
+      <ReadingControls />
       <p className="breadcrumb">
         <a href="/patients">Patient Resources</a> &rsaquo;{' '}
         <a href="/patients/insurance">Medicare and your medication</a> &rsaquo; Prior authorization
