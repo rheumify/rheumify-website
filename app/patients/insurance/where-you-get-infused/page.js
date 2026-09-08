@@ -3,7 +3,7 @@ import ReadingControls from '../ReadingControls';
 export const metadata = {
   title: 'Why the Same Infusion Costs More at a Hospital: Medicare Site of Care (2026)',
   description:
-    'Medicare pays a hospital three to four times what it pays a doctor’s office for the same infusion, and you owe 20% of the larger number. Why that happens, the surprise drug bill nobody warns you about, and what to ask first. Written by a rheumatologist.',
+    'Medicare pays a hospital three to four times what it pays a doctor’s office for the same infusion, and you owe 20% of the larger number. Why that happens, the drug bill Medicare does not cover, and what to ask first. Written by a rheumatologist.',
   keywords: [
     'hospital outpatient infusion costs more medicare',
     'facility fee infusion medicare',
@@ -130,7 +130,7 @@ export default function WhereYouGetInfusedPage() {
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
-        <h2>The hospital bill nobody warns you about</h2>
+        <h2>A hospital bill Medicare does not cover</h2>
         <p>
           This one is worth reading even if the rest of the page does not apply to you, because it
           arrives with no warning and looks like a mistake.
@@ -441,8 +441,8 @@ export default function WhereYouGetInfusedPage() {
             Medicare beneficiaries have a statutory right to obtain services from any qualified
             provider &mdash; 42 U.S.C. §1395a(a). The hospital outpatient services requiring prior
             authorization under Original Medicare are an enumerated list that does not include drug
-            administration &mdash; 42 CFR §419.83. The 2026 WISeR pilot covers thirteen procedures
-            and devices and no medications.
+            administration &mdash; 42 CFR §419.83. The 2026 WISeR pilot covers procedures and
+            devices only; no medications are included.
           </li>
           <li>
             Site-of-care policies limiting hospital-based infusion, including a six-month duration
