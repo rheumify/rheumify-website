@@ -338,7 +338,7 @@ export default function RituximabPage() {
             <a href="/patients/insurance/where-you-get-infused">
               Where you get infused changes the bill
             </a>{' '}
-            &mdash; the same infusion costs more at a hospital, and the bill nobody warns you about
+            &mdash; the same infusion costs more at a hospital, and the drug bill Medicare does not cover
           </li>
         </ul>
       </div>
