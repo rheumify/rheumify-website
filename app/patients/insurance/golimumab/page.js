@@ -273,6 +273,12 @@ export default function GolimumabPage() {
             <a href="/patients/insurance/secukinumab">Secukinumab (Cosentyx) and Medicare</a> — the
             same two-route question, where the home version <em>is</em> widely covered
           </li>
+          <li>
+            <a href="/patients/insurance/where-you-get-infused">
+              Where you get infused changes the bill
+            </a>{' '}
+            &mdash; the same infusion costs more at a hospital, and the bill nobody warns you about
+          </li>
         </ul>
       </div>
 
