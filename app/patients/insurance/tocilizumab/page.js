@@ -189,6 +189,18 @@ export default function TocilizumabPage() {
           before treatment started.
         </p>
         <p style={{ marginTop: '1rem' }}>
+          <strong>A disclosure:</strong> I am one of the authors of that study. It came out of our
+          own clinic, which is why the number is on this page &mdash; we measured it because we kept
+          watching it happen.{' '}
+          <a
+            href="https://pubmed.ncbi.nlm.nih.gov/40089304/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PubMed
+          </a>
+        </p>
+        <p style={{ marginTop: '1rem' }}>
           To be clear about what that does and does not mean: giant cell arteritis is treated
           urgently with steroids, and steroids are what protect your vision. Tocilizumab is added to
           bring the steroid dose down. So a delay in getting tocilizumab approved is not the same as
@@ -426,8 +438,10 @@ export default function TocilizumabPage() {
           </li>
           <li>
             Time from prior authorization request to first tocilizumab dose in giant cell arteritis
-            (mean 43 days; prior authorization required in 96% of cases) — Jimenez et al.,{' '}
-            <em>Journal of Rheumatology</em>, 2025.
+            (mean 43 days; prior authorization required in 96% of cases) — Feterman Jimenez D,
+            Thomason JL, Liew JW, Ferguson S, Hughes G, Bays AM,{' '}
+            <em>Journal of Rheumatology</em>, 2025. PMID 40089304. The author of this page
+            is a co-author of this study.
           </li>
           <li>
             Medicare Advantage appeal rates and outcomes for 2024 (11.5% of denials appealed, 80.7%
