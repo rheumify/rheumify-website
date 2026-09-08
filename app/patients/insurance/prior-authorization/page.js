@@ -44,8 +44,7 @@ export default function PriorAuthPage() {
           <strong>13 hours a week</strong> on them.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Here is the part most people never hear:{' '}
-          <strong>when patients fight a denial, they usually win.</strong> In Medicare Advantage in
+          <strong>When patients fight a denial, they usually win.</strong> In Medicare Advantage in
           2024, insurance companies said no to 4.1 million requests. Only about 1 in 9 people
           appealed. Of those who did, <strong>81% got the decision reversed.</strong>
         </p>
