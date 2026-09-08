@@ -148,9 +148,9 @@ export default function TocilizumabPage() {
         </ul>
         <p style={{ marginTop: '1rem' }}>
           <strong>Whether the shot or the infusion is right for you is a medical question, not a
-          money one.</strong> Both are FDA-approved for giant cell arteritis. But if the cost is the
-          only thing pushing you one way, that is worth saying out loud at your next appointment,
-          because it may be an easy problem to solve.
+          money one.</strong> Both are FDA-approved for giant cell arteritis. But if cost is the
+          only thing pushing you one way, tell your rheumatologist. It may be an easy problem to
+          solve.
         </p>
       </div>
 
