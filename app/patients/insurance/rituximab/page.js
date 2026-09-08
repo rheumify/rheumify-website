@@ -1,3 +1,5 @@
+import ReadingControls from '../ReadingControls';
+
 export const metadata = {
   title: 'Does Medicare Cover Rituxan (Rituximab)? What It Costs in 2026',
   description:
@@ -15,6 +17,7 @@ export const metadata = {
 export default function RituximabPage() {
   return (
     <div className="page-container">
+      <ReadingControls />
       <p className="breadcrumb">
         <a href="/patients">Patient Resources</a> &rsaquo;{' '}
         <a href="/patients/insurance">Medicare and your medication</a> &rsaquo; Rituximab
