@@ -194,21 +194,20 @@ export default function WhereYouGetInfusedPage() {
           any infused biologic. Nobody can redirect you.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Medicare Advantage is different, and this is where it gets frustrating.</strong>{' '}
-          Plans run &ldquo;site of care&rdquo; review, which approves infusion at a hospital only
-          when specific conditions are met, and otherwise directs you to a lower-cost setting. Some
-          authorizations are written to cover only a limited stretch at the hospital &mdash; one
-          large insurer&rsquo;s policy caps ongoing hospital-based infusion at{' '}
-          <strong>six months</strong> before requiring reassessment &mdash; after which you are
-          expected to move.
+          <strong>This is mostly a commercial insurance practice, and that is good news if you are
+          on Medicare.</strong> Insurers run what they call &ldquo;site of care&rdquo; review, which
+          approves an infusion at a hospital only when specific conditions are met and otherwise
+          directs you somewhere cheaper. Nearly every such policy published in writing applies to
+          employer and individual commercial plans &mdash; and several say plainly that they do{' '}
+          <strong>not</strong> apply to Medicare Advantage.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Being straight about the evidence:</strong> most site-of-care policies we could
-          find in writing apply to commercial insurance, and several say explicitly that they do{' '}
-          <em>not</em> apply to Medicare Advantage. One major insurer&rsquo;s policy says it{' '}
-          <em>may</em> be applied to Medicare Advantage in certain instances. So this varies a great
-          deal by plan, and the only way to know is to ask yours directly. Do not assume it applies
-          to you, and do not assume it does not.
+          <strong>So if you are on Medicare Advantage, you are less likely to run into this than
+          someone on commercial insurance.</strong> Less likely is not never. One large
+          insurer&rsquo;s policy says it may also be applied to Medicare Advantage in certain
+          instances, and that policy caps ongoing hospital-based infusion at{' '}
+          <strong>six months</strong> before requiring reassessment, after which you are expected to
+          move. The only way to know is to ask your own plan.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>If it does apply, there are exceptions, and they are written down.</strong> Plan
@@ -451,9 +450,10 @@ export default function WhereYouGetInfusedPage() {
             UnitedHealthcare, &ldquo;Provider Administered Drugs &mdash; Site of Care,&rdquo;
             effective September 1, 2026, which states it may also be applied to Medicare Advantage
             plans in certain instances; Cigna Coverage Policy 1605, effective June 15, 2026;
-            Anthem/Elevance Clinical UM Guideline CG-MED-83. Several published site-of-care policies,
-            including Regence dru408 and Kaiser Permanente Washington&rsquo;s, state that they do not
-            apply to Medicare plans. Application to Medicare Advantage varies by plan.
+            Anthem/Elevance Clinical UM Guideline CG-MED-83. Several published site-of-care
+            policies, including Regence dru408 and Kaiser Permanente Washington&rsquo;s, state that
+            they do not apply to Medicare plans. Site-of-care review is predominantly a commercial
+            insurance practice; application to Medicare Advantage varies by plan and is less common.
           </li>
           <li>
             Medicare Advantage plans denied 12% of standard and 10% of expedited prior authorization
