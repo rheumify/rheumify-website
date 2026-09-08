@@ -1,3 +1,7 @@
+export const metadata = {
+  alternates: { canonical: '/' },
+};
+
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
