@@ -137,8 +137,8 @@ export default function TocilizumabPage() {
           </li>
           <li>
             <strong>If you have Medicare Advantage</strong>, the plan sets its own charges for the
-            infusion — either 20% or a flat amount capped at $340 per treatment — and everything
-            stops at the plan&rsquo;s yearly limit. But see the section on approvals below, because
+            infusion — either 20%, or a copayment that for 2026 cannot exceed $340 for an in-network
+            Part B drug like this one — and everything stops at the plan&rsquo;s yearly limit. But see the section on approvals below, because
             with Advantage the price is not the main issue.
           </li>
           <li>
