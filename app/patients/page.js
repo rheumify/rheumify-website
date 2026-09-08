@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Patient Resources',
-  description: 'Rheumatology patient education - learn about rheumatic conditions and find trusted resources from the American College of Rheumatology.',
-  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'ACR patient information'],
+  description: 'Rheumatology patient education - learn about rheumatic conditions, what your medication costs under Medicare, and find trusted resources from the American College of Rheumatology.',
+  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'ACR patient information', 'Medicare biologic cost'],
 };
 
 export default function PatientsPage() {
@@ -11,6 +11,18 @@ export default function PatientsPage() {
         <h1>Patient Resources</h1>
         <p>
           Learn about rheumatic conditions and find resources to help you understand your diagnosis and treatment options.
+        </p>
+      </div>
+
+      <div className="content-card">
+        <h2>Paying for Your Medication</h2>
+        <p>
+          What your medicine actually costs under each kind of Medicare, why infusions and pills are treated differently, and what to do when your plan says no.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          <a href="/patients/insurance" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
+            Medicare and your medication &rarr;
+          </a>
         </p>
       </div>
 
