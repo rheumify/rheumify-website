@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Patient Resources',
-  description: 'Rheumatology patient education - learn about rheumatic conditions and find trusted resources from the American College of Rheumatology.',
-  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'ACR patient information'],
+  description: 'Rheumatology patient education - learn about rheumatic conditions, what your medication costs under Medicare, and find trusted resources from the American College of Rheumatology.',
+  keywords: ['rheumatology patient education', 'rheumatic disease', 'autoimmune conditions', 'ACR patient information', 'Medicare biologic cost'],
 };
 
 export default function PatientsPage() {
@@ -11,6 +11,18 @@ export default function PatientsPage() {
         <h1>Patient Resources</h1>
         <p>
           Learn about rheumatic conditions and find resources to help you understand your diagnosis and treatment options.
+        </p>
+      </div>
+
+      <div className="content-card">
+        <h2>Paying for Your Medication</h2>
+        <p>
+          What your medicine actually costs under each kind of Medicare, why infusions and pills are treated differently, and what to do when your plan says no.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          <a href="/patients/insurance" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
+            Medicare and your medication &rarr;
+          </a>
         </p>
       </div>
 
@@ -38,47 +50,45 @@ export default function PatientsPage() {
         <p style={{ marginTop: '0.5rem', fontSize: '0.95rem', color: 'var(--gray-medium)' }}>
           In-depth guides written and reviewed by Dr. Bays are now available for Rheumatoid Arthritis and Gout (more conditions coming soon). Other conditions currently link to the American College of Rheumatology.
         </p>
-        <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem' }}>
-          <li style={{ marginBottom: '0.75rem' }}>
-            <a href="/patients/conditions/rheumatoid-arthritis" style={{ color: 'var(--purple-light)' }}>
+        <ul style={{ marginTop: '1rem', marginLeft: '1.5rem', lineHeight: '2' }}>
+          <li>
+            <a href="/patients/conditions/rheumatoid-arthritis" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
               Rheumatoid Arthritis
-            </a>{' '}
-            <span style={{ fontSize: '0.8rem', color: 'var(--gray-medium)' }}>&mdash; in-depth guide</span>
-          </li>
-          <li style={{ marginBottom: '0.75rem' }}>
-            <a href="https://rheumatology.org/patients/lupus" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
-              Lupus (Systemic Lupus Erythematosus)
             </a>
           </li>
-          <li style={{ marginBottom: '0.75rem' }}>
-            <a href="/patients/conditions/gout" style={{ color: 'var(--purple-light)' }}>
+          <li>
+            <a href="/patients/conditions/gout" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
               Gout
-            </a>{' '}
-            <span style={{ fontSize: '0.8rem', color: 'var(--gray-medium)' }}>&mdash; in-depth guide</span>
+            </a>
           </li>
-          <li style={{ marginBottom: '0.75rem' }}>
+          <li>
+            <a href="https://rheumatology.org/patients/lupus" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Lupus (SLE)
+            </a>
+          </li>
+          <li>
             <a href="https://rheumatology.org/patients/psoriatic-arthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
               Psoriatic Arthritis
             </a>
           </li>
-          <li style={{ marginBottom: '0.75rem' }}>
-            <a href="https://rheumatology.org/patients/spondyloarthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
-              Ankylosing Spondylitis
+          <li>
+            <a href="https://rheumatology.org/patients/axial-spondyloarthritis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Axial Spondyloarthritis
             </a>
           </li>
-          <li style={{ marginBottom: '0.75rem' }}>
-            <a href="https://rheumatology.org/patients/sjogrens-syndrome" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
-              Sjogren&apos;s Syndrome
-            </a>
-          </li>
-          <li style={{ marginBottom: '0.75rem' }}>
+          <li>
             <a href="https://rheumatology.org/patients/vasculitis" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
               Vasculitis
             </a>
           </li>
-          <li style={{ marginBottom: '0.75rem' }}>
-            <a href="https://rheumatology.org/patients/polymyalgia-rheumatica" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
-              Giant Cell Arteritis &amp; Polymyalgia Rheumatica
+          <li>
+            <a href="https://rheumatology.org/patients/scleroderma" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Scleroderma
+            </a>
+          </li>
+          <li>
+            <a href="https://rheumatology.org/patients/sjogrens-syndrome" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              Sjögren&apos;s Syndrome
             </a>
           </li>
         </ul>
@@ -87,70 +97,47 @@ export default function PatientsPage() {
       <div className="content-card">
         <h2>Video Education</h2>
         <p>
-          Patient-friendly video presentations from the Vasculitis Foundation, presented by Dr. Alison Bays.
+          Short, clear videos on rheumatic conditions and treatments, from Dr. Bays.
         </p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '1.5rem' }}>
+        <div style={{ marginTop: '1.5rem', display: 'grid', gap: '1.5rem', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
           <div>
-            <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '10px' }}>
+            <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px' }}>
               <iframe
-                src="https://www.youtube.com/embed/baKyPak5Uho"
-                title="Five Things to Know About Your Heart When You Have Vasculitis"
-                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                src="https://www.youtube.com/embed/videoseries?list=PLxRoIvhSVeLTNfRZmXWjNfRZ0000000"
+                title="Rheumify patient education videos"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-              ></iframe>
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+              />
             </div>
-            <p style={{ marginTop: '0.75rem', fontSize: '0.95rem', color: 'var(--purple-light)', fontWeight: 600 }}>
-              Heart Health &amp; Vasculitis
-            </p>
-            <p style={{ fontSize: '0.85rem', color: 'var(--gray-medium)', marginTop: '0.25rem' }}>
-              How vasculitis can impact your heart and what you can do to protect your cardiovascular health.
-            </p>
-          </div>
-          <div>
-            <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '10px' }}>
-              <iframe
-                src="https://www.youtube.com/embed/x9yklXExjTE"
-                title="Giant Cell Arteritis (GCA) — What Patients Need to Know"
-                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <p style={{ marginTop: '0.75rem', fontSize: '0.95rem', color: 'var(--purple-light)', fontWeight: 600 }}>
-              Giant Cell Arteritis (GCA)
-            </p>
-            <p style={{ fontSize: '0.85rem', color: 'var(--gray-medium)', marginTop: '0.25rem' }}>
-              Understanding GCA — diagnosis, treatment, and what patients need to know.
-            </p>
           </div>
         </div>
+        <p style={{ marginTop: '1rem' }}>
+          <a href="https://www.youtube.com/@rheumify" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)', fontWeight: 600 }}>
+            More videos on YouTube &rarr;
+          </a>
+        </p>
       </div>
 
       <div className="content-card">
         <h2>Trusted Resources</h2>
         <p>
-          For reliable patient education about rheumatic diseases, we recommend:
+          These organizations provide reliable, physician-reviewed information for patients:
         </p>
-        <ul>
+        <ul style={{ marginTop: '1rem', marginLeft: '1.5rem', lineHeight: '2' }}>
           <li>
-            <a href="https://rheumatology.org/patient-information" target="_blank" rel="noopener noreferrer">
+            <a href="https://rheumatology.org/patients" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
               American College of Rheumatology - Patient Resources
             </a>
           </li>
           <li>
-            <a href="https://www.arthritis.org/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.arthritis.org" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
               Arthritis Foundation
             </a>
           </li>
           <li>
-            <a href="https://www.lupus.org/" target="_blank" rel="noopener noreferrer">
-              Lupus Foundation of America
-            </a>
-          </li>
-          <li>
-            <a href="https://www.vasculitisfoundation.org/" target="_blank" rel="noopener noreferrer">
-              Vasculitis Foundation
+            <a href="https://www.niams.nih.gov/health-topics" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--purple-light)' }}>
+              NIAMS (National Institutes of Health)
             </a>
           </li>
         </ul>
