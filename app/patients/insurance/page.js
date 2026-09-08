@@ -1,5 +1,6 @@
 import MedicationCostTool from './MedicationCostTool';
 import { GUIDES } from './guides';
+import ReadingControls from './ReadingControls';
 
 export const metadata = {
   title: 'Medicare and Your Medication — What It Costs and Whether You Can Get It',
@@ -18,6 +19,7 @@ export const metadata = {
 export default function InsurancePage() {
   return (
     <div className="page-container">
+      <ReadingControls />
       <p className="breadcrumb">
         <a href="/patients">Patient Resources</a> &rsaquo; Medicare and your medication
       </p>
@@ -41,11 +43,11 @@ export default function InsurancePage() {
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
-        <h2>Guides to specific medications</h2>
+        <h2>Guides</h2>
         <p>
-          Some medications have enough going on that they deserve their own page — usually because
-          they come in more than one form, and Medicare pays for those forms in completely different
-          ways.
+          Some subjects have enough going on that they deserve their own page — how the approval
+          process works, and individual medications that come in more than one form, because
+          Medicare pays for those forms in completely different ways.
         </p>
         <ul style={{ listStyle: 'none', padding: 0, marginTop: '1rem', marginLeft: 0 }}>
           {GUIDES.map((g) => (
@@ -86,19 +88,63 @@ export default function InsurancePage() {
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          The consequence catches people out. Abatacept given as an infusion in the office is Part B
+          The result surprises people. Abatacept given as an infusion in the office is Part B
           and has no ceiling. The same medicine as a self-injection at home is Part D and stops at
           $2,100. Same drug, same disease, and the difference can run to thousands of dollars a year
           — decided entirely by where it goes in.
         </p>
         <p style={{ marginTop: '1rem' }}>
           This is worth raising with your rheumatologist. Whether a home version is right for you is
-          a medical question, not a money one — but it is a question worth asking out loud.
+          a medical question, not a money one.
         </p>
       </div>
 
+      <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
+        <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
+        <p>
+          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
+          B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
+          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
+          the cost every time and <strong>there is no annual ceiling at all</strong>.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
+          is chosen by who puts the medicine in you. Almost everything written about the cap leaves
+          this out, so people on infusions read that their costs are now limited, and then the bills
+          keep coming.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
+          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
+          you stay on it. The $2,100 cap does not apply to any of it.
+        </p>
+        <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
+        <ul>
+          <li>
+            <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
+            is the main one, and the{' '}
+            window to buy one closes six months after you enroll in
+            Part B in most states.
+          </li>
+          <li>
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
+            applies to everything the plan covers &mdash; though it comes with prior authorization
+            attached.
+          </li>
+          <li>
+            <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
+            <a href="/patients/insurance/help-paying">This is the one people are not told about</a>{' '}
+            &mdash; and note that Extra Help, which people are told about, does nothing for a Part B
+            drug.
+          </li>
+          <li>
+            <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
+          </li>
+        </ul>
+      </div>
+
       <div className="content-card">
-        <h2>The thing almost nobody is told about prior authorization</h2>
+        <h2>Where prior authorization actually applies</h2>
         <p>
           <strong>Original Medicare does not require prior authorization for a medication given in
           a doctor&rsquo;s office</strong>, and it is not permitted to make you try and fail a
@@ -155,8 +201,8 @@ export default function InsurancePage() {
         </p>
         <p style={{ marginTop: '1rem' }}>
           You can change Advantage plans every single year. Getting a supplement later, you may not
-          be able to at all. That asymmetry is the single most important thing on this page for
-          anyone turning 65 right now.
+          be able to at all. That asymmetry is the single most important thing for anyone turning
+          65 right now.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Washington is the most protective state in the country on this.</strong> You can
@@ -318,7 +364,11 @@ export default function InsurancePage() {
           no tracking of what you type.
         </p>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Found something wrong? Please tell us — accuracy matters more than being finished.
+          Found something wrong?{' '}
+          <a href="mailto:rheumify@pm.me?subject=Correction%3A%20Medicare%20and%20your%20medication">
+            Please tell us
+          </a>
+          .
         </p>
       </div>
     </div>

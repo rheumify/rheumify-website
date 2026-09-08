@@ -1,3 +1,5 @@
+import ReadingControls from '../ReadingControls';
+
 export const metadata = {
   title: 'Does Medicare Cover Actemra (Tocilizumab)? What It Costs in 2026',
   description:
@@ -15,6 +17,7 @@ export const metadata = {
 export default function TocilizumabPage() {
   return (
     <div className="page-container">
+      <ReadingControls />
       <p className="breadcrumb">
         <a href="/patients">Patient Resources</a> &rsaquo;{' '}
         <a href="/patients/insurance">Medicare and your medication</a> &rsaquo; Tocilizumab
@@ -145,16 +148,16 @@ export default function TocilizumabPage() {
         </ul>
         <p style={{ marginTop: '1rem' }}>
           <strong>Whether the shot or the infusion is right for you is a medical question, not a
-          money one.</strong> Both are FDA-approved for giant cell arteritis. But if the cost is the
-          only thing pushing you one way, that is worth saying out loud at your next appointment,
-          because it may be an easy problem to solve.
+          money one.</strong> Both are FDA-approved for giant cell arteritis. But if cost is the
+          only thing pushing you one way, tell your rheumatologist. It may be an easy problem to
+          solve.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Nobody has to approve the infusion — under Original Medicare</h2>
         <p>
-          This is the part almost nobody is told. If you are on Original Medicare and you get
+          If you are on Original Medicare and you get
           tocilizumab as an infusion in a doctor&rsquo;s office or clinic,{' '}
           <strong>there is no prior authorization</strong>. Nothing to submit, nothing to wait for,
           and nobody can require you to fail a cheaper medication first. Original Medicare is not
@@ -184,6 +187,18 @@ export default function TocilizumabPage() {
           The average time from the request being submitted to the first dose actually reaching the
           patient was <strong>43 days</strong> — about 17 days to get approved, then another 30 days
           before treatment started.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          <strong>A disclosure:</strong> I am one of the authors of that study. It came out of our
+          own clinic, which is why the number is on this page &mdash; we measured it because we kept
+          watching it happen.{' '}
+          <a
+            href="https://pubmed.ncbi.nlm.nih.gov/40089304/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PubMed
+          </a>
         </p>
         <p style={{ marginTop: '1rem' }}>
           To be clear about what that does and does not mean: giant cell arteritis is treated
@@ -233,14 +248,14 @@ export default function TocilizumabPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>The whole $2,100 lands in January.</strong> At a weekly dose you hit the cap on
             the first or second fill of the year. Medicare has a program that spreads it across
             twelve months instead, interest-free — about $175 a month — but{' '}
             <strong>you have to sign up for it</strong>. It is called the Medicare Prescription
-            Payment Plan, and almost nobody knows it exists.
+            Payment Plan.
           </li>
           <li>
             <strong>Manufacturer copay cards do not work if you have Medicare.</strong> Federal law
@@ -317,6 +332,50 @@ export default function TocilizumabPage() {
         </ul>
       </div>
 
+      <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
+        <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
+        <p>
+          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
+          B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
+          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
+          the cost every time and <strong>there is no annual ceiling at all</strong>.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
+          is chosen by who puts the medicine in you. Almost everything written about the cap leaves
+          this out, so people on infusions read that their costs are now limited, and then the bills
+          keep coming.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
+          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
+          you stay on it. The $2,100 cap does not apply to any of it.
+        </p>
+        <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
+        <ul>
+          <li>
+            <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
+            is the main one, and the{' '}
+            <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
+            Part B in most states.
+          </li>
+          <li>
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
+            applies to everything the plan covers &mdash; though it comes with prior authorization
+            attached.
+          </li>
+          <li>
+            <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
+            <a href="/patients/insurance/help-paying">This is the one people are not told about</a>{' '}
+            &mdash; and note that Extra Help, which people are told about, does nothing for a Part B
+            drug.
+          </li>
+          <li>
+            <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
+          </li>
+        </ul>
+      </div>
+
       <div className="content-card">
         <h2>Related</h2>
         <ul>
@@ -329,6 +388,12 @@ export default function TocilizumabPage() {
           </li>
           <li>
             <a href="/patients">All patient resources</a>
+          </li>
+          <li>
+            <a href="/patients/insurance/where-you-get-infused">
+              Where you get infused changes the bill
+            </a>{' '}
+            &mdash; the same infusion costs more at a hospital, and the bill nobody warns you about
           </li>
         </ul>
       </div>
@@ -379,8 +444,10 @@ export default function TocilizumabPage() {
           </li>
           <li>
             Time from prior authorization request to first tocilizumab dose in giant cell arteritis
-            (mean 43 days; prior authorization required in 96% of cases) — Jimenez et al.,{' '}
-            <em>Journal of Rheumatology</em>, 2025.
+            (mean 43 days; prior authorization required in 96% of cases) — Feterman Jimenez D,
+            Thomason JL, Liew JW, Ferguson S, Hughes G, Bays AM,{' '}
+            <em>Journal of Rheumatology</em>, 2025. PMID 40089304. The author of this page
+            is a co-author of this study.
           </li>
           <li>
             Medicare Advantage appeal rates and outcomes for 2024 (11.5% of denials appealed, 80.7%
@@ -424,7 +491,11 @@ export default function TocilizumabPage() {
           Medicare, the Centers for Medicare &amp; Medicaid Services, or any government agency.
         </p>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Found something wrong? Please tell us — accuracy matters more than being finished.
+          Found something wrong?{' '}
+          <a href="mailto:rheumify@pm.me?subject=Correction%3A%20tocilizumab%20guide">
+            Please tell us
+          </a>
+          .
         </p>
       </div>
     </div>

@@ -1262,3 +1262,240 @@ a:hover {
   .learning-hero { padding: 2rem 1rem 1rem; }
   .module-nav { flex-direction: column; }
 }
+
+/* ==========================================================================
+   READING COMFORT  —  added for the patient guides (65+ audience)
+   Light theme, text-size steps, WCAG contrast/focus fixes, print styles.
+   Nothing below changes the default dark appearance unless the reader
+   opts in via the Reading controls, except the accessibility fixes.
+   ========================================================================== */
+
+/* --- Text size steps. No attribute = browser default (16px), so this is
+       inert for anyone who has not chosen a size. Scales rem everywhere. --- */
+:root[data-text='l'] {
+  font-size: 118.75%;
+}
+:root[data-text='xl'] {
+  font-size: 137.5%;
+}
+
+/* --- Light theme: a palette swap. Everything below is a variable the
+       existing rules already use, so the whole site follows. --- */
+:root[data-theme='light'] {
+  --navy-dark: #f4f6f9;
+  --navy-medium: #eef1f6;
+  --navy-light: #ffffff;
+  --blue-accent: #1f4e79;
+  --blue-light: #123a5c;
+  --white: #0b1524;
+  --gray-light: #1f2937;
+  --gray-medium: #4a5568;
+  --pink-accent: #a83271;
+  --purple-light: #5a4a8c;
+  --purple-medium: #4c3d7a;
+  --purple-dark: #3d3163;
+}
+
+/* Light theme: the handful of places with hard-coded dark colours. */
+:root[data-theme='light'] .navbar {
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid rgba(31, 78, 121, 0.25);
+}
+:root[data-theme='light'] .content-card,
+:root[data-theme='light'] .info-card,
+:root[data-theme='light'] .gca-card,
+:root[data-theme='light'] .references-card {
+  border: 1px solid rgba(31, 78, 121, 0.22);
+  box-shadow: 0 1px 3px rgba(11, 21, 36, 0.06);
+}
+:root[data-theme='light'] .hero,
+:root[data-theme='light'] .gca-hero {
+  background: linear-gradient(135deg, #eef1f6 0%, #f9fafc 100%);
+}
+:root[data-theme='light'] .module-table th {
+  background: rgba(31, 78, 121, 0.1);
+}
+:root[data-theme='light'] .module-table td {
+  border-bottom: 1px solid rgba(31, 78, 121, 0.16);
+}
+:root[data-theme='light'] .btn-primary,
+:root[data-theme='light'] .nav-app-btn {
+  color: #ffffff;
+}
+:root[data-theme='light'] .navbar::after,
+:root[data-theme='light'] .hero::before,
+:root[data-theme='light'] .gca-hero::before {
+  opacity: 0.45;
+}
+
+/* --- WCAG fixes. These apply in both themes. ---------------------------- */
+
+/* 1.4.3 + 1.4.1: prose links were 4.17:1 on cards and were distinguished by
+   colour alone. Lift the colour and underline links inside running prose. */
+.content-card a,
+.page-header a,
+.breadcrumb a {
+  color: var(--blue-light);
+}
+.content-card p a,
+.content-card li a,
+.content-card ol a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.08em;
+}
+.content-card a:hover,
+.content-card a:focus {
+  color: var(--white);
+  text-decoration: underline;
+}
+:root[data-theme='light'] .content-card a:hover,
+:root[data-theme='light'] .content-card a:focus {
+  color: var(--purple-dark);
+}
+
+/* 2.4.7: there was no focus style anywhere in this stylesheet. */
+:focus-visible {
+  outline: 3px solid var(--purple-light);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* 2.5.8: give standalone links in lists a real touch target. Readers of
+   these pages frequently have hand-affecting disease. */
+.content-card li > a:only-child,
+.content-card li > strong + a {
+  display: inline-block;
+  min-height: 24px;
+  padding: 3px 1px;
+}
+
+/* Slightly larger baseline for patient prose, without touching the rest
+   of the site's rem sizing. */
+.page-container .content-card p,
+.page-container .content-card li {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+/* --- Reading controls widget ------------------------------------------- */
+.reading-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+  padding: 0.6rem 0.9rem;
+  background: var(--navy-light);
+  border: 1px solid rgba(107, 139, 184, 0.25);
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+:root[data-theme='light'] .reading-controls {
+  border-color: rgba(31, 78, 121, 0.22);
+}
+.reading-controls-label {
+  color: var(--gray-medium);
+  margin-right: 0.25rem;
+}
+.reading-btn {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid rgba(107, 139, 184, 0.4);
+  background: transparent;
+  color: var(--gray-light);
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+:root[data-theme='light'] .reading-btn {
+  border-color: rgba(31, 78, 121, 0.35);
+}
+.reading-btn:hover {
+  background: rgba(107, 139, 184, 0.18);
+  color: var(--white);
+}
+.reading-btn[aria-pressed='true'] {
+  background: var(--purple-light);
+  border-color: var(--purple-light);
+  color: var(--navy-dark);
+  font-weight: 600;
+}
+.reading-btn-a1 {
+  font-size: 0.95rem;
+}
+.reading-btn-a2 {
+  font-size: 1.15rem;
+}
+.reading-btn-a3 {
+  font-size: 1.35rem;
+}
+
+/* --- Print. People print these to take to an appointment. --------------- */
+@media print {
+  :root {
+    font-size: 12pt;
+  }
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .navbar,
+  .footer,
+  .reading-controls,
+  .breadcrumb {
+    display: none !important;
+  }
+  .page-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  .content-card {
+    background: #fff !important;
+    border: 1px solid #999 !important;
+    box-shadow: none !important;
+    padding: 0.75rem 0 !important;
+    margin-bottom: 1rem !important;
+    break-inside: avoid;
+  }
+  .content-card h2 {
+    color: #000 !important;
+  }
+  .content-card p,
+  .content-card li,
+  .module-table td {
+    color: #000 !important;
+  }
+  .page-header h1 {
+    color: #000 !important;
+  }
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+  /* Print the destination of links, so a printed page is still usable. */
+  .content-card p a[href^='http']::after,
+  .content-card li a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.85em;
+    word-break: break-all;
+  }
+  .module-table {
+    break-inside: avoid;
+  }
+}
+
+/* --- Respect the reader's own OS setting for reduced motion. ------------ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

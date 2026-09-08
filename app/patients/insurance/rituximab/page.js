@@ -1,3 +1,5 @@
+import ReadingControls from '../ReadingControls';
+
 export const metadata = {
   title: 'Does Medicare Cover Rituxan (Rituximab)? What It Costs in 2026',
   description:
@@ -15,6 +17,7 @@ export const metadata = {
 export default function RituximabPage() {
   return (
     <div className="page-container">
+      <ReadingControls />
       <p className="breadcrumb">
         <a href="/patients">Patient Resources</a> &rsaquo;{' '}
         <a href="/patients/insurance">Medicare and your medication</a> &rsaquo; Rituximab
@@ -211,7 +214,7 @@ export default function RituximabPage() {
       </div>
 
       <div className="content-card">
-        <h2>Things that catch people out</h2>
+        <h2>Things that surprise people</h2>
         <ul>
           <li>
             <strong>The Rituxan copay card does not work if you have Medicare.</strong> Federal law
@@ -271,6 +274,50 @@ export default function RituximabPage() {
         </ul>
       </div>
 
+      <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
+        <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
+        <p>
+          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
+          B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
+          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
+          the cost every time and <strong>there is no annual ceiling at all</strong>.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
+          is chosen by who puts the medicine in you. Almost everything written about the cap leaves
+          this out, so people on infusions read that their costs are now limited, and then the bills
+          keep coming.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
+          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
+          you stay on it. The $2,100 cap does not apply to any of it.
+        </p>
+        <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
+        <ul>
+          <li>
+            <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
+            is the main one, and the{' '}
+            <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
+            Part B in most states.
+          </li>
+          <li>
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
+            applies to everything the plan covers &mdash; though it comes with prior authorization
+            attached.
+          </li>
+          <li>
+            <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
+            <a href="/patients/insurance/help-paying">This is the one people are not told about</a>{' '}
+            &mdash; and note that Extra Help, which people are told about, does nothing for a Part B
+            drug.
+          </li>
+          <li>
+            <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
+          </li>
+        </ul>
+      </div>
+
       <div className="content-card">
         <h2>Related</h2>
         <ul>
@@ -288,6 +335,12 @@ export default function RituximabPage() {
           </li>
           <li>
             <a href="/patients/insurance/tocilizumab">Tocilizumab and Medicare</a>
+          </li>
+          <li>
+            <a href="/patients/insurance/where-you-get-infused">
+              Where you get infused changes the bill
+            </a>{' '}
+            &mdash; the same infusion costs more at a hospital, and the bill nobody warns you about
           </li>
         </ul>
       </div>
@@ -360,7 +413,11 @@ export default function RituximabPage() {
           Medicare, the Centers for Medicare &amp; Medicaid Services, or any government agency.
         </p>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Found something wrong? Please tell us — accuracy matters more than being finished.
+          Found something wrong?{' '}
+          <a href="mailto:rheumify@pm.me?subject=Correction%3A%20rituximab%20guide">
+            Please tell us
+          </a>
+          .
         </p>
       </div>
     </div>
