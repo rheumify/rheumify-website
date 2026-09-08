@@ -149,6 +149,15 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#0A1628" />
         <meta name="google-site-verification" content="hKtwRCtuiCHH_Du0HgMwI3Ebcg4NXQliRcyALl7fvlQ" />
+        {/* Apply the reader's saved text size and light/dark choice before the
+            first paint, so choosing light mode does not flash dark on reload.
+            Reads localStorage only; nothing is sent anywhere. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var d=document.documentElement,t=localStorage.getItem('rheumify-theme'),s=localStorage.getItem('rheumify-text');if(t==='light')d.setAttribute('data-theme','light');if(s==='l'||s==='xl')d.setAttribute('data-text',s);}catch(e){}})();",
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
