@@ -256,9 +256,8 @@ export default function InfliximabPage() {
         </p>
         <p style={{ marginTop: '1rem' }}>
           It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. Almost everything written about the cap leaves
-          this out, so people on infusions read that their costs are now limited, and then the bills
-          keep coming.
+          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
+          separate rules, and news about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
           A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
@@ -280,9 +279,8 @@ export default function InfliximabPage() {
           </li>
           <li>
             <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">This is the one people are not told about</a>{' '}
-            &mdash; and note that Extra Help, which people are told about, does nothing for a Part B
-            drug.
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
+            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.

@@ -13,9 +13,13 @@ const Y = {
   partBCoins: 0.20,            // [2]
   partDDeductible: 615,        // [3]
   partDCap: 2100,              // [3]
-  partDPremiumYr: 38.99 * 12,  // [4] national average, not a fixed price
+  partDPremiumYr: 38.99 * 12,  // [4] the Part D base beneficiary premium — a formula input,
+                               //     NOT the average premium people actually pay (~$34.50 for
+                               //     standalone plans in 2026). A rough placeholder only.
   specialtyCoins: 0.25,
-  maDrugCopayCap: 340,         // [5] most a plan may charge per administration
+  maDrugCopayCap: 340,         // [5] max permissible in-network copay for the "Part B Drugs-Other"
+                               //     service category, CY2026. Chemo/radiation is $395. In-network
+                               //     only. A plan may instead charge 20%.
   maTypicalMoop: 5421,         // [6] average in-network limit across MA enrollees
   maMaxMoop: 9250,             // [5] the most a plan is allowed to set for 2026
 };
@@ -315,9 +319,9 @@ export default function MedicationCostTool() {
           sub="for this medication, for the year"
           lines={[
             clinic
-              ? 'Plans may charge 20%, or a flat amount per treatment capped at ' +
+              ? 'Plans may charge 20%, or a copayment that for 2026 cannot exceed ' +
                 money(Y.maDrugCopayCap) +
-                ' — and everything stops at your plan’s yearly limit.'
+                ' in network — and everything stops at your plan’s yearly limit.'
               : 'You pay this through the plan’s drug coverage.',
             'Premiums you pay anyway: ' +
               money(premC) +

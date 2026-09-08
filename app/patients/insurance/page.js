@@ -109,9 +109,8 @@ export default function InsurancePage() {
         </p>
         <p style={{ marginTop: '1rem' }}>
           It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. Almost everything written about the cap leaves
-          this out, so people on infusions read that their costs are now limited, and then the bills
-          keep coming.
+          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
+          separate rules, and news about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
           A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
@@ -122,8 +121,7 @@ export default function InsurancePage() {
         <ul>
           <li>
             <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
-            is the main one, and the{' '}
-            window to buy one closes six months after you enroll in
+            is the main one, and the window to buy one closes six months after you enroll in
             Part B in most states.
           </li>
           <li>
@@ -133,9 +131,8 @@ export default function InsurancePage() {
           </li>
           <li>
             <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">This is the one people are not told about</a>{' '}
-            &mdash; and note that Extra Help, which people are told about, does nothing for a Part B
-            drug.
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
+            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
@@ -191,7 +188,7 @@ export default function InsurancePage() {
       </div>
 
       <div className="content-card">
-        <h2>The decision you can only make once</h2>
+        <h2>Buying a Medicare supplement: the six-month window</h2>
         <p>
           For six months after you turn 65 and enroll in Part B, any company{' '}
           <strong>must</strong> sell you a Medicare supplement policy at the standard price, no
@@ -217,9 +214,12 @@ export default function InsurancePage() {
         <p>
           Every state funds trained volunteer counselors who will go through your actual options
           with you, free, and who are paid nothing regardless of what you choose. That is not true
-          of the companies that advertise Medicare plans — brokers are paid roughly twice as much
-          for enrolling you in an Advantage plan as for a supplement, and that commission renews
-          every year you stay.
+          of the companies that advertise Medicare plans. CMS caps what a Medicare Advantage plan
+          may pay a broker for signing you up: for 2026 that is $694 nationally for a new
+          enrollment, and $347 for each year you stay. A stand-alone drug plan pays $114. Medigap
+          commissions are not set by CMS at all — they are regulated state by state and are usually
+          a percentage of your premium, so there is no national figure to compare against. Nobody
+          is paid anything for helping you stay in Original Medicare.
         </p>
         <ul>
           <li>
@@ -307,9 +307,13 @@ export default function InsurancePage() {
             bid announcement, July 2025. Actual plan premiums vary widely.
           </li>
           <li>
-            Maximum Medicare Advantage copay per Part B drug administration ($340) and the 2026
-            in-network out-of-pocket maximum limits — CMS Final CY2026 Part C Bid Review
-            Memorandum, April 2025.
+            Maximum permissible in-network cost sharing for Part B drugs in Medicare Advantage for
+            2026: 20% coinsurance, or a copayment no greater than $340 for the &ldquo;Part B Drugs
+            &mdash; Other&rdquo; service category ($395 for chemotherapy and radiation drugs). Plan
+            bids may not exceed these amounts &mdash; CMS, &ldquo;Final Contract Year 2026 Standards
+            for Part C Benefits, Bid Review and Evaluation,&rdquo; HPMS memorandum, April 16, 2025,
+            Table 4; 42 CFR §422.100(f). The same memorandum sets the 2026 maximum out-of-pocket
+            limits at $9,250 in-network and, for PPO plans, $13,900 combined (Table 3).
           </li>
           <li>
             Average in-network out-of-pocket limit among Medicare Advantage enrollees ($5,421 for
@@ -340,6 +344,14 @@ export default function InsurancePage() {
           <li>
             Extra Help / Part D Low-Income Subsidy — Social Security Administration; CMS CY2026 LIS
             resource limits memorandum, October 2025.
+          </li>
+          <li>
+            Medicare Advantage and Part D broker compensation for 2026 ($694 initial and $347
+            renewal nationally for Medicare Advantage; $114 and $57 for a stand-alone Part D plan)
+            &mdash; CMS, &ldquo;Contract Year 2026 Agent and Broker Compensation Rates,
+            Referral/Finder&rsquo;s Fees, Submissions, and Training and Testing Requirements,&rdquo;
+            HPMS memorandum, June 18, 2025; 42 CFR §422.2274(d). Medicare supplement commissions are
+            set by carriers and regulated by the states; no national figure is published.
           </li>
         </ol>
       </div>

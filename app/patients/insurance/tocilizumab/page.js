@@ -137,8 +137,8 @@ export default function TocilizumabPage() {
           </li>
           <li>
             <strong>If you have Medicare Advantage</strong>, the plan sets its own charges for the
-            infusion — either 20% or a flat amount capped at $340 per treatment — and everything
-            stops at the plan&rsquo;s yearly limit. But see the section on approvals below, because
+            infusion — either 20%, or a copayment that for 2026 cannot exceed $340 for an in-network
+            Part B drug like this one — and everything stops at the plan&rsquo;s yearly limit. But see the section on approvals below, because
             with Advantage the price is not the main issue.
           </li>
           <li>
@@ -342,9 +342,8 @@ export default function TocilizumabPage() {
         </p>
         <p style={{ marginTop: '1rem' }}>
           It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. Almost everything written about the cap leaves
-          this out, so people on infusions read that their costs are now limited, and then the bills
-          keep coming.
+          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
+          separate rules, and news about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
           A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
@@ -366,9 +365,8 @@ export default function TocilizumabPage() {
           </li>
           <li>
             <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">This is the one people are not told about</a>{' '}
-            &mdash; and note that Extra Help, which people are told about, does nothing for a Part B
-            drug.
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
+            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
