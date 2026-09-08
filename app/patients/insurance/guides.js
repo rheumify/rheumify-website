@@ -15,6 +15,20 @@ export const GUIDES = [
       'Prior authorization explained in plain language — where it came from, who is really deciding, why your doctor and your plan keep telling you different things, and what to do when you are denied.',
   },
   {
+    slug: 'help-paying',
+    generic: null,
+    title: 'Help paying for your medication',
+    blurb:
+      'Extra Help does nothing for an infusion. QMB does. Which program covers which kind of drug, why your copay card stopped working, and what to do instead.',
+  },
+  {
+    slug: 'helping-a-parent',
+    generic: null,
+    title: 'Helping a parent with all of this',
+    blurb:
+      'You need four separate permissions and a power of attorney is not one of them. The forms, what to gather before you call, and what changes when a spouse dies.',
+  },
+  {
     slug: 'infliximab',
     generic: 'infliximab',
     title: 'Infliximab (Remicade, Inflectra, Renflexis, Avsola)',
