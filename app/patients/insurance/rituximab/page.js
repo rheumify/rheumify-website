@@ -336,6 +336,12 @@ export default function RituximabPage() {
           <li>
             <a href="/patients/insurance/tocilizumab">Tocilizumab and Medicare</a>
           </li>
+          <li>
+            <a href="/patients/insurance/where-you-get-infused">
+              Where you get infused changes the bill
+            </a>{' '}
+            &mdash; the same infusion costs more at a hospital, and the bill nobody warns you about
+          </li>
         </ul>
       </div>
 
