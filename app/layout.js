@@ -64,7 +64,7 @@ const structuredData = {
       "honorificPrefix": "Dr.",
       "honorificSuffix": "MD, MPH&TM",
       "jobTitle": "Board-Certified Academic Rheumatologist",
-      "url": "https://www.rheumify.org/fellows",
+      "url": "https://www.rheumify.org/about",
       "description": "Board-certified academic rheumatologist (MD, MPH&TM) who completed rheumatology fellowship in 2015 and has worked as an academic rheumatologist ever since. Her work spans clinical practice, medical education, and research, with a focus on vasculitis, giant cell arteritis, autoimmune diseases, and medical technology in rheumatology.",
       "knowsAbout": ["Rheumatology", "Giant Cell Arteritis", "Vasculitis", "Autoimmune Diseases", "Medical Education", "ABIM Board Preparation"],
       "alumniOf": [
@@ -82,59 +82,6 @@ const structuredData = {
       "description": "Master Rheumatology - Board prep, education, and clinical resources",
       "publisher": { "@id": "https://www.rheumify.org/#organization" },
       "potentialAction": { "@type": "SearchAction", "target": "https://www.rheumify.org/search?q={search_term_string}", "query-input": "required name=search_term_string" }
-    },
-    {
-      "@type": "Product",
-      "name": "Rheumify Question Bank",
-      "description": "Comprehensive ABIM rheumatology board preparation question bank with 750+ AI-generated questions validated by board-certified academic rheumatologists. Includes spaced repetition flashcards.",
-      "brand": { "@id": "https://www.rheumify.org/#organization" },
-      "url": "https://app.rheumify.org",
-      "category": "Medical Education Software",
-      "audience": { "@type": "MedicalAudience", "audienceType": "Rheumatology fellows and physicians preparing for ABIM certification and recertification" },
-      "offers": { "@type": "AggregateOffer", "lowPrice": "15", "highPrice": "199", "priceCurrency": "USD", "offerCount": "4" }
-    },
-    {
-      "@type": "Course",
-      "@id": "https://www.rheumify.org/#course",
-      "name": "ABIM Rheumatology Board Preparation",
-      "description": "An ABIM rheumatology board-prep course covering the full ABIM rheumatology blueprint: a 750+ board-style question bank with detailed explanations and 850+ spaced-repetition flashcards, written and clinically reviewed by a board-certified academic rheumatologist. Includes a test-taking analytics engine that targets each user's weakest topics.",
-      "provider": { "@id": "https://www.rheumify.org/#organization" },
-      "url": "https://app.rheumify.org",
-      "inLanguage": "en-US",
-      "about": "ABIM Rheumatology Certification Examination",
-      "teaches": "Rheumatology board exam content across the full ABIM rheumatology blueprint",
-      "educationalLevel": "Postgraduate medical education (fellowship and continuing certification)",
-      "instructor": { "@id": "https://www.rheumify.org/#founder" },
-      "offers": [
-        { "@type": "Offer", "name": "Fellow / trainee - monthly", "price": "15", "priceCurrency": "USD", "category": "subscription", "url": "https://app.rheumify.org" },
-        { "@type": "Offer", "name": "Fellow / trainee - annual", "price": "119", "priceCurrency": "USD", "category": "subscription", "url": "https://app.rheumify.org" },
-        { "@type": "Offer", "name": "Practicing rheumatologist - monthly", "price": "25", "priceCurrency": "USD", "category": "subscription", "url": "https://app.rheumify.org" },
-        { "@type": "Offer", "name": "Practicing rheumatologist - annual", "price": "199", "priceCurrency": "USD", "category": "subscription", "url": "https://app.rheumify.org" }
-      ],
-      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online", "instructor": { "@id": "https://www.rheumify.org/#founder" } }
-    },
-    {
-      "@type": "PodcastSeries",
-      "name": "RheumCast",
-      "description": "AI-generated podcast discussing ACR Clinical Practice Guidelines for rheumatic diseases. Free educational content for rheumatology professionals.",
-      "url": "https://soundcloud.com/rheumify",
-      "author": { "@id": "https://www.rheumify.org/#organization" },
-      "genre": "Medical Education",
-      "inLanguage": "en",
-      "keywords": "rheumatology, ACR guidelines, medical education, giant cell arteritis, rheumatoid arthritis, lupus"
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is Rheumify?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify is a comprehensive rheumatology education platform created by Dr. Alison Bays, a board-certified academic rheumatologist. It offers ABIM board preparation resources including question banks and flashcards, the RheumCast podcast covering ACR guidelines, and manuscript planning tools for researchers." } },
-        { "@type": "Question", "name": "How do I prepare for the ABIM rheumatology board exam?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify offers a comprehensive question bank with 750+ AI-generated questions validated by board-certified academic rheumatologists, plus spaced repetition flashcards. Questions are reviewed and updated daily. The platform covers all of rheumatology and is optimized for mobile study. Fellows and trainees pay $15/month or $119/year; practicing rheumatologists pay $25/month or $199/year." } },
-        { "@type": "Question", "name": "How much does Rheumify cost?", "acceptedAnswer": { "@type": "Answer", "text": "Fellows and trainees pay $15 per month or $119 per year. Practicing rheumatologists pay $25 per month or $199 per year. Rheumify remains one of the most affordable rheumatology question banks - a fraction of the cost of traditional live board-review courses." } },
-        { "@type": "Question", "name": "How many questions does the Rheumify question bank have?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify has 750+ board-style questions with detailed explanations, plus 850+ spaced-repetition flashcards, covering the full ABIM rheumatology blueprint. Questions are written and clinically reviewed by a board-certified academic rheumatologist and updated regularly." } },
-        { "@type": "Question", "name": "Who created Rheumify?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify was created by Dr. Alison Bays, MD, MPH&TM, a board-certified academic rheumatologist. She completed medical school and an MPH&TM at Tulane University, Internal Medicine residency at the University of Washington, and a Rheumatology fellowship at UCSF, and has worked as an academic rheumatologist since finishing fellowship in 2015. All content is written and clinically reviewed by a named rheumatologist and mapped to the ABIM rheumatology blueprint." } },
-        { "@type": "Question", "name": "Is Rheumify good for ABIM rheumatology board prep?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify is purpose-built for the ABIM rheumatology certification and recertification exams. It maps to the ABIM rheumatology blueprint, uses board-style questions with detailed explanations, and adds spaced-repetition flashcards and a test-taking analytics engine that targets each user's weakest topics." } },
-        { "@type": "Question", "name": "Can I use Rheumify for ABIM recertification?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Practicing rheumatologists use Rheumify to prepare for the ABIM rheumatology recertification exam and to keep their clinical knowledge current between certifications. The question bank and spaced-repetition flashcards are updated as guidelines and trials change, so recertifying physicians always review the current standard of care. Practicing rheumatologists pay $25/month or $199/year." } },
-        { "@type": "Question", "name": "What rheumatology resources are available for free?", "acceptedAnswer": { "@type": "Answer", "text": "Rheumify offers several free resources: the RheumCast podcast covering ACR guidelines on SoundCloud and the ScriptCycle Notion template for manuscript planning." } }
-      ]
     }
   ]
 };
@@ -149,6 +96,15 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#0A1628" />
         <meta name="google-site-verification" content="hKtwRCtuiCHH_Du0HgMwI3Ebcg4NXQliRcyALl7fvlQ" />
+        {/* Apply the reader's saved text size and light/dark choice before the
+            first paint, so choosing light mode does not flash dark on reload.
+            Reads localStorage only; nothing is sent anywhere. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "(function(){try{var d=document.documentElement,t=localStorage.getItem('rheumify-theme'),s=localStorage.getItem('rheumify-text');if(t==='light')d.setAttribute('data-theme','light');if(s==='l'||s==='xl')d.setAttribute('data-text',s);}catch(e){}})();",
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
