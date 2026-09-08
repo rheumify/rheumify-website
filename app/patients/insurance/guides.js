@@ -26,7 +26,7 @@ export const GUIDES = [
     generic: null,
     title: 'Where you get infused changes the bill',
     blurb:
-      'Medicare pays a hospital three to four times what it pays a doctor’s office for the same infusion, and you owe 20% of the bigger number. Plus the surprise drug bill nobody warns you about.',
+      'Medicare pays a hospital three to four times what it pays a doctor’s office for the same infusion, and you owe 20% of the bigger number. Plus the drug bill Medicare does not cover.',
   },
   {
     slug: 'helping-a-parent',
