@@ -1,3 +1,5 @@
+import ReadingControls from '../ReadingControls';
+
 export const metadata = {
   title: 'Does Medicare Cover Simponi and Simponi Aria (Golimumab)? 2026 Costs',
   description:
@@ -14,6 +16,7 @@ export const metadata = {
 export default function GolimumabPage() {
   return (
     <div className="page-container">
+      <ReadingControls />
       <p className="breadcrumb">
         <a href="/patients">Patient Resources</a> &rsaquo;{' '}
         <a href="/patients/insurance">Medicare and your medication</a> &rsaquo; Golimumab
