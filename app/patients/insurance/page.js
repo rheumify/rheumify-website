@@ -95,7 +95,7 @@ export default function InsurancePage() {
         </p>
         <p style={{ marginTop: '1rem' }}>
           This is worth raising with your rheumatologist. Whether a home version is right for you is
-          a medical question, not a money one — but it is a question worth asking out loud.
+          a medical question, not a money one.
         </p>
       </div>
 
@@ -157,8 +157,8 @@ export default function InsurancePage() {
         </p>
         <p style={{ marginTop: '1rem' }}>
           You can change Advantage plans every single year. Getting a supplement later, you may not
-          be able to at all. That asymmetry is the single most important thing on this page for
-          anyone turning 65 right now.
+          be able to at all. That asymmetry is the single most important thing for anyone turning
+          65 right now.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Washington is the most protective state in the country on this.</strong> You can
