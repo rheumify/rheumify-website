@@ -22,6 +22,13 @@ export const GUIDES = [
       'Extra Help does nothing for an infusion. QMB does. Which program covers which kind of drug, why your copay card stopped working, and what to do instead.',
   },
   {
+    slug: 'where-you-get-infused',
+    generic: null,
+    title: 'Where you get infused changes the bill',
+    blurb:
+      'Medicare pays a hospital three to four times what it pays a doctor’s office for the same infusion, and you owe 20% of the bigger number. Plus the surprise drug bill nobody warns you about.',
+  },
+  {
     slug: 'helping-a-parent',
     generic: null,
     title: 'Helping a parent with all of this',
