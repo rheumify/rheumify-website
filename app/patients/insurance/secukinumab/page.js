@@ -25,8 +25,9 @@ export default function SecukinumabPage() {
       <div className="page-header">
         <h1>Secukinumab (Cosentyx) and Medicare</h1>
         <p>
-          Since 2023 Cosentyx comes two ways: the pen you use at home, and an infusion. Medicare pays
-          for them out of two different pockets, and the difference to you is large.
+          Since 2023 Cosentyx comes two ways. There is a pen you use at home. There is also an
+          infusion given at a clinic. Medicare pays for them out of two different pockets. The
+          difference to you is large.
         </p>
       </div>
 
@@ -38,21 +39,21 @@ export default function SecukinumabPage() {
             Your costs stop at <strong>$2,100 for the whole year</strong> in 2026.
           </li>
           <li>
-            <strong>The infusion</strong> is covered by Part B. You pay 20% of the cost with{' '}
-            <strong>no yearly limit</strong> — somewhere around <strong>$6,600 or more</strong>,
-            depending on your weight and how the infusion center bills the leftover medication in
-            the vial.
+            <strong>The infusion</strong> is covered by Part B. You pay 20% of the cost. There is{' '}
+            <strong>no yearly limit</strong>. That comes to about <strong>$6,600 or more</strong>.
+            The exact amount depends on your weight. It also depends on how the infusion center
+            bills the leftover medicine in the vial.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
           <strong>
-            For most people on Medicare, the pen is the cheaper option by thousands of dollars.
+            For most people on Medicare, the pen is cheaper by thousands of dollars.
           </strong>{' '}
-          That flips only if you have a Medicare supplement policy, which covers the 20% and leaves
-          you paying almost nothing for the infusion.
+          That changes only if you have a Medicare supplement policy. A supplement policy covers
+          the 20%. Then you pay almost nothing for the infusion.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          One thing to know before you consider switching: the infusion is{' '}
+          Know this before you think about switching. The infusion is{' '}
           <strong>not approved for plaque psoriasis</strong>. It is approved for psoriatic arthritis,
           ankylosing spondylitis and non-radiographic axial spondyloarthritis only.
         </p>
@@ -120,29 +121,30 @@ export default function SecukinumabPage() {
           </table>
         </div>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          The infusion is dosed by weight, so a heavier person pays more. Cosentyx comes in 125 mg
-          vials, and if your dose does not divide neatly into whole vials, Medicare is billed for the
-          leftover too — which can push your 20% substantially higher than the figure above. It is a
-          fair question to ask your infusion center.
+          The infusion is dosed by weight. So a heavier person pays more. Cosentyx comes in 125 mg
+          vials. Your dose may not divide neatly into whole vials. If so, Medicare is billed for the
+          leftover too. That can push your 20% well above the figure above. It is a fair question
+          to ask your infusion center.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid #7FBF9B' }}>
         <h2>Good news: this one is usually covered</h2>
         <p>
-          Some biologics are technically capped under Part D but almost impossible to find a plan
-          that covers them. Cosentyx is not one of them. We went through the 2026 formularies CMS
-          published:{' '}
+          Some biologics are capped under Part D on paper. But it is almost impossible to find a
+          plan that covers them. Cosentyx is not one of them. We went through the 2026 formularies
+          CMS published. A formulary is the plan&rsquo;s drug list.{' '}
           <strong>
-            about 76% of all Medicare drug plans cover the pen, and nearly 90% of standalone drug
-            plans do.
+            About 76% of all Medicare drug plans cover the pen. Nearly 90% of standalone drug plans
+            do.
           </strong>
         </p>
         <p style={{ marginTop: '1rem' }}>
-          The catch is milder but real:{' '}
-          <strong>virtually every plan that covers it requires approval first</strong>, and nearly
-          all of them put it on the specialty tier. That is universal, so it is not a reason to pick
-          one plan over another. It is a reason to start the paperwork early and to watch for the
+          There is a catch, but it is a mild one.{' '}
+          <strong>Almost every plan that covers it requires approval first</strong>. This is called
+          prior authorization. Nearly all plans also put it on the specialty tier. That is the
+          highest-cost group of drugs. This is true on every plan. So it is not a reason to pick
+          one plan over another. It is a reason to start the paperwork early. Also watch for the
           renewal each January.
         </p>
       </div>
@@ -151,43 +153,42 @@ export default function SecukinumabPage() {
         <h2>Approvals and being made to try something else first</h2>
         <p>
           <strong>Original Medicare requires no prior authorization</strong> for the infusion given
-          in a doctor&rsquo;s office, and cannot require you to fail a different medication first.
+          in a doctor&rsquo;s office. It also cannot make you fail a different medication first.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Medicare Advantage plans can require both.</strong> One 2026 plan policy requires
-          patients to try and fail two other infused biologics <em>and</em> — for members with drug
-          coverage — adalimumab and the Cosentyx pen, before it will pay for the Cosentyx infusion.
-          That is four medications ahead of the one your rheumatologist chose.
+          <strong>Medicare Advantage plans can require both.</strong> Here is one 2026 plan policy.
+          Before it pays for the Cosentyx infusion, you must try and fail two other infused
+          biologics. If you have drug coverage, you must <em>also</em> try and fail adalimumab and
+          the Cosentyx pen. That is four medications ahead of the one your rheumatologist chose.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Policies vary a lot between plans, which is exactly why it is worth checking the specific
-          plan rather than assuming. If a request is denied, appeal — across Medicare Advantage in
-          2024, 81% of the denials that were appealed were overturned, and only about one in nine was
-          ever appealed.
+          Policies vary a lot between plans. So check your specific plan. Do not assume. If a
+          request is denied, appeal. In 2024, 81% of Medicare Advantage denials that were appealed
+          were overturned. Only about one in nine was ever appealed.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Things that surprise people</h2>
+        <h2>Things to know</h2>
         <ul>
           <li>
-            <strong>There is no cheaper version.</strong> Secukinumab has no biosimilars, and none
-            are close. So the usual &ldquo;ask about the biosimilar&rdquo; advice does not apply
-            here.
+            <strong>There is no cheaper version.</strong> Secukinumab has no biosimilars. A
+            biosimilar is the same medicine made by a different company. None are close. So the
+            usual &ldquo;ask about the biosimilar&rdquo; advice does not apply here.
           </li>
           <li>
             <strong>The Cosentyx copay card does not work if you have Medicare.</strong> Federal law
-            prohibits it. The Novartis patient assistance foundation does serve Medicare patients,
-            and is worth applying to if the $2,100 is out of reach.
+            prohibits it. The Novartis patient assistance foundation does serve Medicare patients.
+            Apply there if the $2,100 is out of reach.
           </li>
           <li>
             <strong>The whole $2,100 can land in January.</strong> Medicare has a program that
-            spreads it across twelve interest-free monthly payments, but you have to sign up for it.
+            spreads it across twelve interest-free monthly payments. But you have to sign up for it.
           </li>
           <li>
             <strong>
-              Switching from the pen to the infusion moves you out of a capped benefit into an
-              uncapped one.
+              Switching from the pen to the infusion moves you from a capped benefit to an uncapped
+              one.
             </strong>{' '}
             That is only a good trade if you have a supplement policy.
           </li>
@@ -242,38 +243,38 @@ export default function SecukinumabPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
         <p>
-          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
+          <strong>Because the $2,100 cap only applies to Part D. An infusion is paid by Part
           B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
-          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
-          the cost every time and <strong>there is no annual ceiling at all</strong>.
+          medicine a nurse or doctor gives you is paid under Part B instead. There you owe 20% of
+          the cost every time. And <strong>there is no annual ceiling at all</strong>.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
-          separate rules, and news about one does not change the other.
+          It is the same Medicare. It is often the same drug. It is often the same disease. The
+          rulebook depends on who puts the medicine in you. The cap and the Part B coinsurance
+          (your 20%) are two separate rules. News about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
-          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
-          you stay on it. The $2,100 cap does not apply to any of it.
+          Here is an example. If Medicare&rsquo;s approved amount for a year of your infusions is
+          $18,000, you owe about <strong>$3,600</strong>. That is true this year, next year, and
+          every year you stay on it. The $2,100 cap does not apply to any of it.
         </p>
         <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
         <ul>
           <li>
             <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
-            is the main one, and the{' '}
+            is the main one. The{' '}
             <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
             Part B in most states.
           </li>
           <li>
-            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
-            applies to everything the plan covers &mdash; though it comes with prior authorization
-            attached.
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>. This is
+            the most you pay in a year. It applies to everything the plan covers. But it comes with
+            prior authorization attached.
           </li>
           <li>
-            <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
-            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
+            <strong>QMB</strong>, a Medicare Savings Program that removes the 20% entirely.{' '}
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>.
+            Extra Help applies to Part D drugs only. It does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
