@@ -26,28 +26,28 @@ export default function WhereYouGetInfusedPage() {
       <div className="page-header">
         <h1>Where you get infused changes the bill</h1>
         <p>
-          The same medicine, the same dose, the same nurse &mdash; and a bill that can be several
-          times larger, decided by how the building is registered with Medicare.
+          Same medicine. Same dose. Same nurse. But the bill can be several times larger. What
+          decides it is how the building is registered with Medicare.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
         <h2>The short answer</h2>
         <p>
-          Medicare pays two completely different rates for an infusion depending on whether the place
-          you sit is billed as a <strong>hospital outpatient department</strong> or as a{' '}
-          <strong>doctor&rsquo;s office</strong>. By Medicare&rsquo;s own arithmetic, the office rate
-          for giving an infusion is only <strong>about a quarter to a third</strong> of the hospital
-          rate. The hospital rate is roughly three to four times higher for the identical service.
+          Medicare pays two very different rates for an infusion. The rate depends on how the place
+          you sit is billed. It can be billed as a <strong>hospital outpatient department</strong>{' '}
+          or as a <strong>doctor&rsquo;s office</strong>. Medicare&rsquo;s own math shows the gap. The
+          office rate for giving an infusion is only <strong>about a quarter to a third</strong> of
+          the hospital rate. The hospital rate is roughly three to four times higher for the same
+          service.
         </p>
         <p style={{ marginTop: '1rem' }}>
           You pay <strong>20% of whichever number applies</strong>. So the setting does not just
-          change what Medicare spends. It changes what you owe, every single infusion, for as long as
-          you are on the drug.
+          change what Medicare spends. It changes what you owe. That happens at every infusion, for
+          as long as you are on the drug.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Nothing about your medical care is different. This is a billing category, and most people
-          never find out it exists until the first bill arrives.
+          Nothing about your medical care is different. This is a billing category.
         </p>
       </div>
 
@@ -59,103 +59,106 @@ export default function WhereYouGetInfusedPage() {
         <ul>
           <li>
             <strong>In a doctor&rsquo;s office</strong>, there is one bill. Medicare pays a set
-            amount for giving the infusion and a set amount for the drug itself.
+            amount for giving the infusion. It pays a set amount for the drug itself.
           </li>
           <li>
-            <strong>In a hospital outpatient department</strong>, there are two bills &mdash; one
-            from the doctor and one from the hospital, called a <strong>facility fee</strong>. The
-            facility fee is meant to cover the building, the equipment and the overhead.{' '}
+            <strong>In a hospital outpatient department</strong>, there are two bills. One comes
+            from the doctor. One comes from the hospital. That second bill is called a{' '}
+            <strong>facility fee</strong>. It is a second bill from the hospital for the room. It
+            is meant to cover the building, the equipment and the overhead.{' '}
             <strong>Each bill carries its own 20%.</strong>
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          Independent analysis of Medicare claims found hospital outpatient departments being paid
-          roughly <strong>two to three times</strong> the office rate for the same drug
-          administration. Medicare&rsquo;s own advisory commission has been telling Congress for
-          years that this gap has no clinical justification, and that it has pushed infusions out of
-          offices and into hospitals &mdash; between 2015 and 2021 the volume of chemotherapy
-          administration fell 14% in offices and rose 21% in hospital outpatient departments.
+          Independent analysis looked at Medicare claims for the same drug administration. It found
+          hospital outpatient departments were paid roughly <strong>two to three times</strong> the
+          office rate. Medicare&rsquo;s own advisory commission has told Congress for years that
+          this gap has no clinical reason. It also says the gap has pushed infusions out of offices
+          and into hospitals. Between 2015 and 2021, chemotherapy administration fell 14% in
+          offices. It rose 21% in hospital outpatient departments.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Why did my costs go up when nothing changed?</h2>
         <p>
-          If your infusion suddenly costs more and you are in the same chair with the same nurse,
-          there is a specific and very common explanation: <strong>a hospital bought the
+          Your infusion may suddenly cost more. You are in the same chair with the same nurse.
+          There is a specific and very common reason: <strong>a hospital bought the
           practice.</strong>
         </p>
         <p style={{ marginTop: '1rem' }}>
-          This is called <strong>provider-based billing</strong>. Nothing physical has to change. The
-          clinic is re-registered as a department of the hospital, and from that day the same visit
-          generates a hospital facility bill on top of the doctor&rsquo;s bill. Same room, same
-          people, two bills.
+          This is called <strong>provider-based billing</strong>. It means the clinic is now billed
+          as part of a hospital. Nothing physical has to change. The clinic is re-registered as a
+          department of the hospital. From that day, the same visit creates a hospital facility
+          bill on top of the doctor&rsquo;s bill. Same room, same people, two bills.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Are you entitled to be warned?</strong> Partly, and the gap is worth knowing.
-          Federal rules require written notice before your visit &mdash; telling you that you will
-          owe a hospital coinsurance you would not otherwise owe &mdash; but{' '}
-          <strong>only when the clinic is off the hospital&rsquo;s main campus.</strong> If the
-          department sits on the main campus, or within about 250 yards of it, there is no federal
-          notice requirement at all.
+          <strong>Do you have a right to be warned?</strong> Partly. Federal rules require written
+          notice before your visit. The notice must say you will owe a hospital coinsurance (your
+          20%) you would not otherwise owe. But this applies{' '}
+          <strong>only when the clinic is off the hospital&rsquo;s main campus.</strong> The
+          department may sit on the main campus, or within about 250 yards of it. If so, there is
+          no federal notice requirement at all.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Washington State goes further than federal law here.</strong> A provider-based
-          clinic in Washington that charges a facility fee must tell you before non-emergency care
-          that it is licensed as part of a hospital and that you may get a separate facility charge
-          resulting in higher out-of-pocket costs &mdash; and it must post that same statement
-          prominently, including on its website. If you were never told, that is worth raising.
+          <strong>Washington State goes further than federal law here.</strong> Some provider-based
+          clinics in Washington charge a facility fee. Those clinics must tell you before
+          non-emergency care that they are licensed as part of a hospital. They must also tell you
+          that you may get a separate facility charge. That charge can mean higher out-of-pocket
+          costs. The clinic must post that same statement prominently, including on its website. If
+          you were never told, you can raise that.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Did the 2026 rule change fix this?</h2>
         <p>
-          <strong>For most people, no</strong> &mdash; and this is where recent coverage is
-          misleading, because a real change did happen and it is narrower than it sounds.
+          <strong>For most people, no.</strong> A real change did happen. But it is narrower than
+          it sounds, and some recent coverage is misleading.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          On <strong>January 1, 2026</strong>, Medicare began paying the lower office-equivalent rate
-          for drug administration at hospital departments that sit{' '}
+          On <strong>January 1, 2026</strong>, Medicare began paying the lower office-equivalent
+          rate for drug administration at some hospital departments. Those departments sit{' '}
           <strong>off the main campus</strong> and had been billing before November 2015. CMS
           estimated it would save patients about $70 million a year in coinsurance.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          But <strong>infusions given on a hospital&rsquo;s main campus were not included</strong>,
-          and about <strong>seven-eighths</strong> of Medicare&rsquo;s hospital outpatient spending
+          But <strong>infusions given on a hospital&rsquo;s main campus were not included</strong>.
+          About <strong>seven-eighths</strong> of Medicare&rsquo;s hospital outpatient spending
           happens on main campuses. So if you are infused at the hospital itself, the 2026 change
-          does not reach you. The proposed rule for 2027 extends this idea to some imaging, not to
-          more drug administration.
+          does not reach you. The proposed rule for 2027 extends this idea to some imaging. It does
+          not extend it to more drug administration.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>A hospital bill Medicare does not cover</h2>
         <p>
-          This one is worth reading even if the rest of the page does not apply to you, because it
-          arrives with no warning and looks like a mistake.
+          Read this one even if the rest of the page does not apply to you. This bill arrives with
+          no warning and looks like a mistake.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Medicare Part B does not pay for drugs it considers{' '}
-          <strong>&ldquo;usually self-administered&rdquo;</strong> when they are given in a hospital
-          outpatient setting. Each region&rsquo;s Medicare contractor keeps its own list of which
-          drugs those are. If something you were given is on that list,{' '}
-          <strong>the hospital bills you directly</strong> &mdash; at the hospital&rsquo;s own
+          Medicare Part B does not pay for some drugs given in a hospital outpatient setting. These
+          are drugs it considers{' '}
+          <strong>&ldquo;usually self-administered&rdquo;</strong>. Each region&rsquo;s Medicare
+          contractor keeps its own list of these drugs. The contractor is the company that handles
+          Medicare bills in your region. If a drug you were given is on that list,{' '}
+          <strong>the hospital bills you directly</strong>. It bills at the hospital&rsquo;s own
           charges, which are not the Medicare rate.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Here is why it blindsides people. When Medicare denies something as{' '}
-          <em>not medically necessary</em>, you have to be warned in advance and asked to sign. This
-          is a different kind of denial &mdash; the drug is simply outside the benefit &mdash; so{' '}
-          <strong>no advance notice is required and none is given.</strong> The first you hear of it
-          is the bill.
+          Here is why there is no warning. Sometimes Medicare denies something as{' '}
+          <em>not medically necessary</em>. Then you must be warned in advance and asked to sign.
+          This is a different kind of denial. The drug is simply outside the benefit. So{' '}
+          <strong>no advance notice is required and none is given.</strong> The first you hear of
+          it is the bill.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          The pattern in rheumatology is that the <strong>self-injected</strong> versions appear on
-          these lists while the infused versions do not. In our region the list includes
-          methotrexate auto-injectors, adalimumab, etanercept, the abatacept and golimumab
-          self-injections, secukinumab, ustekinumab, anakinra and others. Lists differ by region and
-          are revised several times a year.
+          In rheumatology, the pattern is clear. The <strong>self-injected</strong> versions appear
+          on these lists. The infused versions do not. In Washington the list includes methotrexate
+          auto-injectors, adalimumab and etanercept. It also includes the abatacept and golimumab
+          self-injections, secukinumab, ustekinumab, anakinra and others. Lists differ by region.
+          They are revised several times a year.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>What to do about it:</strong>
@@ -163,20 +166,20 @@ export default function WhereYouGetInfusedPage() {
         <ul>
           <li>
             <strong>Ask before, not after.</strong> &ldquo;Is anything I am getting on the Medicare
-            self-administered drug list?&rdquo; If the answer is yes, ask whether you can bring your
-            own from your pharmacy instead.
+            self-administered drug list?&rdquo; If the answer is yes, ask if you can bring your own
+            from your pharmacy instead.
           </li>
           <li>
             <strong>Try your drug plan.</strong> Your Part D plan may cover it. You may have to pay
-            first and submit for reimbursement, and you can request an exception if it is not on the
-            formulary.
+            first and then submit for reimbursement. The drug may not be on the formulary, the
+            plan&rsquo;s drug list. If so, you can request an exception.
           </li>
           <li>
-            <strong>Do not just pay a chargemaster bill.</strong> If the hospital is a nonprofit, it
-            is required to have a written financial assistance policy, to publicize it, and &mdash;
-            if you qualify &mdash; to charge you no more than the amount generally billed to insured
-            patients rather than its list price. That applies to people on Medicare too. Ask for the
-            policy and the application by name.
+            <strong>Do not just pay a chargemaster bill.</strong> That is the hospital&rsquo;s list
+            price. If the hospital is a nonprofit, it must have a written financial assistance
+            policy. It must publicize that policy. If you qualify, it may charge you no more than
+            the amount generally billed to insured patients. It cannot charge you its list price.
+            That applies to people on Medicare too. Ask for the policy and the application by name.
           </li>
         </ul>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
@@ -188,31 +191,31 @@ export default function WhereYouGetInfusedPage() {
       <div className="content-card">
         <h2>Can my plan make me move somewhere else?</h2>
         <p>
-          <strong>Original Medicare cannot.</strong> You have a statutory right to obtain services
-          from any qualified provider, and the short list of hospital outpatient services that
-          require advance approval under Original Medicare does not include drug administration or
-          any infused biologic. Nobody can redirect you.
+          <strong>Original Medicare cannot.</strong> You have a legal right to get services from any
+          qualified provider. A short list of hospital outpatient services needs advance approval
+          under Original Medicare. That list does not include drug administration or any infused
+          biologic. No one can redirect you.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>This is mostly a commercial insurance practice, and that is good news if you are
-          on Medicare.</strong> Insurers run what they call &ldquo;site of care&rdquo; review, which
-          approves an infusion at a hospital only when specific conditions are met and otherwise
-          directs you somewhere cheaper. Nearly every such policy published in writing applies to
-          employer and individual commercial plans &mdash; and several say plainly that they do{' '}
+          <strong>This is mostly a commercial insurance practice. That is good news if you are on
+          Medicare.</strong> Insurers run what they call &ldquo;site of care&rdquo; review. This
+          review approves an infusion at a hospital only when specific conditions are met.
+          Otherwise it directs you somewhere cheaper. Nearly every such policy published in writing
+          applies to employer and individual commercial plans. Several say plainly that they do{' '}
           <strong>not</strong> apply to Medicare Advantage.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>So if you are on Medicare Advantage, you are less likely to run into this than
-          someone on commercial insurance.</strong> Less likely is not never. One large
-          insurer&rsquo;s policy says it may also be applied to Medicare Advantage in certain
-          instances, and that policy caps ongoing hospital-based infusion at{' '}
-          <strong>six months</strong> before requiring reassessment, after which you are expected to
-          move. The only way to know is to ask your own plan.
+          <strong>So people on Medicare Advantage are less likely to run into this.</strong> People
+          on commercial insurance are more likely to. Less likely is not never. One large
+          insurer&rsquo;s policy says it may also apply to Medicare Advantage in certain cases.
+          That policy caps ongoing hospital-based infusion at{' '}
+          <strong>six months</strong> before it requires reassessment. After that, you are expected
+          to move. The only way to know is to ask your own plan.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>If it does apply, there are exceptions, and they are written down.</strong> Plan
-          policies generally allow you to stay at a hospital site when at least one of these is
-          documented &mdash; and these are the words to use:
+          <strong>If it does apply, there are exceptions. They are written down.</strong> Plan
+          policies generally let you stay at a hospital site when at least one of these is
+          documented. These are the words to use:
         </p>
         <ul>
           <li>It is your <strong>first infusion</strong>, or your first after a break of six months or more</li>
@@ -221,8 +224,8 @@ export default function WhereYouGetInfusedPage() {
             infusion before
           </li>
           <li>
-            You are <strong>medically unstable</strong>, or have a heart, lung or kidney condition
-            that means you could need services only a hospital has
+            You are <strong>medically unstable</strong>. Or you have a heart, lung or kidney
+            condition. That condition means you could need services only a hospital has
           </li>
           <li>
             You have <strong>difficult vein access</strong>
@@ -233,13 +236,14 @@ export default function WhereYouGetInfusedPage() {
           <li>There is no suitable alternative you can actually get to</li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          If one of those is true of you, say so to your doctor&rsquo;s office and ask them to
-          document it in the request. A plan is far more likely to approve an exception that names
-          its own criteria than a letter that argues generally.
+          If one of those is true of you, tell your doctor&rsquo;s office. Ask them to document it
+          in the request. A plan is far more likely to approve an exception that names its own
+          criteria. It is less likely to approve a letter that argues in general terms.
         </p>
         <p style={{ marginTop: '1rem' }}>
           And if you are turned down, <strong>appeal</strong>. In 2025, Medicare Advantage plans
-          denied about 12% of standard prior authorization requests &mdash; and{' '}
+          denied about 12% of standard prior authorization requests. Prior authorization is approval
+          before you can get a drug. And{' '}
           <strong>67% of denied requests were overturned when someone appealed.</strong>
         </p>
       </div>
@@ -247,27 +251,27 @@ export default function WhereYouGetInfusedPage() {
       <div className="content-card">
         <h2>What to ask, and when</h2>
         <p>
-          Almost all of the damage here is preventable with four questions asked before the first
-          infusion at a new place &mdash; or as soon as you hear your practice has been bought.
+          Almost all of the damage here is preventable. Ask four questions before the first
+          infusion at a new place. Or ask as soon as you hear your practice has been bought.
         </p>
         <ol style={{ color: 'var(--gray-light)', marginLeft: '1.5rem', lineHeight: 1.9 }}>
           <li>
             <strong>&ldquo;Is this billed as a hospital outpatient department or as a
-            doctor&rsquo;s office?&rdquo;</strong> This one question determines most of the bill.
+            doctor&rsquo;s office?&rdquo;</strong> This one question decides most of the bill.
           </li>
           <li>
             <strong>&ldquo;Will I get one bill or two?&rdquo;</strong> Two means there is a facility
-            fee, and you owe 20% of that as well.
+            fee. You owe 20% of that as well.
           </li>
           <li>
             <strong>&ldquo;Is anything I am receiving on the Medicare self-administered drug
-            list?&rdquo;</strong> Ask the infusion pharmacy or your rheumatologist&rsquo;s office,
-            not the front desk.
+            list?&rdquo;</strong> Ask the infusion pharmacy or your rheumatologist&rsquo;s office.
+            Do not ask the front desk.
           </li>
           <li>
             <strong>&ldquo;Does my authorization say where I can be infused, and when does it
             run out?&rdquo;</strong> Ask your plan if you have Medicare Advantage. An authorization
-            is often permission to be infused <em>at a named place</em>, and moving can require a new
+            is often permission to be infused <em>at a named place</em>. Moving can require a new
             one. An infusion given under an authorization that names the wrong location can be
             denied afterwards.
           </li>
@@ -277,27 +281,25 @@ export default function WhereYouGetInfusedPage() {
       <div className="content-card">
         <h2>Can I get a price before I agree to it?</h2>
         <p>
-          Partly, and there is a widely repeated claim here that is wrong, so it is worth being
-          precise.
+          Partly. Here is what does and does not apply to you.
         </p>
         <ul>
           <li>
             <strong>The &ldquo;good faith estimate&rdquo; you may have read about does not apply to
-            you.</strong> That right comes from the No Surprises Act, and it explicitly does not
-            cover people on Medicare, Medicaid, VA or TRICARE. The equivalent protection for insured
-            patients has not been implemented. Do not spend a week trying to invoke it.
+            you.</strong> That right comes from the No Surprises Act. The Act clearly does not
+            cover people on Medicare, Medicaid, VA or TRICARE. A similar protection for insured
+            patients has not been put in place. Do not spend a week trying to use it.
           </li>
           <li>
             <strong>Hospital price transparency is real and enforceable.</strong> Every hospital must
-            publish its prices and must offer either a list of shoppable services or an{' '}
-            <strong>online price estimator tool</strong>, free and prominently displayed. The
-            estimator is the practical route. Ask the billing office where it is, and ask for an
-            estimate for the infusion codes plus the drug.
+            publish its prices. It must also offer either a list of shoppable services or an{' '}
+            <strong>online price estimator tool</strong>. The tool must be free and prominently
+            displayed. The estimator is the practical route. Ask the billing office where it is.
+            Ask for an estimate for the infusion codes plus the drug.
           </li>
           <li>
             <strong>Medicare has no tool that compares a hospital to a doctor&rsquo;s office for an
-            infusion.</strong> That absence is worth naming. The comparison you most want to make is
-            the one nobody has built.
+            infusion.</strong>
           </li>
         </ul>
       </div>
@@ -322,7 +324,7 @@ export default function WhereYouGetInfusedPage() {
             <strong>Medicare</strong> &mdash; 1-800-MEDICARE (1-800-633-4227)
           </li>
           <li>
-            <strong>Check what your region excludes</strong> &mdash;{' '}
+            <strong>Check what Washington excludes</strong> &mdash;{' '}
             <a
               href="https://med.noridianmedicare.com/web/jfa/policies/sads"
               target="_blank"

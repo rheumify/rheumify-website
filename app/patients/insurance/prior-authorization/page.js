@@ -74,18 +74,18 @@ export default function PriorAuthPage() {
 
       <div className="content-card">
         <h2>Does it actually work?</h2>
-        <p>Partly. That is the honest answer, and it is worth knowing both halves of it.</p>
+        <p>Partly. The answer has two halves.</p>
         <p style={{ marginTop: '1rem' }}>
           <strong>It does cut spending on the things it targets.</strong> When Medicare added
           approval requirements for power wheelchairs, monthly spending dropped from about $12
           million to about $3 million. Approval rules have also reduced opioid prescribing.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>But it also blocks care people need.</strong> A 2026 review of 25 studies found
-          prior authorization linked to delayed treatment, worse disease, avoidable hospital stays,
-          and in cancer care, worse survival. When one program made diabetes patients get approval
-          for their medicines, the patients who were denied cost <em>more</em> later, because they
-          got sicker.
+          <strong>But it also blocks care people need.</strong> A 2026 review of 25 studies linked
+          prior authorization to delayed treatment, worse disease, and avoidable hospital stays. In
+          cancer care, it was linked to worse survival. One program made diabetes patients get
+          approval for their medicines. The patients who were denied got sicker, and cost{' '}
+          <em>more</em> later.
         </p>
         <p style={{ marginTop: '1rem' }}>
           Doctors see this directly. In a 2025 survey, <strong>95% said prior authorization delays
@@ -98,8 +98,8 @@ export default function PriorAuthPage() {
       <div className="content-card">
         <h2>Who is actually deciding — and it may not be your insurer</h2>
         <p>
-          When it comes to medicines you pick up at a pharmacy, your insurance company usually is not
-          the one making the rules. A separate company does that. It is called a{' '}
+          For medicines you pick up at a pharmacy, your insurance company usually does not make
+          the rules. A separate company does that. It is called a{' '}
           <strong>pharmacy benefit manager</strong>, or PBM.
         </p>
         <p style={{ marginTop: '1rem' }}>
@@ -111,7 +111,7 @@ export default function PriorAuthPage() {
           Together they handle about <strong>80% of all prescriptions in the country.</strong>
         </p>
         <p style={{ marginTop: '1rem' }}>
-          And here is the part that explains a lot: each one is owned by a big insurance company.
+          Each one is owned by a big insurance company.
           CVS Caremark is owned by the same company as Aetna. Express Scripts is owned by Cigna.
           Optum Rx is owned by UnitedHealth. So the company deciding whether your medicine is covered
           often belongs to the company paying for it.
@@ -121,8 +121,7 @@ export default function PriorAuthPage() {
       <div className="content-card">
         <h2>Why the cheaper medicine is sometimes not the covered one</h2>
         <p>
-          This surprises people, and it is worth understanding, because it explains a lot of
-          confusing decisions.
+          This explains a lot of confusing decisions.
         </p>
         <p style={{ marginTop: '1rem' }}>
           Drug companies pay <strong>rebates</strong> to PBMs to get their medicine on the covered
@@ -135,13 +134,13 @@ export default function PriorAuthPage() {
         </p>
         <p style={{ marginTop: '1rem' }}>
           The result is strange but real: <strong>an expensive medicine can be covered while a
-          cheaper one is not.</strong> Your share is often based on the sticker price, so you can end
+          cheaper one is not.</strong> Your share is often based on the sticker price. So you can end
           up paying more than you would have on the cheaper drug.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          This is not a rumor. The Federal Trade Commission studied it. In a report published in
-          January 2025, it found the three big PBMs charged far more for certain specialty medicines
-          than those medicines cost to buy — bringing in about <strong>$7.3 billion above their
+          This is not a rumor. The Federal Trade Commission studied it. Its report came out in
+          January 2025. It found the three big PBMs charged far more for certain specialty medicines
+          than those medicines cost to buy. That brought in about <strong>$7.3 billion above their
           cost</strong> over six years.
         </p>
       </div>
@@ -150,8 +149,8 @@ export default function PriorAuthPage() {
         <h2>Why your pharmacy suddenly changed</h2>
         <p>
           Biologics and other expensive medicines usually cannot be filled at a normal drugstore.
-          They go through a <strong>specialty pharmacy</strong> — a mail-order pharmacy set up to
-          handle medicines that need refrigeration, careful shipping, and extra paperwork.
+          They go through a <strong>specialty pharmacy</strong>. That is a mail-order pharmacy set up
+          to handle medicines that need refrigeration, careful shipping, and extra paperwork.
         </p>
         <p style={{ marginTop: '1rem' }}>
           There is a real reason those exist. There is also a business reason your plan sends you to
@@ -160,15 +159,15 @@ export default function PriorAuthPage() {
           <strong>68% of all specialty medicine sales in 2023</strong>, up from about 54% in 2016.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          So when your plan tells you that you must switch pharmacies, it is often sending you to a
-          pharmacy it owns.
+          So when your plan tells you to switch pharmacies, it is often sending you to a pharmacy
+          it owns.
         </p>
-        <h3>Two terms worth knowing</h3>
+        <h3>Two terms to know</h3>
         <ul>
           <li>
             <strong>White bagging</strong> is when the specialty pharmacy ships your infusion
-            medicine to your doctor&rsquo;s office instead of the office buying it. It sounds
-            harmless. It is not always. The dose is locked in ahead of time, so if your weight or
+            medicine to your doctor&rsquo;s office. The office does not buy it. It sounds
+            harmless. It is not always. The dose is locked in ahead of time. If your weight or
             your lab results change on the day, your doctor cannot adjust it. And if your
             appointment moves, the medicine may be wasted and cannot be given to anyone else.
           </li>
@@ -180,7 +179,7 @@ export default function PriorAuthPage() {
         </ul>
         <p style={{ marginTop: '1rem' }}>
           Twelve states have now banned insurers from forcing this. If your plan tries it and your
-          infusion center pushes back, that is why — and they are not being difficult.
+          infusion center pushes back, that is why. They are not being difficult.
         </p>
       </div>
 
@@ -207,8 +206,8 @@ export default function PriorAuthPage() {
             reading one screen. It may be a different screen from the one your request landed in.
           </li>
           <li>
-            <strong>Approvals expire.</strong> Most last a year. Nobody reliably tells you when yours
-            is running out. You find out at the pharmacy.
+            <strong>Approvals expire.</strong> Most last a year. There is no reliable warning when
+            yours is running out. You find out at the pharmacy.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
@@ -222,8 +221,7 @@ export default function PriorAuthPage() {
         <h2>What you can do that helps &mdash; and what can set it back</h2>
         <p>
           Patients are often told to &ldquo;call and push.&rdquo; That advice is half right. Some
-          calls move things forward. A few genuinely make it slower, and nobody warns you which is
-          which.
+          calls move things forward. A few make it slower.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Worth doing:</strong>
@@ -235,7 +233,7 @@ export default function PriorAuthPage() {
           </li>
           <li>
             <strong>Ask the plan to mail you the denial in writing, with the specific reason.</strong>{' '}
-            You are entitled to it, and your doctor&rsquo;s office may not have received the same
+            You are entitled to it. Your doctor&rsquo;s office may not have received the same
             detail you can request as the member.
           </li>
           <li>
@@ -256,16 +254,16 @@ export default function PriorAuthPage() {
         </p>
         <ul>
           <li>
-            <strong>Agreeing to something on the phone that changes the request.</strong> If someone
-            offers to switch you to a different medicine, a different dose, or a different pharmacy
-            and you say yes, the request your doctor submitted may be closed and a new one started
-            &mdash; back to the beginning of the queue. It is fine to say: &ldquo;I would like my
+            <strong>Agreeing to something on the phone that changes the request.</strong> Someone
+            may offer to switch you to a different medicine, a different dose, or a different
+            pharmacy. If you say yes, the request your doctor submitted may be closed. A new one may
+            be started, back at the beginning of the queue. It is fine to say: &ldquo;I would like my
             doctor to decide that. Please leave the current request as it is.&rdquo;
           </li>
           <li>
             <strong>Starting a second request while one is pending.</strong> A member request and a
-            doctor request are two separate tracks. Two open at once can be read as a duplicate, and
-            one of them may be closed &mdash; sometimes the wrong one.
+            doctor request are two separate tracks. Two open at once can be read as a duplicate.
+            One of them may be closed, sometimes the wrong one.
           </li>
           <li>
             <strong>Cancelling anything.</strong> Never agree to withdraw or cancel a pending request
@@ -274,44 +272,43 @@ export default function PriorAuthPage() {
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          None of this means staying quiet. It means your calls are most powerful when they{' '}
-          <em>add information</em> &mdash; a date, a number, a symptom, a request in writing &mdash;
-          and least powerful when they change what was already asked for.
+          None of this means staying quiet. Your calls are most powerful when they{' '}
+          <em>add information</em>. That means a date, a number, a symptom, or a request in writing.
+          They are least powerful when they change what was already asked for.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Nobody at your doctor&rsquo;s office is paid to say no</h2>
         <p>
-          This one is worth saying plainly, because the office is the part of the system you can
-          actually reach, so it is the part that gets the frustration.
+          The office is the part of the system you can actually reach. So it is the part that gets
+          the frustration.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Your doctor&rsquo;s office is not paid for any of this work.</strong> There is no
           billing code for a prior authorization. In 2025, physicians reported spending about{' '}
-          <strong>13 hours a week</strong> on roughly <strong>40 requests</strong>, and most
-          practices now employ staff whose whole job is paperwork for medicines they have already
-          decided you need. When a request is denied, the office loses that time and gets nothing
+          <strong>13 hours a week</strong> on roughly <strong>40 requests</strong>. Most practices
+          now employ staff whose whole job is paperwork for medicines they have already decided you
+          need. When a request is denied, the office loses that time and gets nothing
           back. For an infusion, it can be worse: the clinic may have already bought the drug.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>The plan&rsquo;s position is different.</strong> A Medicare Advantage plan is paid a
-          set amount per member per month by Medicare, whether or not you get the medicine. Money not
-          spent on your care stays inside the plan. That is not a conspiracy; it is simply how the
-          payment works, and it is why the incentive to say no sits on one side of the table and not
-          the other.
+          <strong>The plan&rsquo;s position is different.</strong> Medicare pays a Medicare Advantage
+          plan a set amount per member per month. The plan gets that whether or not you get the
+          medicine. Money not spent on your care stays inside the plan. That is not a conspiracy. It
+          is simply how the payment works. It is why the incentive to say no sits on one side of the
+          table and not the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          In fairness, there is a limit on this. Medicare Advantage plans are required to spend at
-          least <strong>85 cents of every dollar</strong> on medical care rather than administration
-          and profit, and plans that fall below it owe money back. It is a real constraint. It is
-          also a floor across everything the plan pays for in a year, not a rule about your
-          medication.
+          There is a limit on this. Medicare Advantage plans must spend at least{' '}
+          <strong>85 cents of every dollar</strong> on medical care, not on administration and
+          profit. Plans that fall below it owe money back. It is a real constraint. It is also a
+          floor across everything the plan pays for in a year, not a rule about your medication.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          So if you are wondering whether your office is dragging its feet: the people asking you for
-          one more lab result are working unpaid to get you a drug they cannot bill for until you
-          receive it. Being annoyed at the situation is fair. They are on your side of it.
+          You may wonder whether your office is dragging its feet. The people asking you for one
+          more lab result are working unpaid. They are trying to get you a drug they cannot bill for
+          until you receive it. Being annoyed at the situation is fair. They are on your side of it.
         </p>
       </div>
 
@@ -322,9 +319,9 @@ export default function PriorAuthPage() {
           a phone call between your doctor and a doctor who works for the insurance company.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          The word &ldquo;peer&rdquo; suggests someone in the same field. Often they are not. In the
-          2025 survey, only <strong>16% of the doctors who take these calls</strong> said the plan&rsquo;s
-          reviewer usually had the right qualifications &mdash; meaning licensed in their state and in the
+          The word &ldquo;peer&rdquo; suggests someone in the same field. Often they are not. The
+          2025 survey asked doctors who take these calls. Only <strong>16%</strong> said the plan&rsquo;s
+          reviewer usually had the right qualifications. That means licensed in their state and in the
           specialty that normally treats the condition. A rheumatologist may end up explaining a lupus
           treatment to someone who has never treated lupus.
         </p>
@@ -335,19 +332,19 @@ export default function PriorAuthPage() {
           conversation. An appeal is a formal process with legal deadlines and real rights attached.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Two things follow from that, and they are the reason this section exists.
+          Two things follow from that.
         </p>
         <ul>
           <li>
             <strong>Your doctor does not have to do the call first.</strong> A peer-to-peer is
             voluntary. It is not a required step, and nothing in the Medicare rules makes an appeal
             wait for it. Your doctor may look at the denial and decide to go straight to the formal
-            appeal instead. That is a reasonable choice, not a shortcut &mdash; sometimes it is the
-            faster route, and it is the one with deadlines the plan has to meet.
+            appeal instead. That is a reasonable choice, not a shortcut. Sometimes it is the
+            faster route. It is also the one with deadlines the plan has to meet.
           </li>
           <li>
             <strong>The call does not stop the clock.</strong> Your 65 days to appeal keep running
-            during a peer-to-peer, and &ldquo;we were waiting on the call&rdquo; is not an accepted
+            during a peer-to-peer. &ldquo;We were waiting on the call&rdquo; is not an accepted
             reason for filing late. If a peer-to-peer is scheduled two weeks out, the appeal can be
             filed in the meantime.
           </li>
@@ -357,7 +354,7 @@ export default function PriorAuthPage() {
       <div className="content-card">
         <h2>How often are biologics actually denied?</h2>
         <p>
-          This is the question everyone asks, and the honest answer is that{' '}
+          This is the question everyone asks. The answer is that{' '}
           <strong>nobody publishes it.</strong> Medicare collects how many requests plans decide and
           how many they deny, but not what the requests were for. There is no national figure for
           biologics, for rheumatology drugs, or for any other drug class. If you see one quoted with
@@ -372,17 +369,17 @@ export default function PriorAuthPage() {
             your case. It is the default.
           </li>
           <li>
-            <strong>Most denials do not hold.</strong> In a study of 160 prior authorization requests
-            for infused rheumatology medications at one hospital, <strong>21% were denied at
-            first</strong> &mdash; and <strong>82% of those denials were overturned</strong>, so about
+            <strong>Most denials do not hold.</strong> One hospital studied 160 prior authorization
+            requests for infused rheumatology medications. <strong>21% were denied at
+            first</strong>. But <strong>82% of those denials were overturned</strong>. So about
             96% of patients were eventually approved. Denials clustered heavily in conditions where no
             drug is FDA-approved for that use, which is common in rheumatology.
           </li>
           <li>
-            <strong>The real cost is time, not refusal.</strong> In that same study, patients who were
-            denied and then approved waited a median of <strong>50 days</strong> from request to
-            infusion, against 27 days when no approval was needed &mdash; and took more steroid in the
-            three months that followed. In a study of giant cell arteritis, the average was{' '}
+            <strong>The real cost is time, not refusal.</strong> In that study, patients denied and
+            then approved waited a median of <strong>50 days</strong> from request to infusion. When
+            no approval was needed, the wait was 27 days. The denied patients also took more steroid
+            in the three months that followed. In a study of giant cell arteritis, the average was{' '}
             <strong>43 days</strong> from request to first dose.
           </li>
         </ul>
@@ -396,7 +393,7 @@ export default function PriorAuthPage() {
 
       <div className="content-card">
         <h2>What is changing</h2>
-        <p>Some of this is genuinely getting better. Some of it is a press release.</p>
+        <p>Some of this is getting better. Some of it is a press release.</p>
         <ul>
           <li>
             <strong>New federal rules started in January 2026.</strong> Medicare Advantage and
@@ -413,8 +410,8 @@ export default function PriorAuthPage() {
             Only <strong>33% of doctors</strong> think it will make a real difference.
           </li>
           <li>
-            <strong>States are acting too.</strong> Several passed laws in 2025 setting deadlines,
-            requiring a licensed doctor to sign off on denials, and requiring plans to honor an
+            <strong>States are acting too.</strong> Several passed laws in 2025. These set deadlines
+            and require a licensed doctor to sign off on denials. They also require plans to honor an
             approval you already had when you switch plans.
           </li>
           <li>
@@ -430,7 +427,7 @@ export default function PriorAuthPage() {
         <ol style={{ color: 'var(--gray-light)', marginLeft: '1.5rem', lineHeight: 1.9 }}>
           <li>
             <strong>Get the denial in writing, with the reason.</strong> You are entitled to it. The
-            reason matters — &ldquo;we need more records&rdquo; is a completely different problem
+            reason matters. &ldquo;We need more records&rdquo; is a completely different problem
             from &ldquo;we want you to try a different drug first.&rdquo;
           </li>
           <li>
@@ -440,16 +437,17 @@ export default function PriorAuthPage() {
           <li>
             <strong>Ask the office to appeal. Do not stop at the phone call.</strong> With Medicare
             Advantage there are <strong>65 days</strong> from the denial notice. In practice this is
-            usually filed by your doctor&rsquo;s office, not by you &mdash; for a medication you have
-            not received yet, your doctor is allowed to appeal on your behalf, and only has to tell
+            usually filed by your doctor&rsquo;s office, not by you. For a medication you have not
+            received yet, your doctor is allowed to appeal on your behalf. They only have to tell
             you they are doing it. You may be asked to sign a form so the office can act for you.
             That is normal. It does not mean you are on your own with it. Your job is to ask whether
             the appeal was filed and on what date, and to keep that date.
           </li>
           <li>
-            <strong>You can also file it yourself, and sometimes that is the right move.</strong> If
-            the bill has already come to you, or if you cannot get a straight answer from the office,
-            you can appeal as the member. Most people never file. Most who do, win.
+            <strong>You can also file it yourself, and sometimes that is the right move.</strong>{' '}
+            Maybe the bill has already come to you. Maybe you cannot get a straight answer from the
+            office. Either way, you can appeal as the member. Most denials are never appealed. Most
+            that are appealed, win.
           </li>
           <li>
             <strong>Ask for a fast appeal if waiting would hurt you.</strong> If your doctor says a
@@ -496,9 +494,9 @@ export default function PriorAuthPage() {
         </ol>
         <p style={{ marginTop: '1rem' }}>
           <strong>One more thing.</strong> None of this is your fault, and none of it is your
-          doctor&rsquo;s office being slow. The system is genuinely built this way. But the appeal
-          numbers are the most useful fact on this page:{' '}
-          <strong>most denials that get challenged are overturned, and most are never challenged.</strong>
+          doctor&rsquo;s office being slow. The system is built this way. But the appeal
+          numbers are the most useful fact on this page.{' '}
+          <strong>Most denials that get challenged are overturned. Most are never challenged.</strong>
         </p>
       </div>
 

@@ -25,43 +25,44 @@ export default function InfliximabPage() {
       <div className="page-header">
         <h1>Infliximab (Remicade) and Medicare</h1>
         <p>
-          Medicare covers the infusion. What surprises people is being told to switch to a different
-          version of it — and how little that switch actually saves them.
+          Medicare covers the infusion. But your plan may tell you to switch to a different version
+          of it. That switch saves you very little.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
         <h2>The short answer</h2>
         <p>
-          Infliximab is given as an infusion, so it is covered by <strong>Part B</strong>. You pay
-          20% of the cost, and <strong>there is no yearly limit on that 20%</strong> unless you have
-          a Medicare supplement policy or an Advantage plan.
+          Infliximab is given as an infusion. So it is covered by <strong>Part B</strong>. You pay
+          20% of the cost. <strong>There is no yearly limit on that 20%</strong> unless you have a
+          Medicare supplement policy or an Advantage plan.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          At the usual rheumatoid arthritis dose, that works out to roughly{' '}
-          <strong>$1,200 to $1,450 a year</strong> for a mid-sized adult — less than most biologics,
-          because infliximab is dosed every eight weeks rather than monthly. Go up in dose or
-          frequency and it climbs; there is nothing stopping it.
+          At the usual rheumatoid arthritis dose, that comes to roughly{' '}
+          <strong>$1,200 to $1,450 a year</strong> for a mid-sized adult. That is less than most
+          biologics. Infliximab is given every eight weeks, not every month. A higher dose or more
+          frequent infusions raise the cost. There is no limit on how high it can go.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>There is no version you can take at home.</strong> A subcutaneous infliximab
-          called Zymfentra exists, but it is approved only for Crohn&rsquo;s disease and ulcerative
-          colitis, not for any rheumatology condition. So unlike some other biologics, there is no
-          Part D route and no $2,100 cap available to you.
+          <strong>There is no version you can take at home.</strong> A version of infliximab called
+          Zymfentra is given as a shot under the skin. But it is approved only for Crohn&rsquo;s
+          disease and ulcerative colitis. It is not approved for any rheumatology condition. So
+          unlike some other biologics, there is no Part D route for you. The $2,100 cap is not
+          available to you.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>The biosimilar switch, and what it really saves you</h2>
         <p>
-          There are four infliximab products on the US market: <strong>Remicade</strong>, the
-          original, and three biosimilars — <strong>Inflectra</strong>, <strong>Renflexis</strong>{' '}
-          and <strong>Avsola</strong>. A biosimilar is the same medicine made by a different
-          company, approved by the FDA on the same evidence standard.
+          There are four infliximab products on the US market. <strong>Remicade</strong> is the
+          original. The other three are biosimilars: <strong>Inflectra</strong>,{' '}
+          <strong>Renflexis</strong> and <strong>Avsola</strong>. A biosimilar is the same medicine
+          made by a different company. The FDA approves it on the same standard of evidence.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          You will read that biosimilars are dramatically cheaper. For infliximab under Medicare in
-          2026, <strong>that is not true.</strong> Here is what Medicare actually pays per 10 mg:
+          You will read that biosimilars are much cheaper. For infliximab under Medicare in 2026,{' '}
+          <strong>that is not true.</strong> Here is what Medicare pays per 10 mg:
         </p>
         <div className="module-table-wrapper">
           <table className="module-table">
@@ -105,28 +106,29 @@ export default function InfliximabPage() {
           <strong>
             Best case, switching to the cheapest biosimilar saves you about $190 a year.
           </strong>{' '}
-          Not nothing, but not what the word &ldquo;biosimilar&rdquo; suggests. Compare rituximab,
-          where the cheapest version costs a quarter of the original.
+          That is not nothing. But it is not what the word &ldquo;biosimilar&rdquo; suggests.
+          Compare rituximab. There, the cheapest version costs a quarter of the original.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Which raises the obvious question: if the saving is small, why do plans push it so hard?
-          Because the plan&rsquo;s saving is not the same as yours. Your share is 20%; the plan pays
-          the other 80%, and across thousands of members that 16% adds up to real money for them.
+          The saving is small, but plans still push the switch hard. That is because the
+          plan&rsquo;s saving is not the same as yours. Your share is 20%. The plan pays the other
+          80%. Across thousands of members, that 16% adds up to real money for the plan.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Your plan can make you switch. It can also make you switch again.</h2>
         <p>
-          Under <strong>Original Medicare, nobody can make you switch products</strong> and nobody
-          has to approve the infusion in advance. Your rheumatologist decides.
+          Under <strong>Original Medicare, nobody can make you switch products</strong>. Nobody has
+          to approve the infusion in advance. Your rheumatologist decides.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Medicare Advantage plans are allowed to require it</strong>, and the large ones do.
           One national insurer&rsquo;s 2026 policy requires <em>at least 14 weeks</em> on a
-          biosimilar with minimal response before it will pay for Remicade. Another lists Remicade
-          as non-preferred outright. And nothing in the rules stops a plan from preferring a
-          different product next year, and a third one the year after.
+          biosimilar first. It pays for Remicade only if the biosimilar gave little response.
+          Another insurer lists Remicade as non-preferred outright. And nothing in the rules stops
+          a plan from preferring a different product next year. It could prefer a third one the
+          year after.
         </p>
         <p style={{ marginTop: '1rem' }}>
           The American College of Rheumatology has taken a position on this:{' '}
@@ -141,76 +143,78 @@ export default function InfliximabPage() {
       <div className="content-card">
         <h2>What the evidence says about switching</h2>
         <p>
-          It is worth separating two things: whether the medicine works the same, and whether people
-          do well when they are switched.
+          Two things are separate here. One is whether the medicine works the same. The other is
+          whether people do well when they are switched.
         </p>
         <ul>
           <li>
             <strong>The medicine works the same.</strong> The NOR-SWITCH trial randomised 482
-            patients and found no meaningful difference between the original and the biosimilar.
+            patients. It found no meaningful difference between the original and the biosimilar.
           </li>
           <li>
             <strong>But switching itself can go badly.</strong> In one real-world study,{' '}
-            <strong>24% of patients stopped the biosimilar within six months</strong> — mostly for
-            subjective symptoms, with no change in their blood markers or disease scores. This is
-            called the nocebo effect: expecting a worse result makes people feel worse.
+            <strong>24% of patients stopped the biosimilar within six months</strong>. Most stopped
+            because of symptoms they felt. Their blood markers and disease scores did not change.
+            This is called the nocebo effect. Expecting a worse result makes people feel worse.
           </li>
           <li>
-            <strong>How it is explained matters enormously.</strong> When the same switch was done
-            with structured explanation from the clinical team, the drop-out rate fell from 24% to{' '}
-            <strong>6.6%</strong>.
+            <strong>How it is explained matters a great deal.</strong> The same switch was also done
+            with a structured explanation from the clinical team. Then the drop-out rate fell from
+            24% to <strong>6.6%</strong>.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          Practical version: if your plan makes you change products, that is not a reason to panic,
-          and it is a very good reason to ask your rheumatology team to walk you through it properly
-          before the first infusion.
+          Practical version: if your plan makes you change products, that is not a reason to panic.
+          It is a very good reason to ask your rheumatology team to walk you through it. Ask before
+          the first infusion.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>The problem nobody sees coming: the stocking mismatch</h2>
+        <h2>The stocking mismatch</h2>
         <p>
-          Infusion medications are bought by the practice and billed afterwards. So the infusion
-          center keeps a stock of one or two infliximab products.
+          The practice buys infusion medications first and bills for them afterwards. So the
+          infusion center keeps a stock of one or two infliximab products.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          If your plan prefers a product your infusion center does not stock, somebody has to fix it
-          — the center orders it in, your doctor files an exception, or you move to a different
-          infusion site. None of that is your fault, all of it takes time, and it is the most common
-          reason an infusion gets pushed back.
+          Your plan may prefer a product your infusion center does not stock. Then somebody has to
+          fix it. The center may order it in. Your doctor may file an exception. Or you may move to
+          a different infusion site. None of that is your fault. All of it takes time. It is the
+          most common reason an infusion gets pushed back.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Worth asking, before January:</strong> which infliximab product does my plan
-          prefer next year, and does my infusion center carry it?
+          <strong>Ask before January:</strong> which infliximab product does my plan prefer next
+          year, and does my infusion center carry it?
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Things that surprise people</h2>
+        <h2>Other things to know</h2>
         <ul>
           <li>
-            <strong>The infusion visit is billed separately.</strong> On top of 20% of the drug, you
-            pay 20% of the charge for the infusion itself.
+            <strong>The infusion visit is billed separately.</strong> You pay 20% of the drug. You
+            also pay 20% of the charge for the infusion itself.
           </li>
           <li>
             <strong>Where you get infused changes the price.</strong> A hospital outpatient
-            department adds a facility fee. A doctor&rsquo;s office or an independent infusion suite
-            usually costs you less for exactly the same medication.
+            department adds a facility fee. That is a second bill from the hospital for the room. A
+            doctor&rsquo;s office or an independent infusion suite usually costs you less. The
+            medication is exactly the same.
           </li>
           <li>
             <strong>The Remicade copay card does not work if you have Medicare.</strong> Federal law
-            prohibits it. Independent charitable foundations and the manufacturer&rsquo;s
-            income-based assistance program are the routes that do work.
+            prohibits it. Two routes do work. One is an independent charitable foundation. The other
+            is the manufacturer&rsquo;s income-based assistance program.
           </li>
           <li>
             <strong>None of these products is legally &ldquo;interchangeable.&rdquo;</strong> A
-            pharmacy cannot swap one for another on its own — your doctor has to write for the
-            specific one. That is a protection, and it is also why switching creates paperwork.
+            pharmacy cannot swap one for another on its own. Your doctor has to write for the
+            specific one. That is a protection. It is also why switching creates paperwork.
           </li>
           <li>
             <strong>Dose increases raise your 20%.</strong> Going from 3 mg/kg every 8 weeks to
-            5 mg/kg every 6 weeks roughly doubles what you pay, to around $2,100&ndash;$2,500 a year.
+            5 mg/kg every 6 weeks roughly doubles what you pay. That comes to around
+            $2,100&ndash;$2,500 a year.
           </li>
         </ul>
       </div>
@@ -249,38 +253,39 @@ export default function InfliximabPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
         <p>
-          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
+          <strong>Because the $2,100 cap only applies to Part D. An infusion is paid by Part
           B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
-          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
-          the cost every time and <strong>there is no annual ceiling at all</strong>.
+          medication a nurse or doctor gives you is paid under Part B instead. There you owe 20% of
+          the cost every time. And <strong>there is no annual ceiling at all</strong>.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
-          separate rules, and news about one does not change the other.
+          It is the same Medicare. It is often the same drug. It is often the same disease. The
+          rulebook is chosen by who puts the medicine in you. The cap and the Part B coinsurance,
+          your 20% share, are two separate rules. News about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
           A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
-          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
-          you stay on it. The $2,100 cap does not apply to any of it.
+          $18,000, you owe about <strong>$3,600</strong>. That is true this year, next year, and
+          every year you stay on it. The $2,100 cap does not apply to any of it.
         </p>
         <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
         <ul>
           <li>
             <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
-            is the main one, and the{' '}
+            is the main one. The{' '}
             <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
             Part B in most states.
           </li>
           <li>
-            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
-            applies to everything the plan covers &mdash; though it comes with prior authorization
-            attached.
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>. That
+            is the most you pay in a year. It applies to everything the plan covers. But it comes
+            with prior authorization attached. That means the plan must approve the drug before
+            you can get it.
           </li>
           <li>
             <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
-            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>.
+            Extra Help applies to Part D drugs only. It does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
@@ -302,7 +307,7 @@ export default function InfliximabPage() {
           </li>
           <li>
             <a href="/patients/insurance/rituximab">Rituximab and Medicare</a> — where the
-            biosimilar saving is genuinely large
+            biosimilar saving is large
           </li>
           <li>
             <a href="/patients/conditions/rheumatoid-arthritis">Rheumatoid arthritis guide</a>

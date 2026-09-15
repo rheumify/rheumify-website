@@ -25,33 +25,33 @@ export default function GolimumabPage() {
       <div className="page-header">
         <h1>Golimumab (Simponi and Simponi Aria) and Medicare</h1>
         <p>
-          Two brand names, one medicine. Simponi is the shot you give yourself; Simponi Aria is the
-          infusion. On paper the shot is capped and the infusion is not — but for almost everyone on
-          Medicare, the shot is not actually available.
+          Two brand names, one medicine. Simponi is the shot you give yourself. Simponi Aria is the
+          infusion. On paper the shot is capped and the infusion is not. But for almost everyone on
+          Medicare, the shot is not available in practice.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Start with the finding that matters</h2>
         <p>
-          We went through every 2026 Medicare drug plan formulary CMS publishes and counted.{' '}
+          CMS publishes a formulary, or drug list, for every 2026 Medicare drug plan. We went through
+          all of them and counted.{' '}
           <strong>
-            Simponi, the self-injection, is covered by 45 of 5,518 plans — under 1%. Among
-            standalone drug plans, the number is zero.
+            Simponi, the shot, is covered by 45 of 5,518 plans. That is under 1%. Among standalone
+            drug plans, the number is zero.
           </strong>
         </p>
         <p style={{ marginTop: '1rem' }}>
-          So the $2,100 Part D cap, which sounds like it protects you, is theoretical for nearly
-          every Medicare patient on this medication. The real-world numbers agree: about 33,000
-          Medicare beneficiaries get Simponi Aria through Part B, and only about 3,700 get Simponi
-          through Part D.
+          The $2,100 Part D cap sounds like it protects you. But for nearly every Medicare patient on
+          this drug, it does not apply in real life. The real-world numbers agree. About 33,000
+          people on Medicare get Simponi Aria through Part B. Only about 3,700 get Simponi through
+          Part D.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>
-            In practice, if you are on Medicare and taking golimumab, you are almost certainly on the
-            infusion
+            If you are on Medicare and take golimumab, you are almost certainly on the infusion.
           </strong>{' '}
-          — and the rest of this page is about making that as affordable as possible.
+          The rest of this page is about keeping that cost as low as possible.
         </p>
       </div>
 
@@ -59,8 +59,8 @@ export default function GolimumabPage() {
         <h2>What the infusion costs</h2>
         <p>
           Simponi Aria is covered by <strong>Part B</strong>. You pay 20% with{' '}
-          <strong>no yearly limit.</strong> The dose depends on your weight, and it is given every
-          eight weeks after the first two doses.
+          <strong>no yearly limit.</strong> The dose depends on your weight. After the first two
+          doses, you get it every eight weeks.
         </p>
         <div className="module-table-wrapper">
           <table className="module-table">
@@ -86,28 +86,28 @@ export default function GolimumabPage() {
           </table>
         </div>
         <p style={{ marginTop: '1rem' }}>
-          <strong>A Medicare supplement policy changes this completely.</strong> It covers the 20%,
-          so you pay the $283 Part B deductible and then nothing. For someone on this medication,
-          that is worth well over $2,000 a year.
+          <strong>A Medicare supplement policy changes this completely.</strong> It covers the 20%.
+          You pay the $283 Part B deductible and then nothing. For someone on this drug, that is
+          worth well over $2,000 a year.
         </p>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Simponi Aria comes in 50 mg vials. If your dose does not divide evenly into whole vials,
-          Medicare is billed for the remainder — which is why 80 kg costs noticeably more than 75 kg.
-          The infusion visit is billed separately and you pay 20% of that too.
+          Simponi Aria comes in 50 mg vials. Your dose may not divide evenly into whole vials. If
+          so, Medicare is billed for the leftover. That is why 80 kg costs noticeably more than 75
+          kg. The infusion visit is billed separately. You pay 20% of that too.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Which route is approved for what</h2>
-        <p>The two forms are not interchangeable on paper, and the differences are easy to miss:</p>
+        <p>On paper, the two forms are not approved for the same uses. The differences are easy to miss:</p>
         <ul>
           <li>
             <strong>Ulcerative colitis is the shot only.</strong> Simponi Aria is not approved for
-            it, so someone with UC cannot move to the infusion.
+            it. So someone with UC cannot move to the infusion.
           </li>
           <li>
             <strong>Juvenile arthritis is the infusion only.</strong> Simponi Aria is approved from
-            age 2; the shot is not approved for it.
+            age 2. The shot is not approved for it.
           </li>
           <li>
             Rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis are approved for
@@ -119,66 +119,67 @@ export default function GolimumabPage() {
       <div className="content-card">
         <h2>Cheaper versions are approved but not yet on sale</h2>
         <p>
-          In May 2026 the FDA approved the first golimumab biosimilars — one for the shot and one for
-          the infusion — and both were approved as <strong>interchangeable</strong>, which is the
-          strongest designation the FDA gives.
+          In May 2026 the FDA approved the first golimumab biosimilars. A biosimilar is the same
+          medicine made by a different company. One is for the shot and one is for the infusion.
+          Both were approved as <strong>interchangeable</strong>. That is the strongest label the
+          FDA gives.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          They are not on the market yet, no price has been published, and there is a legal dispute
-          over the launch. Their approved conditions are also narrower than the originals. So this is
-          worth knowing about and not worth planning around. If your infusion is expensive, ask again
-          in a year.
+          They are not on sale yet. No price has been published. There is a legal dispute over the
+          launch. They are also approved for fewer conditions than the originals. So do not plan
+          around them yet. If your infusion is expensive, ask again in a year.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Approvals and being made to try something else first</h2>
+        <h2>Approvals and trying other drugs first</h2>
         <p>
           <strong>Original Medicare requires no prior authorization</strong> for Simponi Aria given
-          in a doctor&rsquo;s office, and cannot require you to fail a different medication first.
+          in a doctor&rsquo;s office. That means no approval is needed before you can get it.
+          Original Medicare also cannot make you fail a different drug first.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Medicare Advantage plans vary wildly on this one</strong>, more than for any other
+          <strong>Medicare Advantage plans vary wildly on this</strong>, more than for any other
           drug on this site. One national insurer&rsquo;s 2026 policy lists Simponi Aria as
-          non-preferred for rheumatoid arthritis and requires you to try a long list of
-          self-injectable medications first. Another plan lists it as a <em>preferred</em> first-line
+          non-preferred for rheumatoid arthritis. It requires you to try a long list of
+          self-injected drugs first. Another plan lists it as a <em>preferred</em> first-line
           option.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          That difference is worth real money and real delay, and it is not visible from the plan
-          brochure. If you are choosing an Advantage plan and you are on this medication, this is the
-          specific thing to ask about by name.
+          That difference means real money and real delay. You cannot see it in the plan brochure.
+          If you are on this drug and choosing an Advantage plan, ask about this by name.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          If a request is denied, <strong>appeal.</strong> Across Medicare Advantage in 2024, 81% of
-          appealed denials were overturned, and only about one in nine was ever appealed.
+          If a request is denied, <strong>appeal.</strong> In 2024, 81% of appealed Medicare
+          Advantage denials were overturned. Only about one in nine denials was ever appealed.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Things that surprise people</h2>
+        <h2>Five things to check</h2>
         <ul>
           <li>
-            <strong>The names are confusingly similar.</strong> Simponi and Simponi Aria are billed
+            <strong>The names are easy to mix up.</strong> Simponi and Simponi Aria are billed
             through completely different parts of Medicare. If someone quotes you a price, check
             which one they mean.
           </li>
           <li>
-            <strong>The copay card does not work if you have Medicare.</strong> Federal law prohibits
-            it, and that includes Medicare Advantage and Medigap.
+            <strong>The copay card does not work if you have Medicare.</strong> Federal law bans
+            it. That includes Medicare Advantage and Medigap, the supplement policy.
           </li>
           <li>
-            <strong>The manufacturer&rsquo;s foundation does serve Medicare patients</strong>, for
-            both products, based on income. For someone facing $2,800 a year with no supplement, this
-            is the first call to make.
+            <strong>The drug maker&rsquo;s foundation does serve Medicare patients</strong>, for
+            both products, based on income. Say you face $2,800 a year with no supplement. This is
+            the first call to make.
           </li>
           <li>
             <strong>Where you get infused changes the price.</strong> A hospital outpatient
-            department adds a facility fee that an office or independent infusion suite does not.
+            department adds a facility fee. That is a second bill from the hospital for the room.
+            An office or independent infusion suite does not add one.
           </li>
           <li>
-            <strong>Your dose follows your weight.</strong> Gaining or losing enough to cross a vial
-            boundary changes what you pay.
+            <strong>Your dose follows your weight.</strong> If you gain or lose enough to need a
+            different number of vials, what you pay changes.
           </li>
         </ul>
       </div>
@@ -217,38 +218,38 @@ export default function GolimumabPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
         <p>
-          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
-          B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
-          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
-          the cost every time and <strong>there is no annual ceiling at all</strong>.
+          <strong>Because the $2,100 cap only applies to Part D. An infusion is paid by Part
+          B.</strong> The cap Congress created covers drugs you pick up and take yourself. A drug a
+          nurse or doctor gives you is paid under Part B instead. There you owe 20% of the cost
+          every time. And <strong>there is no yearly ceiling at all</strong>.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
-          separate rules, and news about one does not change the other.
+          It is the same Medicare. It is often the same drug, and often the same disease. The rule
+          book depends on who puts the medicine in you. The cap and the Part B coinsurance, your
+          20%, are two separate rules. News about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
-          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
-          you stay on it. The $2,100 cap does not apply to any of it.
+          Here is an example. If Medicare&rsquo;s approved amount for a year of your infusions is
+          $18,000, you owe about <strong>$3,600</strong>. That is this year, next year, and every
+          year you stay on it. The $2,100 cap does not apply to any of it.
         </p>
         <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
         <ul>
           <li>
             <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
-            is the main one, and the{' '}
+            is the main one. In most states, the{' '}
             <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
-            Part B in most states.
+            Part B.
           </li>
           <li>
-            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
-            applies to everything the plan covers &mdash; though it comes with prior authorization
-            attached.
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, the
+            most you pay in a year. It applies to everything the plan covers. But it comes with
+            prior authorization attached.
           </li>
           <li>
-            <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
-            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
+            <strong>QMB</strong>, a Medicare Savings Program that removes the 20% entirely.{' '}
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>.
+            Extra Help applies to Part D drugs only. It does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.

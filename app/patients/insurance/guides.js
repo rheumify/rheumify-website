@@ -36,6 +36,13 @@ export const GUIDES = [
       'You need four separate permissions and a power of attorney is not one of them. The forms, what to gather before you call, and what changes when a spouse dies.',
   },
   {
+    slug: 'switching-plans',
+    generic: null,
+    title: 'Switching plans: the dates, the rules, and the order to do it in',
+    blurb:
+      'Open Enrollment is October 15 to December 7. When an insurer must sell you a supplement policy, the order to do things in so you are never without coverage, and what changes on January 1, 2027.',
+  },
+  {
     slug: 'infliximab',
     generic: 'infliximab',
     title: 'Infliximab (Remicade, Inflectra, Renflexis, Avsola)',

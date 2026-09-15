@@ -26,33 +26,34 @@ export default function TocilizumabPage() {
       <div className="page-header">
         <h1>Tocilizumab (Actemra) and Medicare</h1>
         <p>
-          It comes two ways — an infusion, or a shot you give yourself at home. Medicare treats
-          those as two entirely different things, and the difference is thousands of dollars a year.
+          It comes two ways. One is an infusion at a clinic. The other is a shot you give yourself
+          at home. Medicare treats these as two different things. The difference can be thousands
+          of dollars a year.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
         <h2>The short answer</h2>
         <p>
-          <strong>Yes, Medicare covers tocilizumab both ways.</strong> Which part of Medicare pays,
-          and how much you pay, depends entirely on how you get it.
+          <strong>Yes, Medicare covers tocilizumab both ways.</strong> Which part of Medicare pays
+          depends on how you get it. So does how much you pay.
         </p>
         <ul>
           <li>
             <strong>The shot you give yourself at home</strong> is covered by your Part D drug plan.
-            Your costs are capped: in 2026 you cannot pay more than <strong>$2,100</strong> for the
-            whole year, no matter what.
+            Your costs are capped. In 2026 you cannot pay more than <strong>$2,100</strong> for the
+            whole year.
           </li>
           <li>
             <strong>The infusion at a clinic</strong> is covered by Part B. You pay 20% of the
-            cost, and <strong>there is no yearly ceiling at all</strong> — around{' '}
-            <strong>$6,700 a year</strong> — unless you have a Medicare supplement policy, in which
-            case it may cost you almost nothing.
+            cost. <strong>There is no yearly ceiling at all.</strong> That comes to around{' '}
+            <strong>$6,700 a year</strong>. A Medicare supplement policy changes this. With one,
+            the infusion may cost you almost nothing.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          So the cheaper route depends on what other coverage you have. That is the whole decision,
-          and it is worth ten minutes of your time.
+          So the cheaper route depends on what other coverage you have. That is the whole decision.
+          It deserves ten minutes of your time.
         </p>
       </div>
 
@@ -109,88 +110,90 @@ export default function TocilizumabPage() {
           </table>
         </div>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Infusion figures use Medicare&rsquo;s published payment rate for tocilizumab and the
-          approved giant cell arteritis dose of 6 mg per kilogram every four weeks, for an adult of
-          about 70&ndash;80 kg. Your dose and your weight change the number. The infusion also has a
-          separate charge for the visit itself, which is extra.
+          Infusion figures use Medicare&rsquo;s published payment rate for tocilizumab. They use
+          the approved giant cell arteritis dose of 6 mg per kilogram every four weeks. They assume
+          an adult of about 70&ndash;80 kg. Your dose and your weight change the number. The
+          infusion also has a separate charge for the visit itself. That is extra.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Which one is cheaper for you</h2>
         <p>
-          This flipped recently and a lot of advice online has not caught up. Before 2025 there was
-          no ceiling on Part D either, and the shot could be brutally expensive. The Inflation
-          Reduction Act put a hard cap on Part D — $2,000 in 2025, <strong>$2,100 in 2026</strong>,
-          $2,400 in 2027 — and left Part B untouched.
+          This flipped recently. A lot of advice online has not caught up. Before 2025 there was
+          no ceiling on Part D either. The shot could be very expensive. The Inflation Reduction
+          Act put a hard cap on Part D. It is $2,000 in 2025, <strong>$2,100 in 2026</strong>, and
+          $2,400 in 2027. Part B was left untouched.
         </p>
         <ul>
           <li>
-            <strong>If you have Original Medicare and no supplement</strong>, the shot is
-            dramatically cheaper. $2,100 versus around $6,700, and the $6,700 has no upper limit if
-            your dose or weight is higher.
+            <strong>If you have Original Medicare and no supplement</strong>, the shot is much
+            cheaper. It is $2,100 versus around $6,700. And the $6,700 has no upper limit if your
+            dose or weight is higher.
           </li>
           <li>
             <strong>If you have a Medicare supplement policy</strong>, it flips. The supplement
-            covers the 20% on the infusion, so the infusion may cost you almost nothing, while the
-            shot still runs you $2,100 through the drug plan.
+            covers the 20% on the infusion. So the infusion may cost you almost nothing. The shot
+            still costs you $2,100 through the drug plan.
           </li>
           <li>
             <strong>If you have Medicare Advantage</strong>, the plan sets its own charges for the
-            infusion — either 20%, or a copayment that for 2026 cannot exceed $340 for an in-network
-            Part B drug like this one — and everything stops at the plan&rsquo;s yearly limit. But see the section on approvals below, because
-            with Advantage the price is not the main issue.
+            infusion. It may charge 20%. Or it may charge a copayment. For 2026 that copayment
+            cannot exceed $340 for an in-network Part B drug like this one. Everything stops at
+            the plan&rsquo;s yearly limit. But see the section on approvals below. With Advantage
+            the price is not the main issue.
           </li>
           <li>
-            <strong>If you have Medicaid as well as Medicare</strong>, or you qualify for a Medicare
-            Savings Program, most of this disappears. Ask.
+            <strong>If you have Medicaid as well as Medicare</strong>, most of this disappears. The
+            same is true if you qualify for a Medicare Savings Program. Ask.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          <strong>Whether the shot or the infusion is right for you is a medical question, not a
-          money one.</strong> Both are FDA-approved for giant cell arteritis. But if cost is the
-          only thing pushing you one way, tell your rheumatologist. It may be an easy problem to
-          solve.
+          <strong>Whether you get the shot or the infusion is a medical question, not a money
+          one.</strong> Both are FDA-approved for giant cell arteritis. But if cost is the only
+          thing pushing you one way, tell your rheumatologist. It may be an easy problem to solve.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Nobody has to approve the infusion — under Original Medicare</h2>
+        <h2>No approval needed for the infusion under Original Medicare</h2>
         <p>
-          If you are on Original Medicare and you get
-          tocilizumab as an infusion in a doctor&rsquo;s office or clinic,{' '}
-          <strong>there is no prior authorization</strong>. Nothing to submit, nothing to wait for,
-          and nobody can require you to fail a cheaper medication first. Original Medicare is not
-          permitted to do either of those things.
+          If you have Original Medicare, the infusion needs no approval first. You get tocilizumab
+          in a doctor&rsquo;s office or clinic, and{' '}
+          <strong>there is no prior authorization</strong>. Prior authorization means approval
+          before you can get it. There is nothing to submit and nothing to wait for. No one can
+          require you to fail a cheaper medication first. Original Medicare is not permitted to do
+          either of those things.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Medicare Advantage plans are permitted to do both</strong>, and routinely do.
-          Since 2019 they have been allowed to apply step therapy to medications given in a clinic.
-          Real 2026 Advantage policies require patients to try a biosimilar version first before
-          they will pay for Actemra itself.
+          Since 2019 they have been allowed to use step therapy for medications given in a clinic.
+          Step therapy means trying a cheaper drug first. Real 2026 Advantage policies require
+          patients to try a biosimilar version before they will pay for Actemra itself. A
+          biosimilar is the same medicine made by a different company.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>The shot always needs approval</strong>, whichever kind of Medicare you have. In
-          the drug plan formularies CMS published for 2026, tocilizumab 162 mg required prior
-          authorization on every single plan that covered it, and about four in five put it on the
-          specialty tier. That is not a reason to pick one drug plan over another — it is universal.
-          It is a reason to start the paperwork early and never assume a renewal is automatic.
+          <strong>The shot always needs approval</strong>, whichever kind of Medicare you have. CMS
+          published the drug plan formularies for 2026. A formulary is the plan&rsquo;s drug list.
+          Every plan that covered tocilizumab 162 mg required prior authorization. About four in
+          five put it on the specialty tier. That is the highest-cost group of drugs. This is not a
+          reason to pick one drug plan over another. It is universal. It is a reason to start the
+          paperwork early. Never assume a renewal is automatic.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>How long the approval actually takes</h2>
+        <h2>How long the approval takes</h2>
         <p>
-          There is published evidence on this, and it is worth knowing before you are in the middle
-          of it. A 2025 study in the <em>Journal of Rheumatology</em> followed 82 patients with
-          giant cell arteritis at a single center. Prior authorization was required for 96% of them.
-          The average time from the request being submitted to the first dose actually reaching the
-          patient was <strong>43 days</strong> — about 17 days to get approved, then another 30 days
-          before treatment started.
+          There is published evidence on this. A 2025 study in the{' '}
+          <em>Journal of Rheumatology</em> followed 82 patients with giant cell arteritis at a
+          single center. Prior authorization was required for 96% of them. The average time from
+          the request to the first dose reaching the patient was <strong>43 days</strong>. That was
+          about 17 days to get approved. Then it was another 30 days before treatment started.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>A disclosure:</strong> I am one of the authors of that study. It came out of our
-          own clinic, which is why the number is on this page &mdash; we measured it because we kept
+          own clinic. That is why the number is on this page. We measured it because we kept
           watching it happen.{' '}
           <a
             href="https://pubmed.ncbi.nlm.nih.gov/40089304/"
@@ -201,31 +204,31 @@ export default function TocilizumabPage() {
           </a>
         </p>
         <p style={{ marginTop: '1rem' }}>
-          To be clear about what that does and does not mean: giant cell arteritis is treated
-          urgently with steroids, and steroids are what protect your vision. Tocilizumab is added to
-          bring the steroid dose down. So a delay in getting tocilizumab approved is not the same as
-          going untreated — but it does mean longer on a higher steroid dose, with everything that
-          comes with that.
+          Giant cell arteritis is treated urgently with steroids. Steroids are what protect your
+          vision. Tocilizumab is added to
+          bring the steroid dose down. So a delay in getting tocilizumab approved is not the same
+          as going untreated. But it does mean longer on a higher steroid dose, with everything
+          that comes with that.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          The practical version: ask the office to start the paperwork the day it is decided, ask
-          them to tell you if anything is denied, and <strong>appeal if it is</strong>. Across
-          Medicare Advantage in 2024, only about one denial in nine was ever appealed — and 81% of
-          the appeals that were filed succeeded.
+          What you can do. Ask the office to start the paperwork the day it is decided. Ask them
+          to tell you if anything is denied. And <strong>appeal if it is</strong>. Across Medicare
+          Advantage in 2024, only about one denial in nine was ever appealed. And 81% of the
+          appeals that were filed succeeded.
         </p>
       </div>
 
       <div className="content-card">
         <h2>There are now three cheaper versions</h2>
         <p>
-          Tocilizumab has biosimilars — the same medicine made by a different company, approved by
-          the FDA on the same evidence standard. All three are approved for giant cell arteritis:
+          Tocilizumab has three biosimilars. The FDA approved them on the same evidence standard.
+          All three are approved for giant cell arteritis:
         </p>
         <ul>
           <li>
-            <strong>Tyenne</strong> (tocilizumab-aazg) — infusion and self-injection. About 25%
-            cheaper than Actemra at Medicare&rsquo;s rate, which makes it the biggest saving of the
-            three on your 20%.
+            <strong>Tyenne</strong> (tocilizumab-aazg) — infusion and self-injection. It is about
+            25% cheaper than Actemra at Medicare&rsquo;s rate. That makes it the biggest saving of
+            the three on your 20%.
           </li>
           <li>
             <strong>Avtozma</strong> (tocilizumab-anoh) — infusion and self-injection.
@@ -235,59 +238,58 @@ export default function TocilizumabPage() {
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          Two things to know. None of them is legally &ldquo;interchangeable,&rdquo; which means a
-          pharmacy cannot swap one for another on its own — your doctor has to prescribe the
-          specific one. And your plan decides which one it covers, so the version your plan wants is
-          not always the version your infusion center stocks. If your plan makes you switch, ask the
+          Two things to know. None of them is legally &ldquo;interchangeable.&rdquo; That means a
+          pharmacy cannot swap one for another on its own. Your doctor has to prescribe the specific
+          one. And your plan decides which one it covers. So the version your plan wants is not
+          always the version your infusion center stocks. If your plan makes you switch, ask the
           office to confirm the exact product before your next appointment.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          If you are on the infusion and paying 20% of it, <strong>asking about the biosimilar is
-          the single easiest way to lower that number.</strong> It is worth raising.
+          Say you are on the infusion and paying 20% of it. <strong>Asking about a biosimilar is
+          the easiest way to lower that number.</strong>
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Things that surprise people</h2>
+        <h2>Other things to know</h2>
         <ul>
           <li>
             <strong>The whole $2,100 lands in January.</strong> At a weekly dose you hit the cap on
             the first or second fill of the year. Medicare has a program that spreads it across
-            twelve months instead, interest-free — about $175 a month — but{' '}
+            twelve months instead. It is interest-free, about $175 a month. But{' '}
             <strong>you have to sign up for it</strong>. It is called the Medicare Prescription
             Payment Plan.
           </li>
           <li>
             <strong>Manufacturer copay cards do not work if you have Medicare.</strong> Federal law
-            prohibits it, and that includes Medicare Advantage and Medigap. It is not your plan
-            being difficult. What <em>can</em> help is the manufacturer&rsquo;s patient assistance
-            foundation, which is a different thing and does cover people on Medicare, and
-            independent charitable foundations that help with cost-sharing.
+            prohibits it. That includes Medicare Advantage and Medigap supplement policies. It is
+            not your plan being difficult. What <em>can</em> help is the manufacturer&rsquo;s
+            patient assistance foundation. That is a different thing. It does cover people on
+            Medicare. Independent charitable foundations that help with cost-sharing can also help.
           </li>
           <li>
             <strong>Where you get infused changes the price.</strong> A hospital outpatient
-            department often costs you more than a doctor&rsquo;s office or a home infusion for the
-            identical medication. If your 20% feels higher than it should, this is often why.
+            department often costs you more than a doctor&rsquo;s office or a home infusion. The
+            medication is identical. If your 20% feels higher than it should, this is often why.
           </li>
           <li>
             <strong>Approval expires.</strong> Plans approve expensive medications for a set period,
-            usually a year. January is when plans change what they cover — if a letter arrives about
-            your coverage changing, act on it that week rather than waiting for the pharmacy to say
-            no.
+            usually a year. January is when plans change what they cover. If a letter arrives about
+            your coverage changing, act on it that week. Do not wait for the pharmacy to say no.
           </li>
           <li>
             <strong>Extra Help.</strong> If your income is modest, Extra Help can reduce Part D
-            costs to nearly nothing. The income limits are higher than most people assume and it is
-            badly underused.
+            costs to nearly nothing. The income limits are higher than you might think. The program
+            is badly underused.
           </li>
         </ul>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--blue-accent)' }}>
-        <h2>Free help, from someone who is not paid a commission</h2>
+        <h2>Free help from someone not paid a commission</h2>
         <p>
           Before you talk to anyone who advertises Medicare plans, talk to a state counselor. It is
-          free, federally funded, and they earn nothing whichever plan you pick.
+          free and federally funded. They earn nothing whichever plan you pick.
         </p>
         <ul>
           <li>
@@ -337,36 +339,36 @@ export default function TocilizumabPage() {
         <p>
           <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
           B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
-          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
-          the cost every time and <strong>there is no annual ceiling at all</strong>.
+          medication a nurse or doctor gives you is paid under Part B instead. There you owe 20%
+          of the cost every time. And <strong>there is no annual ceiling at all</strong>.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
-          separate rules, and news about one does not change the other.
+          It is the same Medicare. It is often the same drug and the same disease. The rulebook is
+          chosen by who puts the medicine in you. The cap and the Part B coinsurance (your 20%) are
+          two separate rules. News about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
-          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
-          you stay on it. The $2,100 cap does not apply to any of it.
+          A worked example. Say Medicare&rsquo;s approved amount for a year of your infusions is
+          $18,000. You owe about <strong>$3,600</strong>. That is this year, next year, and every
+          year you stay on it. The $2,100 cap does not apply to any of it.
         </p>
         <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
         <ul>
           <li>
             <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
-            is the main one, and the{' '}
+            is the main one. The{' '}
             <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
             Part B in most states.
           </li>
           <li>
-            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
-            applies to everything the plan covers &mdash; though it comes with prior authorization
-            attached.
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, the
+            most you pay in a year. It applies to everything the plan covers. But it comes with
+            prior authorization attached.
           </li>
           <li>
             <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
-            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>.
+            Extra Help applies to Part D drugs only. It does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
