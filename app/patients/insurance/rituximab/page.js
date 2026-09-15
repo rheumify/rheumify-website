@@ -26,9 +26,8 @@ export default function RituximabPage() {
       <div className="page-header">
         <h1>Rituximab (Rituxan) and Medicare</h1>
         <p>
-          Two things make rituximab different from every other biologic on this site: the bills
-          arrive in a few enormous lumps, and the cheaper versions are genuinely, dramatically
-          cheaper.
+          Rituximab is different from the other biologics on this site in two ways. The bills come
+          in a few very large lumps. And the cheaper versions are much, much cheaper.
         </p>
       </div>
 
@@ -36,22 +35,24 @@ export default function RituximabPage() {
         <h2>The short answer</h2>
         <p>
           Rituximab is an infusion, so <strong>Part B</strong> covers it. You pay 20%, and{' '}
-          <strong>there is no yearly limit on that 20%.</strong> There is no pill, no home injection
-          and no Part D version for rheumatology — so the $2,100 Part D cap you may have heard about
-          does not apply to you at all.
+          <strong>there is no yearly limit on that 20%.</strong> There is no pill, no home shot, and
+          no Part D version for rheumatology. So the $2,100 Part D cap you may have heard about does
+          not apply to you at all.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          The only things that cap it are a Medicare supplement policy, an Advantage plan&rsquo;s
-          yearly limit, Medicaid, or a charitable foundation.
+          Only a few things put a cap on that 20%. They are a Medicare supplement policy (also
+          called Medigap), an Advantage plan&rsquo;s yearly limit, Medicaid, or a charitable
+          foundation.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Here the cheaper version really is much cheaper</h2>
         <p>
-          There are three rituximab biosimilars on the market — <strong>Truxima</strong>,{' '}
-          <strong>Ruxience</strong> and <strong>Riabni</strong>. Unlike infliximab, where switching
-          saves almost nothing, the gap here is enormous. Medicare pays this much per 10 mg:
+          A biosimilar is the same medicine made by a different company. There are three rituximab
+          biosimilars on the market: <strong>Truxima</strong>,{' '}
+          <strong>Ruxience</strong> and <strong>Riabni</strong>. With infliximab, switching saves
+          almost nothing. Here the gap is huge. Medicare pays this much per 10 mg:
         </p>
         <div className="module-table-wrapper">
           <table className="module-table">
@@ -87,24 +88,24 @@ export default function RituximabPage() {
           </table>
         </div>
         <p style={{ marginTop: '1rem' }}>
-          Because you pay 20% of whichever one you get, that difference lands directly on you.{' '}
+          You pay 20% of whichever one you get. So that difference lands directly on you.{' '}
           <strong>
             All three biosimilars are approved for rheumatoid arthritis and for GPA and MPA
           </strong>{' '}
-          — the two forms of ANCA-associated vasculitis — in adults. So for most rheumatology
-          patients this is a real conversation to have.
+          in adults. GPA and MPA are the two forms of ANCA-associated vasculitis. So for most
+          rheumatology patients, this is a real conversation to have.
         </p>
         <p style={{ marginTop: '1rem' }}>
           One thing to check rather than assume:{' '}
           <strong>make sure the product your plan prefers is approved for your condition.</strong>{' '}
-          The adult labels line up today, but the biosimilars are approved for adults only, where the
+          The adult labels line up today. But the biosimilars are approved for adults only. The
           original also covers children. If you are on Medicare through a disability and were
-          diagnosed young, that gap is worth raising.
+          diagnosed young, ask about that gap.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>What a year actually costs</h2>
+        <h2>What a year costs</h2>
         <p>These are your 20%, after the $283 Part B deductible.</p>
         <div className="module-table-wrapper">
           <table className="module-table">
@@ -147,28 +148,28 @@ export default function RituximabPage() {
           </table>
         </div>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Vasculitis induction doses depend on your height and weight, so that row is an estimate for
-          an average-sized adult. If rheumatoid arthritis is re-treated more than once a year, the
-          cost multiplies accordingly. The infusion visit is billed separately on top.
+          Doses for the first round of vasculitis treatment (induction) depend on your height and
+          weight. So that row is an estimate for an average-sized adult. If rheumatoid arthritis is
+          treated more than once a year, the cost goes up with each round. The infusion visit is
+          billed separately, on top of the drug.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Why the bills feel so brutal</h2>
+        <h2>Why the bills feel so large</h2>
         <p>
           Someone on a monthly infusion pays a little every month. Rituximab is given two or three
-          times a year, so the same annual cost arrives as a few very large bills.
+          times a year. So the same yearly cost arrives as a few very large bills.
         </p>
         <p style={{ marginTop: '1rem' }}>
           A single 1,000 mg Rituxan infusion is about <strong>$1,470 to you</strong>. For rheumatoid
-          arthritis you get two of those <em>two weeks apart</em> — roughly{' '}
-          <strong>$2,900 inside a fortnight</strong>, and then nothing for months.
+          arthritis you get two of those <em>two weeks apart</em>. That is roughly{' '}
+          <strong>$2,900 within two weeks</strong>. Then nothing for months.
         </p>
         <p style={{ marginTop: '1rem' }}>
           Two things follow from that. First, ask what product you are getting <em>before</em> the
-          first infusion, not after the bill. Second, remember the Part B deductible resets every
-          January — if the timing of the first infusion of the year is flexible at all, it is worth a
-          conversation.
+          first infusion, not after the bill. Second, the Part B deductible resets every January. If
+          the timing of the first infusion of the year is flexible at all, ask about it.
         </p>
       </div>
 
@@ -176,20 +177,19 @@ export default function RituximabPage() {
         <h2>If you have vasculitis, read this part</h2>
         <p>
           Maintenance for GPA or MPA is often{' '}
-          <strong>500 mg every six months, indefinitely.</strong> That is around $1,470 a year on
-          Rituxan, or around $320 on Ruxience — every year, with no cap, for as long as you stay on
-          it.
+          <strong>500 mg every six months, with no end date.</strong> That is around $1,470 a year
+          on Rituxan. Or around $320 a year on Ruxience. That is every year, with no cap, for as long
+          as you stay on it.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Over ten years that difference is more than $11,000. It is the single largest lever you
-          have on this medication, and it costs nothing to ask about.
+          Over ten years, that difference is more than $11,000. It is the biggest way you can lower
+          the cost of this medication. And it costs nothing to ask about.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          A few other things specific to vasculitis care that affect timing rather than cost: your
-          response to vaccines is blunted after an infusion, so vaccines are best timed beforehand;
-          hepatitis B screening is required before starting; and preventive antibiotics are standard
-          during induction. Your rheumatologist will handle all of it — it is worth knowing so the
-          scheduling makes sense.
+          A few other things about vasculitis care affect timing, not cost. Your body responds less
+          well to vaccines after an infusion. So vaccines are best given beforehand. A hepatitis B
+          test is required before starting. Preventive antibiotics are standard during induction.
+          Your rheumatologist will handle all of it. Knowing this helps the schedule make sense.
         </p>
       </div>
 
@@ -197,48 +197,49 @@ export default function RituximabPage() {
         <h2>Approvals: none under Original Medicare</h2>
         <p>
           <strong>Original Medicare requires no prior authorization</strong> for rituximab given in a
-          doctor&rsquo;s office or infusion suite, and cannot require you to try something else
-          first.
+          doctor&rsquo;s office or infusion suite. Prior authorization means approval before you can
+          get the drug. Original Medicare also cannot make you try something else first.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Medicare Advantage plans routinely require a biosimilar first.</strong> One
           national insurer&rsquo;s 2026 policy lists Riabni, Ruxience and Truxima as the preferred
-          products, with Rituxan available only if you have failed or cannot take one of them. Many
-          plans grandfather you in if you have had a paid claim in the past year — so if you are
-          switching plans, that is worth asking about specifically.
+          products. Rituxan is allowed only if you have failed or cannot take one of them. Many plans
+          let you keep your current product if you have had a paid claim in the past year. If you
+          are switching plans, ask about that directly.
         </p>
         <p style={{ marginTop: '1rem' }}>
           If a request is denied, <strong>appeal.</strong> Across Medicare Advantage in 2024, only
-          about one denial in nine was appealed — and 81% of those appeals succeeded.
+          about one denial in nine was appealed. And 81% of those appeals succeeded.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Things that surprise people</h2>
+        <h2>Other things to know</h2>
         <ul>
           <li>
             <strong>The Rituxan copay card does not work if you have Medicare.</strong> Federal law
-            prohibits it, and that includes Medicare Advantage and Medigap.
+            bans it. That includes Medicare Advantage and Medigap.
           </li>
           <li>
-            <strong>Charitable foundations do work</strong> — Good Days, the HealthWell Foundation
-            and the PAN Foundation among them. Their disease funds open and close through the year,
-            so if one is closed, check again in a month. The manufacturer&rsquo;s own foundation can
-            also supply the drug free if your out-of-pocket costs exceed a share of your income.
+            <strong>Charitable foundations do work.</strong> They include Good Days, the HealthWell
+            Foundation and the PAN Foundation. Their disease funds open and close through the year.
+            If one is closed, check again in a month. The drug maker&rsquo;s own foundation can also
+            supply the drug free. That applies if your out-of-pocket costs are more than a share of
+            your income.
           </li>
           <li>
-            <strong>Rituximab infusions are long</strong> — often four to six hours — and you pay 20%
-            of that infusion charge too.
+            <strong>Rituximab infusions are long.</strong> They often take four to six hours. You pay
+            20% of that infusion charge too.
           </li>
           <li>
             <strong>Hospital outpatient departments cost you more</strong> than a doctor&rsquo;s
-            office or an independent infusion suite for the identical medication, because of the
-            facility fee.
+            office or an independent infusion suite. The drug is the same. The difference is the
+            facility fee, a second bill from the hospital for the room.
           </li>
           <li>
             <strong>Truxima became the first interchangeable rituximab in 2026.</strong> That is a
-            technical designation about pharmacy substitution; it does not change what your doctor
-            can prescribe.
+            technical label about what a pharmacy can swap. It does not change what your doctor can
+            prescribe.
           </li>
         </ul>
       </div>
@@ -277,38 +278,38 @@ export default function RituximabPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
         <p>
-          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
-          B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
-          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
-          the cost every time and <strong>there is no annual ceiling at all</strong>.
+          <strong>The $2,100 cap only applies to Part D. An infusion is paid by Part B.</strong> The
+          cap Congress created covers drugs you pick up and take yourself. A drug a nurse or doctor
+          gives you is paid under Part B instead. Under Part B you owe 20% of the cost every time,
+          and <strong>there is no yearly ceiling at all</strong>.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
-          separate rules, and news about one does not change the other.
+          It is the same Medicare, often the same drug, and often the same disease. The rule book
+          depends on who puts the medicine in you. The cap and the Part B coinsurance (your 20%) are
+          two separate rules. News about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
-          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
-          you stay on it. The $2,100 cap does not apply to any of it.
+          Here is an example. Say Medicare&rsquo;s approved amount for a year of your infusions is
+          $18,000. You owe about <strong>$3,600</strong>. That is this year, next year, and every
+          year you stay on it. The $2,100 cap does not apply to any of it.
         </p>
         <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
         <ul>
           <li>
             <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
-            is the main one, and the{' '}
+            is the main one. The{' '}
             <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
             Part B in most states.
           </li>
           <li>
-            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
-            applies to everything the plan covers &mdash; though it comes with prior authorization
-            attached.
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, the most
+            you pay in a year. It applies to everything the plan covers. But it comes with prior
+            authorization attached.
           </li>
           <li>
-            <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
-            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
+            <strong>QMB</strong>, a Medicare Savings Program that removes the 20% entirely.{' '}
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>.
+            Extra Help applies to Part D drugs only. It does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
