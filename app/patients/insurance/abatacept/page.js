@@ -27,7 +27,7 @@ export default function AbataceptPage() {
         <h1>Abatacept (Orencia) and Medicare</h1>
         <p>
           The infusion and the weekly shot are the same medicine. Medicare pays for them under two
-          different programs, and the gap between what you pay is close to $7,000 a year.
+          different programs. The gap between what you pay is close to $7,000 a year.
         </p>
       </div>
 
@@ -35,10 +35,10 @@ export default function AbataceptPage() {
         <h2>The short answer</h2>
         <ul>
           <li>
-            <strong>The infusion</strong> is covered by Part B. You pay 20% of the cost with{' '}
-            <strong>no yearly limit</strong> — roughly <strong>$8,900 a year</strong> for a
-            mid-weight adult. A Medicare supplement policy covers that 20% and brings it down to
-            almost nothing.
+            <strong>The infusion</strong> is covered by Part B. You pay 20% of the cost. There is{' '}
+            <strong>no yearly limit</strong>. That is roughly <strong>$8,900 a year</strong> for a
+            mid-weight adult. A Medicare supplement policy covers that 20%. It brings your cost down
+            to almost nothing.
           </li>
           <li>
             <strong>The weekly shot</strong> is covered by Part D. Your costs stop at{' '}
@@ -46,37 +46,37 @@ export default function AbataceptPage() {
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          So on paper the shot wins by a wide margin. <strong>The problem is getting a plan that
-          covers it</strong> — and that is the part of this page worth reading carefully.
+          So on paper the shot wins by a wide margin. <strong>The problem is finding a plan that
+          covers it.</strong>
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Most drug plans do not cover the self-injection</h2>
         <p>
-          We went through the drug plan formularies CMS published for 2026 and counted. Of 5,490
-          Medicare drug plans, <strong>only about 23% cover Orencia&rsquo;s self-injection at
-          all.</strong>
+          We read the drug plan formularies CMS published for 2026. A formulary is the plan&rsquo;s
+          drug list. We counted every plan. Of 5,490 Medicare drug plans, <strong>only about 23%
+          cover Orencia&rsquo;s self-injection at all.</strong>
         </p>
         <p style={{ marginTop: '1rem' }}>
-          And it is much worse in the place most people look. Among <strong>standalone drug plans</strong>{' '}
-          — the kind you buy alongside Original Medicare — <strong>5 out of 367 cover it. That is
-          1.4%.</strong> The plans that do cover it are overwhelmingly Medicare Advantage plans.
+          It is much worse among <strong>standalone drug plans</strong>. These are the plans you buy
+          alongside Original Medicare. <strong>5 out of 367 cover it. That is 1.4%.</strong> Almost
+          all of the plans that do cover it are Medicare Advantage plans.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          Which produces a genuinely awkward situation. The cheaper route is the shot. But the
-          coverage that makes the infusion affordable — Original Medicare plus a supplement — comes
-          with a standalone drug plan that almost certainly will not pay for the shot. And the plans
-          that do cover the shot are the ones that make you get permission before every infusion and
-          limit which doctors you can see.
+          This creates an awkward situation. The cheaper route is the shot. But the coverage that
+          makes the infusion affordable is Original Medicare plus a supplement. That setup comes with
+          a standalone drug plan. And a standalone drug plan almost certainly will not pay for the
+          shot. The plans that do cover the shot make you get approval before every infusion. They
+          also limit which doctors you can see.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>What to do about it:</strong> do not assume. Put &ldquo;Orencia&rdquo; into{' '}
           <a href="https://www.medicare.gov/plan-compare" target="_blank" rel="noopener noreferrer">
             Medicare&rsquo;s plan finder
           </a>{' '}
-          with the exact form you take, and see which plans in your area actually list it. If none
-          do, the infusion is your route, and then a supplement policy matters enormously.
+          with the exact form you take. See which plans in your area list it. If none do, the
+          infusion is your route. Then a supplement policy matters a great deal.
         </p>
       </div>
 
@@ -140,11 +140,11 @@ export default function AbataceptPage() {
           </table>
         </div>
         <p style={{ marginTop: '1rem', color: 'var(--gray-medium)', fontSize: '0.95rem' }}>
-          Infusion figures use Medicare&rsquo;s published payment rate and the 750 mg dose, which is
-          what an adult between 60 and 100 kg receives. Under 60 kg the dose is 500 mg and your 20%
-          is closer to $6,000; over 100 kg it is 1,000 mg and closer to $11,900. The first year has
-          two extra doses. The infusion visit itself is billed separately, and you pay 20% of that
-          too.
+          Infusion figures use Medicare&rsquo;s published payment rate and the 750 mg dose. That is
+          the dose for an adult between 60 and 100 kg. Under 60 kg the dose is 500 mg. Then your 20%
+          is closer to $6,000. Over 100 kg the dose is 1,000 mg. Then it is closer to $11,900. The
+          first year has two extra doses. The infusion visit itself is billed separately. You pay
+          20% of that too.
         </p>
       </div>
 
@@ -153,108 +153,109 @@ export default function AbataceptPage() {
         <ul>
           <li>
             <strong>Original Medicare, no supplement, and you can find a plan covering the shot:</strong>{' '}
-            the shot, by roughly $6,800 a year. This is the best outcome and the hardest to arrange.
+            the shot, by roughly $6,800 a year. This is the best outcome. It is also the hardest to
+            arrange.
           </li>
           <li>
             <strong>Original Medicare with a supplement policy:</strong> the infusion, by roughly
-            $1,800 a year. The supplement absorbs the 20%, so you are left with about the Part B
-            deductible — while the shot would still cost you the full $2,100.
+            $1,800 a year. The supplement absorbs the 20%. You are left with about the Part B
+            deductible. The shot would still cost you the full $2,100.
           </li>
           <li>
             <strong>Original Medicare, no supplement, no plan covering the shot:</strong> the
-            infusion, and about $8,900 a year with nothing stopping it if your weight or dose
-            changes. This is the situation to actively avoid, and the way to avoid it is a
-            supplement policy.
+            infusion, at about $8,900 a year. Nothing stops that number if your weight or dose
+            changes. This is the situation to avoid. The way to avoid it is a supplement policy.
           </li>
           <li>
-            <strong>Medicare Advantage:</strong> the plan sets its own charges and everything stops
-            at the plan&rsquo;s yearly limit. But read the next section, because with Advantage the
-            price is not the problem.
+            <strong>Medicare Advantage:</strong> the plan sets its own charges. Everything stops at
+            the plan&rsquo;s yearly limit. But read the next section. With Advantage, the price is
+            not the problem.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
           <strong>Whether the shot or the infusion is right for you is a medical question.</strong>{' '}
-          They are not identical in practice — the infusion is given by a nurse who is watching you,
-          the shot is weekly and you do it yourself. But if money is the only thing pushing you one
-          way, say so at your next appointment.
+          They are not the same in practice. A nurse gives the infusion and watches you. The shot is
+          weekly and you do it yourself. If money is the only thing pushing you one way, say so at
+          your next appointment.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Nobody has to approve the infusion — under Original Medicare</h2>
+        <h2>No approval is needed for the infusion under Original Medicare</h2>
         <p>
           If you are on Original Medicare and you get abatacept as an infusion,{' '}
-          <strong>there is no prior authorization.</strong> Nothing to submit, nothing to wait for,
-          and nobody can require you to fail a different medication first. Original Medicare is not
-          permitted to do either.
+          <strong>there is no prior authorization.</strong> That means no one has to approve it
+          before you can get it. There is nothing to submit and nothing to wait for. Nobody can
+          require you to fail a different medication first. Original Medicare is not permitted to
+          do either.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>Medicare Advantage plans are permitted to do both.</strong> This is not
-          theoretical — one large national insurer&rsquo;s 2026 policy lists Orencia infusion as
-          &ldquo;non-preferred&rdquo; and requires members to try one of six other infused
-          medications first. Your rheumatologist may have chosen abatacept for a specific reason,
-          and the plan can still require the other drug first.
+          theoretical. One large national insurer&rsquo;s 2026 policy lists Orencia infusion as
+          &ldquo;non-preferred.&rdquo; It requires members to try one of six other infused
+          medications first. Your rheumatologist may have chosen abatacept for a specific reason.
+          The plan can still require the other drug first.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          For the shot, approval is nearly universal — required by 92% of the plans that cover it at
-          all, and nine in ten put it on the specialty tier. That is not a reason to pick one drug
-          plan over another. It is a reason to start the paperwork early and never assume a renewal
-          is automatic.
+          For the shot, approval is nearly always required. 92% of the plans that cover it at all
+          require it. Nine in ten put it on the specialty tier. That is the highest-cost group of
+          drugs. This is not a reason to pick one drug plan over another. It is a reason to start
+          the paperwork early. Never assume a renewal is automatic.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          If you are turned down, <strong>appeal.</strong> Across Medicare Advantage in 2024 only
-          about one denial in nine was appealed — and 81% of those appeals succeeded.
+          If you are turned down, <strong>appeal.</strong> Across Medicare Advantage in 2024, only
+          about one denial in nine was appealed. 81% of those appeals succeeded.
         </p>
       </div>
 
       <div className="content-card">
         <h2>There is no cheaper version yet</h2>
         <p>
-          Some biologics now have biosimilars — the same medicine from a different company, at a
-          lower price. Abatacept does not. <strong>As of August 2026 the FDA has not approved any
-          abatacept biosimilar.</strong>
+          Some biologics now have biosimilars. A biosimilar is the same medicine made by a different
+          company, at a lower price. Abatacept does not have one. <strong>As of August 2026 the FDA
+          has not approved any abatacept biosimilar.</strong>
         </p>
         <p style={{ marginTop: '1rem' }}>
-          One is in the pipeline: the FDA accepted an application in February 2026. Accepted is not
-          approved, and there is no date. So unlike some other infusions, there is currently no
-          cheaper version to ask your doctor about — which makes the coverage decisions above matter
-          more, not less.
+          One is in the pipeline. The FDA accepted an application in February 2026. Accepted is not
+          approved. There is no date. So unlike some other infusions, there is no cheaper version to
+          ask your doctor about yet. That makes the coverage decisions above matter more, not less.
         </p>
       </div>
 
       <div className="content-card">
-        <h2>Things that surprise people</h2>
+        <h2>More things to know</h2>
         <ul>
           <li>
             <strong>The Orencia copay card does not work if you have Medicare.</strong> Federal law
-            prohibits it, and that includes Medicare Advantage and Medigap. It is not the plan being
-            difficult.
+            prohibits it. That includes Medicare Advantage and Medigap, the supplement policy. It is
+            not the plan being difficult.
           </li>
           <li>
-            <strong>But the manufacturer&rsquo;s foundation is a different thing, and it does help
+            <strong>But the manufacturer&rsquo;s foundation is a different thing. It does help
             Medicare patients.</strong> The Bristol Myers Squibb Patient Assistance Foundation can
-            supply the medication free if your income is below their limit, you have spent at least
-            3% of your household income on prescriptions this year, and you have applied for Extra
-            Help and been turned down. That last requirement trips people up — apply for Extra Help
-            first, and keep the denial letter.
+            supply the medication free. You must meet three conditions. Your income must be below
+            their limit. You must have spent at least 3% of your household income on prescriptions
+            this year. And you must have applied for Extra Help and been turned down. Do that last
+            step first. Apply for Extra Help, and keep the denial letter.
           </li>
           <li>
             <strong>Where you get infused changes what you pay.</strong> A hospital outpatient
-            department adds a facility fee that a doctor&rsquo;s office does not. If your bill feels
-            higher than it should, ask where the infusion is being billed from.
+            department adds a facility fee. That is a second bill from the hospital for the room. A
+            doctor&rsquo;s office does not add one. If your bill feels higher than it should, ask
+            where the infusion is being billed from.
           </li>
           <li>
             <strong>The whole $2,100 can land in January.</strong> Medicare has a program that
-            spreads it across twelve months instead, interest-free — but you have to sign up. It is
+            spreads it across twelve months instead, interest-free. But you have to sign up. It is
             called the Medicare Prescription Payment Plan.
           </li>
           <li>
             <strong>Your dose depends on your weight.</strong> If your weight crosses 60 kg or 100
-            kg, your dose changes and so does your 20%. This surprises people mid-year.
+            kg, your dose changes. So does your 20%. This can happen mid-year.
           </li>
           <li>
-            <strong>Extra Help.</strong> If your income is modest it can bring Part D costs to
-            nearly nothing, and it is the gateway to the manufacturer foundation above. Badly
+            <strong>Extra Help.</strong> If your income is modest, it can bring Part D costs to
+            nearly nothing. It is also the gateway to the manufacturer foundation above. It is badly
             underused.
           </li>
         </ul>
@@ -263,9 +264,9 @@ export default function AbataceptPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--blue-accent)' }}>
         <h2>Free help, from someone who is not paid a commission</h2>
         <p>
-          Given how few drug plans cover the self-injection, this is a medication where sitting down
-          with a counselor and checking your actual local plans is worth real money. It is free, and
-          they earn nothing whichever plan you choose.
+          Few drug plans cover the self-injection. So for this medication, sitting down with a
+          counselor is worth real money. They can check your actual local plans. It is free. They
+          earn nothing whichever plan you choose.
         </p>
         <ul>
           <li>
@@ -313,38 +314,38 @@ export default function AbataceptPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>Why isn&rsquo;t my infusion covered by the $2,100 cap?</h2>
         <p>
-          <strong>Because the $2,100 cap only applies to Part D, and an infusion is paid by Part
+          <strong>Because the $2,100 cap only applies to Part D. An infusion is paid by Part
           B.</strong> The cap Congress created covers drugs you pick up and take yourself. A
-          medication a nurse or doctor gives you is paid under Part B instead, where you owe 20% of
-          the cost every time and <strong>there is no annual ceiling at all</strong>.
+          medication a nurse or doctor gives you is paid under Part B instead. There you owe 20% of
+          the cost every time. And <strong>there is no annual ceiling at all</strong>.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          It is the same Medicare, often the same drug, and frequently the same disease. The rulebook
-          is chosen by who puts the medicine in you. The cap and the Part B coinsurance are two
-          separate rules, and news about one does not change the other.
+          It is the same Medicare. It is often the same drug and often the same disease. The
+          rulebook depends on who puts the medicine in you. The cap and the Part B coinsurance are
+          two separate rules. Coinsurance is your 20%. News about one does not change the other.
         </p>
         <p style={{ marginTop: '1rem' }}>
           A worked example. If Medicare&rsquo;s approved amount for a year of your infusions is
-          $18,000, you owe about <strong>$3,600</strong> &mdash; this year, next year, and every year
-          you stay on it. The $2,100 cap does not apply to any of it.
+          $18,000, you owe about <strong>$3,600</strong>. That is this year, next year, and every
+          year you stay on it. The $2,100 cap does not apply to any of it.
         </p>
         <p style={{ marginTop: '1rem' }}>Four things do put a ceiling on Part B costs:</p>
         <ul>
           <li>
             <strong>A Medicare supplement (Medigap) policy</strong>, which pays the 20% for you. This
-            is the main one, and the{' '}
+            is the main one. The{' '}
             <a href="/patients/insurance">window to buy one closes</a> six months after you enroll in
             Part B in most states.
           </li>
           <li>
-            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, which
-            applies to everything the plan covers &mdash; though it comes with prior authorization
-            attached.
+            <strong>A Medicare Advantage plan&rsquo;s yearly out-of-pocket maximum</strong>, the most
+            you pay in a year. It applies to everything the plan covers. But it comes with prior
+            authorization attached.
           </li>
           <li>
             <strong>QMB</strong>, a Medicare Savings Program that eliminates the 20% entirely.{' '}
-            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>{' '}
-            &mdash; Extra Help applies to Part D drugs only and does nothing for a Part B drug.
+            <a href="/patients/insurance/help-paying">QMB and Extra Help are different programs</a>.
+            Extra Help applies to Part D drugs only. It does nothing for a Part B drug.
           </li>
           <li>
             <strong>Full Medicaid</strong>, or retiree coverage that pays after Medicare.
