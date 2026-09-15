@@ -26,45 +26,44 @@ export default function HelpingAParentPage() {
       <div className="page-header">
         <h1>Helping a parent with all of this</h1>
         <p>
-          If you have flown in to sort out your mother&rsquo;s infusion coverage and spent the first
-          morning being told nobody can speak to you, this page is the reason why and what to do
-          about it.
+          Maybe you flew in to sort out your mother&rsquo;s infusion coverage. Then you spent the
+          first morning being told no one can speak to you. This page explains why. It also tells
+          you what to do about it.
         </p>
       </div>
 
       <div className="content-card" style={{ borderLeft: '4px solid var(--purple-light)' }}>
         <h2>The short version</h2>
         <p>
-          There is no single permission that covers all of this. You need{' '}
-          <strong>four separate authorizations</strong>, held by four different organizations, and
-          the paperwork you probably already have &mdash; a healthcare power of attorney &mdash;
-          does not by itself get you any of them.
+          No single permission covers all of this. You need{' '}
+          <strong>four separate authorizations</strong>. Four different organizations hold them.
+          You may already have a healthcare power of attorney. By itself, it does not get you any
+          of the four.
         </p>
         <p style={{ marginTop: '1rem' }}>
           <strong>The good news:</strong> if your parent can still sign their name, all four are
-          straightforward and most can be done in an afternoon. The one that takes longest is the
-          Medicare one, so do that first.
+          simple. Most can be done in an afternoon. The Medicare one takes longest. Do that one
+          first.
         </p>
       </div>
 
       <div className="content-card">
         <h2>Does a power of attorney let me call Medicare?</h2>
         <p>
-          <strong>Not on its own, no</strong> &mdash; and this catches almost everybody, because it
-          sounds like exactly the thing a power of attorney should do.
+          <strong>Not on its own, no.</strong> It sounds like exactly what a power of attorney
+          should do. It is not.
         </p>
         <p style={{ marginTop: '1rem' }}>
           A healthcare power of attorney is a state document about{' '}
           <strong>medical decisions</strong>. It says who decides about treatment. It is not an
-          authorization on file with Medicare, and the person answering at 1-800-MEDICARE has no way
-          to see it and will not take your word for it.
+          authorization on file with Medicare. The person answering at 1-800-MEDICARE cannot see
+          it. They will not take your word for it.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          But do not go and hire a lawyer over this. The power of attorney is not useless here
-          &mdash; <strong>it is the thing that lets you sign the Medicare form on your
-          parent&rsquo;s behalf</strong> if they cannot sign it themselves. You attach a copy to the
-          form. If your parent can still sign, you do not need it at all for this purpose; they sign,
-          and you are done in one step.
+          But do not hire a lawyer over this. The power of attorney still has a use here.{' '}
+          <strong>It lets you sign the Medicare form for your parent</strong> if they cannot sign
+          it themselves. You attach a copy to the form. If your parent can still sign, you do not
+          need it for this. They sign, and you are done in one step.
         </p>
         <p style={{ marginTop: '1rem' }}>Three documents, three different jobs:</p>
         <ul>
@@ -82,9 +81,9 @@ export default function HelpingAParentPage() {
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          And a fourth that trips people up: being your parent&rsquo;s{' '}
-          <strong>Social Security representative payee</strong> is separate again, and does not give
-          you Medicare access either.
+          There is also a fourth. You may be your parent&rsquo;s{' '}
+          <strong>Social Security representative payee</strong>. That is separate again. It does
+          not give you Medicare access either.
         </p>
       </div>
 
@@ -94,22 +93,23 @@ export default function HelpingAParentPage() {
         <h3 style={{ marginTop: '1rem' }}>1. To talk to Medicare itself</h3>
         <p>
           <strong>Form CMS-10106</strong>, the &ldquo;1-800-MEDICARE Authorization to Disclose
-          Personal Health Information.&rdquo; This is what lets a Medicare representative discuss
-          your parent&rsquo;s Original Medicare claims, coverage and bills with you.
+          Personal Health Information.&rdquo; This form lets a Medicare representative talk with
+          you. They can then discuss your parent&rsquo;s Original Medicare claims, coverage and
+          bills.
         </p>
         <ul>
           <li>
-            Your parent can choose to authorize you <strong>indefinitely</strong> or only for a set
-            period. Choose indefinitely unless there is a reason not to.
+            Your parent can authorize you <strong>indefinitely</strong> or only for a set period.
+            Choose indefinitely unless there is a reason not to.
           </li>
           <li>
             <strong>Submit it online</strong> through your parent&rsquo;s secure Medicare.gov
-            account. CMS itself flags this as the faster route. Mailing it works but takes
-            considerably longer, and there is no published processing time either way.
+            account. CMS itself says this is the faster route. Mailing it works but takes much
+            longer. There is no published processing time either way.
           </li>
           <li>
-            If your parent cannot sign, you sign as their personal representative, tick that box, and
-            attach the power of attorney.
+            If your parent cannot sign, you sign as their personal representative. Tick that box.
+            Attach the power of attorney.
           </li>
           <li>
             <a
@@ -127,24 +127,24 @@ export default function HelpingAParentPage() {
 
         <h3 style={{ marginTop: '2rem' }}>2. To act for them with their plan</h3>
         <p>
-          If your parent has Medicare Advantage or a Part D drug plan, the plan is a separate
-          organization from Medicare and needs its own permission. For anything that is an{' '}
+          Your parent may have Medicare Advantage or a Part D drug plan. The plan is a separate
+          organization from Medicare. It needs its own permission. For anything that is an{' '}
           <strong>appeal</strong>, the form is <strong>CMS-1696, Appointment of Representative</strong>.
         </p>
         <ul>
           <li>
-            It is <strong>valid for one year</strong> from the date both of you sign it. But once it
-            has been filed with an appeal, it stays valid{' '}
-            <strong>for the whole of that appeal</strong> &mdash; families often panic about this
-            unnecessarily when the year rolls over mid-case.
+            It is <strong>valid for one year</strong> from the date both of you sign it. But once
+            it has been filed with an appeal, it stays valid{' '}
+            <strong>for the whole of that appeal</strong>. Families often worry about this when the
+            year ends mid-case. They do not need to.
           </li>
           <li>
-            Many plans have their own version. <strong>Use the CMS-1696 anyway</strong> &mdash; it is
-            accepted everywhere, and a plan&rsquo;s own form is not accepted by anyone else.
+            Many plans have their own version. <strong>Use the CMS-1696 anyway.</strong> It is
+            accepted everywhere. A plan&rsquo;s own form is not accepted by anyone else.
           </li>
           <li>
-            If something is missing, the appointment can be fixed rather than restarted, and the
-            clock pauses while you fix it &mdash; but until it is fixed, you cannot act.
+            If something is missing, the appointment can be fixed rather than restarted. The clock
+            pauses while you fix it. But until it is fixed, you cannot act.
           </li>
           <li>
             <a
@@ -157,36 +157,37 @@ export default function HelpingAParentPage() {
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          For routine questions that are not an appeal, most plans will also let your parent add you
-          as an authorized contact with a phone call. Do both.
+          Some questions are routine and not an appeal. For those, most plans will let your parent
+          add you as an authorized contact with a phone call. Do both.
         </p>
 
         <h3 style={{ marginTop: '2rem' }}>3. At each doctor&rsquo;s office</h3>
         <p>
-          A <strong>HIPAA authorization</strong>. There is no national form and no form number
-          &mdash; every practice uses its own, and it takes two minutes at the front desk.
+          A <strong>HIPAA authorization</strong>. There is no national form and no form number.
+          Every practice uses its own. It takes two minutes at the front desk.
         </p>
         <p style={{ marginTop: '1rem' }}>
-          <strong>The part people miss: it only covers that one practice.</strong> Signing one at the
-          rheumatology office does nothing at the infusion center, the lab, or the hospital. Sign one
-          at every place your parent gets care, and sign a new one if the practice changes its
-          computer system or patient portal.
+          <strong>It only covers that one practice.</strong> Signing one at the rheumatology office
+          does nothing at the infusion center, the lab, or the hospital. Sign one at every place
+          your parent gets care. Sign a new one if the practice changes its computer system or
+          patient portal.
         </p>
 
         <h3 style={{ marginTop: '2rem' }}>4. At the specialty pharmacy</h3>
         <p>
-          Call the specialty pharmacy and ask to be added as an{' '}
-          <strong>authorized contact</strong> on the account. Each pharmacy has its own form. This is
-          the one that lets you handle refills, delivery scheduling and prior authorization calls
-          &mdash; which in practice is most of the phone time.
+          Call the specialty pharmacy. Ask to be added as an{' '}
+          <strong>authorized contact</strong> on the account. Each pharmacy has its own form. This
+          one lets you handle refills and delivery scheduling. It also lets you handle prior
+          authorization calls. Prior authorization means approval before you can get the drug.
+          In practice, this is most of the phone time.
         </p>
       </div>
 
       <div className="content-card">
         <h2>What to write down before you start calling</h2>
         <p>
-          Every organization will ask for some subset of this, and hunting for it mid-call is where
-          the afternoon goes. One sheet of paper, kept where you can both find it:
+          Every organization will ask for some of this. Hunting for it mid-call is where the
+          afternoon goes. Use one sheet of paper. Keep it where you can both find it:
         </p>
         <ul>
           <li>Full legal name, date of birth, and address as it appears on the Medicare card</li>
@@ -197,26 +198,26 @@ export default function HelpingAParentPage() {
             <strong>Plan name and member ID</strong> for the Medicare Advantage or Part D plan, and
             the phone number on the back of that card
           </li>
-          <li>Medigap company and policy number, if there is one</li>
+          <li>Medigap (supplement policy) company and policy number, if there is one</li>
           <li>
             <strong>Medication name, dose, and how it is given</strong> &mdash; infusion, office
             injection, or self-injection at home. This one determines almost everything else.
           </li>
           <li>
-            <strong>The date the current approval expires.</strong> Ask the office; it is rarely
-            volunteered, and it is the thing that causes a January crisis.
+            <strong>The date the current approval expires.</strong> Ask the office. It is rarely
+            volunteered. It is the thing that causes a January crisis.
           </li>
           <li>Where the infusion happens, and whether it is billed as a hospital outpatient department or a doctor&rsquo;s office</li>
           <li>The specialty pharmacy&rsquo;s name and account number</li>
           <li>
-            The name of the billing company on the statements &mdash; it is often a vendor nobody
-            recognizes, and knowing it saves an argument
+            The name of the billing company on the statements. It is often a vendor no one
+            recognizes. Knowing it saves an argument.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          Keep a running log of every call: date, who you spoke to, and any reference number they
-          gave you. A reference number is the difference between &ldquo;we have no record of
-          that&rdquo; and a resolved problem.
+          Keep a running log of every call. Write the date, who you spoke to, and any reference
+          number they gave you. A reference number is the difference between &ldquo;we have no
+          record of that&rdquo; and a solved problem.
         </p>
       </div>
 
@@ -250,8 +251,8 @@ export default function HelpingAParentPage() {
                 </td>
                 <td>No</td>
                 <td>
-                  <strong>Read this one.</strong> It says what the plan is changing on January 1
-                  &mdash; including whether it still covers the medication.
+                  <strong>Read this one.</strong> It says what the plan is changing on January 1.
+                  That includes whether it still covers the medication.
                 </td>
               </tr>
               <tr>
@@ -291,33 +292,32 @@ export default function HelpingAParentPage() {
       <div className="content-card" style={{ borderLeft: '4px solid var(--pink-accent)' }}>
         <h2>When a parent&rsquo;s spouse dies</h2>
         <p>
-          Several things change at once, in the worst possible month, and there are deadlines
-          attached to some of them. This is the checklist nobody hands you.
+          Several things change at once, in the worst possible month. Some of them have deadlines.
+          This is the checklist.
         </p>
         <ul>
           <li>
-            <strong>Their Medicare premium may go up sharply, for no reason they did anything about.</strong>{' '}
-            The higher-income surcharge uses income thresholds for a married couple that are double
-            those for one person. A survivor whose household income barely changes can jump several
-            tiers purely because the tax filing status changed &mdash; while also losing one Social
-            Security check.
+            <strong>Their Medicare premium may go up sharply, through no action of their own.</strong>{' '}
+            The higher-income surcharge (called IRMAA) uses income limits. The limits for a married
+            couple are double those for one person. A survivor&rsquo;s household income may barely
+            change. Even so, they can jump several tiers just because the tax filing status changed.
+            At the same time, they lose one Social Security check.
           </li>
           <li>
             <strong>There is a form for that.</strong> Death of a spouse is one of eight recognized
-            life-changing events on <strong>form SSA-44</strong>, which asks Social Security to use
-            current income instead of the two-year-old tax return. You need a death certificate and
-            an estimate of this year&rsquo;s income. File it as soon as the income change is known
-            &mdash; do not wait for the bill.{' '}
+            life-changing events on <strong>form SSA-44</strong>. This form asks Social Security to
+            use current income instead of the two-year-old tax return. You need a death certificate
+            and an estimate of this year&rsquo;s income. File it as soon as the income change is
+            known. Do not wait for the bill.{' '}
             <a href="https://www.ssa.gov/forms/ssa-44.pdf" target="_blank" rel="noopener noreferrer">
               Download SSA-44
             </a>
           </li>
           <li>
-            <strong>They may now qualify for help they did not qualify for before &mdash; and this
-            is the one most often missed.</strong> Extra Help and the Medicare Savings Programs are
-            assessed on household size. A survivor is now a one-person household with one fewer
-            income. Many people become eligible the month their spouse dies and never apply because
-            they were told no as a couple years earlier.{' '}
+            <strong>They may now qualify for help they did not qualify for before.</strong> Extra
+            Help and the Medicare Savings Programs are based on household size. A survivor is now a
+            one-person household with one less income. Many people become eligible the month their
+            spouse dies. They never apply, because they were told no as a couple years earlier.{' '}
             <a href="/patients/insurance/help-paying">Re-check both programs</a>.
           </li>
           <li>
@@ -326,24 +326,24 @@ export default function HelpingAParentPage() {
           </li>
           <li>
             <strong>Medigap is the hard one.</strong> Losing a spouse is <em>not</em> on the federal
-            list of situations where a company must sell you a supplement policy. A survivor applying
-            fresh can be medically underwritten and turned down &mdash; and someone on a biologic is
-            exactly who gets turned down.{' '}
-            <strong>But there is an important exception:</strong> if they had coverage through the
-            deceased spouse&rsquo;s <strong>retiree or employer plan</strong> and that coverage is
-            now ending, that <em>does</em> give a guaranteed right to buy, and it is time-limited.
-            Act on it immediately rather than assuming they are stuck. Washington State is more
-            generous than federal law here and allows switching supplement policies year-round
+            list of times when a company must sell you a supplement policy. A survivor applying
+            fresh can be asked health questions and turned down. Someone on a biologic is exactly
+            who gets turned down.{' '}
+            <strong>But there is an important exception.</strong> They may have had coverage through
+            the deceased spouse&rsquo;s <strong>retiree or employer plan</strong>. If that coverage
+            is now ending, they <em>do</em> get a guaranteed right to buy. That right is
+            time-limited. Act on it right away. Do not assume they are stuck. Washington State is
+            more generous than federal law here. It allows switching supplement policies year-round
             without health questions.
           </li>
           <li>
-            The Medigap premium may also rise because many insurers give a household discount that
-            the survivor loses.
+            The Medigap premium may also rise. Many insurers give a household discount. The survivor
+            loses it.
           </li>
         </ul>
         <p style={{ marginTop: '1rem' }}>
-          A free counselor will go through all of this with you and is used to doing it for families
-          rather than the patient. That is the call to make first.
+          A free counselor will go through all of this with you. They are used to doing it for
+          families, not just the patient. That is the call to make first.
         </p>
       </div>
 
