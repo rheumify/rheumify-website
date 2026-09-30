@@ -8,7 +8,7 @@ export const metadata = {
     default: 'Rheumatology Question Bank & ABIM Board Prep | Rheumify',
     template: '%s | Rheumify'
   },
-  description: 'ABIM rheumatology board prep by a board-certified academic rheumatologist: 750+ board-style questions, 850+ flashcards, and free clinical tools.',
+  description: 'ABIM rheumatology board prep by a board-certified academic rheumatologist: 800+ board-style questions, 850+ flashcards, and free clinical tools.',
   keywords: [
     'rheumatology question bank', 'rheumatology qbank', 'ABIM rheumatology board prep',
     'rheumatology board review', 'rheumatology flashcards', 'rheumatology certification',
@@ -23,13 +23,13 @@ export const metadata = {
     url: 'https://www.rheumify.org',
     siteName: 'Rheumify',
     title: 'Rheumatology Question Bank & ABIM Board Prep | Rheumify',
-    description: 'ABIM rheumatology board prep by a board-certified academic rheumatologist: 750+ board-style questions, 850+ flashcards, and free clinical tools.',
+    description: 'ABIM rheumatology board prep by a board-certified academic rheumatologist: 800+ board-style questions, 850+ flashcards, and free clinical tools.',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Rheumify - Master Rheumatology with Dr. Alison Bays' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Rheumatology Question Bank & ABIM Board Prep | Rheumify',
-    description: 'ABIM rheumatology board prep by a board-certified academic rheumatologist: 750+ board-style questions, 850+ flashcards, and free clinical tools.',
+    description: 'ABIM rheumatology board prep by a board-certified academic rheumatologist: 800+ board-style questions, 850+ flashcards, and free clinical tools.',
     creator: '@Rheumify',
     images: ['/og-image.png'],
   },
@@ -50,7 +50,7 @@ const structuredData = {
       "name": "Rheumify",
       "url": "https://www.rheumify.org",
       "logo": { "@type": "ImageObject", "url": "https://www.rheumify.org/logo.png" },
-      "description": "Rheumify is an ABIM rheumatology board-prep and clinical education platform created by Dr. Alison Bays, MD, MPH&TM, a board-certified academic rheumatologist. It offers a 750+ question board-style question bank, 850+ spaced-repetition flashcards, the RheumCast podcast, and free clinical tools for fellows and recertifying physicians.",
+      "description": "Rheumify is an ABIM rheumatology board-prep and clinical education platform created by Dr. Alison Bays, MD, MPH&TM, a board-certified academic rheumatologist. It offers an 800+ question board-style question bank, 850+ spaced-repetition flashcards, the RheumCast podcast, and free clinical tools for fellows and recertifying physicians.",
       "slogan": "Master rheumatology - board prep built by a rheumatologist.",
       "foundingDate": "2024",
       "founder": { "@id": "https://www.rheumify.org/#founder" },
