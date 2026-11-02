@@ -222,7 +222,7 @@ export default function Home() {
 
       {/* Rheumify Question Bank */}
       <section className="products-section">
-        <h2 className="section-title">Rheumify <span>Question Bank</span></h2>
+        <h2 className="section-title">Rheumify <span>Rheumatology Qbank &amp; Question Bank</span></h2>
         <div className="products-grid">
           <div className="product-card">
             <h3><a href="/fellows" style={{ color: 'inherit', textDecoration: 'none' }}>Rheumify Question Bank</a></h3>
