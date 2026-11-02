@@ -69,7 +69,7 @@ const sections = [
   {
     h2: 'Where can I find rheumatology board review questions?',
     paras: [
-      'Work the questions in two modes. Use untimed tutor-mode blocks while you are learning a topic, then move to timed, mixed-topic blocks as the exam approaches. Read every explanation, including for questions you answered correctly. Rheumify’s question bank has 900+ board-style questions with detailed explanations, mapped to the ABIM blueprint.',
+      'Look for board-style clinical vignettes with an explanation for every answer choice, and work them in two modes. Use untimed tutor-mode blocks while you are learning a topic, then move to timed, mixed-topic blocks as the exam approaches. Read every explanation, including for questions you answered correctly. Rheumify’s question bank has 900+ board-style questions with detailed explanations, mapped to the ABIM blueprint.',
     ],
   },
   {
