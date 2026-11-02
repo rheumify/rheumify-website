@@ -355,7 +355,7 @@ export default function FellowsPage() {
 
       {/* ABIM Board Exam Info */}
       <div className="content-card">
-        <h2 style={{ color: 'var(--purple-light)' }}>ABIM Rheumatology Board Exam</h2>
+        <h2 style={{ color: 'var(--purple-light)' }}>Rheumatology Certification Prep: ABIM Board Exam</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem', marginTop: '1rem' }}>
           <div style={{
             padding: '1.5rem',
