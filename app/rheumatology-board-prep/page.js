@@ -6,6 +6,7 @@ export const metadata = {
     'rheumatology boards',
     'rheumatology board review',
     'rheumatology board review course',
+    'rheumatology board review questions',
     'rheumatology certification prep',
     'ABIM rheumatology board exam',
     'how to study for rheumatology boards',
@@ -63,6 +64,13 @@ const sections = [
     paras: [
       'There is a loose core set most people converge on: a question bank, a review text like Rheumatology Secrets, the ACR image library, and the ACR CARE questions. Each does one job.',
       'Question banks teach you to take the test. A review text gives you the connective tissue between facts. The image bank matters because rheumatology is a visual specialty — crystals under polarized light, a malar rash, capillaroscopy, a classic radiograph. CARE questions are well-written but limited in number; a hundred-odd questions will not carry you alone.',
+    ],
+  },
+  {
+    h2: 'Where can I find rheumatology board review questions?',
+    paras: [
+      'Rheumatology board review questions come from three main places: the ACR CARE question set, commercial question banks, and the practice items included with board review courses. The most useful questions for the ABIM exam are written as clinical vignettes and explain why each wrong answer is wrong, because that matches how the exam is written and how you learn from your errors.',
+      'Work the questions in two modes. Use untimed tutor-mode blocks while you are learning a topic, then move to timed, mixed-topic blocks as the exam approaches. Read every explanation, including for questions you answered correctly. Rheumify’s question bank has 800+ board-style questions with detailed explanations, mapped to the ABIM blueprint.',
     ],
   },
   {
